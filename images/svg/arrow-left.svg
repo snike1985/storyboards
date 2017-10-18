@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="18px" viewBox="0 0 11 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="Storyboard" transform="translate(-150.000000, -607.000000)" fill="#959595">
+            <g id="preview" transform="translate(150.000000, 230.000000)">
+                <g id="Slider" transform="translate(0.000000, 347.000000)">
+                    <path d="M10.987423,38.9988936 L10.9976527,38.9892501 L10.2666864,38.3001738 L2.19289907,30.6890764 L1.46193272,30 L-2.27373675e-13,31.3781528 L0.730966358,32.0672291 L8.08636431,39.0011064 L0.733313617,45.9327709 L0.0023472595,46.6218472 L1.46427997,48 L2.19524633,47.3109236 L10.2690336,39.6998262 L11,39.0107499 L10.987423,38.9988936 Z" id="arrow-left" transform="translate(5.500000, 39.000000) rotate(-180.000000) translate(-5.500000, -39.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,747 @@
+@media (min-width: 768px){
+    .navbar-menu{
+        display: flex!important;
+    }
+    .mobile-navbar{
+        display: none;
+    }
+    .menu-element{
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px transparent;
+        position: relative;
+        overflow: hidden;
+    }
+    .menu-element:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      left: 50%;
+      right: 50%;
+      bottom: -2px;
+      background: #fff;
+      height: 4px;
+      -webkit-transition-property: left, right;
+      transition-property: left, right;
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-timing-function: ease-out;
+      transition-timing-function: ease-out;
+    }
+    .menu-element:hover:before, .menu-element:focus:before, .menu-element:active:before {
+      left: 0;
+      right: 0;
+    }
+
+}
+@media (min-width: 990px) and (max-width: 1280px){
+    .navbar-menu{
+        margin:10px auto;
+        justify-content: center;
+        width:auto;
+    }
+
+    .storyboards-logo{
+        margin:5px auto;
+        max-width: 150px;
+    }
+    .cart{
+        margin:10px auto;
+    }
+    .storyboards-logo img {
+        max-width: 150px;
+    }
+    .footer-bar{
+        width:auto;
+    }
+    .footer-menu{
+        margin: 34px auto;
+    }
+    .footer-menu .navbar-menu {
+        width:auto;
+    }
+    .bottom-text{
+        margin-left: 10px;
+    }
+    .btn {
+        margin-right: 5px;
+    }
+    .top-search-bar{
+        padding: 20px 10px;
+        max-width: 100%;
+        width: auto;
+    }
+    .search-option{
+        margin:0 10px;
+    }
+    .blog-main-page{
+        display: block;
+    }
+    .page-blog{
+        width: 100%;
+    }
+    .right-contact{
+        padding-left: 0;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .articles-blog{
+        margin-bottom: 0;
+    }
+    .main-section{
+        padding-bottom: 10px;
+    }
+    .search-field{
+        width: 100%
+    }
+}
+@media (min-width: 768px) and (max-width: 989px){
+    .navbar-menu{
+        margin:9px auto;
+        justify-content: center;
+        width:auto;
+    }
+    .storyboards-logo{
+        margin:10px auto;
+        max-width: 150px;
+    }
+    .navbar{
+        width:auto;
+    }
+    .cart{
+        margin:10px auto;
+    }
+    .storyboards-logo img {
+        max-width: 150px;
+    }
+    .footer-bar{
+        width:auto;
+    }
+    .footer-menu{
+        margin: 34px auto;
+    }
+    .footer-menu .navbar-menu {
+        width:auto;
+    }
+    .bottom-text{
+        margin-left: 10px;
+    }
+    .menu-element{
+        font-size: 65%;
+    }
+    .footer-menu .menu-element{
+        font-size: 15px;
+    }
+    .btn {
+        margin-right: 5px;
+    }
+    .main-content{
+        flex-wrap:wrap;
+    }
+    .content-element{
+        margin: 10px 26px;
+    }
+    .top-search-bar{
+        padding: 20px 10px;
+    }
+    .search-option{
+        margin:0 10px;
+        display: block;
+        text-align: center;
+    }
+    .option-element{
+        margin-right: 0;
+    }
+    .contact-message{
+        width: 100%;
+    }
+    .message-form{
+        width:100%;
+    }
+    .blog-main-page{
+        display: block;
+    }
+    .page-blog{
+        width: 100%;
+    }
+    .right-contact{
+        padding-left: 0;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .articles-blog{
+        margin-bottom: 0;
+    }
+    .main-section{
+        padding-bottom: 10px;
+    }
+    .storyboard-container{
+        display: block;
+    }
+    .story-right{
+        max-width: 100%;
+    }
+    .search-field{
+        width: 100%
+    }
+}
+@media (min-width: 468px) and (max-width: 767px){
+    .search-nav{
+        margin-top: 20px;
+    }
+    .navbar {
+        display: none;
+    }
+    .mobile-button{
+        z-index: 99;
+    }
+    .cart{
+        width: auto;
+        height: auto;
+        margin-top: 0;
+    }
+    .navbar-menu{
+        margin:29px 0;
+        justify-content: center;
+        display: none;
+        margin: 70px auto;
+        background-color: rgba(0, 18, 19,0.9 );
+        position: absolute;
+        width:100%;
+        height:auto;
+        z-index: 99;
+    }
+
+    .footer-bar{
+        width:auto;
+        justify-content: space-around;
+        margin:0;
+    }
+    .footer-menu{
+        margin: 34px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .search-element{
+        width:90%;
+    }
+    .footer-menu .navbar-menu {
+
+        width:auto;
+        display: block;
+        margin: 0;
+        background-color: transparent;
+        position: inherit;
+    }
+    .footer-menu .navbar-menu .menu-element{
+        font-size: 15px;
+        margin: 0;
+        margin-bottom: 5px;
+        z-index: 99;
+        text-align: left;
+        border-bottom: none;
+    }
+    .pay-panel{
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .bottom-text{
+        width: auto;
+        height: auto;
+        font-size: 15px;
+        margin:0 0 20px 20px
+    }
+    footer{
+        height: auto;
+    }
+    .footer-bar .storyboards-logo{
+        margin: 36px 20px;
+        position: inherit;
+        left:auto;
+    }
+    .footer-menu .menu-element{
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .bottom-panel{
+        display: block;
+        margin-top: 0;
+    }
+    .bottom-button{
+        height: auto;
+        margin: 0 auto;
+    }
+    .btn {
+        margin-right: 5px;
+        width: 106px;
+    }
+    .main-content{
+        flex-wrap:wrap;
+    }
+    .content-element{
+        margin: 10px 26px;
+    }
+    .menu-element{
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 10px;
+        z-index: 99;
+        text-align: center;
+        border-bottom: 2px solid #FFF;
+    }
+    .menu-element:hover{
+        background: rgba(255,255,255, 0.2);
+    }
+    .show-menu{
+        display: block;
+        color:white;
+    }
+    .top-search-bar{
+        padding: 20px 10px;
+            display: block;
+    }
+    .search-option, .search-help{
+        margin:0 10px;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .option-element {
+        margin: 10px 20px;
+    }
+    .contact-name-email{
+        display: block;
+    }
+    .contact-adress {
+        text-align: center;
+        margin-top: 40px;
+    }
+    .contact-message{
+        width: 90%;
+        margin: 0 auto 25px;
+    }
+    .message-form {
+        width:100%;
+    }
+    .contact-form{
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .contact-name{
+        margin: 0 0 11px 0;
+        width: 90%;
+    }
+    .contact-email{
+        width: 90%;
+    }
+    .main-contact {
+        display: block;
+        padding: 0;
+    }
+    .blog-main-page{
+        display: block;
+    }
+    .page-blog{
+        width: 100%;
+    }
+    .right-contact{
+        padding-left: 0;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .artist-profile{
+        display: block;
+    }
+    .artist-photo{
+        text-align: center;
+    }
+    .artist-info{
+        margin: 0 auto;
+        max-width: 90%;
+    }
+    .bloger{
+        padding: 0 20px;
+    }
+    .top-search-bar .search-element {
+        width:90%;
+        margin: 0 auto;
+    }
+    .right-contact .button-text{
+        font-size: 18px;
+    }
+    .articles-blog{
+        margin-bottom: 0;
+    }
+    .main-section{
+        padding-bottom: 10px;
+    }
+    .head-back{
+        height: 100vh;
+
+    }
+    .contactUsBtn{
+    right:50%;
+    margin-right: -110px;
+    }
+    .storyboard-container{
+        display: block;
+    }
+    .story-right{
+        max-width: 100%;
+    }
+    #slider{
+        width: auto;
+        max-width: 444px;
+        max-height: 327px;
+    }
+    #slider li img{
+        max-width: 100%;
+    }
+    .story-buttons{
+        margin-top: 0px;
+        text-align: center;
+    }
+    .story-buttons .send-button{
+        margin-top: 20px;
+
+    }
+    .search-field{
+        width: 100%
+    }
+}
+@media (max-width: 467px){
+    .search-field{
+        width: 100%
+    }
+    .navbar{
+        display: none;
+    }
+    .navbar-menu{
+        margin:29px 0;
+        justify-content: center;
+        display: none;
+        margin: 70px auto;
+        background-color: rgba(0, 18, 19,0.9 );
+        position: absolute;
+        width:100%;
+        height:auto;
+        z-index: 99;
+    }
+    .storyboards-logo{
+        margin: 0 10px;
+    }
+    .mobile-button{
+        z-index: 99;
+    }
+    .cart{
+        width: auto;
+        height: auto;
+        margin: 0
+    }
+    .navbar{
+        width:auto;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .search-nav{
+        margin-top: 20px;
+    }
+    .pay-panel img {
+        margin-right: 4px;
+    }
+    .footer-bar{
+        display: block;
+        width
+        :auto;
+        margin:0;
+    }
+    .footer-menu{
+        margin: 34px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .search-element{
+        width:90%;
+        display: block;
+        margin: 0 auto;
+    }
+    .search-button{
+
+        left:inherit;
+        margin: 10px auto;
+
+    }
+    .footer-menu .navbar-menu {
+
+        width:auto;
+        display: block;
+        margin: 0;
+        background-color: transparent;
+        position: inherit;
+    }
+    .footer-menu .navbar-menu .menu-element{
+        font-size: 15px;
+        margin: 0;
+        margin-bottom: 5px;
+        z-index: 99;
+        text-align: center;
+        border-bottom: none;
+    }
+    .pay-panel{
+        justify-content: center;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+    .bottom-text{
+        width: auto;
+        height: auto;
+        font-size: 15px;
+        margin:10px;
+    }
+    .bottom-button{
+        width: 120px;
+    }
+    footer{
+        height: auto;
+    }
+    .footer-bar .storyboards-logo{
+        margin: 0 auto;
+        position: inherit;
+        left:auto;
+    }
+    .footer-bar{
+        padding:20px;
+    }
+    .footer-menu .menu-element{
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .bottom-panel{
+        display: block;
+        margin-top: 0;
+    }
+    .bottom-button{
+        height: auto;
+        margin: 0 auto;
+    }
+    .btn {
+        margin: 0 39px;
+        width: 106px;
+    }
+    .main-content{
+        flex-wrap:wrap;
+
+    }
+    .content-element{
+        margin: 10px 26px;
+    }
+    .menu-element{
+        font-size: 30px;
+    line-height: 36px;
+        margin-bottom: 10px;
+        z-index: 99;
+        text-align: center;
+        border-bottom: 2px solid #FFF;
+    }
+    .menu-element:hover{
+        background: rgba(255,255,255, 0.2);
+    }
+    .main-header{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .top-search-bar{
+        display: block;
+        padding: 20px 10px;
+    }
+    .top-search-bar .search-element {
+        width:90%;
+        margin: 0 auto;
+    }
+    .search-option, .search-help{
+        margin:10px;
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+    .search-option{
+        display: flex;
+        justify-content: space-between;
+    }
+    .search-help{
+        margin-top: 25px;
+    }
+    .option-element{
+        margin-right: 0;
+        line-height: 40px;
+    }
+    .search-button{
+        right: 4%;
+        left:inherit;
+    }
+    .footer-menu{
+        display: block;
+        text-align: center;
+    }
+    .message-form {
+        width:90%;
+    }
+
+    .contact-form{
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .contact-name-email{
+        display: block;
+    }
+    .contact-name{
+        width: 90%;
+        margin: 0 0 11px 0;
+    }
+    .contact-email{
+        width:90%;
+    }
+    .main-contact {
+        padding: 0;
+        display: block;
+    }
+    .contact-adress{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .blog-main-page{
+        display: block;
+    }
+    .page-blog{
+        width: 100%;
+    }
+    .page-blog .button-text{
+        padding: 0;
+    }
+    .right-contact{
+        padding-left: 0;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .artist-profile{
+        display: block;
+    }
+    .artist-photo{
+        text-align: center;
+    }
+    .artist-info{
+        margin: 0 auto;
+        max-width: 90%;
+    }
+    .artist-about{
+        margin-top: 20px;
+    }
+    .artist-photo img {
+        max-width: 200px;
+    }
+    .right-contact{
+        display: block;
+    }
+    .bloger{
+        padding: 0 20px;
+    }
+    .right-contact .button-text{
+        font-size: 18px;
+    }
+    .mobile-contactus{
+        width: 74%;
+padding: 10px;
+    }
+    .articles-blog{
+        margin-bottom: 0;
+    }
+    .main-section{
+        padding-bottom: 10px;
+    }
+    .head-back{
+        height: 100vh;
+    }
+    .contactUsBtn{
+    right:50%;
+    margin-right: -110px;
+    }
+    .storyboard-container{
+        display: block;
+    }
+    .story-right{
+        max-width: 100%;
+    }
+    #slider{
+        width: auto;
+        max-width: 444px;
+        max-height: 327px;
+    }
+    #slider li img{
+        max-width: 100%;
+    }
+    .file-type{
+        margin-left: 10px;
+    }
+    .file-size{
+        margin-left: 15px;
+        display: none;
+    }
+    .file-price{
+        margin-left:17px;
+        font-size: 24px
+    }
+    input[type="radio"]{
+        margin:0 auto;
+    }
+    .story-right .select{
+        margin-left: 0;
+    }
+
+    #price{
+        font-size: 80%;
+    }
+    .story-buttons{
+        margin-top: 0px;
+        text-align: center;
+    }
+    .story-buttons .send-button{
+        margin-top: 20px;
+        margin-right: 0;
+    }
+    .profile{
+        padding-bottom: 0;
+    }
+    #slider1, #slider{
+        width: 250px;
+    }
+    #slider ul li, #slider1 ul li{
+        width: 250px;
+    }
+    #slider ul li img, #slider ul li img{
+        max-width: 100%
+    }
+    .popup{
+        width: 200px;
+        margin-left: -100px;
+    }
+    .story-left{
+        padding: 0;
+    }
+    #slider a#sliderPrev {
+        left: 6px;
+    }
+    #slider a#sliderNext{
+        right: 6px;
+    }
+    #slider a{
+        top: 64%;
+    }
+}

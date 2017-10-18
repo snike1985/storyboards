@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>user icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Blog" transform="translate(-325.000000, -1290.000000)">
+            <g id="Article-Copy" transform="translate(150.000000, 897.000000)">
+                <g id="user-icon" transform="translate(176.000000, 394.000000)">
+                    <circle id="Oval" stroke="#000000" stroke-width="2" stroke-linecap="round" cx="8" cy="8" r="7.68"></circle>
+                    <rect id="Rectangle-path" x="0" y="0" width="16" height="16"></rect>
+                    <path d="M9.568,11.36 C9.536,10.848 9.536,10.496 9.536,10.016 C9.76,9.888 10.176,9.12 10.272,8.448 C10.464,8.448 10.752,8.256 10.816,7.552 C10.848,7.168 10.688,6.944 10.56,6.88 C10.88,5.984 11.488,3.2 9.44,2.912 C9.216,2.528 8.672,2.336 7.968,2.336 C5.12,2.4 4.8,4.48 5.408,6.88 C5.312,6.944 5.12,7.168 5.152,7.552 C5.248,8.256 5.536,8.448 5.696,8.448 C5.76,9.12 6.208,9.888 6.432,10.016 C6.432,10.496 6.464,10.848 6.4,11.36 C5.984,12.448 3.936,12.544 2.72,13.568 C3.968,14.816 5.984,15.712 8.128,15.712 C10.272,15.712 12.768,14.016 13.184,13.568 C12.064,12.544 9.984,12.448 9.568,11.36 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
