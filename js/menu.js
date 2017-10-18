@@ -37,7 +37,8 @@ burger.addEventListener('click', () => {
 
 $(function(){
   $('.newslider').click(function(){
-    $('.popup,.popup_overlay').fadeIn(400); //показываем всплывающее окно
+    $('.popup,.popup_overlay').fadeIn(400);
+    $('.popup').trigger('resize');//показываем всплывающее окно
   });
   $('.closer,.popup_overlay').click(function(){
     $('.popup,.popup_overlay').fadeOut(400); //скрываем всплывающее окно
@@ -49,6 +50,7 @@ $(document).ready(function(){
     'setting-name':'setting-value'
   });
 });
+
 
 $('.newslider').slick({
  slidesToShow: 1,

@@ -990,6 +990,7 @@ storyboard
 }
 .story-left{
     max-width: 500px;
+    margin: 0 auto;
 
 }
 .story-right{
@@ -1526,13 +1527,13 @@ top: 399px;
 }
 .slider-nav{
     margin-bottom:10px;
-    padding: 0 46px 0 63px;
+    padding: 0 46px 0 54px;
 }
 .slick-list.draggable{
     padding: 0px;
 }
 .slider-nav .slick-slide{
-    margin: 0 13px ;
+    margin: 0 14px ;
     width: 106px!important;
 }
 .slick-slide img{
