@@ -1,3 +1,13 @@
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+      .head-back{
+          min-height: 444px;
+      }
+      /*.head-back .overlay{
+          height: 444px;
+      }*/
+}
+
 @media (min-width: 768px){
     .navbar-menu{
         display: flex!important;
@@ -18,7 +28,7 @@
       position: absolute;
       z-index: -1;
       left: 50%;
-      right: 50%;
+      right: 51%;
       bottom: -2px;
       background: #fff;
       height: 4px;
@@ -95,6 +105,12 @@
     }
     .search-field{
         width: 100%
+    }
+    .artistblock{
+        justify-content: center;
+    }
+    .artistcard{
+        margin: 32px;
     }
 }
 @media (min-width: 768px) and (max-width: 989px){
@@ -187,8 +203,20 @@
     .search-field{
         width: 100%
     }
+    .artistblock{
+        justify-content: center;
+    }
+    .artistcard{
+        margin: 32px;
+    }
 }
 @media (min-width: 468px) and (max-width: 767px){
+    /*.head-back .overlay{
+        max-height: 100vh;
+    }*/
+    footer{
+        margin-bottom:-360px!important;
+    }
     .search-nav{
         margin-top: 20px;
     }
@@ -414,8 +442,30 @@
     .search-field{
         width: 100%
     }
+    .main-header{
+        margin-top: 10px;
+    }
+    .head-back{
+        min-height: 444px;
+    }
+    .artistblock{
+        justify-content: center;
+    }
+    .artistcard{
+        margin: 32px;
+    }
 }
 @media (max-width: 467px){
+    .popup .slider-nav .slick-slide {
+        
+        height: auto!important;
+    }
+    /*.head-back .overlay{
+        max-height: 100vh;
+    }*/
+    footer{
+        margin-bottom:-550px!important;
+    }
     .search-field{
         width: 100%
     }
@@ -730,7 +780,32 @@ padding: 10px;
     #slider a{
         top: 64%;
     }
-    .popup .slider-nav{
-        display: none;
+    .slider-nav .slick-slide{
+        margin: 0 5px ;
+        width: 50px!important;
     }
+
+    .popup .slider-nav .slick-slide img{
+        width: 50px!important;
+        height: auto!important;
+    }
+    .popup .slider-nav .slick-slide {
+        margin: 0 9px ;
+        width: 50px!important;
+        height: auto;
+    }
+    .popup .slick-prev{
+        left: -7px;
+    }
+    .popup .slick-next{
+        right: -11px;
+    }
+    .artistblock{
+        justify-content: center;
+    }
+    .artistcard{
+        margin: 32px;
+    }
+
+
 }

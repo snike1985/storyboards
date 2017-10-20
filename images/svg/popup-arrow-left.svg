@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.699999988">
+        <g id="Storyboard-image" transform="translate(-327.000000, -707.000000)">
+            <g id="slider" transform="translate(329.000000, 670.000000)">
+                <g id="arrow-left" transform="translate(0.000000, 39.000000)">
+                    <path d="M34.8822058,27.4919953 L34.8988549,27.4753936 L33.7091955,26.289118 L20.5689781,13.1862756 L19.3793188,12 L17,14.3725512 L18.1896594,15.5588268 L30.1606866,27.4958047 L18.1934796,39.4289731 L17.0038202,40.6152488 L19.383139,42.9878 L20.5727983,41.8015244 L33.7130157,28.698682 L34.9026751,27.5124064 L34.8822058,27.4919953 Z" id="Combined-Shape-Copy-4" fill="#FFFFFF" stroke-linecap="square" transform="translate(25.951338, 27.493900) rotate(-180.000000) translate(-25.951338, -27.493900) "></path>
+                    <circle id="Oval-3-Copy" stroke="#FFFFFF" stroke-width="3" transform="translate(27.000000, 27.000000) rotate(-180.000000) translate(-27.000000, -27.000000) " cx="27" cy="27" r="27"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
