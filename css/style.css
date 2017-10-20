@@ -297,7 +297,7 @@ input:-ms-input-placeholder      {color:#232323;}
     right: 28px;
     bottom: 0;
     position: absolute;
-    padding: 12px;
+    padding: 12px 14px;
 }
 .contactUsBtn a{
     display: flex;
@@ -470,7 +470,7 @@ footer {
     position: absolute;
     width: 100%;
     bottom: 0;
-    margin-bottom: -300px!important;
+    margin-bottom: -272px!important;
 }
 .footer-bar{
     margin: 0 auto;

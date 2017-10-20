@@ -1,3 +1,103 @@
+@media (min-width: 1350px){
+    nav .navbar-menu{
+        justify-content: unset;
+    }
+    nav .navbar-menu .menu-element{
+        margin: 0;
+    }
+    nav .navbar-menu a:nth-of-type(1){
+        margin-left: 33px;
+    }
+    nav .navbar-menu a:nth-of-type(3){
+        margin-left: 24px;
+    }
+    nav .navbar-menu a:nth-of-type(2){
+        margin-left: 26px;
+    }
+    nav .navbar-menu a:nth-of-type(4){
+        margin-left: 33px;
+    }
+    nav .navbar-menu a:nth-of-type(5){
+        margin-left: 24px;
+    }
+    nav .navbar-menu a:nth-of-type(6){
+        margin-left: 24px;
+    }
+    nav .navbar-menu a:nth-of-type(7){
+        margin-left: 28px;
+    }
+    .main-content{
+        margin-left: -17px;
+        margin-bottom: 16px;
+    }
+    .content-element{
+        height: 205px;
+        margin: 0 0 0 17px;
+    }
+    .board{
+        bottom: 3px;
+    }
+    .board-info{
+        padding: 16px 0 0 15px;
+    }
+    .board-author{
+        padding: 16px 17px 12px 0;
+    }
+    .rights{
+        margin-top: 12px;
+    }
+    .footer-menu .navbar-menu{
+        justify-content: unset;
+        width: auto;
+    }
+    .footer-bar{
+        justify-content: unset;
+    }
+    .footer-menu{
+        margin-left: 277px;
+    }
+    .bottom-panel{
+        justify-content: unset;
+    }
+    .footer-menu .menu-element{
+        margin: 0;
+    }
+    .footer-menu .menu-element:nth-of-type(1){
+        margin-left: 2px;
+    }
+    .footer-menu .menu-element:nth-of-type(2){
+        margin-left: 24px;
+    }
+    .footer-menu .menu-element:nth-of-type(3){
+        margin-left: 25px;
+    }
+    .footer-menu .menu-element:nth-of-type(4){
+        margin-left: 33px;
+    }
+    .footer-menu .menu-element:nth-of-type(5){
+        margin-left: 25px;
+    }
+    .footer-menu .menu-element:nth-of-type(6){
+        margin-left: 23px;
+    }
+    .footer-menu .menu-element:nth-of-type(7){
+        margin-left: 29px;
+    }
+    .pay-panel{
+        margin-right: 59px
+    }
+    .bottom-button{
+        margin-top: -7px;
+        padding: 10px 24px 10px 26px;
+    }
+    .button-text{
+        font-size: 17px;
+    }
+
+
+
+
+}
 
 @media only screen and (max-width: 767px) and (orientation: landscape) {
       .head-back{
@@ -457,7 +557,7 @@
 }
 @media (max-width: 467px){
     .popup .slider-nav .slick-slide {
-        
+
         height: auto!important;
     }
     /*.head-back .overlay{
