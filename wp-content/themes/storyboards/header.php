@@ -1,258 +1,117 @@
 <?php
-$home_id = 2;
-$contact_id = 14;
 
-$logo = get_field('logo', $home_id);
-if($logo) {
-    if(is_front_page()) {
-	    $logo = '<div class="logo">'.$logo.'</div>';
-    } else {
-	    $logo = '<a href="'.get_home_url().'" class="logo">'.$logo.'</a>';
-    }
-}
+$help_title = get_field('help_title', 'options');
+$help_button = get_field('help_button', 'options');
+$logo = get_field('logo', 'options');
 
 $menu_name = 'menu';
+$menu_name_mobile = 'menu-mobile';
 $locations = get_nav_menu_locations();
-$menu_list = '';
-if( $locations && isset($locations[ $menu_name ]) ){
-	$menu = wp_get_nav_menu_object( $locations[ $menu_name ] );
-	$menu_items = wp_get_nav_menu_items( $menu );
-	$menu_list = '<div class="menu__links">';
-	foreach ( (array) $menu_items as $key => $menu_item ){
-		$perm = get_the_permalink($menu_item->object_id);
-        $active = '';
-        if (is_page( $menu_item->object_id )) {
-          $active = ' active ';
-        }
-		$menu_list .= '<a href="'.$perm.'" class="menu__links-item'.$active.'"><span>'.$menu_item->title.'</span></a>';
-	}
-	$menu_list .= '</div>';
-}
-
-$social_links = get_field('social_links', $contact_id);
-$social_links_list = '';
-if(!empty($social_links)) {
-	foreach ( $social_links as $row ) {
-		if(is_array($row['show_in'])) {
-          if(!in_array('0', $row['show_in']) || empty($row['image'])) {
-            continue;
-          }
-		}else {
-          if($row['show_in'] !== '0' || empty($row['image'])) {
-            continue;
-          }
-        }
-      $social_links_list .= '<a class="social__item" href="'.$row['url'].'" target="_blank">'.file_get_contents($row['image']['url']).'</a>';
-	}
-}
-$title_button_header = get_field('title_button_header', $home_id);
-if($title_button_header) {
-    $title_button_header = '<a href="#" class="btn btn_transparent request-btn"><span>'.$title_button_header.'</span></a>';
-}
-
-$title_form_header = get_field('title_form_header', $home_id);
-$title_form_header_string = '';
-if(!empty($title_form_header)) {
-	$title_form_header_string = '<strong class="request__title">';
-    foreach ($title_form_header as $row) {
-        $title_form_header_string .= '<span class="request__title-item"><span>'.$row['title'].'</span></span>';
-    }
-	$title_form_header_string .= '</strong>';
-}
-$class = '';
-if(is_front_page()) {
-    $class= ' site_main';
-}
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="robots" content="noindex, nofollow">
-    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="format-detection" content="address=no">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+
     <?php wp_head(); ?>
-    <style>
-        .loader {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 10;
-            background-color: #f5f5f5;
-        }
-        .loader.hide {
-            opacity: 0;
-            visibility: hidden;
-            -webkit-animation: hideLoader 1s 1 ease-in-out both;
-            animation: hideLoader 1s 1 ease-in-out both;
-        }
-        .loader__wrap {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 80px;
-            transform: translate(-50%,-50%);
-        }
-        .loader__wrap div {
-            display: inline-block;
-            width: 18px;
-            height: 18px;
-            border-radius: 100%;
-            background-color: #0c24fb;
-            -webkit-animation: bouncedelay 1.4s infinite ease-in-out both;
-            animation: bouncedelay 1.4s infinite ease-in-out both;
-        }
-        .loader__wrap div.loader__one {
-            -webkit-animation-delay: -0.32s;
-            animation-delay: -0.32s;
-        }
-        .loader__wrap div.loader__two {
-            -webkit-animation-delay: -0.16s;
-            animation-delay: -0.16s;
-        }
-
-        @-webkit-keyframes bouncedelay {
-            0%, 80%, 100% { -webkit-transform: scale(0) }
-            40% { -webkit-transform: scale(1) }
-        }
-
-        @keyframes bouncedelay {
-            0%, 80%, 100% {
-                -webkit-transform: scale(0);
-                transform: scale(0)
-            }
-            40% {
-                transform: scale(1);
-                -webkit-transform: scale(1)
-            }
-        }
-
-        @-webkit-keyframes hideLoader {
-            0% {
-                visibility: visible;
-                opacity: 1;
-            }
-            100% {
-                visibility: hidden;
-                opacity: 0;
-            }
-        }
-
-        @keyframes hideLoader {
-            0% {
-                visibility: visible;
-                opacity: 1;
-            }
-            100% {
-                visibility: hidden;
-                opacity: 0;
-            }
-        }
-
-    </style>
-
-    <script type="text/javascript">
-        window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
-        heap.load("1040637789");
-    </script>
-    <!-- Hotjar Tracking Code for http://designstudio.ag -->
-    <script>
-        (function(h,o,t,j,a,r){
-            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-            h._hjSettings={hjid:668744,hjsv:6};
-            a=o.getElementsByTagName('head')[0];
-            r=o.createElement('script');r.async=1;
-            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-    </script>
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
-        (function (d, w, c) {
-            (w[c] = w[c] || []).push(function() {
-                try {
-                    w.yaCounter46275432 = new Ya.Metrika({
-                        id:46275432,
-                        clickmap:true,
-                        trackLinks:true,
-                        accurateTrackBounce:true,
-                        webvisor:true
-                    });
-                } catch(e) { }
-            });
-
-            var n = d.getElementsByTagName("script")[0],
-                s = d.createElement("script"),
-                f = function () { n.parentNode.insertBefore(s, n); };
-            s.type = "text/javascript";
-            s.async = true;
-            s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-            if (w.opera == "[object Opera]") {
-                d.addEventListener("DOMContentLoaded", f, false);
-            } else { f(); }
-        })(document, window, "yandex_metrika_callbacks");
-    </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/46275432" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-    <!-- /Yandex.Metrika counter -->
-    <!-- Google Analytics -->
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-108422609-1', 'auto');
-        ga('send', 'pageview');
-    </script>
-    <!-- End Google Analytics -->
 
 </head>
 <body>
-<!-- loader -->
-<div class="loader">
+<div class="wrapper">
+    <header class="back">
+        <nav>
+            <div class="navbar">
 
-    <!-- loader__wrap -->
-    <div class="loader__wrap">
-        <div class="loader__one"></div>
-        <div class="loader__two"></div>
-        <div class="loader__three"></div>
-    </div>
-    <!-- /loader__wrap -->
-
-</div>
-<!-- /loader -->
-<div class="site <?= $class; ?>">
-    <header class="site__header">
-        <?= $logo; ?>
-        <?php if(!is_page_template('page-landing.php')) { ?>
-        <nav class="menu">
-            <span class="menu__btn"><span></span></span>
-            <div class="menu__wrap">
-                <div class="menu__head">
-	                <?= $logo; ?>
+	            <?php if(!empty($logo)) { ?>
+                <div class="storyboards-logo">
+                    <a href="#">
+                        <img src="<?= $logo['url']; ?>" alt="<?= $logo['alt']; ?>" title="<?= $logo['title']; ?>">
+                    </a>
                 </div>
-                <?= $menu_list; ?>
-                <div class="menu__footer">
-                    <div class="social">
-                        <?= $social_links_list; ?>
-                    </div>
+		        <?php } ?>
+
+               <?php if( $locations && isset($locations[ $menu_name ]) ){
+	               $menu = wp_get_nav_menu_object( $locations[ $menu_name ] );
+	               $menu_items = wp_get_nav_menu_items( $menu ); ?>
+               <div class="navbar-menu">
+
+                   <?php foreach ( (array) $menu_items as $key => $menu_item ){ ?>
+                   <a href="<?= get_the_permalink($menu_item->object_id); ?>"> <div class="menu-element"><?= $menu_item->title; ?></div></a>
+                   <?php } ?>
+
+               </div>
+               <?php } ?>
+
+                <div class="btn"><a href="#"><div class="sign-up">SIGN-UP</div></a></div>
+                <div class="cart"><a href="#"><img src="<?= get_template_directory_uri(); ?>/assets/images/svg/Cart.svg" alt=""></a></div>
+            </div>
+	        <?php if( $locations && isset($locations[ $menu_name_mobile ]) ){
+	        $menu = wp_get_nav_menu_object( $locations[ $menu_name_mobile ] );
+	        $menu_items = wp_get_nav_menu_items( $menu ); ?>
+            <div class="mobile-navbar">
+                <div class="mobile-button">
+                    <button class="c-hamburger c-hamburger--htx">
+                        <span>toggle menu</span>
+                    </button>
+                    <ul class="navbar-mobile-menu" id="navi">
+	                    <?php foreach ( (array) $menu_items as $key => $menu_item ){ ?>
+                        <li><a href="<?= get_the_permalink($menu_item->object_id); ?>"><?= $menu_item->title; ?></a></li>
+                        <?php } ?>
+                    </ul>
+                </div>
+
+	            <?php if(!empty($logo)) { ?>
+                  <div class="storyboards-logo">
+                      <a href="#">
+                          <img src="<?= $logo['url']; ?>" alt="<?= $logo['alt']; ?>" title="<?= $logo['title']; ?>">
+                      </a>
+                  </div>
+	            <?php } ?>
+
+                <div class="cart">
+                    <a href="#">
+                        <svg width="50px" height="50px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+                            <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="header" transform="translate(-1123.000000, -10.000000)" stroke="#FFFFFF" stroke-width="0.5" fill="#FFFFFF">
+                                    <g id="Cart" transform="translate(1124.000000, 11.000000)">
+                                        <path d="M4.48788495,15.2456386 C4.90725047,15.2490108 5.25159237,14.9072932 5.24814543,14.4912113 C5.24483919,14.0906907 4.9123857,13.7592653 4.50765208,13.7529073 C4.0972908,13.746479 3.75301925,14.0806794 3.7493261,14.4890685 C3.74563296,14.8999165 4.07991543,15.2423718 4.48788495,15.2456386 M3.00000437,14.5045947 C2.9980347,13.6756977 3.66160509,13.004838 4.4883422,13.0000255 C5.32074213,12.9952131 6.00059754,13.6708501 5.99999961,14.5023115 C5.99940167,15.3226726 5.31877245,16.0019629 4.49938647,15.9999957 C3.67201625,15.9979584 3.00197405,15.3297683 3.00000437,14.5045947" id="Fill-4"></path>
+                                        <path d="M12.4929633,15.2465734 C12.9029106,15.2497713 13.2436657,14.9154339 13.2485553,14.5051907 C13.2534448,14.098567 12.9137098,13.7555145 12.5037273,13.7530897 C12.0934282,13.7506298 11.7518641,14.0863728 11.7493665,14.4946833 C11.746869,14.9049266 12.0815737,15.2433755 12.4929633,15.2465734 M11.0000008,14.4966513 C10.9991566,13.6718071 11.6733148,12.9979314 12.4971141,13.0000048 C13.3253105,13.0021484 13.9982024,13.6710692 13.9999964,14.4940156 C14.0017904,15.3188597 13.3318885,15.9952657 12.5085465,15.9999746 C11.6744405,16.0047539 11.0008099,15.3334787 11.0000008,14.4966513" id="Fill-7"></path>
+                                        <path d="M2.78857125,2.36228465 C2.79736329,2.41922826 2.79610165,2.43851621 2.80335607,2.45445453 C3.48511346,3.95442372 4.16600349,5.45476099 4.85544899,6.95163821 C4.88158854,7.00836097 4.99064134,7.06556225 5.06125362,7.06574629 C7.29458866,7.07167255 9.52796313,7.07097318 11.7612982,7.07001614 C12.0485573,7.06990572 12.285548,6.9654048 12.4592992,6.74933562 C13.2992344,5.70476812 14.1408255,4.6613049 14.9728754,3.61132647 C15.0582725,3.50358635 15.1169387,3.35800652 15.1319601,3.22446325 C15.1888915,2.71771293 14.8014899,2.36283678 14.2091905,2.36272636 C10.4781339,2.36199018 6.74711681,2.36232146 3.0160997,2.36228465 L2.78857125,2.36228465 Z M14.2953761,10.2110436 L14.2953761,10.9997145 C13.9700707,10.9997145 13.6565932,10.9997514 13.3430763,10.9997145 C10.5965701,10.9995673 7.85006402,11.0011133 5.10359733,10.9982422 C4.24552608,10.9973956 3.5677113,10.4916391 3.4039744,9.7314952 C3.32803959,9.37912208 3.37889935,9.0367242 3.55343902,8.71192106 C3.7448531,8.35579341 3.93670086,7.99970256 4.11490717,7.6378327 C4.15039072,7.56583418 4.15610752,7.45562785 4.1235415,7.38351891 C3.15223828,5.23225022 2.17348351,3.08392626 1.199933,0.933540998 C1.15143881,0.826463443 1.09095906,0.785789432 0.966530051,0.789617575 C0.697406989,0.797936422 0.427731959,0.788034785 0.158490618,0.793850616 C0.0372157073,0.796427251 -0.00351153028,0.753691932 0.000233956239,0.643080708 C0.0069364058,0.447182893 0.00212641258,0.250953795 0.00212641258,0.0287006932 C0.0641832102,0.0200505641 0.123361897,0.00495884968 0.182619437,0.00466437721 C0.622812668,0.00238221551 1.06312418,0.00757229292 1.50319913,0.000100053808 C1.64107246,-0.00225572601 1.71401088,0.0365778319 1.76719679,0.160256272 C1.94808408,0.580983824 2.14805363,0.99453361 2.3292169,1.41518754 C2.38192969,1.53757767 2.45226599,1.57611675 2.5913221,1.57596952 C6.33657206,1.57236223 10.0817826,1.57284075 13.8270326,1.57276713 C14.0044503,1.57276713 14.1823018,1.56625192 14.3591676,1.57578547 C15.0259037,1.6116375 15.5255516,1.9054106 15.816083,2.46542363 C16.1064568,3.025179 16.053192,3.57735171 15.6548694,4.07979537 C14.8301921,5.12009302 13.9945544,6.15277119 13.164594,7.18946154 C12.8045147,7.63926825 12.3251319,7.86019623 11.7245136,7.85993856 C9.53651861,7.85909196 7.34848424,7.86122688 5.1604893,7.85607361 C5.00061616,7.85570552 4.91348432,7.89851446 4.84685408,8.03577544 C4.69250061,8.35380572 4.51918315,8.66381162 4.35576166,8.97805056 C4.00751027,9.64790183 4.38608039,10.2118166 5.18430271,10.2118166 C8.14765278,10.2118902 11.1109634,10.2113381 14.0743135,10.2110436 L14.2953761,10.2110436 Z" id="Fill-1"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
                 </div>
             </div>
+		    <?php } ?>
+
         </nav>
-        <?php } ?>
-        <div class="request">
-            <div class="request__wrap">
-                <span class="request__close"></span>
-                <?= $title_form_header_string; ?>
-                <div class="request__form">
-	                <?= do_shortcode('[contact-form-7 id="23" title="Contact form 1"]'); ?>
+        <div class="search-nav">
+            <div class="top-search-bar">
+                <form class="search-element" id="data" action="">
+                    <input type="search" placeholder="Search storyboard" form="data" class="search-field">
+                    <button type="submit" class="search-button" form="data"><img src="<?= get_template_directory_uri(); ?>/assets/images/svg/search.svg" alt=""><span>SEARCH</span></button>
+                </form>
+                <div class="search-option">
+                    <div class="option-element active"><a href="#"><?= __('popular', 'storyboards'); ?></a></div>
+                    <div class="option-element"><a href="#"><?= __('newest', 'storyboards'); ?></a></div>
+                </div>
+                <div class="search-help">
+
+	                <?php if($help_title) { ?>
+                      <div class="bottom-text"><?= $help_title; ?></div>
+	                <?php } ?>
+
+	                <?php if(!empty($help_button)) { ?>
+                      <a href="<?= $help_button['url']; ?>" target="<?= $help_button['target']; ?>"><div class="bottom-button"><div class="button-text"><?= $help_button['title']; ?></div></div></a>
+	                <?php } ?>
+
                 </div>
             </div>
         </div>
-       <?= $title_button_header; ?>
     </header>

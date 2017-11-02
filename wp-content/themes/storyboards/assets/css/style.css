@@ -790,6 +790,7 @@ BLOG
 }
 .blog-element img{
     max-width:100%;
+    height: auto;
 }
 .blog-element{
     margin-bottom: 50px;
