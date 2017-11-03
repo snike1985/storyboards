@@ -59,8 +59,8 @@ if ( function_exists( 'add_image_size' ) ) {
 add_action('wp_enqueue_scripts', 'add_js');
 function add_js() {
 	wp_deregister_script('jquery');
-	wp_register_script('jquery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js', false, false, true);
-	wp_register_script('jquery-latest', 'http://code.jquery.com/jquery-latest.min.js', false, false, true);
+	wp_register_script('jquery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js', false, false, false);
+	wp_register_script('jquery-latest', 'http://code.jquery.com/jquery-latest.min.js', false, false, false);
 	wp_register_script('menu', get_template_directory_uri() . '/assets/js/menu.js', false, filemtime(realpath(__DIR__ . DIRECTORY_SEPARATOR . '..') . '/assets/js/menu.js'), true);
 
 	wp_register_style('style', get_stylesheet_uri(), false, filemtime(realpath(__DIR__ . DIRECTORY_SEPARATOR . '..').'/style.css'));
@@ -88,4 +88,8 @@ function add_js() {
 
 if( function_exists('acf_add_options_page') ) {
 	acf_add_options_page();
+}
+add_filter( 'gform_submit_button_1', 'form_submit_button', 10, 2 );
+function form_submit_button( $button, $form ) {
+	return "<button type=\"submit\" class='send-button' id='gform_submit_button_{$form['id']}'>{$form['button']['text']}</button>";
 }

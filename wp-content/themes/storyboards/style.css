@@ -13,3 +13,94 @@ Text Domain: storyboards
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+.main-contact .gform_wrapper {
+    margin: 0 60px 0 0;
+    width:68%;
+    text-align: left;
+}
+.main-contact .gform_wrapper .gform_heading {
+    color: #232323;
+    font-family: "Roboto";
+    font-size: 26px;
+    line-height: 30px;
+    margin: 0 0 26px 0;
+}
+.main-contact .gform_wrapper .gform_heading h3.gform_title {
+    margin: 0;
+    font-weight: 400;
+    font-size: inherit;
+}
+.main-contact .gform_wrapper .top_label .gfield_label {
+    display: none;
+}
+
+.main-contact #field_1_2, .main-contact #field_1_3 {
+    width: 50%;
+}
+.main-contact .gform_wrapper ul.gform_fields {
+    display: flex;
+    flex-flow: row wrap;
+}
+.gform_wrapper .contact-form input, .gform_wrapper .contact-form textarea {
+    padding: 16px !important;
+    font-family: "Roboto" !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+}
+body .gform_wrapper .contact-form .top_label div.ginput_container {
+    margin: 0;
+}
+.gform_wrapper .contact-form ul.gform_fields li.gfield {
+    padding: 0;
+    margin: 0;
+}
+.gform_wrapper .contact-form ul.gform_fields li.gfield.contact-name .ginput_container {
+    margin: 0 5.5px 11px 0;
+}
+.gform_wrapper .contact-form ul.gform_fields li.gfield.contact-email .ginput_container {
+    margin: 0 0 11px 5.5px;
+}
+.gform_wrapper .contact-form ul.gform_fields li.gfield textarea {
+    width: 100%;
+    height: 173px;
+}
+.gform_wrapper .contact-form ul.gform_fields li.gfield.contact-message .ginput_container {
+    margin: 0 0 25px 0;
+}
+.gform_wrapper .contact-form .gform_footer {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 767px) {
+    .main-contact .gform_wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .main-contact .gform_wrapper ul.gform_fields {
+        justify-content: center;
+    }
+    .main-contact .gform_wrapper .gform_heading h3.gform_title,
+    .gform_wrapper .contact-form .gform_footer {
+        text-align: center;
+    }
+    .main-contact #field_1_2,
+    .main-contact #field_1_3,
+    .main-contact #field_1_4{
+        width: 90%;
+    }
+    .gform_wrapper .contact-form ul.gform_fields li.gfield.contact-name .ginput_container,
+    .gform_wrapper .contact-form ul.gform_fields li.gfield.contact-email .ginput_container{
+        margin: 0 0 11px 0;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 468px) {
+
+
+
+}
+@media (max-width: 467px) {
+
+}

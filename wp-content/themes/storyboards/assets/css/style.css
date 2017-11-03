@@ -716,8 +716,8 @@ contactus
     margin-bottom: 26px;
 }
 .contact-form{
-    width:68%;
-    margin-right: 60px;
+    /*width:68%;
+    margin-right: 60px;*/
 }
 .contact-name, .contact-email{
     width: 50%;

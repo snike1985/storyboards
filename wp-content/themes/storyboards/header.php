@@ -27,7 +27,7 @@ $locations = get_nav_menu_locations();
 
 	            <?php if(!empty($logo)) { ?>
                 <div class="storyboards-logo">
-                    <a href="#">
+                    <a href="<?= get_site_url(); ?>">
                         <img src="<?= $logo['url']; ?>" alt="<?= $logo['alt']; ?>" title="<?= $logo['title']; ?>">
                     </a>
                 </div>
@@ -46,26 +46,31 @@ $locations = get_nav_menu_locations();
                <?php } ?>
 
                 <div class="btn"><a href="#"><div class="sign-up">SIGN-UP</div></a></div>
-                <div class="cart"><a href="#"><img src="<?= get_template_directory_uri(); ?>/assets/images/svg/Cart.svg" alt=""></a></div>
+                <div class="cart"><a href="#"><img src="<?= get_template_directory_uri(); ?>/assets/images/svg/Cart.svg" alt="cart"></a></div>
+
             </div>
+
 	        <?php if( $locations && isset($locations[ $menu_name_mobile ]) ){
 	        $menu = wp_get_nav_menu_object( $locations[ $menu_name_mobile ] );
 	        $menu_items = wp_get_nav_menu_items( $menu ); ?>
             <div class="mobile-navbar">
+
                 <div class="mobile-button">
                     <button class="c-hamburger c-hamburger--htx">
                         <span>toggle menu</span>
                     </button>
+
                     <ul class="navbar-mobile-menu" id="navi">
 	                    <?php foreach ( (array) $menu_items as $key => $menu_item ){ ?>
                         <li><a href="<?= get_the_permalink($menu_item->object_id); ?>"><?= $menu_item->title; ?></a></li>
                         <?php } ?>
                     </ul>
+
                 </div>
 
 	            <?php if(!empty($logo)) { ?>
                   <div class="storyboards-logo">
-                      <a href="#">
+                      <a href="<?= get_site_url(); ?>">
                           <img src="<?= $logo['url']; ?>" alt="<?= $logo['alt']; ?>" title="<?= $logo['title']; ?>">
                       </a>
                   </div>
@@ -87,20 +92,24 @@ $locations = get_nav_menu_locations();
                         </svg>
                     </a>
                 </div>
+
             </div>
 		    <?php } ?>
 
         </nav>
         <div class="search-nav">
             <div class="top-search-bar">
+
                 <form class="search-element" id="data" action="">
-                    <input type="search" placeholder="Search storyboard" form="data" class="search-field">
-                    <button type="submit" class="search-button" form="data"><img src="<?= get_template_directory_uri(); ?>/assets/images/svg/search.svg" alt=""><span>SEARCH</span></button>
+                    <input type="search" placeholder="<?= __('Search storyboard', 'storyboards'); ?>" form="data" class="search-field">
+                    <button type="submit" class="search-button" form="data"><img src="<?= get_template_directory_uri(); ?>/assets/images/svg/search.svg" alt=""><span><?= __('SEARCH', 'storyboards'); ?></span></button>
                 </form>
+
                 <div class="search-option">
                     <div class="option-element active"><a href="#"><?= __('popular', 'storyboards'); ?></a></div>
                     <div class="option-element"><a href="#"><?= __('newest', 'storyboards'); ?></a></div>
                 </div>
+
                 <div class="search-help">
 
 	                <?php if($help_title) { ?>
@@ -112,6 +121,7 @@ $locations = get_nav_menu_locations();
 	                <?php } ?>
 
                 </div>
+
             </div>
         </div>
     </header>
