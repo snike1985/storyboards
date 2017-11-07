@@ -37,3 +37,4 @@ $('.slider-nav').slick({
  centerMode: false,
  focusOnSelect: true
 });
+

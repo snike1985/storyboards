@@ -86,9 +86,13 @@
     .pay-panel{
         margin-right: 59px
     }
-    .bottom-button{
+    .top-search-bar .bottom-button{
         margin-top: -7px;
         padding: 10px 24px 10px 26px;
+    }
+    .bottom-button{
+        margin-top: -7px;
+        padding: 10px 20px 10px 21px;
     }
     .button-text{
         font-size: 17px;

@@ -8,8 +8,8 @@ $help_button = get_field('help_button', 'options');
 $menu_name = 'menu-footer';
 $locations = get_nav_menu_locations();
 ?>
-<footer>
-    <div class="overlay"></div>
+</div>
+<footer style="bottom:inherit; margin-top:-173px">
     <div class="footer-bar">
 
         <div class="storyboards-logo">
@@ -63,7 +63,7 @@ $locations = get_nav_menu_locations();
 
     </div>
 </footer>
-</div>
+
 
 <?php wp_footer(); ?>
 
