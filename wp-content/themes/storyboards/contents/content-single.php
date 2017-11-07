@@ -15,7 +15,7 @@ get_header();
                             </div>
                             <div class="blog-author">
                                 <img src="<?= get_template_directory_uri(); ?>/assets/images/svg/user_icon.svg" alt="">
-	                            <?= get_the_author_meta( 'first_name', $post->ID).' '.get_the_author_meta( 'last_name', $post->ID); ?>
+	                            <?= get_the_author_meta( 'first_name', $post->post_author).' '.get_the_author_meta( 'last_name', $post->post_author); ?>
                             </div>
                         </div>
                         <h3 class="blog-header" style="font-weight:300;">

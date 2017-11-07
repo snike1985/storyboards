@@ -384,6 +384,7 @@ Most-downloaded+ recent
 }
 .content-element img{
     max-width: 100%;
+    height: auto;
 }
 .board-name {
 	color: #FFFFFF;

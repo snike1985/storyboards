@@ -39,7 +39,7 @@ $locations = get_nav_menu_locations();
                <div class="navbar-menu">
 
                    <?php foreach ( (array) $menu_items as $key => $menu_item ){ ?>
-                   <a href="<?= get_the_permalink($menu_item->object_id); ?>"> <div class="menu-element"><?= $menu_item->title; ?></div></a>
+                   <a href="<?= $menu_item->url; ?>"> <div class="menu-element"><?= $menu_item->title; ?></div></a>
                    <?php } ?>
 
                </div>
@@ -62,7 +62,7 @@ $locations = get_nav_menu_locations();
 
                     <ul class="navbar-mobile-menu" id="navi">
 	                    <?php foreach ( (array) $menu_items as $key => $menu_item ){ ?>
-                        <li><a href="<?= get_the_permalink($menu_item->object_id); ?>"><?= $menu_item->title; ?></a></li>
+                        <li><a href="<?= $menu_item->url; ?>"><?= $menu_item->title; ?></a></li>
                         <?php } ?>
                     </ul>
 

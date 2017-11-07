@@ -8,7 +8,7 @@ if(!empty($posts)){
         <div class="blog-main-page">
             <div class="page-blog">
 
-                <?php foreach ($posts as $post) { ?>
+                <?php foreach ($posts as $post) {var_dump($post); ?>
                 <div class="blog-element">
 
                     <?php the_post_thumbnail($post->ID); ?>
@@ -20,7 +20,7 @@ if(!empty($posts)){
                         </div>
                         <div class="blog-author">
                             <img src="<?= get_template_directory_uri(); ?>/assets/images/svg/user_icon.svg" alt="">
-	                        <?= get_the_author_meta( 'first_name', $post->ID).' '.get_the_author_meta( 'last_name', $post->ID); ?>
+	                        <?= get_the_author_meta( 'first_name', $post->post_author).' '.get_the_author_meta( 'last_name', $post->post_author); ?>
                         </div>
                     </div>
                     <h3 class="blog-header">

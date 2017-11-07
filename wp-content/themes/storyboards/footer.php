@@ -33,7 +33,7 @@ $locations = get_nav_menu_locations();
             <div class="navbar-menu">
 
 	            <?php foreach ( (array) $menu_items as $key => $menu_item ){ ?>
-                <div class="menu-element"><a href="<?= get_the_permalink($menu_item->object_id); ?>"><?= $menu_item->title; ?></a></div>
+                <div class="menu-element"><a href="<?= $menu_item->url; ?>"><?= $menu_item->title; ?></a></div>
 		        <?php } ?>
 
             </div>

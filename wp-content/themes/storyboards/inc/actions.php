@@ -53,7 +53,8 @@ if (function_exists('add_theme_support')) {
     add_theme_support('title');
 }
 if ( function_exists( 'add_image_size' ) ) {
-	add_image_size( 'preview', 85, 53, true ); // Кадрирование изображения
+	add_image_size( 'preview', 85, 53, true );
+	add_image_size( 'storyboard', 540, 404, true );
 }
 
 add_action('wp_enqueue_scripts', 'add_js');
@@ -92,4 +93,8 @@ if( function_exists('acf_add_options_page') ) {
 add_filter( 'gform_submit_button_1', 'form_submit_button', 10, 2 );
 function form_submit_button( $button, $form ) {
 	return "<button type=\"submit\" class='send-button' id='gform_submit_button_{$form['id']}'>{$form['button']['text']}</button>";
+}
+
+function get_count_storyboards($author_id = 0) {
+	return count_user_posts($author_id, 'storyboard');
 }
