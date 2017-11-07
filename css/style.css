@@ -1,6 +1,11 @@
-/*top-section + navigation styles*/
+﻿/*top-section + navigation styles*/
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.wrapper:after{
+    content: "";
+    height: 173px;
+    display: block;
 
+}
  .main{
     position: absolute;
     width: 100%;
@@ -72,7 +77,14 @@ section {
     z-index: 0;
     background: rgba(0, 0, 0, 0.5);
 }
-footer .overlay{
+footer:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
     background: rgba(0, 0, 0, 0.8);
 }
 
@@ -362,12 +374,10 @@ Most-downloaded+ recent
 .main-content{
     margin-left: -10px;
     display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 17px;
 }
 .content-element{
-	height: 212px;
-	width: 282px;
+	width: 272px;
     margin: 0 0 0 17px;
     -webkit-transition:0.4s ease-in;
 	-moz-transition:0.4s ease-in;
@@ -375,6 +385,7 @@ Most-downloaded+ recent
 }
 .content-element a{
         position: relative;
+        display: block;
 }
 .content-element a:hover{
     opacity: 0.6;
@@ -404,6 +415,7 @@ Most-downloaded+ recent
     bottom: 0;
     width: 100%;
     position: absolute;
+    max-width: 100%;
 }
 .board-info{
     padding: 10px 0 10px 15px;
@@ -467,10 +479,10 @@ footer {
     background-size: cover;
 	min-height: 173px;
     margin: 0 auto;
+    bottom: 0;
     position: absolute;
     width: 100%;
-    bottom: 0;
-    margin-bottom: -272px!important;
+    margin-bottom: -173px!important;
 }
 .footer-bar{
     margin: 0 auto;
@@ -641,7 +653,7 @@ SEARCHRESULT
 }
 .top-search-bar .bottom-button{
     margin:0 auto;
-    padding: 11px 28px 10px 29px;
+        padding: 10px 24px 10px 25px;
 }
 .top-search-bar .button-text{
     padding: 0;
@@ -1509,4 +1521,20 @@ input[type=radio]:checked + label {
 }
 .newartist .artistcard{
     margin: 30px;
+}
+
+#hellopreloader>p {
+	display:none;
+}
+
+#hellopreloader_preload{
+	display: block;
+	position: fixed;
+	z-index: 99999;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	min-width: 1000px;
+	background:  url(/images/Spinner.gif) center center no-repeat;background-size:100px;
 }

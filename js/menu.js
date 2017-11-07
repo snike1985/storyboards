@@ -18,7 +18,7 @@ $(show).on('click', function(){
 
 
 const burger = document.querySelector(".c-hamburger");
-const wrap = document.querySelector('.wrapper');
+const wrap = document.querySelector('html');
 
 burger.addEventListener('click', () => {
   burger.classList.toggle('active');
