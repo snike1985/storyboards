@@ -8,7 +8,7 @@ if(!empty($posts)){
         <div class="blog-main-page">
             <div class="page-blog">
 
-                <?php foreach ($posts as $post) {var_dump($post); ?>
+                <?php foreach ($posts as $post) { ?>
                 <div class="blog-element">
 
                     <?php the_post_thumbnail($post->ID); ?>

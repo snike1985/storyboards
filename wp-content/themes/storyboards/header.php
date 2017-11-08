@@ -19,7 +19,7 @@ $locations = get_nav_menu_locations();
     <?php wp_head(); ?>
 
 </head>
-<body>
+<body data-action="<?php echo admin_url( 'admin-ajax.php' );?>">
 <div class="wrapper">
     <header class="back">
         <nav>

@@ -1538,5 +1538,6 @@ input[type=radio]:checked + label {
 	width: 100%;
 	height: 100%;
 	min-width: 1000px;
-	background:  url(/images/Spinner.gif) center center no-repeat;background-size:100px;
+	background:  url(../images/Spinner.gif) center center no-repeat;
+    background-size: 100px;
 }

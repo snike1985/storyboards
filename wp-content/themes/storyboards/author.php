@@ -17,7 +17,8 @@ $args = array(
 	'fields'      => 'ids',
 	'post_status' => 'publish',
 	'suppress_filters' => false,
-	'post_type'   => 'storyboard'
+	'post_type'   => 'storyboard',
+	'author'      =>  $author,
 );
 
 $posts = get_posts( $args );
@@ -80,7 +81,7 @@ $posts = get_posts( $args );
 
 <?php if(!empty($posts)) { ?>
 	<section class="main-section">
-		<div class="container">
+		<div class="container" data-page="1" data-author="<?= $author; ?>">
 
 			<h2 class="content-header" style="margin:0 0 35px">
 
@@ -98,7 +99,7 @@ $posts = get_posts( $args );
                         </div><div class="main-content">
                     <?php } ?>
 				<div class="content-element">
-					<a href="<?= get_the_post_thumbnail_url( $posts[$i], 'full' ); ?>">
+					<a href="<?= get_the_post_thumbnail_url( $posts[$i], 'full' ); ?>" class="popup__open" data-popup="image">
 
 						<?= get_the_post_thumbnail( $posts[$i], 'storyboard' ); ?>
 
