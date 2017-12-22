@@ -64,7 +64,7 @@ $locations = get_nav_menu_locations();
     </div>
 </footer>
 
-<?php if(is_author()) { ?>
+<?php if(is_author() && false) { ?>
     <div class="popup">
 
         <!-- popup__wrap -->

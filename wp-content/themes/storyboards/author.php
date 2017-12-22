@@ -39,7 +39,7 @@ $posts = get_posts( $args );
 					<div class="artist-about">
 
 						<h2 class="about">
-							About Artist
+							<?= __('About Artist', 'storyboards'); ?>
 						</h2>
 
 						<?php if($twitter || $facebook) { ?>
@@ -95,10 +95,22 @@ $posts = get_posts( $args );
 
 					$count_download = get_field('count_download', $posts[$i]);
 
+                    $gallery = get_field('gallery', $posts[$i] );
+                    $gallery_string = array();
+					if( ! empty( $gallery ) ) {
+
+					    foreach ($gallery as $row_2) {
+                          $gallery_string[] =$row_2['sizes']['storyboard'];
+                        }
+
+                      $gallery_string = '["' . implode('","', $gallery_string) . '"]';
+
+                    }
+
 					if($i === 4){ ?>
                         </div><div class="main-content">
                     <?php } ?>
-				<div class="content-element">
+				<div class="content-element" data-gallery='<?= $gallery_string ? $gallery_string : ''; ?>'>
 					<a href="<?= get_the_post_thumbnail_url( $posts[$i], 'full' ); ?>" class="popup__open" data-popup="image">
 
 						<?= get_the_post_thumbnail( $posts[$i], 'storyboard' ); ?>
@@ -126,7 +138,7 @@ $posts = get_posts( $args );
 
             <?php if($count_storyboards > 8) { ?>
 			<div class="content-more" style="margin-top:40px">
-				<a href="#">SEE MORE</a>
+				<a href="#"><?= __('SEE MORE', ''); ?></a>
 			</div>
             <?php } ?>
 

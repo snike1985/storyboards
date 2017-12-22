@@ -132,3 +132,15 @@ $locations = get_nav_menu_locations();
             <?php } ?>
 
         </header>
+
+        <?php if( is_front_page() || is_author() ) { ?>
+        <div class="popup_overlay"></div>
+        <div class="popup">
+            <div class="closer">
+                <img src="<?= get_template_directory_uri(); ?>/assets/images/svg/close.svg" alt="">
+            </div>
+            <div class="newslider" data-slider="first"></div>
+
+            <div class="slider-nav"></div>
+        </div>
+        <?php } ?>

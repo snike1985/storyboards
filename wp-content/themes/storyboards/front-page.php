@@ -13,8 +13,7 @@ $storyboards_template = get_field('storyboards_template', $post_id);
 $team_title = get_field('team_title', $post_id);
 $our_team = get_field('our_team', $about_id);
 ?>
-
-	<section class="head-back" style="<?= $hero_back ? 'background-image: url(' . $hero_back . ')': ''; ?>">
+    <section class="head-back" style="<?= $hero_back ? 'background-image: url(' . $hero_back . ')': ''; ?>">
 
 		<div class="overlay"></div>
 
@@ -37,8 +36,8 @@ $our_team = get_field('our_team', $about_id);
 
 	</section>
 
-	<?php if( ! empty( $storyboards_template ) ) { ?>
 
+	<?php if( ! empty( $storyboards_template ) ) { ?>
 
 		<section class="most-downloads">
 			<div class="container">
@@ -63,15 +62,28 @@ $our_team = get_field('our_team', $about_id);
 						$post_author_id = get_post_field( 'post_author', $row['storyboard'] );
 						$image = get_field('image', 'user_'.$post_author_id );
 						$count_download = get_field('count_download', $row['storyboard'] );
-						if($counter === 4) {?>
+						$gallery = get_field('gallery', $row['storyboard'] );
+						$gallery_string = array();
+						if( ! empty( $gallery ) ) {
+
+						    foreach ($gallery as $row_2) {
+							    $gallery_string[] =$row_2['sizes']['storyboard'];
+                            }
+
+							$gallery_string = '["' . implode('","', $gallery_string) . '"]';
+
+                        }
+
+						if($counter === 4) { ?>
 							</div>
 							<div class="main-content">
 						<?php } ?>
 
-						<div class="content-element">
+						<div class="content-element" data-gallery='<?= $gallery_string ? $gallery_string : ''; ?>'>
 							<a href="<?= get_permalink( $row['storyboard'] ); ?>">
 								<?= get_the_post_thumbnail( $row['storyboard'], 'storyboard' ); ?>
 								<div class="board">
+
 									<div class="board-info">
 										<div class="board-name"><?= get_the_title(  $row['storyboard'] ); ?></div>
 										<div class="board-downloads"><?= $count_download.' '._n( 'download' , 'downloads' , $count_download ); ?></div>
@@ -118,12 +130,24 @@ $our_team = get_field('our_team', $about_id);
 						$post_author_id = get_post_field( 'post_author', $row['storyboard'] );
 						$image = get_field('image', 'user_'.$post_author_id );
 						$count_download = get_field('count_download', $row['storyboard'] );
+                        $gallery = get_field('gallery', $row['storyboard'] );
+                        $gallery_string = array();
+                        if( ! empty( $gallery ) ) {
+
+                          foreach ($gallery as $row_2) {
+                            $gallery_string[] =$row_2['sizes']['storyboard'];
+                          }
+
+                          $gallery_string = '["' . implode('","', $gallery_string) . '"]';
+
+                        }
+
 						if($counter === 4) {?>
 							</div>
 							<div class="main-content">
 						<?php } ?>
 
-						<div class="content-element">
+						<div class="content-element" data-gallery='<?= $gallery_string ? $gallery_string : ''; ?>'>
 							<a href="<?= get_permalink( $row['storyboard'] ); ?>">
 								<?= get_the_post_thumbnail( $row['storyboard'], 'storyboard' ); ?>
 								<div class="board">
@@ -150,8 +174,10 @@ $our_team = get_field('our_team', $about_id);
 			</div>
 		</section>
 		<?php } ?>
+
 	<?php } ?>
 
+    <?php if( ! empty( $our_team ) ) { ?>
 	<section class="artists">
 		<div class="container">
 			<h2 class="content-header"><?= $team_title; ?></h2>
@@ -177,6 +203,7 @@ $our_team = get_field('our_team', $about_id);
 
 		</div>
 	</section>
+    <?php } ?>
 
 <?php
 get_footer();

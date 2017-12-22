@@ -22,5 +22,5 @@ const wrap = document.querySelector('html');
 
 burger.addEventListener('click', () => {
   burger.classList.toggle('active');
-   wrap.classList.toggle('fixed')
-})
+   wrap.classList.toggle('fixed');
+});
