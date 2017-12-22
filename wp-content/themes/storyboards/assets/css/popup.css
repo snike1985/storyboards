@@ -30,9 +30,11 @@
 .popup__wrap {
      position: relative;
      z-index: 2;
-     width: 527px;
+     max-width: 680px;
      margin: 0 auto;
      padding-bottom: 40px;
+     padding-left: 20px;
+     padding-right: 20px;
  }
 
 .popup__content {

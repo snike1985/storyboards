@@ -64,19 +64,19 @@ $locations = get_nav_menu_locations();
     </div>
 </footer>
 
-<?php if(is_author() && false) { ?>
+<?php if( is_page_template('page-video.php') ) { ?>
     <div class="popup">
 
         <!-- popup__wrap -->
         <div class="popup__wrap">
 
             <!-- popup__content -->
-            <div class="popup__content popup__image">
+            <div class="popup__content popup__video">
 
                 <div class="popup__close"></div>
 
-                <div class="image">
-                    <img src="" alt="">
+                <div class="video">
+                    <iframe src="#" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
 
             </div>

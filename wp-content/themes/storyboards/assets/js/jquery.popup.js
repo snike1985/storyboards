@@ -47,6 +47,11 @@ var Popup = function( obj ){
             return scrollBarWidth;
         },
         _hide = function(){
+
+            if(_obj.find('iframe').length) {
+                _obj.find('iframe').attr('src', '');
+            }
+
             _obj.css( {
                 overflowY: 'hidden'
             } );
@@ -114,8 +119,9 @@ var Popup = function( obj ){
 
         },
         _setPopupContent = function( className ){
+            console.log(className);
             var curContent = _contents.filter( '.popup__' + className.attr( 'data-popup' ) );
-            curContent.find('img').attr('src', className.attr('href'));
+            curContent.find('iframe').attr('src', className.attr('data-iframe') + '?controls=0&hd=1&autohide=1&autoplay=1');
             _contents.css( { display: 'none' } );
             curContent.css( { display: 'block' } );
         };
