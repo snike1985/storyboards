@@ -3,8 +3,8 @@ const wrap = document.querySelector('.wrapper');
 
 burger.addEventListener('click', () => {
   burger.classList.toggle('active');
-   wrap.classList.toggle('fixed')
-})
+   wrap.classList.toggle('fixed');
+});
 
 //
 // (function() {

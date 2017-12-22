@@ -108,7 +108,7 @@ $posts = get_posts( $args );
 								<div class="board-name"><?= get_the_title($posts[$i]); ?></div>
 
 								<?php if($count_download) { ?>
-								<div class="board-downloads"><?= $count_download.' '._n( 'download' , 'downloads' , $count_download ); ?> </div>
+								<div class="board-downloads"><?= $count_download.' '._n( 'download' , 'downloads' , $count_download ); ?></div>
 								<?php } ?>
 
 							</div>
