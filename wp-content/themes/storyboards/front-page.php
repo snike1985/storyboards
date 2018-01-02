@@ -8,12 +8,26 @@ $post_id = get_the_ID();
 $about_id = 103;
 
 $hero_back = get_the_post_thumbnail_url( $post_id );
+$hero_images = get_field('hero_images', $post_id);
 $hero_title = get_field('hero_title', $post_id);
 $storyboards_template = get_field('storyboards_template', $post_id);
 $team_title = get_field('team_title', $post_id);
 $our_team = get_field('our_team', $about_id);
+$hero_backs = array();
+
+if( $hero_back ) {
+	$hero_backs[] = $hero_back;
+}
+
+if( ! empty( $hero_images ) ) {
+    foreach ( $hero_images as $row ) {
+        if( ! $row['image'] ) { continue; }
+	    $hero_backs[] = $row['image']['url'];
+    }
+}
+$count_backs = count($hero_backs);
 ?>
-    <section class="head-back" style="<?= $hero_back ? 'background-image: url(' . $hero_back . ')': ''; ?>">
+    <section class="head-back" style="<?= $count_backs ? 'background-image: url(' . $hero_backs[random_int(0, $count_backs - 1)] . ')': ''; ?>">
 
 		<div class="overlay"></div>
 
@@ -22,9 +36,9 @@ $our_team = get_field('our_team', $about_id);
 				<?= $hero_title; ?>
 			</div>
 
-		<form class="search-element" id="data" action="searchresult.html">
-			<input type="search" placeholder="Search storyboards" form="data" class="search-field">
-			<button type="submit" class="search-button" form="data"><img src="images/svg/search.svg" alt=""><span>SEARCH</span></button>
+		<form class="search-element" id="data" action="">
+			<input type="search" placeholder="<?= __('Search storyboards', 'storyboards'); ?>" form="data" class="search-field">
+			<button type="submit" class="search-button" form="data"><img src="<?= get_template_directory_uri(); ?>/assets/images/svg/search.svg" alt="search"><span><?= __('SEARCH', 'storyboards'); ?></span></button>
 		</form>
 
 		<div class="contactUsBtn">

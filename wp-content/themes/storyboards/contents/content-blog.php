@@ -1,5 +1,10 @@
 <?php
-
+$pagination = get_the_posts_pagination( array(
+	'mid_size' => 2,
+    'show_all'     => false,
+	'prev_next'    => false,
+    'screen_reader_text' => ' '
+) );
 if(!empty($posts)){
 ?>
 
@@ -35,6 +40,7 @@ if(!empty($posts)){
                 </div>
                 <?php } ?>
 
+                <?= $pagination; ?>
             </div>
 
             <?php get_sidebar('blog'); ?>

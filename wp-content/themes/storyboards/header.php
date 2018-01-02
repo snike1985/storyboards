@@ -3,6 +3,8 @@
 $help_title = get_field('help_title', 'options');
 $help_button = get_field('help_button', 'options');
 $logo = get_field('logo', 'options');
+$cart_url = get_field('cart_url', 'options');
+$sign_up_url = get_field('sign_up_url', 'options');
 
 $menu_name = 'menu';
 $menu_name_mobile = 'menu-mobile';
@@ -48,8 +50,13 @@ $locations = get_nav_menu_locations();
                    </div>
                    <?php } ?>
 
-                    <div class="btn"><a href="#"><div class="sign-up">SIGN-UP</div></a></div>
-                    <div class="cart"><a href="#"><img src="<?= get_template_directory_uri(); ?>/assets/images/svg/Cart.svg" alt="cart"></a></div>
+                    <?php if( $sign_up_url ) { ?>
+                        <div class="btn"><a href="<?= $sign_up_url; ?>"><div class="sign-up"><?= __('SIGN-UP', 'storyboards'); ?></div></a></div>
+                    <?php } ?>
+
+                    <?php if( $cart_url ) { ?>
+                        <div class="cart"><a href="<?= $cart_url; ?>"><img src="<?= get_template_directory_uri(); ?>/assets/images/svg/Cart.svg" alt="cart"></a></div>
+                    <?php } ?>
 
                 </div>
 
@@ -79,8 +86,9 @@ $locations = get_nav_menu_locations();
                       </div>
                     <?php } ?>
 
+                    <?php if( $cart_url ) { ?>
                     <div class="cart">
-                        <a href="#">
+                        <a href="<?= $cart_url; ?>">
                             <svg width="50px" height="50px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 
                                 <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -95,6 +103,7 @@ $locations = get_nav_menu_locations();
                             </svg>
                         </a>
                     </div>
+                    <?php } ?>
 
                 </div>
                 <?php } ?>
