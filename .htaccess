@@ -1,4 +1,9 @@
 
+# BEGIN Photo Video Store
+RewriteRule ^static([0-9]*)\/preview([0-9]*)\/[\w-]+-([0-9]+).(jpg|jpeg|flv|mp4|mp3)$ wp-content/uploads/content$1/$3/thumb$2.$4 [L]
+# END Photo Video Store
+
+
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On

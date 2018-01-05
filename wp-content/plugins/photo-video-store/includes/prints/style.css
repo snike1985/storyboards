@@ -1,0 +1,801 @@
+.print_wrap
+{
+position:absolute;
+z-index:100;
+cursor:move;
+}
+
+.print_border_top,.print_border_left,.print_border_right,.print_border_bottom,.print_border_top2,.print_border_left2,.print_border_right2,.print_border_bottom2
+{
+position:absolute;
+z-index:101;
+}
+
+.print_display
+{
+display:none;
+}
+
+.print_related
+{
+height:200px;
+display:table;
+margin-left:auto;
+margin-right:auto;
+}
+
+.prints_colors,.prints_colors2
+{
+width:25px;
+height:25px;
+float:left;
+margin:0px 2px 2px 0px;
+cursor:pointer;
+border:1px #c0c0c0 solid;
+}
+
+.prints_colors2
+{
+border: 1px #787877 solid;
+}
+
+.prints_frame,.prints_frame2
+{
+width:75px;
+height:75px;
+float:left;
+margin:0px 2px 2px 0px;
+cursor:pointer;
+border:2px #f5f5f5 solid;
+}
+
+.prints_frame2
+{
+border: 2px #444242 solid;
+}
+
+.prints_background,.prints_background2
+{
+width:25px;
+height:25px;
+float:left;
+margin:0px 2px 2px 0px;
+cursor:pointer;
+border:2px #f5f5f5 solid;
+}
+
+.prints_background2
+{
+border: 2px #444242 solid;
+}
+
+.prints_title
+{
+margin-top:10px;
+font-size:15px;
+}
+
+/*Canvas prints*/
+
+.canvas_prints_small {
+padding: 6px 25px;
+background-color: #1D7BC5;
+position: relative;
+box-sizing: border-box;
+display: inline-block;
+outline: none;
+margin: auto;
+background-repeat:no repeat;
+}
+
+
+
+
+.canvas_prints_small_bottom,.canvas_prints_small_left {
+position: absolute;
+box-sizing: border-box;
+background-repeat:no repeat;
+}
+
+
+.canvas_prints_small_left {
+width: 5px;
+height: 100%;
+left: 100%;
+top: 5px;
+background-color: #c8c8c5;
+transform: skewY(45deg);
+transform-origin: 100% 0;
+-ms-transform: skewY(45deg);
+-ms-transform-origin: 100% 0;
+-webkit-transform: skewY(45deg);
+-webkit-transform-origin: 100% 0;
+opacity:0.7;
+}
+
+.canvas_prints_small_bottom {
+width: 100%;
+top: 100%;
+height: 5px;
+left: 5px;
+background-color: #e3e3df;
+transform: skewX(45deg);
+transform-origin: 0 100%;
+-ms-transform: skewX(45deg);
+-ms-transform-origin: 0 100%;
+-webkit-transform: skewX(45deg);
+-webkit-transform-origin: 0 100%;
+opacity:0.7;
+}
+
+
+.canvas_prints_small_shadow
+{
+display:table;
+width:100%;
+height:100%;
+position:absolute;
+z-index:-2;
+bottom:0px;
+right:0px;
+box-shadow: 15px 15px 15px #cececc;
+-webkit-box-shadow: 15px 15px 15px #cececc;
+-moz-box-shadow: 15px 15px 15px #cececc;
+}
+
+
+
+.canvas_prints_title
+{
+margin-top:10px;
+font-size:15px;
+}
+
+
+
+.canvas_prints_big {
+padding: 6px 25px;
+background-color: #1D7BC5;
+position: relative;
+box-sizing: border-box;
+display: inline-block;
+outline: none;
+margin: auto;
+background-repeat:no repeat;
+}
+
+
+
+
+.canvas_prints_big_bottom,.canvas_prints_big_left {
+content: "";
+position: absolute;
+box-sizing: border-box;
+background-repeat:no repeat;
+}
+
+
+.canvas_prints_big_left {
+width: 10px;
+height: 100%;
+left: 100%;
+top: 10px;
+background-color: #c8c8c5;
+transform: skewY(45deg);
+transform-origin: 100% 0;
+-ms-transform: skewY(45deg);
+-ms-transform-origin: 100% 0;
+-webkit-transform: skewY(45deg);
+-webkit-transform-origin: 100% 0;
+opacity:0.7;
+}
+
+.canvas_prints_big_bottom {
+width: 100%;
+top: 100%;
+height: 10px;
+left: 10px;
+background-color: #e3e3df;
+transform: skewX(45deg);
+transform-origin: 0 100%;
+-ms-transform: skewX(45deg);
+-ms-transform-origin: 0 100%;
+-webkit-transform: skewX(45deg);
+-webkit-transform-origin: 0 100%;
+opacity:0.7;
+}
+
+
+.canvas_prints_big_shadow
+{
+display:table;
+width:100%;
+height:100%;
+position:absolute;
+z-index:-2;
+bottom:0px;
+right:0px;
+box-shadow: 20px 20px 20px #cececc;
+-webkit-box-shadow: 20px 20px 20px #cececc;
+-moz-box-shadow: 20px 20px 20px #cececc;
+}
+  
+  
+/*End. Canvas prints*/
+
+
+/*Prints, Framed Prints and Greeting Cards*/
+
+.prints_small {
+background-repeat:no repeat;
+}
+
+.prints_title
+{
+margin-top:10px;
+font-size:15px;
+}
+
+.prints_big {
+background-repeat:no repeat;
+border:2px solid #FFFFFF;
+}
+
+.prints_top_mat,.prints_bottom_mat
+{
+display:table;
+}
+
+.prints_top_mat
+{
+box-shadow: 0 0 40px rgba(0, 0, 0, .1) inset; 
+-webkit-box-shadow: 0 0 40px rgba(0, 0, 0, .1) inset;
+-moz-box-shadow: 0 0 40px rgba(0, 0, 0, .1) inset;
+border:2px solid #FFFFFF;
+}
+
+.prints_bottom_mat
+{
+box-shadow: 0 0 40px rgba(0, 0, 0, .1) inset; 
+-webkit-box-shadow: 0 0 40px rgba(0, 0, 0, .1) inset;
+-moz-box-shadow: 0 0 40px rgba(0, 0, 0, .1) inset;
+border:2px solid #FFFFFF;
+}
+
+.framed_prints_small_border
+{
+border:2px #414040 solid;
+display:table;
+box-shadow: 0 0 5px rgba(0, 0, 0, .5) inset; 
+-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .5) inset;
+-moz-box-shadow: 0 0 5px rgba(0, 0, 0, .5) inset;
+}
+
+.framed_prints_small_mat
+{
+margin:13px;
+display:table;
+
+}
+
+
+
+
+  
+/*End. Prints, Framed Prints and Greeting Cards*/
+
+
+/*Metal prints*/
+
+.metal_prints_small {
+padding: 6px 25px;
+background-color: #1D7BC5;
+position: relative;
+box-sizing: border-box;
+display: inline-block;
+outline: none;
+margin: auto;
+background-repeat:no repeat;
+}
+
+
+
+
+.metal_prints_small_bottom,.metal_prints_small_left {
+content: "";
+position: absolute;
+box-sizing: border-box;
+background-repeat:no repeat;
+}
+
+
+.metal_prints_small_left {
+width: 3px;
+height: 100%;
+left: 100%;
+top: 3px;
+background-color: #343434;
+transform: skewY(45deg);
+transform-origin: 100% 0;
+-ms-transform: skewY(45deg);
+-ms-transform-origin: 100% 0;
+-webkit-transform: skewY(45deg);
+-webkit-transform-origin: 100% 0;
+opacity:0.7;
+}
+
+.metal_prints_small_bottom {
+width: 100%;
+top: 100%;
+height: 3px;
+left: 3px;
+background-color: #000000;
+transform: skewX(45deg);
+transform-origin: 0 100%;
+-ms-transform: skewX(45deg);
+-ms-transform-origin: 0 100%;
+-webkit-transform: skewX(45deg);
+-webkit-transform-origin: 0 100%;
+opacity:0.7;
+}
+
+
+.metal_prints_small_shadow
+{
+display:table;
+width:100%;
+height:100%;
+position:absolute;
+z-index:-2;
+bottom:0px;
+right:0px;
+box-shadow: 15px 15px 15px #cececc;
+-webkit-box-shadow: 15px 15px 15px #cececc;
+-moz-box-shadow: 15px 15px 15px #cececc;
+}
+
+
+
+.metal_prints_title
+{
+margin-top:10px;
+font-size:15px;
+}
+
+
+
+.metal_prints_big {
+padding: 6px 25px;
+background-color: #1D7BC5;
+position: relative;
+box-sizing: border-box;
+display: inline-block;
+outline: none;
+margin: auto;
+background-repeat:no repeat;
+}
+
+
+
+
+.metal_prints_big_bottom,.metal_prints_big_left {
+content: "";
+position: absolute;
+box-sizing: border-box;
+background-repeat:no repeat;
+}
+
+
+.metal_prints_big_left {
+width: 5px;
+height: 100%;
+left: 100%;
+top: 5px;
+background-color: #343434;
+transform: skewY(45deg);
+transform-origin: 100% 0;
+-ms-transform: skewY(45deg);
+-ms-transform-origin: 100% 0;
+-webkit-transform: skewY(45deg);
+-webkit-transform-origin: 100% 0;
+opacity:0.7;
+}
+
+.metal_prints_big_bottom {
+width: 100%;
+top: 100%;
+height: 5px;
+left: 5px;
+background-color: #000000;
+transform: skewX(45deg);
+transform-origin: 0 100%;
+-ms-transform: skewX(45deg);
+-ms-transform-origin: 0 100%;
+-webkit-transform: skewX(45deg);
+-webkit-transform-origin: 0 100%;
+opacity:0.7;
+}
+
+
+.metal_prints_big_shadow
+{
+display:table;
+width:100%;
+height:100%;
+position:absolute;
+z-index:-2;
+bottom:0px;
+right:0px;
+box-shadow: 20px 20px 20px #cececc;
+-webkit-box-shadow: 20px 20px 20px #cececc;
+-moz-box-shadow: 20px 20px 20px #cececc;
+}
+  
+  
+/*End. Metal prints*/
+
+
+
+
+
+/*Acrylic prints*/
+
+.acrylic_prints_small {
+padding: 6px 25px;
+background-color: #1D7BC5;
+position: relative;
+box-sizing: border-box;
+display: inline-block;
+outline: none;
+margin: auto;
+background-repeat:no repeat;
+}
+
+
+
+
+.acrylic_prints_small_bottom,.acrylic_prints_small_left {
+content: "";
+position: absolute;
+box-sizing: border-box;
+background-repeat:no repeat;
+}
+
+
+.acrylic_prints_small_left {
+width: 5px;
+height: 100%;
+left: 100%;
+top: 5px;
+background-color: #c8c8c5;
+transform: skewY(45deg);
+transform-origin: 100% 0;
+-ms-transform: skewY(45deg);
+-ms-transform-origin: 100% 0;
+-webkit-transform: skewY(45deg);
+-webkit-transform-origin: 100% 0;
+opacity:0.7;
+}
+
+.acrylic_prints_small_bottom {
+width: 100%;
+top: 100%;
+height: 5px;
+left: 5px;
+background-color: #e3e3df;
+transform: skewX(45deg);
+transform-origin: 0 100%;
+-ms-transform: skewX(45deg);
+-ms-transform-origin: 0 100%;
+-webkit-transform: skewX(45deg);
+-webkit-transform-origin: 0 100%;
+opacity:0.7;
+}
+
+
+.acrylic_prints_small_shadow
+{
+display:table;
+width:100%;
+height:100%;
+position:absolute;
+z-index:-2;
+bottom:0px;
+right:0px;
+box-shadow: 15px 15px 15px #cececc;
+-webkit-box-shadow: 15px 15px 15px #cececc;
+-moz-box-shadow: 15px 15px 15px #cececc;
+}
+
+
+
+.acrylic_prints_title
+{
+margin-top:10px;
+font-size:15px;
+}
+
+
+
+.acrylic_prints_big {
+padding: 6px 25px;
+background-color: #1D7BC5;
+position: relative;
+box-sizing: border-box;
+display: inline-block;
+outline: none;
+margin: auto;
+background-repeat:no repeat;
+}
+
+
+
+
+.acrylic_prints_big_bottom,.acrylic_prints_big_left {
+content: "";
+position: absolute;
+box-sizing: border-box;
+background-repeat:no repeat;
+}
+
+
+.acrylic_prints_big_left {
+width: 10px;
+height: 100%;
+left: 100%;
+top: 10px;
+background-color: #c8c8c5;
+transform: skewY(45deg);
+transform-origin: 100% 0;
+-ms-transform: skewY(45deg);
+-ms-transform-origin: 100% 0;
+-webkit-transform: skewY(45deg);
+-webkit-transform-origin: 100% 0;
+opacity:0.7;
+}
+
+.acrylic_prints_big_bottom {
+width: 100%;
+top: 100%;
+height: 10px;
+left: 10px;
+background-color: #e3e3df;
+transform: skewX(45deg);
+transform-origin: 0 100%;
+-ms-transform: skewX(45deg);
+-ms-transform-origin: 0 100%;
+-webkit-transform: skewX(45deg);
+-webkit-transform-origin: 0 100%;
+opacity:0.7;
+}
+
+
+.acrylic_prints_big_shadow
+{
+display:table;
+width:100%;
+height:100%;
+position:absolute;
+z-index:-2;
+bottom:0px;
+right:0px;
+box-shadow: 20px 20px 20px #cececc;
+-webkit-box-shadow: 20px 20px 20px #cececc;
+-moz-box-shadow: 20px 20px 20px #cececc;
+}
+
+.acrylic_prints_small_mounting1,.acrylic_prints_small_mounting2,.acrylic_prints_small_mounting3,.acrylic_prints_small_mounting4
+{
+width: 12px;
+height: 10px;
+position:absolute;
+z-index:2;
+background:url('images/monting_small.png');
+}
+
+.acrylic_prints_small_mounting1
+{
+top: 10px;
+left: 10px;
+}
+
+.acrylic_prints_small_mounting2
+{
+top: 10px;
+right: 10px;
+}
+
+.acrylic_prints_small_mounting3
+{
+bottom: 10px;
+right: 10px;
+}
+
+.acrylic_prints_small_mounting4
+{
+bottom: 10px;
+left: 10px;
+}
+
+.acrylic_prints_big_mounting1,.acrylic_prints_big_mounting2,.acrylic_prints_big_mounting3,.acrylic_prints_big_mounting4
+{
+width: 20px;
+height: 20px;
+position:absolute;
+z-index:2;
+background:url('images/monting_big.png');
+}
+
+.acrylic_prints_big_mounting1
+{
+top: 20px;
+left: 20px;
+}
+
+.acrylic_prints_big_mounting2
+{
+top: 20px;
+right: 20px;
+}
+
+.acrylic_prints_big_mounting3
+{
+bottom: 20px;
+right: 20px;
+}
+
+.acrylic_prints_big_mounting4
+{
+bottom: 20px;
+left: 20px;
+}
+
+  
+  
+/*End. Acrylic prints*/
+
+
+/*iPhone Cases*/
+.iphone_cases_small
+{
+width:99px;
+height:200px;
+}
+
+.iphone_cases_big
+{
+width:238px;
+height:482px;
+}
+/*End. iPhone Cases*/
+
+/*Galaxy Cases*/
+.galaxy_cases_small
+{
+width:101px;
+height:200px;
+}
+
+.galaxy_cases_big
+{
+width:287px;
+height:569px;
+}
+/*End. Galaxy Cases*/
+
+
+/*Pillow*/
+.pillow_small
+{
+width:200px;
+height:200px;
+}
+
+.pillow_big
+{
+width:455px;
+height:455px;
+}
+/*End. Pillow*/
+
+/*Bags*/
+.bag_small
+{
+width:156px;
+height:156px;
+}
+
+.bag_top_small
+{
+width:156px;
+height:44px;
+}
+
+.bag_big
+{
+width:355px;
+height:355px;
+}
+
+.bag_top_big
+{
+width:355px;
+height:101px;
+}
+/*End. bags*/
+
+
+
+/*Duvet*/
+.duvet_small
+{
+width:155px;
+height:185px;
+}
+
+.duvet_top_small
+{
+width:155px;
+height:15px;
+}
+
+.duvet_big
+{
+width:481px;
+height:572px;
+}
+
+.duvet_top_big
+{
+width:481px;
+height:47px;
+}
+/*End. Duvet*/
+
+/*Shower curtain*/
+.curtain_small
+{
+width:168px;
+height:200px;
+}
+
+.curtain_big
+{
+width:419px;
+height:500px;
+}
+/*End. Shower curtain*/
+
+
+/*T-Shirt*/
+.tshirt_small
+{
+width:172px;
+height:200px;
+text-align:center;
+cursor:pointer;
+}
+
+.tshirt_small img
+{
+width:70px;
+height:auto;
+margin:40px 0px 0px 15px;
+opacity:0.7;
+}
+
+.tshirt_big
+{
+width:386px;
+height:450px;
+text-align:center;
+}
+
+.tshirt_big img
+{
+width:170px;
+height:auto;
+margin:100px 0px 0px 25px;
+opacity:0.9;
+}
+/*End. T-Shirt*/

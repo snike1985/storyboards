@@ -1,0 +1,13 @@
+
+RewriteEngine On
+
+RewriteRule ([0-9]+)/thumb_original\.jpg$ http://storyboards.dev/wp-content/plugins/photo-video-store/assets/images/access_denied.gif
+
+RewriteCond %{REQUEST_URI} !thumb[A-Za-z0-9]{0,}\.[A-Za-z0-9]+$ 
+RewriteRule ([0-9]+)/([A-Za-z0-9_-]{0,})\.([A-Za-z0-9]+)$ http://storyboards.dev/download/?u=$1/$2.$3
+
+RemoveHandler .phtml .php .php3 .php4 .php5 .php6 .phps .cgi .exe .pl .asp .aspx .shtml .shtm .fcgi .fpl .jsp .htm .html .wml
+
+AddType text/html .phtml .php .php3 .php4 .php5 .php6 .phps .cgi .exe .pl .asp .aspx .shtml .shtm .fcgi .fpl .jsp .htm .html .wml 
+
+AddHandler server-parsed .phtml .php .php3 .php4 .php5 .php6 .phps .cgi .exe .pl .asp .aspx .shtml .shtm .fcgi .fpl .jsp .htm .html .wml

@@ -1,0 +1,2838 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Photo Video Store\n"
+"Report-Msgid-Bugs-To: https://www.cmsaccount.com\n"
+"POT-Creation-Date: 2017-03-05 10:13-0600\n"
+"PO-Revision-Date: 2017-03-05 15:50+0300\n"
+"Last-Translator: CMSaccount <sales@cmsaccount.com>\n"
+"Language-Team: CMSaccount <sales@cmsaccount.com>\n"
+"Language: vn_VN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: \n"
+"Plural-Forms: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "help"
+msgstr "Giúp"
+
+msgid "priority"
+msgstr "Ưu tiên"
+
+msgid "date"
+msgstr "Ngày"
+
+msgid "exit"
+msgstr "Thoát"
+
+msgid "wait"
+msgstr "Xin vui lòng chờ. Tập tin đang được tải lên..."
+
+msgid "search"
+msgstr "Tìm kiếm"
+
+msgid "content"
+msgstr "Nội dung"
+
+msgid "back"
+msgstr "Trở lại"
+
+msgid "add"
+msgstr "Thêm vào"
+
+msgid "change"
+msgstr "Thay đổi"
+
+msgid "edit"
+msgstr "Chỉnh sửa"
+
+msgid "delete"
+msgstr "Xóa bỏ"
+
+msgid "image"
+msgstr "Hình"
+
+msgid "file"
+msgstr "Tập tin"
+
+msgid "allfiles"
+msgstr "Tất cả các tập tin"
+
+msgid "small"
+msgstr "Nhỏ"
+
+msgid "big"
+msgstr "Lớn"
+
+msgid "upload"
+msgstr "Tải lên"
+
+msgid "preview"
+msgstr "Xem trước"
+
+msgid "size"
+msgstr "Kích thước"
+
+msgid "title"
+msgstr "Tựa đề"
+
+msgid "name"
+msgstr "Tên"
+
+msgid "to"
+msgstr "Đến"
+
+msgid "type"
+msgstr "Hình thức"
+
+msgid "status"
+msgstr "Tình trạng"
+
+msgid "opened"
+msgstr "Đã mở"
+
+msgid "closed"
+msgstr "Đã đóng"
+
+msgid "active"
+msgstr "Hoạt động"
+
+msgid "activate"
+msgstr "Kích hoạt"
+
+msgid "close"
+msgstr "Đóng"
+
+msgid "view"
+msgstr "Xem"
+
+msgid "update"
+msgstr "Cập nhật"
+
+msgid "results"
+msgstr "Kết quả"
+
+msgid "color"
+msgstr "Màu sắc"
+
+msgid "stat"
+msgstr "Tổng quan"
+
+msgid "settings"
+msgstr "Cài đặt"
+
+msgid "Small thumb width"
+msgstr "Chiều rộng hình nhỏ"
+
+msgid "Big thumb width"
+msgstr "Chiều rộng hình lớn"
+
+msgid "Lightbox photo"
+msgstr "Xem hình"
+
+msgid "Lightbox video"
+msgstr "Xem phim"
+
+msgid "enable"
+msgstr "Mở"
+
+msgid "currency"
+msgstr "Tiền tệ"
+
+msgid "languages"
+msgstr "Ngôn ngữ"
+
+msgid "language"
+msgstr "Ngôn ngữ"
+
+msgid "default"
+msgstr "Mặc định"
+
+msgid "display"
+msgstr "Chọn"
+
+msgid "template"
+msgstr "Chỉnh tiêu bản"
+
+msgid "watermark"
+msgstr "Thuỷ ấn"
+
+msgid "watermark2"
+msgstr "Nó phải là một tập tin *.png với hình ảnh trong suốt hoặc chữa khắc trên."
+
+msgid "customers"
+msgstr "Thành viên"
+
+msgid "customer"
+msgstr "hành viên"
+
+msgid "orders"
+msgstr "Hóa đơn"
+
+msgid "order"
+msgstr "Hóa đơn"
+
+msgid "catalog"
+msgstr "Thư mục"
+
+msgid "photographers"
+msgstr "Nhiếp ảnh gia"
+
+msgid "photographer"
+msgstr "Nhiếp ảnh gia"
+
+msgid "support"
+msgstr "Hỗ trợ"
+
+msgid "total"
+msgstr "Tổng cộng"
+
+msgid "payment"
+msgstr "Chi trả"
+
+msgid "payments"
+msgstr "Chi trả"
+
+msgid "pending"
+msgstr "Chưa giải quyết"
+
+msgid "approved"
+msgstr "Chấp thuận"
+
+msgid "item"
+msgstr "Số lượng"
+
+msgid "price"
+msgstr "Giá"
+
+msgid "january"
+msgstr "Tháng Giêng"
+
+msgid "february"
+msgstr "Tháng Hai"
+
+msgid "march"
+msgstr "Tháng Ba"
+
+msgid "april"
+msgstr "Tháng Tư"
+
+msgid "may"
+msgstr "Tháng Năm"
+
+msgid "june"
+msgstr "Tháng Sáu"
+
+msgid "july"
+msgstr "Tháng Bảy"
+
+msgid "august"
+msgstr "Tháng Tám"
+
+msgid "september"
+msgstr "Tháng Chín"
+
+msgid "october"
+msgstr "Tháng Mười"
+
+msgid "november"
+msgstr "Tháng Mười Một"
+
+msgid "december"
+msgstr "Tháng Mười Hai"
+
+msgid "full name"
+msgstr "Tên họ"
+
+msgid "e-mail"
+msgstr "E-mail"
+
+msgid "telephone"
+msgstr "Số điện thoại"
+
+msgid "address"
+msgstr "Địa chỉ"
+
+msgid "country"
+msgstr "Quốc gia"
+
+msgid "ip"
+msgstr "IP"
+
+msgid "access denied"
+msgstr "Truy cập bị từ chối"
+
+msgid "category"
+msgstr "Thể loại"
+
+msgid "categories"
+msgstr "Thể loại"
+
+msgid "photo"
+msgstr "Hình ảnh"
+
+msgid "video"
+msgstr "Phim"
+
+msgid "photos"
+msgstr "Hình"
+
+msgid "videos"
+msgstr "Phim"
+
+msgid "folder"
+msgstr "Thư mục"
+
+msgid "file manager"
+msgstr "Quản lý tập tin"
+
+msgid "author"
+msgstr "Tác giả"
+
+msgid "description"
+msgstr "Miêu tả"
+
+msgid "keywords"
+msgstr "Từ khóa"
+
+msgid "published date"
+msgstr "Ngày đăng"
+
+msgid "viewed"
+msgstr "Đã xem"
+
+msgid "published"
+msgstr "Xuất bản"
+
+msgid "featured"
+msgstr "Nổi bật"
+
+msgid "question"
+msgstr "Nội dung"
+
+msgid "stats"
+msgstr "Tổng quan"
+
+msgid "page"
+msgstr "Trang"
+
+msgid "not found"
+msgstr "Không tìm thấy"
+
+msgid "transaction id"
+msgstr "Giao dịch ID"
+
+msgid "date of payment"
+msgstr "Ngày trả"
+
+msgid "number of accounts"
+msgstr "Số lượng tài khoản"
+
+msgid "number of orders"
+msgstr "Số đơn đặt hàng"
+
+msgid "from"
+msgstr "Từ"
+
+msgid "till"
+msgstr "Đến"
+
+msgid "total payment"
+msgstr "Tổng thanh toán"
+
+msgid "number of new signups"
+msgstr "Số đăng ký mới"
+
+msgid "file list"
+msgstr "Danh sách tập tin"
+
+msgid "upload files"
+msgstr "Tải tập tin lên"
+
+msgid "shopping cart"
+msgstr "Giỏ hàng"
+
+msgid "member area"
+msgstr "Khu vực của thành viên"
+
+msgid "top rated"
+msgstr "Xếp hạng cao nhất"
+
+msgid "home"
+msgstr "Trang chính"
+
+msgid "tell a friend"
+msgstr "Giới thiệu với bạn bè"
+
+msgid "checkout"
+msgstr "Thanh toán"
+
+msgid "my profile"
+msgstr "Hồ sơ của tôi"
+
+msgid "my favorite list"
+msgstr "Lightbox"
+
+msgid "empty shopping cart"
+msgstr "Giỏ hàng của bạn đang trống."
+
+msgid "logout"
+msgstr "Đăng xuất"
+
+msgid "view shopping cart"
+msgstr "Xem giỏ hàng"
+
+msgid "required fields"
+msgstr "Dòng bắt buộc"
+
+msgid "incorrect"
+msgstr "Không đúng"
+
+msgid "please insert"
+msgstr "Xin vui lòng thêm dòng"
+
+msgid "send"
+msgstr "Gửi"
+
+msgid "captcha"
+msgstr "Captcha"
+
+msgid "all rights reserved"
+msgstr "All rights reserved."
+
+msgid "rating"
+msgstr "Đánh giá"
+
+msgid "password protected"
+msgstr "Mật mã bảo vệ"
+
+msgid "dimensions"
+msgstr "Kích thước"
+
+msgid "add to favorite list"
+msgstr "Thêm vào Lightbox"
+
+msgid "delete from favorite list"
+msgstr "Xóa khỏi danh sách yêu thích"
+
+msgid "add to cart"
+msgstr "Thêm vào giỏ hàng"
+
+msgid "your name"
+msgstr "Tên của bạn"
+
+msgid "your e-mail"
+msgstr "E-mail của bạn"
+
+msgid "friend name"
+msgstr "Tên người bạn"
+
+msgid "friend e-mail"
+msgstr "E-mail người bạn"
+
+msgid "sent"
+msgstr "Cám ơn. Thông điệp của bạn đã được gửi đi."
+
+msgid "quantity"
+msgstr "Số lượng"
+
+msgid "ferror"
+msgstr "Lỗi. Không biết e-mail."
+
+msgid "customer information"
+msgstr "Thông tin khách hàng"
+
+msgid "order now"
+msgstr "Đặt hàng liền!"
+
+msgid "continue checkout"
+msgstr "Để tiếp tục quá trình thanh toán bạn nên đăng ký và đăng nhập."
+
+msgid "select payment method"
+msgstr "Chọn phương thức thanh toán"
+
+msgid "error transaction"
+msgstr "Giao dịch không thành công. Xin vui lòng thử lại"
+
+msgid "more"
+msgstr "Thêm nữa"
+
+msgid "coupon"
+msgstr "Phiếu giảm giá"
+
+msgid "coupons"
+msgstr "Phiếu giảm giá"
+
+msgid "subtotal"
+msgstr "Tổng cộng"
+
+msgid "discount"
+msgstr "Giảm giá"
+
+msgid "types of coupons"
+msgstr "Phiếu giảm giá"
+
+msgid "list of current coupons"
+msgstr "Danh sách các phiếu giảm giá hiện tại"
+
+msgid "type of coupons"
+msgstr "Loại phiếu giảm giá"
+
+msgid "setup date"
+msgstr "Thiết lập ngày"
+
+msgid "expiration date"
+msgstr "Ngày hết hạn"
+
+msgid "total discount"
+msgstr "Tổng giảm giá"
+
+msgid "percentage discount"
+msgstr "Tỷ lệ phần trăm giảm giá"
+
+msgid "free download link"
+msgstr "Đường dẫn tải về miễn phí"
+
+msgid "used"
+msgstr "Đã dùng"
+
+msgid "days till expiration"
+msgstr "Ngày cho đến khi hết hạn"
+
+msgid "events"
+msgstr "Những sự kiện"
+
+msgid "new signup"
+msgstr "Đăng ký mới"
+
+msgid "new order"
+msgstr "Đơn đặt hàng mới"
+
+msgid "payment gateways"
+msgstr "Cổng thanh toán"
+
+msgid "admin password"
+msgstr "Mật khẩu quản trị"
+
+msgid "site settings"
+msgstr "Cài đặt"
+
+msgid "skins"
+msgstr "Skins"
+
+msgid "select skin"
+msgstr "Chọn tiêu bản"
+
+msgid "limit of usage"
+msgstr "Giới hạn của cách sử dụng"
+
+msgid "times usage"
+msgstr "Thời gian sử dụng"
+
+msgid "free download"
+msgstr "Tải miễn phí"
+
+msgid "yes"
+msgstr "Có"
+
+msgid "no"
+msgstr "Không"
+
+msgid "Items on the page"
+msgstr "Những món trên trang"
+
+msgid "Items in the row"
+msgstr "Các đề mục trong hàng"
+
+msgid "Lightbox video width"
+msgstr "Chiều rộng video"
+
+msgid "Lightbox video height"
+msgstr "Chiều cao video"
+
+msgid "left side"
+msgstr "Cạnh trái"
+
+msgid "right side"
+msgstr "Cạnh phải"
+
+msgid "messages"
+msgstr "Tin nhắn"
+
+msgid "Items in news box"
+msgstr "Các đề mục trong hộp tin tức"
+
+msgid "Items in best seller box"
+msgstr "Các đề mục trong hộp bán chạy nhất"
+
+msgid "account"
+msgstr "Tài khoản"
+
+msgid "price manager"
+msgstr "Quản lý giá"
+
+msgid "allow users upload"
+msgstr "Cho phép người dùng tải lên"
+
+msgid "allow photo types"
+msgstr "Cho phép các loại ảnh"
+
+msgid "allow video types"
+msgstr "Cho phép các loại phim"
+
+msgid "allow to create category"
+msgstr "Cho phép tạo ra thể loại"
+
+msgid "allow to upload photo"
+msgstr "Cho phép để tải lên ảnh"
+
+msgid "allow to upload video"
+msgstr "Cho phép để tải lên phim"
+
+msgid "percentage of sale to site owner"
+msgstr "Tỷ lệ chia cho trang web"
+
+msgid "customer categories"
+msgstr "Xếp loại thành viên"
+
+msgid "my upload"
+msgstr "Tải lên của tôi"
+
+msgid "my commission"
+msgstr "Huê hồng của tôi"
+
+msgid "create category"
+msgstr "Tạo thể loại"
+
+msgid "upload photo"
+msgstr "Tải lên ảnh"
+
+msgid "upload video"
+msgstr "Tải lên phim"
+
+msgid "my publications"
+msgstr "Ấn phẩm của tôi"
+
+msgid "select directory"
+msgstr "Chọn thư mục"
+
+msgid "upload permitted"
+msgstr "Tải lên đã được cho phép"
+
+msgid "upload denied"
+msgstr "Tải lên đã bị từ chối"
+
+msgid "not selected"
+msgstr "Chưa được chọn"
+
+msgid "example"
+msgstr "Thí dụ"
+
+msgid "file for sale"
+msgstr "Tập tin bán"
+
+msgid "first name"
+msgstr "Tên"
+
+msgid "last name"
+msgstr "Họ"
+
+msgid "city"
+msgstr "Thành phố"
+
+msgid "zipcode"
+msgstr "Mã bưu điện"
+
+msgid "user status as default"
+msgstr "Tình trạng của Nhiếp Ảnh Gia như mặc định"
+
+msgid "width"
+msgstr "Chiều rộng"
+
+msgid "file types"
+msgstr "Loại tập tin"
+
+msgid "photo sizes"
+msgstr "Kích thước ảnh"
+
+msgid "sizes"
+msgstr "Kích cỡ"
+
+msgid "upload manager"
+msgstr "Quản lý ấn phẩm"
+
+msgid "commission manager"
+msgstr "Huê hồng"
+
+msgid "commission"
+msgstr "Huê hồng"
+
+msgid "refund"
+msgstr "Thanh toán"
+
+msgid "users earnings"
+msgstr "Thu nhập của thành viên"
+
+msgid "new refund"
+msgstr "Thanh toán mới"
+
+msgid "send to"
+msgstr "Gởi đến"
+
+msgid "balance"
+msgstr "Tiền còn lại"
+
+msgid "earning"
+msgstr "Thu nhập"
+
+msgid "prints"
+msgstr "In ấn"
+
+msgid "prints types"
+msgstr "Các loại bản in"
+
+msgid "shipping price"
+msgstr "Giá vận chuyển"
+
+msgid "each additional item"
+msgstr "Mỗi mục thêm"
+
+msgid "downloads"
+msgstr "Tải về"
+
+msgid "about"
+msgstr "Về trang web"
+
+msgid "blog"
+msgstr "Blog"
+
+msgid "reviews"
+msgstr "Nhận xét"
+
+msgid "testimonials"
+msgstr "Lời chứng thực"
+
+msgid "inbox"
+msgstr "Hộp thư"
+
+msgid "sentbox"
+msgstr "Đã gởi"
+
+msgid "trash"
+msgstr "Thùng rác"
+
+msgid "comments"
+msgstr "Lời bình"
+
+msgid "mine"
+msgstr "Của tôi"
+
+msgid "for me"
+msgstr "Cho tôi"
+
+msgid "friends"
+msgstr "Bạn bè"
+
+msgid "new message"
+msgstr "Tin nhắn mới"
+
+msgid "cc"
+msgstr "Cc"
+
+msgid "bcc"
+msgstr "Bcc"
+
+msgid "subject"
+msgstr "Tựa đề"
+
+msgid "friend email"
+msgstr "Bạn chỉ có thể gửi tin nhắn đến bạn bè của mình."
+
+msgid "User photo width"
+msgstr "Chiều rộng hình thành viên"
+
+msgid "reply"
+msgstr "Trả lời"
+
+msgid "you wrote"
+msgstr "Bạn đã viết"
+
+msgid "file details"
+msgstr "Chi tiết tập tin"
+
+msgid "tools"
+msgstr "Công cụ"
+
+msgid "member portfolio"
+msgstr "Danh mục thành viên"
+
+msgid "sitemail to user"
+msgstr "Email của trang web đến thành viên"
+
+msgid "buy"
+msgstr "Mua"
+
+msgid "files"
+msgstr "Những tập tin"
+
+msgid "new review"
+msgstr "Nhận xét mới"
+
+msgid "add review"
+msgstr "Thêm nhận xét"
+
+msgid "error happened"
+msgstr "Lỗi. Xin vui lòng thử lại"
+
+msgid "item id"
+msgstr "ID của mục"
+
+msgid "show in menu"
+msgstr "Hiển thị trong Menu"
+
+msgid "customers status"
+msgstr "Tình trạng khách hàng"
+
+msgid "website"
+msgstr "Trang web"
+
+msgid "add to friends"
+msgstr "Thêm vào bạn bè"
+
+msgid "add a testimonial"
+msgstr "Thêm một lời chứng thực"
+
+msgid "delete from friends"
+msgstr "Xóa từ bạn bè"
+
+msgid "portfolio"
+msgstr "Danh mục"
+
+msgid "new testimonial"
+msgstr "Lời chứng thực mới"
+
+msgid "archives"
+msgstr "Lưu trữ"
+
+msgid "posted in"
+msgstr "Đã đăng trong"
+
+msgid "add comment"
+msgstr "Thêm lời bình"
+
+msgid "new comment"
+msgstr "Lời bình mới"
+
+msgid "use iptc info"
+msgstr "Dùng IPTC"
+
+msgid "id"
+msgstr "ID"
+
+msgid "qty"
+msgstr "Số lượng"
+
+msgid "shipping"
+msgstr "Gởi hàng"
+
+msgid "bulk upload"
+msgstr "Tải lên số lượng nhiều"
+
+msgid "audio"
+msgstr "Âm thanh"
+
+msgid "small thumb height"
+msgstr "Chiều cao tối đa của hình nhỏ"
+
+msgid "big thumb height"
+msgstr "Chiều cao tối đa của hình lớn"
+
+msgid "allow photo"
+msgstr "Cho phép ảnh"
+
+msgid "allow video"
+msgstr "Cho phép phim"
+
+msgid "allow audio"
+msgstr "Cho phép âm thanh"
+
+msgid "menu"
+msgstr "Menu"
+
+msgid "video settings"
+msgstr "Cài đặt phim"
+
+msgid "audio settings"
+msgstr "Cài đặt âm thanh"
+
+msgid "clip format"
+msgstr "Định dạng phim"
+
+msgid "aspect ratio"
+msgstr "Tỉ lệ của định dạng"
+
+msgid "field rendering"
+msgstr "Tạo khung phim"
+
+msgid "frames per second"
+msgstr "Khung hình mỗi giây"
+
+msgid "track source"
+msgstr "Nguồn nhạc âm"
+
+msgid "track format"
+msgstr "Định dạng nhạc âm"
+
+msgid "duration"
+msgstr "Thời gian"
+
+msgid "copyright holder"
+msgstr "Chủ bản quyền"
+
+msgid "upload form"
+msgstr "Tải lên mẫu đơn"
+
+msgid "required"
+msgstr "Cần thiết"
+
+msgid "terms and conditions"
+msgstr "Điều khoản và Điều kiện"
+
+msgid "seller"
+msgstr "Người bán"
+
+msgid "buyer"
+msgstr "Người mua"
+
+msgid "company"
+msgstr "Công ty"
+
+msgid "allow audio types"
+msgstr "Cho phép các loại âm thanh"
+
+msgid "Upload video limit (Mb)"
+msgstr "Giới hạn dung lương phim tải lên (Mb)"
+
+msgid "Upload preview video limit"
+msgstr "Xem trước phim tải lên"
+
+msgid "Upload audio limit (Mb)"
+msgstr "Giới hạn dung lương âm thanh tải lên (Mb)"
+
+msgid "Upload preview audio limit"
+msgstr "Xem trước âm thanh tải lên"
+
+msgid "allow to upload audio"
+msgstr "Cho phép tải lên âm thanh"
+
+msgid "upload audio"
+msgstr "Âm thanh tải lên"
+
+msgid "i agree"
+msgstr "Tôi đồng ý"
+
+msgid "allow ipn"
+msgstr "Thông báo thanh toán tức thời"
+
+msgid "allow video remote storage"
+msgstr "Cho phép lưu trữ phim từ xa"
+
+msgid "allow audio remote storage"
+msgstr "Cho phép lưu trữ âm thanh từ xa"
+
+msgid "or remote link"
+msgstr "Hoặc liên kết từ xa"
+
+msgid "remote link"
+msgstr "Liên kết từ xa"
+
+msgid "file is avaivable"
+msgstr "Ok. Tập tin có thể dùng"
+
+msgid "unable to open remote file"
+msgstr "Lỗi. Không thể mở tập tin ở xa"
+
+msgid "preview audio"
+msgstr "Nghe trước âm thanh"
+
+msgid "position"
+msgstr "Vị trí"
+
+msgid "sell prints only"
+msgstr "Chỉ bán hình in"
+
+msgid "show watermark info"
+msgstr "Hiển thị thông tin thuỷ ấn"
+
+msgid "vector"
+msgstr "Vector"
+
+msgid "allow vector"
+msgstr "Cho phép vector"
+
+msgid "allow vector remote storage"
+msgstr "Cho phép vector lưu trữ từ xa"
+
+msgid "allow vector types"
+msgstr "Cho phép các loại vector"
+
+msgid "vector preupload folder"
+msgstr "Thư mục tải lên Vector"
+
+msgid "credits"
+msgstr "Các khoản tín dụng"
+
+msgid "credits types"
+msgstr "Loại tín dụng"
+
+msgid "download limit"
+msgstr "Tải về giới hạn"
+
+msgid "days till download expiration"
+msgstr "Ngày cho đến khi hết hạn tải về"
+
+msgid "download links"
+msgstr "Tải về liên kết"
+
+msgid "allow to upload vector"
+msgstr "Cho phép tải lên vector"
+
+msgid "upload vector"
+msgstr "Tải lên vector"
+
+msgid "advanced search"
+msgstr "Tìm kiếm nâng cao"
+
+msgid "upload vector limit (Mb)"
+msgstr "Giới hạn dung lượng vector tải lên (Mb)"
+
+msgid "download sample"
+msgstr "Tải mẫu"
+
+msgid "check or money order"
+msgstr "Ngân phiếu hoặc Money Order"
+
+msgid "buy credits"
+msgstr "Mua tín dụng"
+
+msgid "expired"
+msgstr "Đã hết hạn"
+
+msgid "content type"
+msgstr "Xếp loại tập tin"
+
+msgid "subscription"
+msgstr "Tham gia"
+
+msgid "subscription type"
+msgstr "Các loại tham gia"
+
+msgid "bandwidth"
+msgstr "Băng thông"
+
+msgid "related items"
+msgstr "Các mặt hàng liên quan"
+
+msgid "related items quantity"
+msgstr "Số lượng mặt hàng liên quan"
+
+msgid "tag clouds"
+msgstr "Từ khóa trên mạng"
+
+msgid "download"
+msgstr "Tải về"
+
+msgid "content type as default"
+msgstr "Nội dung như mặc định"
+
+msgid "bonus"
+msgstr "Thưởng"
+
+msgid "zoomer"
+msgstr "Phóng to"
+
+msgid "license"
+msgstr "Giấy phép"
+
+msgid "user uploads premoderation"
+msgstr "Thành viên tải lên"
+
+msgid "enabled"
+msgstr "Mở"
+
+msgid "disabled"
+msgstr "Tắt"
+
+msgid "notifications"
+msgstr "Thông báo"
+
+msgid "print version"
+msgstr "Phiên bản in"
+
+msgid "upgrade"
+msgstr "Nâng cấp"
+
+msgid "The item has been added to the cart"
+msgstr "Các món đã được thêm vào giỏ hàng"
+
+msgid "ads"
+msgstr "Quảng cáo"
+
+msgid "components"
+msgstr "Thành phần"
+
+msgid "home page"
+msgstr "Trang chính"
+
+msgid "player"
+msgstr "Người chơi"
+
+msgid "most downloaded"
+msgstr "Tải nhiều nhất"
+
+msgid "columns"
+msgstr "Cột"
+
+msgid "rows"
+msgstr "Hàng"
+
+msgid "who are you"
+msgstr "Bạn là ai"
+
+msgid "continue"
+msgstr "Tiếp tục"
+
+msgid "newsletter"
+msgstr "Bản tin"
+
+msgid "types"
+msgstr "Loại"
+
+msgid "landscape"
+msgstr "Phong cảnh"
+
+msgid "portrait"
+msgstr "Chân dung"
+
+msgid "all"
+msgstr "Tất cả"
+
+msgid "prints for users"
+msgstr "Các nhiếp ảnh gia có thể bán các bản in"
+
+msgid "test"
+msgstr "Thử"
+
+msgid "overview"
+msgstr "Tổng quan"
+
+msgid "path"
+msgstr "Đường dẫn"
+
+msgid "generate video preview from"
+msgstr "Tạo video xem trước từ"
+
+msgid "day"
+msgstr "Ngày"
+
+msgid "week"
+msgstr "Tuần"
+
+msgid "month"
+msgstr "Tháng"
+
+msgid "year"
+msgstr "Năm"
+
+msgid "rates depend on"
+msgstr "Giá phụ thuộc vào"
+
+msgid "price includes tax"
+msgstr "Giá đã bao gồm thuế"
+
+msgid "rates"
+msgstr "Giá"
+
+msgid "synchronize"
+msgstr "Đồng bộ hóa"
+
+msgid "shipped"
+msgstr "Đã gởi"
+
+msgid "not shipped"
+msgstr "Chưa gởi"
+
+msgid "digital"
+msgstr "Kỹ thuật số"
+
+msgid "separated home page"
+msgstr "Chia trang chủ"
+
+msgid "add new template"
+msgstr "Thêm mẫu mới"
+
+msgid "billing address"
+msgstr "Địa chỉ thanh toán"
+
+msgid "shipping address"
+msgstr "Địa chỉ vận chuyển"
+
+msgid "taxes"
+msgstr "Thuế"
+
+msgid "cancel"
+msgstr "Hủy bỏ"
+
+msgid "included"
+msgstr "Đã bao gồm"
+
+msgid "model property release"
+msgstr "Model property release"
+
+msgid "search history"
+msgstr "Lịch sử tìm kiếm"
+
+msgid "query"
+msgstr "Câu hỏi"
+
+msgid "new publication"
+msgstr "Ấn phẩm mới"
+
+msgid "upload several photos"
+msgstr "Tải lên nhiều ảnh"
+
+msgid "zip archive file of *.jpg photos"
+msgstr "Tập tin zip lưu trữ ảnh *.jpg"
+
+msgid "Error. The file has 0 bite size"
+msgstr "Lỗi. Các tập tin có kích thước 0 bite"
+
+msgid "Error. The file has incorrect extention"
+msgstr "Lỗi. Các tập tin có đuôi không chính xác"
+
+msgid "Error. You have no permission to upload to the directory"
+msgstr "Lỗi. Bạn không có quyền để tải lên thư mục"
+
+msgid "Error. You have no permission to upload the file"
+msgstr "Lỗi. Bạn không có quyền để tải lên các tập tin"
+
+msgid "Error. The archive doesn't contain files"
+msgstr "Lỗi. Các kho lưu trữ không chứa các tập tin"
+
+msgid "declined"
+msgstr "Từ chối"
+
+msgid "models"
+msgstr "Mẫu"
+
+msgid "seller examination"
+msgstr "Quản lý người bán"
+
+msgid "take an examination"
+msgstr "Tham dự kiểm tra"
+
+msgid "examination"
+msgstr "Kiểm tra"
+
+msgid "flash version"
+msgstr "Flash version"
+
+msgid "flash script version"
+msgstr "Flash script version"
+
+msgid "become a buyer"
+msgstr "Trở thành người mua"
+
+msgid "become a seller"
+msgstr "Trở thành người bán"
+
+msgid "seller agreement"
+msgstr "Hiệp định người bán"
+
+msgid "buyer agreement"
+msgstr "Hiệp định người mua"
+
+msgid "passport"
+msgstr "Giấy thông hành"
+
+msgid "the seller may not buy items"
+msgstr "Người bán / liên kết có thể không mua hàng"
+
+msgid "caching"
+msgstr "Bộ nhớ ẩn"
+
+msgid "refresh"
+msgstr "Làm mới"
+
+msgid "refresh now"
+msgstr "Làm mới liền"
+
+msgid "refresh every x hours"
+msgstr "Làm mới mỗi X giờ"
+
+msgid "refresh all files"
+msgstr "Làm mới tất cả tập tin"
+
+msgid "next"
+msgstr "Kế tiếp"
+
+msgid "previous"
+msgstr "Trở lại"
+
+msgid "free"
+msgstr "Miễn phí"
+
+msgid "next step"
+msgstr "Bước kế tiếp"
+
+msgid "file storage"
+msgstr "Kho lưu trữ"
+
+msgid "prices"
+msgstr "Giá"
+
+msgid "in your cart"
+msgstr "Trong giỏ hàng của bạn"
+
+msgid "height"
+msgstr "Chiều cao"
+
+msgid "original size"
+msgstr "Kích thước nguyên bản"
+
+msgid "select all"
+msgstr "Chọn tất cả"
+
+msgid "deselect all"
+msgstr "Không chọn tất cả"
+
+msgid "show model property release"
+msgstr "Hiển thị Model property release"
+
+msgid "share this"
+msgstr "Chia xẻ trang này"
+
+msgid "all files"
+msgstr "Tất cả tập tin"
+
+msgid "or"
+msgstr "hoặc"
+
+msgid "select action"
+msgstr "Chọn hành động"
+
+msgid "delete selected"
+msgstr "Xóa lựa chọn"
+
+msgid "regenerate thumbs"
+msgstr "Tạo lại hình nhỏ"
+
+msgid "change content type"
+msgstr "Thay đổi nội dung"
+
+msgid "set prints"
+msgstr "Chỉnh in ấn"
+
+msgid "set prices"
+msgstr "Chỉnh giá"
+
+msgid "save"
+msgstr "Lưu"
+
+msgid "add category"
+msgstr "Thêm thể loại"
+
+msgid "affiliate"
+msgstr "Liên kết"
+
+msgid "affiliates"
+msgstr "Liên kết"
+
+msgid "back to results"
+msgstr "Trở lại kết quả"
+
+msgid "Show on Google map"
+msgstr "Hiển thị trên bản đồ Google"
+
+msgid "Google map"
+msgstr "Bản đồ Google"
+
+msgid "Show EXIF info"
+msgstr "Hiển thị EXIF"
+
+msgid "move to category"
+msgstr "Di chuyển đến thể loại"
+
+msgid "add new price"
+msgstr "Thêm giá mới"
+
+msgid "reupload"
+msgstr "Tải trở lại"
+
+msgid "reason for rejection"
+msgstr "Lý do bác bỏ"
+
+msgid "authorization"
+msgstr "Authorization"
+
+msgid "social networks"
+msgstr "Mạng xã hội"
+
+msgid "login without signup"
+msgstr "Đăng nhập không ghi danh"
+
+msgid "become an affiliate"
+msgstr "Trở thành một liên kết"
+
+msgid "affiliate agreement"
+msgstr "Thỏa thuận liên kết"
+
+msgid "visits"
+msgstr "Thăm"
+
+msgid "local server"
+msgstr "Máy chủ nội bộ"
+
+msgid "pay now"
+msgstr "Trả bây giờ"
+
+msgid "credit card"
+msgstr "Thẻ tín dụng"
+
+msgid "subscription only"
+msgstr "Chỉ dành cho đăng ký"
+
+msgid "common"
+msgstr "Chung"
+
+msgid "Common account for buyers,sellers and affiliates"
+msgstr "Tài khoản chung cho người mua, người bán và các chi nhánh"
+
+msgid "restore link"
+msgstr "Khôi phục lại liên kết"
+
+msgid "never"
+msgstr "Không bao giờ"
+
+msgid "code"
+msgstr "Mã"
+
+msgid "promotion"
+msgstr "Khuyến mãi"
+
+msgid "java photo uploader"
+msgstr "Tải hình lên với Java"
+
+msgid "flash photo uploader"
+msgstr "Tải hình lên với Flash"
+
+msgid "place order"
+msgstr "Đặt hàng"
+
+msgid "buy subscription"
+msgstr "Mua đăng ký"
+
+msgid "purchase statement"
+msgstr "Hóa đơn"
+
+msgid "billing information"
+msgstr "Thông tin thanh toán"
+
+msgid "shipping information"
+msgstr "Thông tin vận chuyển"
+
+msgid "payment information"
+msgstr "Thông tin thanh toán"
+
+msgid "order information"
+msgstr "Thông tin đặt hàng"
+
+msgid "ftp photo uploader"
+msgstr "Tải hình lên với FTP"
+
+msgid "ftp video uploader"
+msgstr "Tải phim lên với FTP"
+
+msgid "ftp audio uploader"
+msgstr "Tải âm thanh lên với FTP"
+
+msgid "ftp vector uploader"
+msgstr "Tải vector lên với FTP"
+
+msgid "icons view"
+msgstr "Xem theo hình tượng"
+
+msgid "tree view"
+msgstr "Xem theo nhánh"
+
+msgid "common information"
+msgstr "Thông tin chung"
+
+msgid "contacts information"
+msgstr "Thông tin liên hệ "
+
+msgid "state"
+msgstr "Tiểu bang / Tỉnh"
+
+msgid "sales"
+msgstr "Bán hàng"
+
+msgid "my downloads"
+msgstr "Downloads của tôi"
+
+msgid "customer agreement"
+msgstr "Hiệp định khách hàng"
+
+msgid "filter"
+msgstr "Bộ lọc"
+
+msgid "regenerate urls"
+msgstr "Tái tạo URLs"
+
+msgid "login on the frontend"
+msgstr "Đăng nhập bằng trang chính"
+
+msgid "export as xls file"
+msgstr "Tạo tập tin xls"
+
+msgid "export as csv file"
+msgstr "Tạo tập tin csv"
+
+msgid "mobile payment"
+msgstr "Thanh toán di động"
+
+msgid "editorial"
+msgstr "Biên tập"
+
+msgid "files for editorial use only"
+msgstr "Tập tin để sử dụng biên tập, không thể được sử dụng cho bất kỳ mục đích thương mại nào khác."
+
+msgid "photo filters"
+msgstr "Tùy chọn tìm hình"
+
+msgid "video filters"
+msgstr "Bộ lọc phim"
+
+msgid "audio filters"
+msgstr "Bộ lọc âm thanh"
+
+msgid "vector filters"
+msgstr "Bộ lọc Vector"
+
+msgid "creative"
+msgstr "Sáng tạo"
+
+msgid "orientation"
+msgstr "Chọn thể loại"
+
+msgid "login as guest"
+msgstr "Đăng nhập như là Guest"
+
+msgid "change files to free/paid"
+msgstr "Thay đổi các tập tin thành free/paid"
+
+msgid "change files to featured"
+msgstr "Thay đổi tập tin đặc trưng"
+
+msgid "change photos to editorial"
+msgstr "Thay đổi hình ảnh thành editorial"
+
+msgid "approve"
+msgstr "Chấp thuận"
+
+msgid "decline"
+msgstr "Từ chối"
+
+msgid "paid"
+msgstr "Đã trả"
+
+msgid "symbol"
+msgstr "Ký hiệu"
+
+msgid "meta keywords"
+msgstr "Từ khóa meta"
+
+msgid "meta description"
+msgstr "Mô tả meta"
+
+msgid "access rights"
+msgstr "Quyền truy cập"
+
+msgid "last downloads"
+msgstr "Lần tải cuối"
+
+msgid "last sales"
+msgstr "Doanh thu gần nhất"
+
+msgid "items in bulk upload"
+msgstr "Các đề mục tải lên hàng loạt"
+
+msgid "google coordinates"
+msgstr "Tọa độ Google"
+
+msgid "photo preupload folder"
+msgstr "Thư mục ảnh tải lên tạm thời"
+
+msgid "video preupload folder"
+msgstr "Thư mục phim tải lên tạm thời"
+
+msgid "audio preupload folder"
+msgstr "Thư mục âm thanh tải lên tạm thời"
+
+msgid "flash"
+msgstr "Flash"
+
+msgid "flash width"
+msgstr "Chiều rộng của Flash"
+
+msgid "flash height"
+msgstr "Chiều cao của Flash"
+
+msgid "show users as"
+msgstr "Hiển thị thành viên như"
+
+msgid "lightboxes"
+msgstr "Lightboxes"
+
+msgid "select a lightbox"
+msgstr "Chọn lightbox"
+
+msgid "the file was added to the lightbox"
+msgstr "Các tập tin đã được thêm vào trong lightbox"
+
+msgid "the file was removed from the lightbox"
+msgstr "Các tập tin đã được gỡ bỏ từ lightbox"
+
+msgid "shopping carts"
+msgstr "Giỏ hàng"
+
+msgid "previews"
+msgstr "Xem trước"
+
+msgid "you should login to use the option"
+msgstr "Bạn nên đăng nhập để sử dụng tùy chọn"
+
+msgid "add a new lightbox"
+msgstr "Thêm một lightbox mới"
+
+msgid "incorrect field"
+msgstr "Lĩnh vực không chính xác"
+
+msgid "sorting of catalog"
+msgstr "Sắp xếp thư mục"
+
+msgid "simple photo uploader"
+msgstr "Tải hình lên với Jquery"
+
+msgid "seller may set prices"
+msgstr "Người bán có thể thiết lập giá"
+
+msgid "automatic language detection"
+msgstr "Dò tìm ngôn ngữ tự động"
+
+msgid "select files"
+msgstr "Chọn tập tin"
+
+msgid "browse"
+msgstr "Duyệt"
+
+msgid "Photo resolution in DPI"
+msgstr "Độ phân giải hình ảnh trong DPI"
+
+msgid "pixels"
+msgstr "Pixels"
+
+msgid "inches"
+msgstr "Inches"
+
+msgid "add files"
+msgstr "Thêm các tập tin"
+
+msgid "start upload"
+msgstr "Bắt đầu tải lên"
+
+msgid "cancel upload"
+msgstr "Hủy bỏ tải lên"
+
+msgid "adult content"
+msgstr "Nội dung dành cho người lớn"
+
+msgid "change files to adult"
+msgstr "Thay đổi tập tin vào người lớn"
+
+msgid "exclude adult content"
+msgstr "Loại trừ các nội dung người lớn"
+
+msgid "category preview"
+msgstr "Xem trước thư mục"
+
+msgid "payout method"
+msgstr "Phương thức thanh toán"
+
+msgid "other"
+msgstr "Khác"
+
+msgid "loading"
+msgstr "Đang tải"
+
+msgid "shipping time"
+msgstr "Thời gian vận chuyển"
+
+msgid "weight"
+msgstr "Trọng lượng"
+
+msgid "weight min/max"
+msgstr "Trọng lượng min/max"
+
+msgid "shipping method"
+msgstr "Phương thức vận chuyển"
+
+msgid "regions"
+msgstr "Khu vực"
+
+msgid "shipping charges"
+msgstr "Chi phí vận chuyển"
+
+msgid "kg"
+msgstr "Kg"
+
+msgid "lbs"
+msgstr "lbs"
+
+msgid "everywhere"
+msgstr "Mọi nơi"
+
+msgid "calculation method"
+msgstr "Phương pháp tính toán"
+
+msgid "flat rate"
+msgstr "Giá thấp nhất"
+
+msgid "cost"
+msgstr "Giá cả"
+
+msgid "ranges"
+msgstr "Sự sắp hàng"
+
+msgid "prints and products"
+msgstr "In ấn và sản phẩm"
+
+msgid "cd weight"
+msgstr "Trọng lượng CD/DVD"
+
+msgid "products options"
+msgstr "Chọn sản phẩm"
+
+msgid "property"
+msgstr "Sở hữu chủ"
+
+msgid "continue shopping"
+msgstr "Tiếp tục mua hàng"
+
+msgid "clear cart"
+msgstr "Xóa giỏ hàng"
+
+msgid "order details"
+msgstr "Chi tiết đơn đặt hàng"
+
+msgid "not finished"
+msgstr "Không hoàn tất"
+
+msgid "business"
+msgstr "Doanh nghiệp"
+
+msgid "individual"
+msgstr "Cá nhân"
+
+msgid "billing and shipping address"
+msgstr "Địa chỉ thanh toán và giao hàng"
+
+msgid "items"
+msgstr "Mặt hàng"
+
+msgid "order total"
+msgstr "Tổng số đơn đặt hàng"
+
+msgid "billing and shipping address are the same"
+msgstr "Địa chỉ thanh toán và giao hàng giống nhau"
+
+msgid "taxable"
+msgstr "Chịu thuế"
+
+msgid "pwinty prints service"
+msgstr ""
+
+msgid "flow"
+msgstr "Qua"
+
+msgid "flow by default"
+msgstr "Qua theo mặc định trong thư mục"
+
+msgid "auto"
+msgstr "Tự động phân trang"
+
+msgid "auto paging"
+msgstr "Tự động phân trang theo thư mục"
+
+msgid "auto paging by default"
+msgstr "Tự động phân trang theo mặc định"
+
+msgid "remove all"
+msgstr "Xóa tất cả"
+
+msgid "enter"
+msgstr "Đăng nhập"
+
+msgid "new orders"
+msgstr "Đơn đặt hàng mới"
+
+msgid "new credits"
+msgstr "Tín dụng mới"
+
+msgid "new subscriptions"
+msgstr "Đăng ký mới"
+
+msgid "banks"
+msgstr "Ngân hàng"
+
+msgid "method"
+msgstr "Phương cách"
+
+msgid "recurring payments"
+msgstr "Thanh toán định kỳ"
+
+msgid "plupload photo uploader"
+msgstr "Plupload Photo Uploader"
+
+msgid "only registered users may download free files"
+msgstr "Chỉ có thành viên mới có thể tải về những tập tin miễn phí"
+
+msgid "only registered users may set rating"
+msgstr "Chỉ có thành viên mới có thể thay đổi sự đánh giá"
+
+msgid "add language"
+msgstr "Thêm ngôn ngữ"
+
+msgid "multilingual option for categories"
+msgstr "Tùy chọn đa ngôn ngữ cho các thể loại"
+
+msgid "royalty free"
+msgstr "Royalty free"
+
+msgid "rights managed"
+msgstr "Rights managed"
+
+msgid "rights managed files"
+msgstr "Những tập tin Rights managed"
+
+msgid "royalty free files"
+msgstr "Những tập tin Royalty free"
+
+msgid "rights managed files for sellers"
+msgstr "Những tập tin Rights managed cho người bán"
+
+msgid "groups"
+msgstr "Nhóm"
+
+msgid "options"
+msgstr "Tùy chọn"
+
+msgid "price scheme"
+msgstr "Phương án giá"
+
+msgid "add step"
+msgstr "Thêm bước"
+
+msgid "add group"
+msgstr "Thêm nhóm"
+
+msgid "conditions"
+msgstr "Điều kiện"
+
+msgid "calculate price"
+msgstr "Tính giá"
+
+msgid "image resize library"
+msgstr "Thư viện thay đổi kích cỡ hình"
+
+msgid "photo uploader"
+msgstr "Hình tải lên"
+
+msgid "video uploader"
+msgstr "Phim tải lên"
+
+msgid "audio uploader"
+msgstr "Âm thanh tải lên"
+
+msgid "vector uploader"
+msgstr "Vector tải lên"
+
+msgid "usual uploader"
+msgstr "Usual tải lên"
+
+msgid "jquery uploader"
+msgstr "Jquery tải lên"
+
+msgid "plupload uploader"
+msgstr "Plupload tải lên"
+
+msgid "all news"
+msgstr "Tất cả các tin tức"
+
+msgid "show content type in the search"
+msgstr "Hiển thị 'Loại nội dung' trong việc tìm kiếm"
+
+msgid "limit"
+msgstr "Giới hạn"
+
+msgid "daily limit"
+msgstr "Giới hạn hàng ngày"
+
+msgid "open a support request"
+msgstr "Mở một yêu cầu hỗ trợ"
+
+msgid "in progress"
+msgstr "Đang thực hiện"
+
+msgid "preview fixed width"
+msgstr "Xem trước chiều rộng cố định"
+
+msgid "preview fixed height"
+msgstr "Xem trước chiều cao cố định"
+
+msgid "the same file"
+msgstr "Cùng một tập tin"
+
+msgid "one color files are the same"
+msgstr "Các tập tin màu sắc đều giống nhau. Bạn nên tải lên chỉ một trong các tập tin này"
+
+msgid "how many free files a user may download per day"
+msgstr "Số tập tin miễn phí thành viên có thể tải về mỗi ngày"
+
+msgid "daily limit error"
+msgstr "Lỗi! Bạn đã vượt quá giới hạn tải về miễn phí hằng ngày"
+
+msgid "prints lab"
+msgstr "Phòng in"
+
+msgid "upload your photos and order prints"
+msgstr "Tải hình của bạn để in"
+
+msgid "add new gallery"
+msgstr "Thêm album mới"
+
+msgid "edit gallery"
+msgstr "Chỉnh sửa album"
+
+msgid "order prints"
+msgstr "Đặt hàng in"
+
+msgid "Prints lab photo size (MB)"
+msgstr "Kích thước in ảnh cho phòng in (MB)"
+
+msgid "select gallery"
+msgstr "Chọn album"
+
+msgid "Use the same prints options for the gallery"
+msgstr "Sử dụng các bản in tùy chọn tương tự cho các album"
+
+msgid "marketing emails"
+msgstr "Emails tiếp thị"
+
+msgid "save as draft"
+msgstr "Lưu lại như bản phác thảo"
+
+msgid "show in catalog"
+msgstr "Hiển thị trong danh mục"
+
+msgid "visible in catalog"
+msgstr "Có thể thấy trong danh mục"
+
+msgid "catalog view by default"
+msgstr "Xem danh mục theo mặc định"
+
+msgid "grid"
+msgstr "Danh mục các mặt hàng - lưới vuông"
+
+msgid "fixed width"
+msgstr "Danh mục các mặt hàng - chiều rộng cố định"
+
+msgid "fixed height"
+msgstr "Danh mục các mặt hàng - chiều cao cố định"
+
+msgid "change rights-managed price"
+msgstr "Thay đổi giá rights-managed"
+
+msgid "like"
+msgstr "Thích"
+
+msgid "dislike"
+msgstr "Không thích"
+
+msgid "Require Billing Address for the Order Checkout"
+msgstr "Bắt buột dùng địa chỉ thanh toán trên hóa đơn khi chi trả đơn đặt hàng"
+
+msgid "Require Shipping Address for the Order Checkout"
+msgstr "Bắt buột dùng địa chỉ thanh toán trên hóa đơn khi chi trả đơn đặt hàng"
+
+msgid "Require Billing Address for the Credits Checkout"
+msgstr "Bắt buột dùng địa chỉ thanh toán trên hóa đơn khi chi trả cho tín dụng"
+
+msgid "Require Billing Address for the Subscription Checkout"
+msgstr "Bắt buột dùng địa chỉ thanh toán trên hóa đơn khi chi trả trước"
+
+msgid "exclusive price"
+msgstr "Giá độc quyền"
+
+msgid "contact us to get the price"
+msgstr "Liên hệ với chúng tôi để biết giá"
+
+msgid "sold"
+msgstr "Đã bán"
+
+msgid "Exclusive price. The file will be removed from the stock after the purchase"
+msgstr "Giá độc quyền. Các tập tin sẽ được gỡ bỏ từ trang web sau khi mua"
+
+msgid "change files to exclusive"
+msgstr "Thay đổi tập tin thành độc quyền"
+
+msgid "change files to 'contact us to get the price'"
+msgstr "Thay đổi tập tin vào 'Liên hệ với chúng tôi để biết giá'"
+
+msgid "Oops! The file was removed."
+msgstr "Rất tiếc! Các tập tin không tồn tại hoặc nó đã bị xóa."
+
+msgid "I would like to purchase the file"
+msgstr "Tôi muốn mua tập tin"
+
+msgid "Bulk change titles, keywords, description"
+msgstr "Thay đổi số lượng lớn tựa đề, từ khóa, mô tả"
+
+msgid "Bulk add/remove keywords"
+msgstr "Thêm/Xóa từ khóa số lượng nhiều"
+
+msgid "Value"
+msgstr "Giá trị"
+
+msgid "add new keywords"
+msgstr "Thêm từ khoá mới"
+
+msgid "remove keywords"
+msgstr "Hủy bỏ từ khóa"
+
+msgid "not to change"
+msgstr ""
+
+msgid "Your Commission on all sales"
+msgstr ""
+
+msgid "Add new price"
+msgstr ""
+
+msgid "If you want to upload additional formats (*.gif,*.png,*.raw,*.tiff,*.eps) the files must have the same names as *.jpg."
+msgstr ""
+
+msgid "Generate *.mp3 audio preview from"
+msgstr ""
+
+msgid "Queue"
+msgstr ""
+
+msgid "Previews are being created. Queue number is"
+msgstr ""
+
+msgid "Creation date"
+msgstr ""
+
+msgid "it is impossible to remove approved files."
+msgstr ""
+
+msgid "VAT number"
+msgstr ""
+
+msgid "Sign up fields"
+msgstr ""
+
+msgid "Model release"
+msgstr ""
+
+msgid "Property release"
+msgstr ""
+
+msgid "Show left search panel in catalog"
+msgstr ""
+
+msgid "Show left search panel in catalog by default"
+msgstr ""
+
+msgid "Use credits and currency"
+msgstr ""
+
+msgid "Show taxes in shopping cart"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Stock"
+msgstr ""
+
+msgid "See all categories"
+msgstr ""
+
+msgid "Browse categories"
+msgstr ""
+
+msgid "Cart"
+msgstr ""
+
+msgid "View Cart"
+msgstr ""
+
+msgid "New photos"
+msgstr ""
+
+msgid "Featured photos"
+msgstr ""
+
+msgid "Hover view photo - max width/height"
+msgstr ""
+
+msgid "Fotomoto prints service"
+msgstr ""
+
+msgid "Printful prints service"
+msgstr ""
+
+msgid "for download"
+msgstr ""
+
+msgid "Your earnings"
+msgstr ""
+
+msgid "Not to calculate search count to decrease database loading"
+msgstr ""
+
+msgid "Not to calculate search count and show more"
+msgstr ""
+
+msgid "Not to calculate search count and set total quantity equal"
+msgstr ""
+
+msgid "All Orders"
+msgstr ""
+
+msgid "All Credits"
+msgstr ""
+
+msgid "All Subscriptions"
+msgstr ""
+
+msgid "Latest Members"
+msgstr ""
+
+msgid "View All Users"
+msgstr ""
+
+msgid "Last downloads"
+msgstr ""
+
+msgid "All downloads"
+msgstr ""
+
+msgid "Last uploads"
+msgstr ""
+
+msgid "All uploads"
+msgstr ""
+
+msgid "Recent comments"
+msgstr ""
+
+msgid "All comments"
+msgstr ""
+
+msgid "View All"
+msgstr ""
+
+msgid "All support tickets"
+msgstr ""
+
+msgid "just now"
+msgstr ""
+
+msgid "one minute ago"
+msgstr ""
+
+msgid "minutes ago"
+msgstr ""
+
+msgid "an hour ago"
+msgstr ""
+
+msgid "hours ago"
+msgstr ""
+
+msgid "yesterday"
+msgstr ""
+
+msgid "days ago"
+msgstr ""
+
+msgid "a week ago"
+msgstr ""
+
+msgid "weeks ago"
+msgstr ""
+
+msgid "a month ago"
+msgstr ""
+
+msgid "months ago"
+msgstr ""
+
+msgid "one year ago"
+msgstr ""
+
+msgid "years ago"
+msgstr ""
+
+msgid "Documentation"
+msgstr ""
+
+msgid "Forum"
+msgstr ""
+
+msgid "Updates"
+msgstr ""
+
+msgid "Fixed layout"
+msgstr ""
+
+msgid "Boxed Layout"
+msgstr ""
+
+msgid "Toggle Left Sidebar"
+msgstr ""
+
+msgid "Left Sidebar Expand on Hover"
+msgstr ""
+
+msgid "Invoices"
+msgstr ""
+
+msgid "Documents"
+msgstr ""
+
+msgid "EU VAT tax law compliance"
+msgstr ""
+
+msgid "Documents types"
+msgstr ""
+
+msgid "Stock API"
+msgstr ""
+
+msgid "Invoice prefix"
+msgstr ""
+
+msgid "Next invoice number"
+msgstr ""
+
+msgid "Credit notes prefix"
+msgstr ""
+
+msgid "Next credit notes number"
+msgstr ""
+
+msgid "Logo"
+msgstr ""
+
+msgid "Company name"
+msgstr ""
+
+msgid "Company address"
+msgstr ""
+
+msgid "EU VAT Reg No"
+msgstr ""
+
+msgid "only for EU"
+msgstr ""
+
+msgid "Uploaded"
+msgstr ""
+
+msgid "Not Uploaded"
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Default media stock"
+msgstr ""
+
+msgid "Show site stock"
+msgstr ""
+
+msgid "Error. The script cannot connect to API."
+msgstr ""
+
+msgid "Create internal pages for files"
+msgstr ""
+
+msgid "newest"
+msgstr ""
+
+msgid "popular"
+msgstr ""
+
+msgid "relevance"
+msgstr ""
+
+msgid "Contributor"
+msgstr ""
+
+msgid "illustration"
+msgstr ""
+
+msgid "music"
+msgstr ""
+
+msgid "Age"
+msgstr ""
+
+msgid "Gender"
+msgstr ""
+
+msgid "Ethnicity"
+msgstr ""
+
+msgid "People"
+msgstr ""
+
+msgid "infants"
+msgstr ""
+
+msgid "children"
+msgstr ""
+
+msgid "teenagers"
+msgstr ""
+
+msgid "20s"
+msgstr ""
+
+msgid "30s"
+msgstr ""
+
+msgid "40s"
+msgstr ""
+
+msgid "50s"
+msgstr ""
+
+msgid "60s"
+msgstr ""
+
+msgid "older"
+msgstr ""
+
+msgid "african"
+msgstr ""
+
+msgid "african_american"
+msgstr ""
+
+msgid "black"
+msgstr ""
+
+msgid "brazilian"
+msgstr ""
+
+msgid "chinese"
+msgstr ""
+
+msgid "caucasian"
+msgstr ""
+
+msgid "east_asian"
+msgstr ""
+
+msgid "hispanic"
+msgstr ""
+
+msgid "japanese"
+msgstr ""
+
+msgid "middle_eastern"
+msgstr ""
+
+msgid "native_american"
+msgstr ""
+
+msgid "pacific_islander"
+msgstr ""
+
+msgid "south_asian"
+msgstr ""
+
+msgid "southeast_asian"
+msgstr ""
+
+msgid "male"
+msgstr ""
+
+msgid "female"
+msgstr ""
+
+msgid "both"
+msgstr ""
+
+msgid "commercial"
+msgstr ""
+
+msgid "enhanced"
+msgstr ""
+
+msgid "horizontal"
+msgstr ""
+
+msgid "vertical"
+msgstr ""
+
+msgid "resolution"
+msgstr ""
+
+msgid "Album title"
+msgstr ""
+
+msgid "Artists"
+msgstr ""
+
+msgid "Beats per minute"
+msgstr ""
+
+msgid "Genge"
+msgstr ""
+
+msgid "Instrumental"
+msgstr ""
+
+msgid "Instruments"
+msgstr ""
+
+msgid "Lyrics"
+msgstr ""
+
+msgid "Moods"
+msgstr ""
+
+msgid "Vocal description"
+msgstr ""
+
+msgid "Buy on"
+msgstr ""
+
+msgid "filesize"
+msgstr ""
+
+msgid "by default"
+msgstr ""
+
+msgid "collection"
+msgstr ""
+
+msgid "Square"
+msgstr ""
+
+msgid "PanoramicHorizontal"
+msgstr ""
+
+msgid "PanoramicVertical"
+msgstr ""
+
+msgid "Compositions"
+msgstr ""
+
+msgid "Graphical styles"
+msgstr ""
+
+msgid "photography"
+msgstr ""
+
+msgid "fine art"
+msgstr ""
+
+msgid "License models"
+msgstr ""
+
+msgid "Online check"
+msgstr ""
+
+msgid "Valid"
+msgstr ""
+
+msgid "Invalid"
+msgstr ""
+
+msgid "Not checked"
+msgstr ""
+
+msgid "Last check"
+msgstr ""
+
+msgid "Balance threshold for payout"
+msgstr ""
+
+msgid "User may set balance threshold for payout"
+msgstr ""
+
+msgid "Set your balance threshold for payout"
+msgstr ""
+
+msgid "Not to change current users's balance thresholds"
+msgstr ""
+
+msgid "Change current user's balance thresholds"
+msgstr ""
+
+msgid "Invoice"
+msgstr ""
+
+msgid "Regenerate invoices for old orders"
+msgstr ""
+
+msgid "Invoice Number"
+msgstr ""
+
+msgid "Invoice Date"
+msgstr ""
+
+msgid "Order Number"
+msgstr ""
+
+msgid "Invoice Amount"
+msgstr ""
+
+msgid "Amount"
+msgstr ""
+
+msgid "VAT"
+msgstr ""
+
+msgid "Payment received via"
+msgstr ""
+
+msgid "Payment method"
+msgstr ""
+
+msgid "Transaction number"
+msgstr ""
+
+msgid "Order print"
+msgstr ""
+
+msgid "Prints on Demand"
+msgstr ""
+
+msgid "multilingual option for publications"
+msgstr ""
+
+msgid "User's rating"
+msgstr ""
+
+msgid "Only registered users may rate other users"
+msgstr ""
+
+msgid "Publish an invoice automatically when a transaction is successful"
+msgstr ""
+
+msgid "Countries"
+msgstr ""
+
+msgid "Select EU Countries"
+msgstr ""
+
+msgid "Note on Invoice"
+msgstr ""
+
+msgid "Refund money"
+msgstr ""
+
+msgid "Credit notes"
+msgstr ""
+
+msgid "Max price in catalog"
+msgstr ""
+
+msgid "Download from Pixabay"
+msgstr ""
+
+msgid "Original size"
+msgstr ""
+
+msgid "Prints categories"
+msgstr ""
+
+msgid "Prints previews"
+msgstr ""
+
+msgid "Related products"
+msgstr ""
+
+msgid "Image size"
+msgstr ""
+
+msgid "Allow to resize and move a photo"
+msgstr ""
+
+msgid "Property ID"
+msgstr ""
+
+msgid "Color picker"
+msgstr ""
+
+msgid "List of colors"
+msgstr ""
+
+msgid "Scheme"
+msgstr ""
+
+msgid "Crop image for print"
+msgstr ""
+
+msgid "Resize min (px)"
+msgstr ""
+
+msgid "Resize max (px)"
+msgstr ""
+
+msgid "Resize default (px)"
+msgstr ""
+
+msgid "Canvas Prints"
+msgstr ""
+
+msgid "Framed Prints"
+msgstr ""
+
+msgid "Prints and Posters"
+msgstr ""
+
+msgid "Metal Prints"
+msgstr ""
+
+msgid "Acrylic Prints"
+msgstr ""
+
+msgid "iPhone Cases"
+msgstr ""
+
+msgid "Galaxy Cases"
+msgstr ""
+
+msgid "Pillows"
+msgstr ""
+
+msgid "Duvet Covers"
+msgstr ""
+
+msgid "Shower Curtain"
+msgstr ""
+
+msgid "T-Shirts"
+msgstr ""
+
+msgid "Greeting Cards"
+msgstr ""
+
+msgid "Tote Bags"
+msgstr ""
+
+msgid "Wall Art"
+msgstr ""
+
+msgid "Phone Cases"
+msgstr ""
+
+msgid "Home Decor"
+msgstr ""
+
+msgid "Clothes"
+msgstr ""
+
+msgid "Souvenirs"
+msgstr ""
+
+msgid "Bags"
+msgstr ""
+
+msgid "Bag Size"
+msgstr ""
+
+msgid "Bottom Mat Color"
+msgstr ""
+
+msgid "Bottom Mat Size"
+msgstr ""
+
+msgid "Canvas"
+msgstr ""
+
+msgid "Card Size"
+msgstr ""
+
+msgid "Case Orientation"
+msgstr ""
+
+msgid "Duvet Size"
+msgstr ""
+
+msgid "Frame"
+msgstr ""
+
+msgid "Galaxy Model"
+msgstr ""
+
+msgid "iPhone Model"
+msgstr ""
+
+msgid "Mounting"
+msgstr ""
+
+msgid "Paper"
+msgstr ""
+
+msgid "Pillow Insert"
+msgstr ""
+
+msgid "Pillow Size"
+msgstr ""
+
+msgid "Print Size"
+msgstr ""
+
+msgid "Size of T-shirt"
+msgstr ""
+
+msgid "T-shirt Color"
+msgstr ""
+
+msgid "Top Mat Color"
+msgstr ""
+
+msgid "Top Mat Size"
+msgstr ""
+
+msgid "Wrap"
+msgstr ""
+
+msgid "Glossy Finish Canvas"
+msgstr ""
+
+msgid "Matte Finish Canvas"
+msgstr ""
+
+msgid "Horizontal Right"
+msgstr ""
+
+msgid "Horizontal Left"
+msgstr ""
+
+msgid "King"
+msgstr ""
+
+msgid "Queen"
+msgstr ""
+
+msgid "Full"
+msgstr ""
+
+msgid "Twin"
+msgstr ""
+
+msgid "Hanging Wire"
+msgstr ""
+
+msgid "Aluminum Mounting Posts"
+msgstr ""
+
+msgid "Archival Matte Paper"
+msgstr ""
+
+msgid "Glossy Photo Paper"
+msgstr ""
+
+msgid "Luster Photo Paper"
+msgstr ""
+
+msgid "Semi-Matte Photo Paper"
+msgstr ""
+
+msgid "Picture Rag"
+msgstr ""
+
+msgid "Somerset Velvet"
+msgstr ""
+
+msgid "Watercolor Paper"
+msgstr ""
+
+msgid "Metallic Paper"
+msgstr ""
+
+msgid "Single card"
+msgstr ""
+
+msgid "Pack of 10"
+msgstr ""
+
+msgid "Pack of 25"
+msgstr ""
+
+msgid "No Wrap - Rolled In A Tube"
+msgstr ""
+
+msgid "White Sides"
+msgstr ""
+
+msgid "Black Sides"
+msgstr ""
+
+msgid "Mirrored Sides"
+msgstr ""
+
+msgid "Standard"
+msgstr ""
+
+msgid "Extended"
+msgstr ""
+
+msgid "Small Free"
+msgstr ""
+
+msgid "Medium"
+msgstr ""
+
+msgid "Large"
+msgstr ""
+
+msgid "Other prints and products"
+msgstr ""
+
+msgid "Predict keywords by Clarifai"
+msgstr ""
+
+msgid "Small preview"
+msgstr ""
+
+msgid "Big preview"
+msgstr ""
+
+msgid "Google reCaptcha. I am not a robot"
+msgstr ""
