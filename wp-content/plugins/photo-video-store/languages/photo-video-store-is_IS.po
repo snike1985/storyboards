@@ -1,0 +1,2838 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Photo Video Store\n"
+"Report-Msgid-Bugs-To: https://www.cmsaccount.com\n"
+"POT-Creation-Date: 2017-03-05 10:13-0600\n"
+"PO-Revision-Date: 2017-03-05 15:43+0300\n"
+"Last-Translator: CMSaccount <sales@cmsaccount.com>\n"
+"Language-Team: CMSaccount <sales@cmsaccount.com>\n"
+"Language: is_IS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: \n"
+"Plural-Forms: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "help"
+msgstr "Hjálp"
+
+msgid "priority"
+msgstr "Forgangur"
+
+msgid "date"
+msgstr "Dagsetning"
+
+msgid "exit"
+msgstr "Út"
+
+msgid "wait"
+msgstr "Vinsamlegast bíðið. Skráin er að hlaðast inn..."
+
+msgid "search"
+msgstr "Leita"
+
+msgid "content"
+msgstr "Efni"
+
+msgid "back"
+msgstr "Til baka"
+
+msgid "add"
+msgstr "Bæta við"
+
+msgid "change"
+msgstr "Breyta"
+
+msgid "edit"
+msgstr "Breyta"
+
+msgid "delete"
+msgstr "Eyða"
+
+msgid "image"
+msgstr "Mynd"
+
+msgid "file"
+msgstr "Skrá"
+
+msgid "allfiles"
+msgstr "Allar skrár"
+
+msgid "small"
+msgstr "Lítil"
+
+msgid "big"
+msgstr "Stór"
+
+msgid "upload"
+msgstr "Hlaða inn"
+
+msgid "preview"
+msgstr "Skoða"
+
+msgid "size"
+msgstr "Stærð"
+
+msgid "title"
+msgstr "Titill"
+
+msgid "name"
+msgstr "Nafn"
+
+msgid "to"
+msgstr "Til"
+
+msgid "type"
+msgstr "Tegund"
+
+msgid "status"
+msgstr "Staða"
+
+msgid "opened"
+msgstr "Opnað"
+
+msgid "closed"
+msgstr "Lokað"
+
+msgid "active"
+msgstr "Virkur"
+
+msgid "activate"
+msgstr "Virkja"
+
+msgid "close"
+msgstr "Loka"
+
+msgid "view"
+msgstr "Skoða"
+
+msgid "update"
+msgstr "Uppfæra"
+
+msgid "results"
+msgstr "Árangur"
+
+msgid "color"
+msgstr "Litur"
+
+msgid "stat"
+msgstr "Tölfræði"
+
+msgid "settings"
+msgstr "Stillingar"
+
+msgid "Small thumb width"
+msgstr "Lítil thumb breydd"
+
+msgid "Big thumb width"
+msgstr "Stór thumb breydd"
+
+msgid "Lightbox photo"
+msgstr "Hover view photo"
+
+msgid "Lightbox video"
+msgstr "Hover skoða video"
+
+msgid "enable"
+msgstr "Virkja"
+
+msgid "currency"
+msgstr "Gjaldmiðill"
+
+msgid "languages"
+msgstr "Tungumál"
+
+msgid "language"
+msgstr "Tungumál"
+
+msgid "default"
+msgstr "Sjálfvalið"
+
+msgid "display"
+msgstr "Skjámynd"
+
+msgid "template"
+msgstr "Formur / template"
+
+msgid "watermark"
+msgstr "Vatnsmerki"
+
+msgid "watermark2"
+msgstr "Á að vera *.png skrá með gegnsærri mynd eða áritun."
+
+msgid "customers"
+msgstr "Viðskiptavinir"
+
+msgid "customer"
+msgstr "Viðskiptavinur"
+
+msgid "orders"
+msgstr "Pantanir"
+
+msgid "order"
+msgstr "Pöntun"
+
+msgid "catalog"
+msgstr "Vörulisti"
+
+msgid "photographers"
+msgstr "Ljósmyndarar"
+
+msgid "photographer"
+msgstr "Ljósmyndari"
+
+msgid "support"
+msgstr "Stuðningur"
+
+msgid "total"
+msgstr "Samtals"
+
+msgid "payment"
+msgstr "Greiðsla"
+
+msgid "payments"
+msgstr "Greiðslur"
+
+msgid "pending"
+msgstr "Biðstaða"
+
+msgid "approved"
+msgstr "Heimilað"
+
+msgid "item"
+msgstr "Vara/Item"
+
+msgid "price"
+msgstr "Verð"
+
+msgid "january"
+msgstr "Janúar"
+
+msgid "february"
+msgstr "Febrúar"
+
+msgid "march"
+msgstr "Mars"
+
+msgid "april"
+msgstr "Apríl"
+
+msgid "may"
+msgstr "Maí"
+
+msgid "june"
+msgstr "Júní"
+
+msgid "july"
+msgstr "Júlí"
+
+msgid "august"
+msgstr "Ágúst"
+
+msgid "september"
+msgstr "September"
+
+msgid "october"
+msgstr "Octóber"
+
+msgid "november"
+msgstr "Nóvember"
+
+msgid "december"
+msgstr "Desember"
+
+msgid "full name"
+msgstr "Fullt nafn"
+
+msgid "e-mail"
+msgstr "Netfang"
+
+msgid "telephone"
+msgstr "Símanúmer"
+
+msgid "address"
+msgstr "Heimilisfang"
+
+msgid "country"
+msgstr "Land"
+
+msgid "ip"
+msgstr "IP"
+
+msgid "access denied"
+msgstr "Aðgangi synjað"
+
+msgid "category"
+msgstr "Flokkur"
+
+msgid "categories"
+msgstr "Flokkar"
+
+msgid "photo"
+msgstr "Ljósmynd"
+
+msgid "video"
+msgstr "Myndband"
+
+msgid "photos"
+msgstr "Ljósmyndir"
+
+msgid "videos"
+msgstr "Myndbönd"
+
+msgid "folder"
+msgstr "Mappa"
+
+msgid "file manager"
+msgstr "Skrá umsjón"
+
+msgid "author"
+msgstr "Höfundur"
+
+msgid "description"
+msgstr "Efnislýsing"
+
+msgid "keywords"
+msgstr "Lykilorð"
+
+msgid "published date"
+msgstr "Birtingardagur"
+
+msgid "viewed"
+msgstr "Skoðað"
+
+msgid "published"
+msgstr "Birt"
+
+msgid "featured"
+msgstr "Sýningargluggi"
+
+msgid "question"
+msgstr "Spurning"
+
+msgid "stats"
+msgstr "Tölfræði"
+
+msgid "page"
+msgstr "Síða"
+
+msgid "not found"
+msgstr "Finnst ekki"
+
+msgid "transaction id"
+msgstr "Aðgerð / Transaction ID númer"
+
+msgid "date of payment"
+msgstr "Greiðsludagsetning"
+
+msgid "number of accounts"
+msgstr "Fjöldi reikninga"
+
+msgid "number of orders"
+msgstr "Fjöldi pantana"
+
+msgid "from"
+msgstr "Frá"
+
+msgid "till"
+msgstr "til"
+
+msgid "total payment"
+msgstr "Greiðsla samtals"
+
+msgid "number of new signups"
+msgstr "Fjöldi nýrra notenda"
+
+msgid "file list"
+msgstr "Skráarlisti"
+
+msgid "upload files"
+msgstr "Hlaða upp skrám"
+
+msgid "shopping cart"
+msgstr "Karfa"
+
+msgid "member area"
+msgstr "Notendasvæði"
+
+msgid "top rated"
+msgstr "Hæsta einkunn"
+
+msgid "home"
+msgstr "Heim"
+
+msgid "tell a friend"
+msgstr "Senda til vinar"
+
+msgid "checkout"
+msgstr "Á kassa"
+
+msgid "my profile"
+msgstr "Mínar upplýsingar"
+
+msgid "my favorite list"
+msgstr "Ljósaborð"
+
+msgid "empty shopping cart"
+msgstr "Karfan þín er tóm."
+
+msgid "logout"
+msgstr "Útskráning"
+
+msgid "view shopping cart"
+msgstr "Skoða körfu"
+
+msgid "required fields"
+msgstr "Nauðsynlegir reitir"
+
+msgid "incorrect"
+msgstr "Rangt"
+
+msgid "please insert"
+msgstr "Vinsamlegast setja inn reit"
+
+msgid "send"
+msgstr "Senda"
+
+msgid "captcha"
+msgstr "Captcha"
+
+msgid "all rights reserved"
+msgstr "Allur réttur áskilinn"
+
+msgid "rating"
+msgstr "Einkunn"
+
+msgid "password protected"
+msgstr "Lykilorð verndað"
+
+msgid "dimensions"
+msgstr "Stærðir"
+
+msgid "add to favorite list"
+msgstr "Bæta við ljósaborð"
+
+msgid "delete from favorite list"
+msgstr "Eyða frá favorite lista"
+
+msgid "add to cart"
+msgstr "Setja í körfu"
+
+msgid "your name"
+msgstr "Þitt nafn"
+
+msgid "your e-mail"
+msgstr "Þitt netfang"
+
+msgid "friend name"
+msgstr "Nafn vinar"
+
+msgid "friend e-mail"
+msgstr "Netfang vinar"
+
+msgid "sent"
+msgstr "Takk fyrir. Skilaboðin hafa verið send."
+
+msgid "quantity"
+msgstr "Fjöldi"
+
+msgid "ferror"
+msgstr "Villa. Óþekkt netfang."
+
+msgid "customer information"
+msgstr "Upplýsingar vðskiptavinar"
+
+msgid "order now"
+msgstr "Panta núna!"
+
+msgid "continue checkout"
+msgstr "Til að halda áfram þarftu að skrá þig."
+
+msgid "select payment method"
+msgstr "Velja greiðslumáta"
+
+msgid "error transaction"
+msgstr "Færslan gekk ekki. Vinsamlegast reyndu aftur"
+
+msgid "more"
+msgstr "Meira"
+
+msgid "coupon"
+msgstr "Kúpon"
+
+msgid "coupons"
+msgstr "Kúponar"
+
+msgid "subtotal"
+msgstr "Samtals"
+
+msgid "discount"
+msgstr "Afsláttur"
+
+msgid "types of coupons"
+msgstr "Kúpon tegundir"
+
+msgid "list of current coupons"
+msgstr "Listi yfir virka kúpona"
+
+msgid "type of coupons"
+msgstr "Tegundir kúpona"
+
+msgid "setup date"
+msgstr "Stofndagsetning"
+
+msgid "expiration date"
+msgstr "Gildir til dags"
+
+msgid "total discount"
+msgstr "Samtals afsláttur"
+
+msgid "percentage discount"
+msgstr "Afláttarprósenta"
+
+msgid "free download link"
+msgstr "Ókeypis niðurhleðslu linkur"
+
+msgid "used"
+msgstr "Notað"
+
+msgid "days till expiration"
+msgstr "Dagar þar til rennur út"
+
+msgid "events"
+msgstr "Atburðir"
+
+msgid "new signup"
+msgstr "Nýr notandi"
+
+msgid "new order"
+msgstr "Ný pöntun"
+
+msgid "payment gateways"
+msgstr "Greiðslugáttir"
+
+msgid "admin password"
+msgstr "Lykilorð umsjónaraðila"
+
+msgid "site settings"
+msgstr "Uppsetning síðunnar"
+
+msgid "skins"
+msgstr "Síðuskinn"
+
+msgid "select skin"
+msgstr "Velja síðuskinn"
+
+msgid "limit of usage"
+msgstr "Notendatakmörkun"
+
+msgid "times usage"
+msgstr "Notendafjöldi"
+
+msgid "free download"
+msgstr "Ókeypis niðurhal"
+
+msgid "yes"
+msgstr "Já"
+
+msgid "no"
+msgstr "Nei"
+
+msgid "Items on the page"
+msgstr "Fjöldi á síðu"
+
+msgid "Items in the row"
+msgstr "Fjöldi í línu / row"
+
+msgid "Lightbox video width"
+msgstr "Hover skoða myndband breydd"
+
+msgid "Lightbox video height"
+msgstr "Hover skoða myndband hæð"
+
+msgid "left side"
+msgstr "Vinstri hlið"
+
+msgid "right side"
+msgstr "Hægri hlið"
+
+msgid "messages"
+msgstr "Skilaboð"
+
+msgid "Items in news box"
+msgstr "Fjöldi í fréttakassa"
+
+msgid "Items in best seller box"
+msgstr "Fjöldi í mest selda boxi"
+
+msgid "account"
+msgstr "Notendareikningur"
+
+msgid "price manager"
+msgstr "Verðstjórnun"
+
+msgid "allow users upload"
+msgstr "Leyfa notendum að hlaða inn"
+
+msgid "allow photo types"
+msgstr "Leyfa allar myndgerðir"
+
+msgid "allow video types"
+msgstr "Leyfa myndbandsgerðir"
+
+msgid "allow to create category"
+msgstr "Leyfa að stofna flokk"
+
+msgid "allow to upload photo"
+msgstr "Leyfa að hlaða inn myndum"
+
+msgid "allow to upload video"
+msgstr "Leyfa að hlaða inn myndböndum"
+
+msgid "percentage of sale to site owner"
+msgstr "Prósenta greitt til eiganda síðunnar"
+
+msgid "customer categories"
+msgstr "Söluflokkar"
+
+msgid "my upload"
+msgstr "Mínar skrár"
+
+msgid "my commission"
+msgstr "Mín umboðslaun"
+
+msgid "create category"
+msgstr "Stofna flokk"
+
+msgid "upload photo"
+msgstr "Hlaða inn mynd"
+
+msgid "upload video"
+msgstr "Hlaða inn myndbandi"
+
+msgid "my publications"
+msgstr "Mínar birtingar"
+
+msgid "select directory"
+msgstr "Velja skrá"
+
+msgid "upload permitted"
+msgstr "Leyfilegt að senda inn"
+
+msgid "upload denied"
+msgstr "Innsendingu synjað"
+
+msgid "not selected"
+msgstr "Ekki valið"
+
+msgid "example"
+msgstr "Sýnishorn"
+
+msgid "file for sale"
+msgstr "Skrá til sölu"
+
+msgid "first name"
+msgstr "Fornafn"
+
+msgid "last name"
+msgstr "Föðurnafn"
+
+msgid "city"
+msgstr "Staður"
+
+msgid "zipcode"
+msgstr "Póstúmer"
+
+msgid "user status as default"
+msgstr "Staða ljósmyndara sjálfvalin"
+
+msgid "width"
+msgstr "Breytt"
+
+msgid "file types"
+msgstr "Skráargerðir"
+
+msgid "photo sizes"
+msgstr "Myndastærðir"
+
+msgid "sizes"
+msgstr "Stærðir"
+
+msgid "upload manager"
+msgstr "Upphleðslustjóri"
+
+msgid "commission manager"
+msgstr "Umboðslaunastjóri"
+
+msgid "commission"
+msgstr "Umboðslaun"
+
+msgid "refund"
+msgstr "Útborgun"
+
+msgid "users earnings"
+msgstr "Tekjur notanda"
+
+msgid "new refund"
+msgstr "Ný útborgun"
+
+msgid "send to"
+msgstr "Senda til"
+
+msgid "balance"
+msgstr "Staða"
+
+msgid "earning"
+msgstr "Tekjur"
+
+msgid "prints"
+msgstr "Stækkanir"
+
+msgid "prints types"
+msgstr "Tegund stækkana"
+
+msgid "shipping price"
+msgstr "Sendingarkostnaður"
+
+msgid "each additional item"
+msgstr "Hver viðbótar mynd"
+
+msgid "downloads"
+msgstr "Niðurhal"
+
+msgid "about"
+msgstr "Um"
+
+msgid "blog"
+msgstr "Blogg"
+
+msgid "reviews"
+msgstr "Umsagnir"
+
+msgid "testimonials"
+msgstr "Umsagnir viðskiptavina"
+
+msgid "inbox"
+msgstr "Inbox"
+
+msgid "sentbox"
+msgstr "Sent"
+
+msgid "trash"
+msgstr "Eytt"
+
+msgid "comments"
+msgstr "Athugasemdir"
+
+msgid "mine"
+msgstr "Mínar"
+
+msgid "for me"
+msgstr "Fyrir mig"
+
+msgid "friends"
+msgstr "Vinir"
+
+msgid "new message"
+msgstr "Ný skilaboð"
+
+msgid "cc"
+msgstr "Cc"
+
+msgid "bcc"
+msgstr "Bcc"
+
+msgid "subject"
+msgstr "Subject"
+
+msgid "friend email"
+msgstr "Þú mátt aðeins senda ein skilaboð til vina."
+
+msgid "User photo width"
+msgstr "Notandi breydd myndar"
+
+msgid "reply"
+msgstr "Svara"
+
+msgid "you wrote"
+msgstr "Þú skrifaðir"
+
+msgid "file details"
+msgstr "Efni skrár"
+
+msgid "tools"
+msgstr "Áhöld / Tools"
+
+msgid "member portfolio"
+msgstr "Myndasafn notanda"
+
+msgid "sitemail to user"
+msgstr "Skilaboð til notanda"
+
+msgid "buy"
+msgstr "Kaupa"
+
+msgid "files"
+msgstr "Skrár"
+
+msgid "new review"
+msgstr "Ný umsögn"
+
+msgid "add review"
+msgstr "Bæta við umsögn"
+
+msgid "error happened"
+msgstr "Villa. Vinsamlegast, reynið aftur"
+
+msgid "item id"
+msgstr "Item ID"
+
+msgid "show in menu"
+msgstr "Sýna í Menu"
+
+msgid "customers status"
+msgstr "Staða viðskiptavinar"
+
+msgid "website"
+msgstr "Vefsíða"
+
+msgid "add to friends"
+msgstr "Bæta við hjá vinum"
+
+msgid "add a testimonial"
+msgstr "Bæta við umsögn"
+
+msgid "delete from friends"
+msgstr "Eyða frá vinum"
+
+msgid "portfolio"
+msgstr "Portfolio"
+
+msgid "new testimonial"
+msgstr "Ný umsögn"
+
+msgid "archives"
+msgstr "Sarpur"
+
+msgid "posted in"
+msgstr "Skráð í"
+
+msgid "add comment"
+msgstr "Bæta við umsögn"
+
+msgid "new comment"
+msgstr "Ný umsögn"
+
+msgid "use iptc info"
+msgstr "Nota IPTC upplýsingar"
+
+msgid "id"
+msgstr "ID"
+
+msgid "qty"
+msgstr "Fjöldi"
+
+msgid "shipping"
+msgstr "Sendingarkostnaður"
+
+msgid "bulk upload"
+msgstr "Fjölda innsending"
+
+msgid "audio"
+msgstr "Hljóð"
+
+msgid "small thumb height"
+msgstr "Hámarks lítið thumb hæð"
+
+msgid "big thumb height"
+msgstr "Hámarks stórt thumb hæð"
+
+msgid "allow photo"
+msgstr "Leyfa myndir"
+
+msgid "allow video"
+msgstr "Leyfa myndbönd"
+
+msgid "allow audio"
+msgstr "Leyfa hljóð"
+
+msgid "menu"
+msgstr "Menu"
+
+msgid "video settings"
+msgstr "Myndbanda stillingar"
+
+msgid "audio settings"
+msgstr "Hljóðstillingar"
+
+msgid "clip format"
+msgstr "Klippi Format"
+
+msgid "aspect ratio"
+msgstr "Hlutföll / Aspect Ratio"
+
+msgid "field rendering"
+msgstr "Field Rendering"
+
+msgid "frames per second"
+msgstr "Rammar á sekúntu"
+
+msgid "track source"
+msgstr "Track Source"
+
+msgid "track format"
+msgstr "Track Format"
+
+msgid "duration"
+msgstr "Lengd"
+
+msgid "copyright holder"
+msgstr "Höfundarréttur"
+
+msgid "upload form"
+msgstr "Innsendingar síða"
+
+msgid "required"
+msgstr "Nauðsynlegt"
+
+msgid "terms and conditions"
+msgstr "Skilmálar"
+
+msgid "seller"
+msgstr "Seljandi"
+
+msgid "buyer"
+msgstr "Kaupandi"
+
+msgid "company"
+msgstr "Fyrirtæki"
+
+msgid "allow audio types"
+msgstr "Leyfa hljóð skrár"
+
+msgid "Upload video limit (Mb)"
+msgstr "Innsending myndbanda hámark (Mb)"
+
+msgid "Upload preview video limit"
+msgstr "Innsending forskoðunar myndbands hámark"
+
+msgid "Upload audio limit (Mb)"
+msgstr "Innsending hljóð hámark (Mb)"
+
+msgid "Upload preview audio limit"
+msgstr "Innsending forskoðun hljóðs hámark"
+
+msgid "allow to upload audio"
+msgstr "Leyfa innsendingu hljóðs"
+
+msgid "upload audio"
+msgstr "Senda inn hljóð"
+
+msgid "i agree"
+msgstr "Ég samþykki"
+
+msgid "allow ipn"
+msgstr "Greiðslutilkynning"
+
+msgid "allow video remote storage"
+msgstr "Leyfa fjargeymslu myndbanda"
+
+msgid "allow audio remote storage"
+msgstr "Leyfa fjargeymslu hljóðs"
+
+msgid "or remote link"
+msgstr "Eða linkur á fjargeymslu"
+
+msgid "remote link"
+msgstr "Linkur á fjargeymslu"
+
+msgid "file is avaivable"
+msgstr "Ok. Skráin er til staðar"
+
+msgid "unable to open remote file"
+msgstr "Villa. Get ekki opnað skrá í fjargeymslu"
+
+msgid "preview audio"
+msgstr "Forskoða hjóð"
+
+msgid "position"
+msgstr "Staðsetning"
+
+msgid "sell prints only"
+msgstr "Aðeins selja stækkanir"
+
+msgid "show watermark info"
+msgstr "Sýna upplýsingar um vatnsmerki"
+
+msgid "vector"
+msgstr "Vector"
+
+msgid "allow vector"
+msgstr "Leyfa vector"
+
+msgid "allow vector remote storage"
+msgstr "Leyfa vector fjargeymslu"
+
+msgid "allow vector types"
+msgstr "Leyfa allar gerðir vector"
+
+msgid "vector preupload folder"
+msgstr "Vector preupload mappa"
+
+msgid "credits"
+msgstr "Inneignapúnktar"
+
+msgid "credits types"
+msgstr "Tegundir inneigna"
+
+msgid "download limit"
+msgstr "Download hámark"
+
+msgid "days till download expiration"
+msgstr "Dagar þar til download rennur út"
+
+msgid "download links"
+msgstr "Download linkar"
+
+msgid "allow to upload vector"
+msgstr "Leyfa to upload vector"
+
+msgid "upload vector"
+msgstr "Upload vector"
+
+msgid "advanced search"
+msgstr "Ítarleg leit"
+
+msgid "upload vector limit (Mb)"
+msgstr "Upload vector limit (Mb)"
+
+msgid "download sample"
+msgstr "Download sýnishorn"
+
+msgid "check or money order"
+msgstr "Ávísun eða póstávísun"
+
+msgid "buy credits"
+msgstr "Kaupa inneignarpúnkta"
+
+msgid "expired"
+msgstr "Útrunnið"
+
+msgid "content type"
+msgstr "Efnisgerðir"
+
+msgid "subscription"
+msgstr "Áskrift"
+
+msgid "subscription type"
+msgstr "Tegundir áskrifta"
+
+msgid "bandwidth"
+msgstr "Bandwidth"
+
+msgid "related items"
+msgstr "Tengdar vörur"
+
+msgid "related items quantity"
+msgstr "Gæði tengra vöru"
+
+msgid "tag clouds"
+msgstr "Þekkingarský"
+
+msgid "download"
+msgstr "Hlaða niður"
+
+msgid "content type as default"
+msgstr "Stöðlug tegund efnis"
+
+msgid "bonus"
+msgstr "Bónus"
+
+msgid "zoomer"
+msgstr "Stækkun"
+
+msgid "license"
+msgstr "Leyfi"
+
+msgid "user uploads premoderation"
+msgstr "Innsending premoderation"
+
+msgid "enabled"
+msgstr "Virkjað"
+
+msgid "disabled"
+msgstr "Ekki virkjað"
+
+msgid "notifications"
+msgstr "Tilkynningar"
+
+msgid "print version"
+msgstr "Prent útgáfa"
+
+msgid "upgrade"
+msgstr "Upgrade"
+
+msgid "The item has been added to the cart"
+msgstr "Varan komin í körfu"
+
+msgid "ads"
+msgstr "Auglýsingar"
+
+msgid "components"
+msgstr "Hlutar"
+
+msgid "home page"
+msgstr "Heimasíða"
+
+msgid "player"
+msgstr "Spilari"
+
+msgid "most downloaded"
+msgstr "Vinsælasta niðurhal"
+
+msgid "columns"
+msgstr "Columns"
+
+msgid "rows"
+msgstr "Rows"
+
+msgid "who are you"
+msgstr "Hver ert þú"
+
+msgid "continue"
+msgstr "Halda áfram"
+
+msgid "newsletter"
+msgstr "Fréttabréf"
+
+msgid "types"
+msgstr "tegundir"
+
+msgid "landscape"
+msgstr "Landslag"
+
+msgid "portrait"
+msgstr "Portrait"
+
+msgid "all"
+msgstr "Allt"
+
+msgid "prints for users"
+msgstr "Prenta fyrir notendur"
+
+msgid "test"
+msgstr "Prufa"
+
+msgid "overview"
+msgstr "Yfirlit"
+
+msgid "path"
+msgstr "Path"
+
+msgid "generate video preview from"
+msgstr "Gera myndbands sýnishorn frá"
+
+msgid "day"
+msgstr "Dagur"
+
+msgid "week"
+msgstr "Vika"
+
+msgid "month"
+msgstr "Mánuður"
+
+msgid "year"
+msgstr "Ár"
+
+msgid "rates depend on"
+msgstr "Einkunn byggist á"
+
+msgid "price includes tax"
+msgstr "Verð innifelur VSK"
+
+msgid "rates"
+msgstr "Verðlisti"
+
+msgid "synchronize"
+msgstr "Samstilla / Sync"
+
+msgid "shipped"
+msgstr "Sent"
+
+msgid "not shipped"
+msgstr "Ekki sent"
+
+msgid "digital"
+msgstr "Digital"
+
+msgid "separated home page"
+msgstr "Aðskilin heimasíða"
+
+msgid "add new template"
+msgstr "Bæta við nýjum form template"
+
+msgid "billing address"
+msgstr "Heimilisfang"
+
+msgid "shipping address"
+msgstr "Senda til heimilisfang"
+
+msgid "taxes"
+msgstr "VSK"
+
+msgid "cancel"
+msgstr "Hætta við"
+
+msgid "included"
+msgstr "Innifalið"
+
+msgid "model property release"
+msgstr "Módel samningur"
+
+msgid "search history"
+msgstr "Leitarsaga"
+
+msgid "query"
+msgstr "Fyrirspurn"
+
+msgid "new publication"
+msgstr "Ný birting"
+
+msgid "upload several photos"
+msgstr "Senda inn margar myndir"
+
+msgid "zip archive file of *.jpg photos"
+msgstr "Zip archive skrá með *.jpg myndum"
+
+msgid "Error. The file has 0 bite size"
+msgstr "Villa. Skráin er 0 bitar í stærð"
+
+msgid "Error. The file has incorrect extention"
+msgstr "Villa. Skráin er með ranglega skilgreint format"
+
+msgid "Error. You have no permission to upload to the directory"
+msgstr "Villa. Þú hefur ekki heimild til að senda inn í þessa möppu"
+
+msgid "Error. You have no permission to upload the file"
+msgstr "Villa. Þú hefur ekki heimilt til að senda inn skrána"
+
+msgid "Error. The archive doesn't contain files"
+msgstr "Villa. Mappan innheldur engar skrár"
+
+msgid "declined"
+msgstr "Synjað"
+
+msgid "models"
+msgstr "Módel"
+
+msgid "seller examination"
+msgstr "Seljandapróf"
+
+msgid "take an examination"
+msgstr "Taka prófið"
+
+msgid "examination"
+msgstr "Próf"
+
+msgid "flash version"
+msgstr "Flash gerð"
+
+msgid "flash script version"
+msgstr "Flash script version"
+
+msgid "become a buyer"
+msgstr "Gerast kaupandi"
+
+msgid "become a seller"
+msgstr "Gerast seljandi"
+
+msgid "seller agreement"
+msgstr "Samningur seljanda"
+
+msgid "buyer agreement"
+msgstr "Samningur kaupanda"
+
+msgid "passport"
+msgstr "Vegabréf"
+
+msgid "the seller may not buy items"
+msgstr "Seljandi/affiliate má ekki kaupa vörur"
+
+msgid "caching"
+msgstr "Caching"
+
+msgid "refresh"
+msgstr "Refresh"
+
+msgid "refresh now"
+msgstr "Refresh now"
+
+msgid "refresh every x hours"
+msgstr "Refresh every X hours"
+
+msgid "refresh all files"
+msgstr "Refresh all files"
+
+msgid "next"
+msgstr "Næst"
+
+msgid "previous"
+msgstr "Fyrra"
+
+msgid "free"
+msgstr "Ókeypis"
+
+msgid "next step"
+msgstr "Næsta skref"
+
+msgid "file storage"
+msgstr "Skráargeymsla"
+
+msgid "prices"
+msgstr "Verð"
+
+msgid "in your cart"
+msgstr "Í körfunni þinni"
+
+msgid "height"
+msgstr "Hæð"
+
+msgid "original size"
+msgstr "Upprunaleg stærð"
+
+msgid "select all"
+msgstr "Velja allt"
+
+msgid "deselect all"
+msgstr "Deselect allt"
+
+msgid "show model property release"
+msgstr "Sýna módelsamning á front end"
+
+msgid "share this"
+msgstr "Deila þessu"
+
+msgid "all files"
+msgstr "Allar skrár"
+
+msgid "or"
+msgstr "eða"
+
+msgid "select action"
+msgstr "Velja aðgerð"
+
+msgid "delete selected"
+msgstr "Eyða völdum"
+
+msgid "regenerate thumbs"
+msgstr "Endurnýja Thumbs"
+
+msgid "change content type"
+msgstr "Breyta efnis gerð"
+
+msgid "set prints"
+msgstr "Stilla Stækkanir"
+
+msgid "set prices"
+msgstr "Setja verð"
+
+msgid "save"
+msgstr "Vista"
+
+msgid "add category"
+msgstr "Bæta við nýjum flokk"
+
+msgid "affiliate"
+msgstr "Affiliate"
+
+msgid "affiliates"
+msgstr "Affiliates"
+
+msgid "back to results"
+msgstr "Til baka í niðurstöður"
+
+msgid "Show on Google map"
+msgstr "Sýna á Google korti"
+
+msgid "Google map"
+msgstr "Google kort"
+
+msgid "Show EXIF info"
+msgstr "Sýna EXIF upplýsingar"
+
+msgid "move to category"
+msgstr "Færa í flokk"
+
+msgid "add new price"
+msgstr "Bæta við nýju verði"
+
+msgid "reupload"
+msgstr "Senda inn aftur"
+
+msgid "reason for rejection"
+msgstr "Ástæða synjunar"
+
+msgid "authorization"
+msgstr "Hemild"
+
+msgid "social networks"
+msgstr "Samskiptamiðlar"
+
+msgid "login without signup"
+msgstr "Innskráning án Nýskráningar"
+
+msgid "become an affiliate"
+msgstr "Gerast samstarfsaðili / affiliate"
+
+msgid "affiliate agreement"
+msgstr "Affiliate samningur"
+
+msgid "visits"
+msgstr "Heimsóknir"
+
+msgid "local server"
+msgstr "Local server"
+
+msgid "pay now"
+msgstr "Greiða núna"
+
+msgid "credit card"
+msgstr "Greiðslukort"
+
+msgid "subscription only"
+msgstr "Aðeins áskrift"
+
+msgid "common"
+msgstr "Sameiginlegt / Common"
+
+msgid "Common account for buyers,sellers and affiliates"
+msgstr "Sameiginlegur notendaaðgangur fyrir fyrir kaupendur, seljendur og samstarfsaðila / affiliates"
+
+msgid "restore link"
+msgstr "Endurnýja linkinn"
+
+msgid "never"
+msgstr "Aldrei"
+
+msgid "code"
+msgstr "Code"
+
+msgid "promotion"
+msgstr "Kynning"
+
+msgid "java photo uploader"
+msgstr "Java Photo Uploader"
+
+msgid "flash photo uploader"
+msgstr "Flash Photo Uploader"
+
+msgid "place order"
+msgstr "Gera pöntun"
+
+msgid "buy subscription"
+msgstr "Kaupa áskrift"
+
+msgid "purchase statement"
+msgstr "Purchase Statement"
+
+msgid "billing information"
+msgstr "Kaupenda upplýsingar"
+
+msgid "shipping information"
+msgstr "Sendingar upplýsingar"
+
+msgid "payment information"
+msgstr "Greiðsluupplýsingar"
+
+msgid "order information"
+msgstr "Pantanaupplýsingar"
+
+msgid "ftp photo uploader"
+msgstr "FTP mynda innsending"
+
+msgid "ftp video uploader"
+msgstr "FTP myndbands innsending"
+
+msgid "ftp audio uploader"
+msgstr "FTP hljóð innsending"
+
+msgid "ftp vector uploader"
+msgstr "FTP vector innsending"
+
+msgid "icons view"
+msgstr "Icons Skoða"
+
+msgid "tree view"
+msgstr "Tré Skoða"
+
+msgid "common information"
+msgstr "Sameiginlegar upplýsingar"
+
+msgid "contacts information"
+msgstr "Kontakts Upplýsingar"
+
+msgid "state"
+msgstr "Staður/Svæði"
+
+msgid "sales"
+msgstr "Sölur"
+
+msgid "my downloads"
+msgstr "Mítt niðurhal"
+
+msgid "customer agreement"
+msgstr "Samingur viðskiptavinar"
+
+msgid "filter"
+msgstr "Sía"
+
+msgid "regenerate urls"
+msgstr "Endurýja URLs"
+
+msgid "login on the frontend"
+msgstr "Innskráning á frontend"
+
+msgid "export as xls file"
+msgstr "Export sem xls skrá"
+
+msgid "export as csv file"
+msgstr "Export sem csv skrá"
+
+msgid "mobile payment"
+msgstr "Mobile símagreiðsla"
+
+msgid "editorial"
+msgstr "Editorial"
+
+msgid "files for editorial use only"
+msgstr "Skrár sem má aðeins nota í fjölmiðlum og í engum viðskiptalegum tilgangi."
+
+msgid "photo filters"
+msgstr "Mynda síur"
+
+msgid "video filters"
+msgstr "Myndbanda síur"
+
+msgid "audio filters"
+msgstr "Hljóð síur"
+
+msgid "vector filters"
+msgstr "Vector síður"
+
+msgid "creative"
+msgstr "Creative"
+
+msgid "orientation"
+msgstr "Orientation"
+
+msgid "login as guest"
+msgstr "Innskráning sem gestur"
+
+msgid "change files to free/paid"
+msgstr "Breyta skrá í frítt/greitt"
+
+msgid "change files to featured"
+msgstr "Breyta skrám í valið featured"
+
+msgid "change photos to editorial"
+msgstr "Breyta myndum í fjölmiðla / editorial"
+
+msgid "approve"
+msgstr "Heimila"
+
+msgid "decline"
+msgstr "Synja"
+
+msgid "paid"
+msgstr "Greitt"
+
+msgid "symbol"
+msgstr "Merki/Symbol"
+
+msgid "meta keywords"
+msgstr "Meta lykilorð"
+
+msgid "meta description"
+msgstr "Meta lýsing"
+
+msgid "access rights"
+msgstr "Aðgangsréttindi"
+
+msgid "last downloads"
+msgstr "Síðasta niðurhal"
+
+msgid "last sales"
+msgstr "Síðasta sala"
+
+msgid "items in bulk upload"
+msgstr ""
+
+msgid "google coordinates"
+msgstr ""
+
+msgid "photo preupload folder"
+msgstr ""
+
+msgid "video preupload folder"
+msgstr ""
+
+msgid "audio preupload folder"
+msgstr ""
+
+msgid "flash"
+msgstr ""
+
+msgid "flash width"
+msgstr ""
+
+msgid "flash height"
+msgstr ""
+
+msgid "show users as"
+msgstr ""
+
+msgid "lightboxes"
+msgstr ""
+
+msgid "select a lightbox"
+msgstr ""
+
+msgid "the file was added to the lightbox"
+msgstr ""
+
+msgid "the file was removed from the lightbox"
+msgstr ""
+
+msgid "shopping carts"
+msgstr ""
+
+msgid "previews"
+msgstr ""
+
+msgid "you should login to use the option"
+msgstr ""
+
+msgid "add a new lightbox"
+msgstr ""
+
+msgid "incorrect field"
+msgstr ""
+
+msgid "sorting of catalog"
+msgstr ""
+
+msgid "simple photo uploader"
+msgstr ""
+
+msgid "seller may set prices"
+msgstr ""
+
+msgid "automatic language detection"
+msgstr ""
+
+msgid "select files"
+msgstr ""
+
+msgid "browse"
+msgstr ""
+
+msgid "Photo resolution in DPI"
+msgstr ""
+
+msgid "pixels"
+msgstr ""
+
+msgid "inches"
+msgstr ""
+
+msgid "add files"
+msgstr ""
+
+msgid "start upload"
+msgstr ""
+
+msgid "cancel upload"
+msgstr ""
+
+msgid "adult content"
+msgstr ""
+
+msgid "change files to adult"
+msgstr ""
+
+msgid "exclude adult content"
+msgstr ""
+
+msgid "category preview"
+msgstr ""
+
+msgid "payout method"
+msgstr ""
+
+msgid "other"
+msgstr ""
+
+msgid "loading"
+msgstr ""
+
+msgid "shipping time"
+msgstr ""
+
+msgid "weight"
+msgstr ""
+
+msgid "weight min/max"
+msgstr ""
+
+msgid "shipping method"
+msgstr ""
+
+msgid "regions"
+msgstr ""
+
+msgid "shipping charges"
+msgstr ""
+
+msgid "kg"
+msgstr ""
+
+msgid "lbs"
+msgstr ""
+
+msgid "everywhere"
+msgstr ""
+
+msgid "calculation method"
+msgstr ""
+
+msgid "flat rate"
+msgstr ""
+
+msgid "cost"
+msgstr ""
+
+msgid "ranges"
+msgstr ""
+
+msgid "prints and products"
+msgstr ""
+
+msgid "cd weight"
+msgstr ""
+
+msgid "products options"
+msgstr ""
+
+msgid "property"
+msgstr ""
+
+msgid "continue shopping"
+msgstr ""
+
+msgid "clear cart"
+msgstr ""
+
+msgid "order details"
+msgstr ""
+
+msgid "not finished"
+msgstr ""
+
+msgid "business"
+msgstr ""
+
+msgid "individual"
+msgstr ""
+
+msgid "billing and shipping address"
+msgstr ""
+
+msgid "items"
+msgstr ""
+
+msgid "order total"
+msgstr ""
+
+msgid "billing and shipping address are the same"
+msgstr ""
+
+msgid "taxable"
+msgstr ""
+
+msgid "pwinty prints service"
+msgstr ""
+
+msgid "flow"
+msgstr ""
+
+msgid "flow by default"
+msgstr ""
+
+msgid "auto"
+msgstr ""
+
+msgid "auto paging"
+msgstr ""
+
+msgid "auto paging by default"
+msgstr ""
+
+msgid "remove all"
+msgstr ""
+
+msgid "enter"
+msgstr ""
+
+msgid "new orders"
+msgstr ""
+
+msgid "new credits"
+msgstr ""
+
+msgid "new subscriptions"
+msgstr ""
+
+msgid "banks"
+msgstr ""
+
+msgid "method"
+msgstr ""
+
+msgid "recurring payments"
+msgstr ""
+
+msgid "plupload photo uploader"
+msgstr ""
+
+msgid "only registered users may download free files"
+msgstr ""
+
+msgid "only registered users may set rating"
+msgstr ""
+
+msgid "add language"
+msgstr ""
+
+msgid "multilingual option for categories"
+msgstr ""
+
+msgid "royalty free"
+msgstr ""
+
+msgid "rights managed"
+msgstr ""
+
+msgid "rights managed files"
+msgstr ""
+
+msgid "royalty free files"
+msgstr ""
+
+msgid "rights managed files for sellers"
+msgstr ""
+
+msgid "groups"
+msgstr ""
+
+msgid "options"
+msgstr ""
+
+msgid "price scheme"
+msgstr ""
+
+msgid "add step"
+msgstr ""
+
+msgid "add group"
+msgstr ""
+
+msgid "conditions"
+msgstr ""
+
+msgid "calculate price"
+msgstr ""
+
+msgid "image resize library"
+msgstr ""
+
+msgid "photo uploader"
+msgstr ""
+
+msgid "video uploader"
+msgstr ""
+
+msgid "audio uploader"
+msgstr ""
+
+msgid "vector uploader"
+msgstr ""
+
+msgid "usual uploader"
+msgstr ""
+
+msgid "jquery uploader"
+msgstr ""
+
+msgid "plupload uploader"
+msgstr ""
+
+msgid "all news"
+msgstr ""
+
+msgid "show content type in the search"
+msgstr ""
+
+msgid "limit"
+msgstr ""
+
+msgid "daily limit"
+msgstr ""
+
+msgid "open a support request"
+msgstr ""
+
+msgid "in progress"
+msgstr ""
+
+msgid "preview fixed width"
+msgstr ""
+
+msgid "preview fixed height"
+msgstr ""
+
+msgid "the same file"
+msgstr ""
+
+msgid "one color files are the same"
+msgstr ""
+
+msgid "how many free files a user may download per day"
+msgstr ""
+
+msgid "daily limit error"
+msgstr ""
+
+msgid "prints lab"
+msgstr ""
+
+msgid "upload your photos and order prints"
+msgstr ""
+
+msgid "add new gallery"
+msgstr ""
+
+msgid "edit gallery"
+msgstr ""
+
+msgid "order prints"
+msgstr ""
+
+msgid "Prints lab photo size (MB)"
+msgstr ""
+
+msgid "select gallery"
+msgstr ""
+
+msgid "Use the same prints options for the gallery"
+msgstr ""
+
+msgid "marketing emails"
+msgstr ""
+
+msgid "save as draft"
+msgstr ""
+
+msgid "show in catalog"
+msgstr ""
+
+msgid "visible in catalog"
+msgstr ""
+
+msgid "catalog view by default"
+msgstr ""
+
+msgid "grid"
+msgstr ""
+
+msgid "fixed width"
+msgstr ""
+
+msgid "fixed height"
+msgstr ""
+
+msgid "change rights-managed price"
+msgstr ""
+
+msgid "like"
+msgstr ""
+
+msgid "dislike"
+msgstr ""
+
+msgid "Require Billing Address for the Order Checkout"
+msgstr ""
+
+msgid "Require Shipping Address for the Order Checkout"
+msgstr ""
+
+msgid "Require Billing Address for the Credits Checkout"
+msgstr ""
+
+msgid "Require Billing Address for the Subscription Checkout"
+msgstr ""
+
+msgid "exclusive price"
+msgstr ""
+
+msgid "contact us to get the price"
+msgstr ""
+
+msgid "sold"
+msgstr ""
+
+msgid "Exclusive price. The file will be removed from the stock after the purchase"
+msgstr ""
+
+msgid "change files to exclusive"
+msgstr ""
+
+msgid "change files to 'contact us to get the price'"
+msgstr ""
+
+msgid "Oops! The file was removed."
+msgstr ""
+
+msgid "I would like to purchase the file"
+msgstr ""
+
+msgid "Bulk change titles, keywords, description"
+msgstr ""
+
+msgid "Bulk add/remove keywords"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "add new keywords"
+msgstr ""
+
+msgid "remove keywords"
+msgstr ""
+
+msgid "not to change"
+msgstr ""
+
+msgid "Your Commission on all sales"
+msgstr ""
+
+msgid "Add new price"
+msgstr ""
+
+msgid "If you want to upload additional formats (*.gif,*.png,*.raw,*.tiff,*.eps) the files must have the same names as *.jpg."
+msgstr ""
+
+msgid "Generate *.mp3 audio preview from"
+msgstr ""
+
+msgid "Queue"
+msgstr ""
+
+msgid "Previews are being created. Queue number is"
+msgstr ""
+
+msgid "Creation date"
+msgstr ""
+
+msgid "it is impossible to remove approved files."
+msgstr ""
+
+msgid "VAT number"
+msgstr ""
+
+msgid "Sign up fields"
+msgstr ""
+
+msgid "Model release"
+msgstr ""
+
+msgid "Property release"
+msgstr ""
+
+msgid "Show left search panel in catalog"
+msgstr ""
+
+msgid "Show left search panel in catalog by default"
+msgstr ""
+
+msgid "Use credits and currency"
+msgstr ""
+
+msgid "Show taxes in shopping cart"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Stock"
+msgstr ""
+
+msgid "See all categories"
+msgstr ""
+
+msgid "Browse categories"
+msgstr ""
+
+msgid "Cart"
+msgstr ""
+
+msgid "View Cart"
+msgstr ""
+
+msgid "New photos"
+msgstr ""
+
+msgid "Featured photos"
+msgstr ""
+
+msgid "Hover view photo - max width/height"
+msgstr ""
+
+msgid "Fotomoto prints service"
+msgstr ""
+
+msgid "Printful prints service"
+msgstr ""
+
+msgid "for download"
+msgstr ""
+
+msgid "Your earnings"
+msgstr ""
+
+msgid "Not to calculate search count to decrease database loading"
+msgstr ""
+
+msgid "Not to calculate search count and show more"
+msgstr ""
+
+msgid "Not to calculate search count and set total quantity equal"
+msgstr ""
+
+msgid "All Orders"
+msgstr ""
+
+msgid "All Credits"
+msgstr ""
+
+msgid "All Subscriptions"
+msgstr ""
+
+msgid "Latest Members"
+msgstr ""
+
+msgid "View All Users"
+msgstr ""
+
+msgid "Last downloads"
+msgstr ""
+
+msgid "All downloads"
+msgstr ""
+
+msgid "Last uploads"
+msgstr ""
+
+msgid "All uploads"
+msgstr ""
+
+msgid "Recent comments"
+msgstr ""
+
+msgid "All comments"
+msgstr ""
+
+msgid "View All"
+msgstr ""
+
+msgid "All support tickets"
+msgstr ""
+
+msgid "just now"
+msgstr ""
+
+msgid "one minute ago"
+msgstr ""
+
+msgid "minutes ago"
+msgstr ""
+
+msgid "an hour ago"
+msgstr ""
+
+msgid "hours ago"
+msgstr ""
+
+msgid "yesterday"
+msgstr ""
+
+msgid "days ago"
+msgstr ""
+
+msgid "a week ago"
+msgstr ""
+
+msgid "weeks ago"
+msgstr ""
+
+msgid "a month ago"
+msgstr ""
+
+msgid "months ago"
+msgstr ""
+
+msgid "one year ago"
+msgstr ""
+
+msgid "years ago"
+msgstr ""
+
+msgid "Documentation"
+msgstr ""
+
+msgid "Forum"
+msgstr ""
+
+msgid "Updates"
+msgstr ""
+
+msgid "Fixed layout"
+msgstr ""
+
+msgid "Boxed Layout"
+msgstr ""
+
+msgid "Toggle Left Sidebar"
+msgstr ""
+
+msgid "Left Sidebar Expand on Hover"
+msgstr ""
+
+msgid "Invoices"
+msgstr ""
+
+msgid "Documents"
+msgstr ""
+
+msgid "EU VAT tax law compliance"
+msgstr ""
+
+msgid "Documents types"
+msgstr ""
+
+msgid "Stock API"
+msgstr ""
+
+msgid "Invoice prefix"
+msgstr ""
+
+msgid "Next invoice number"
+msgstr ""
+
+msgid "Credit notes prefix"
+msgstr ""
+
+msgid "Next credit notes number"
+msgstr ""
+
+msgid "Logo"
+msgstr ""
+
+msgid "Company name"
+msgstr ""
+
+msgid "Company address"
+msgstr ""
+
+msgid "EU VAT Reg No"
+msgstr ""
+
+msgid "only for EU"
+msgstr ""
+
+msgid "Uploaded"
+msgstr ""
+
+msgid "Not Uploaded"
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Default media stock"
+msgstr ""
+
+msgid "Show site stock"
+msgstr ""
+
+msgid "Error. The script cannot connect to API."
+msgstr ""
+
+msgid "Create internal pages for files"
+msgstr ""
+
+msgid "newest"
+msgstr ""
+
+msgid "popular"
+msgstr ""
+
+msgid "relevance"
+msgstr ""
+
+msgid "Contributor"
+msgstr ""
+
+msgid "illustration"
+msgstr ""
+
+msgid "music"
+msgstr ""
+
+msgid "Age"
+msgstr ""
+
+msgid "Gender"
+msgstr ""
+
+msgid "Ethnicity"
+msgstr ""
+
+msgid "People"
+msgstr ""
+
+msgid "infants"
+msgstr ""
+
+msgid "children"
+msgstr ""
+
+msgid "teenagers"
+msgstr ""
+
+msgid "20s"
+msgstr ""
+
+msgid "30s"
+msgstr ""
+
+msgid "40s"
+msgstr ""
+
+msgid "50s"
+msgstr ""
+
+msgid "60s"
+msgstr ""
+
+msgid "older"
+msgstr ""
+
+msgid "african"
+msgstr ""
+
+msgid "african_american"
+msgstr ""
+
+msgid "black"
+msgstr ""
+
+msgid "brazilian"
+msgstr ""
+
+msgid "chinese"
+msgstr ""
+
+msgid "caucasian"
+msgstr ""
+
+msgid "east_asian"
+msgstr ""
+
+msgid "hispanic"
+msgstr ""
+
+msgid "japanese"
+msgstr ""
+
+msgid "middle_eastern"
+msgstr ""
+
+msgid "native_american"
+msgstr ""
+
+msgid "pacific_islander"
+msgstr ""
+
+msgid "south_asian"
+msgstr ""
+
+msgid "southeast_asian"
+msgstr ""
+
+msgid "male"
+msgstr ""
+
+msgid "female"
+msgstr ""
+
+msgid "both"
+msgstr ""
+
+msgid "commercial"
+msgstr ""
+
+msgid "enhanced"
+msgstr ""
+
+msgid "horizontal"
+msgstr ""
+
+msgid "vertical"
+msgstr ""
+
+msgid "resolution"
+msgstr ""
+
+msgid "Album title"
+msgstr ""
+
+msgid "Artists"
+msgstr ""
+
+msgid "Beats per minute"
+msgstr ""
+
+msgid "Genge"
+msgstr ""
+
+msgid "Instrumental"
+msgstr ""
+
+msgid "Instruments"
+msgstr ""
+
+msgid "Lyrics"
+msgstr ""
+
+msgid "Moods"
+msgstr ""
+
+msgid "Vocal description"
+msgstr ""
+
+msgid "Buy on"
+msgstr ""
+
+msgid "filesize"
+msgstr ""
+
+msgid "by default"
+msgstr ""
+
+msgid "collection"
+msgstr ""
+
+msgid "Square"
+msgstr ""
+
+msgid "PanoramicHorizontal"
+msgstr ""
+
+msgid "PanoramicVertical"
+msgstr ""
+
+msgid "Compositions"
+msgstr ""
+
+msgid "Graphical styles"
+msgstr ""
+
+msgid "photography"
+msgstr ""
+
+msgid "fine art"
+msgstr ""
+
+msgid "License models"
+msgstr ""
+
+msgid "Online check"
+msgstr ""
+
+msgid "Valid"
+msgstr ""
+
+msgid "Invalid"
+msgstr ""
+
+msgid "Not checked"
+msgstr ""
+
+msgid "Last check"
+msgstr ""
+
+msgid "Balance threshold for payout"
+msgstr ""
+
+msgid "User may set balance threshold for payout"
+msgstr ""
+
+msgid "Set your balance threshold for payout"
+msgstr ""
+
+msgid "Not to change current users's balance thresholds"
+msgstr ""
+
+msgid "Change current user's balance thresholds"
+msgstr ""
+
+msgid "Invoice"
+msgstr ""
+
+msgid "Regenerate invoices for old orders"
+msgstr ""
+
+msgid "Invoice Number"
+msgstr ""
+
+msgid "Invoice Date"
+msgstr ""
+
+msgid "Order Number"
+msgstr ""
+
+msgid "Invoice Amount"
+msgstr ""
+
+msgid "Amount"
+msgstr ""
+
+msgid "VAT"
+msgstr ""
+
+msgid "Payment received via"
+msgstr ""
+
+msgid "Payment method"
+msgstr ""
+
+msgid "Transaction number"
+msgstr ""
+
+msgid "Order print"
+msgstr ""
+
+msgid "Prints on Demand"
+msgstr ""
+
+msgid "multilingual option for publications"
+msgstr ""
+
+msgid "User's rating"
+msgstr ""
+
+msgid "Only registered users may rate other users"
+msgstr ""
+
+msgid "Publish an invoice automatically when a transaction is successful"
+msgstr ""
+
+msgid "Countries"
+msgstr ""
+
+msgid "Select EU Countries"
+msgstr ""
+
+msgid "Note on Invoice"
+msgstr ""
+
+msgid "Refund money"
+msgstr ""
+
+msgid "Credit notes"
+msgstr ""
+
+msgid "Max price in catalog"
+msgstr ""
+
+msgid "Download from Pixabay"
+msgstr ""
+
+msgid "Original size"
+msgstr ""
+
+msgid "Prints categories"
+msgstr ""
+
+msgid "Prints previews"
+msgstr ""
+
+msgid "Related products"
+msgstr ""
+
+msgid "Image size"
+msgstr ""
+
+msgid "Allow to resize and move a photo"
+msgstr ""
+
+msgid "Property ID"
+msgstr ""
+
+msgid "Color picker"
+msgstr ""
+
+msgid "List of colors"
+msgstr ""
+
+msgid "Scheme"
+msgstr ""
+
+msgid "Crop image for print"
+msgstr ""
+
+msgid "Resize min (px)"
+msgstr ""
+
+msgid "Resize max (px)"
+msgstr ""
+
+msgid "Resize default (px)"
+msgstr ""
+
+msgid "Canvas Prints"
+msgstr ""
+
+msgid "Framed Prints"
+msgstr ""
+
+msgid "Prints and Posters"
+msgstr ""
+
+msgid "Metal Prints"
+msgstr ""
+
+msgid "Acrylic Prints"
+msgstr ""
+
+msgid "iPhone Cases"
+msgstr ""
+
+msgid "Galaxy Cases"
+msgstr ""
+
+msgid "Pillows"
+msgstr ""
+
+msgid "Duvet Covers"
+msgstr ""
+
+msgid "Shower Curtain"
+msgstr ""
+
+msgid "T-Shirts"
+msgstr ""
+
+msgid "Greeting Cards"
+msgstr ""
+
+msgid "Tote Bags"
+msgstr ""
+
+msgid "Wall Art"
+msgstr ""
+
+msgid "Phone Cases"
+msgstr ""
+
+msgid "Home Decor"
+msgstr ""
+
+msgid "Clothes"
+msgstr ""
+
+msgid "Souvenirs"
+msgstr ""
+
+msgid "Bags"
+msgstr ""
+
+msgid "Bag Size"
+msgstr ""
+
+msgid "Bottom Mat Color"
+msgstr ""
+
+msgid "Bottom Mat Size"
+msgstr ""
+
+msgid "Canvas"
+msgstr ""
+
+msgid "Card Size"
+msgstr ""
+
+msgid "Case Orientation"
+msgstr ""
+
+msgid "Duvet Size"
+msgstr ""
+
+msgid "Frame"
+msgstr ""
+
+msgid "Galaxy Model"
+msgstr ""
+
+msgid "iPhone Model"
+msgstr ""
+
+msgid "Mounting"
+msgstr ""
+
+msgid "Paper"
+msgstr ""
+
+msgid "Pillow Insert"
+msgstr ""
+
+msgid "Pillow Size"
+msgstr ""
+
+msgid "Print Size"
+msgstr ""
+
+msgid "Size of T-shirt"
+msgstr ""
+
+msgid "T-shirt Color"
+msgstr ""
+
+msgid "Top Mat Color"
+msgstr ""
+
+msgid "Top Mat Size"
+msgstr ""
+
+msgid "Wrap"
+msgstr ""
+
+msgid "Glossy Finish Canvas"
+msgstr ""
+
+msgid "Matte Finish Canvas"
+msgstr ""
+
+msgid "Horizontal Right"
+msgstr ""
+
+msgid "Horizontal Left"
+msgstr ""
+
+msgid "King"
+msgstr ""
+
+msgid "Queen"
+msgstr ""
+
+msgid "Full"
+msgstr ""
+
+msgid "Twin"
+msgstr ""
+
+msgid "Hanging Wire"
+msgstr ""
+
+msgid "Aluminum Mounting Posts"
+msgstr ""
+
+msgid "Archival Matte Paper"
+msgstr ""
+
+msgid "Glossy Photo Paper"
+msgstr ""
+
+msgid "Luster Photo Paper"
+msgstr ""
+
+msgid "Semi-Matte Photo Paper"
+msgstr ""
+
+msgid "Picture Rag"
+msgstr ""
+
+msgid "Somerset Velvet"
+msgstr ""
+
+msgid "Watercolor Paper"
+msgstr ""
+
+msgid "Metallic Paper"
+msgstr ""
+
+msgid "Single card"
+msgstr ""
+
+msgid "Pack of 10"
+msgstr ""
+
+msgid "Pack of 25"
+msgstr ""
+
+msgid "No Wrap - Rolled In A Tube"
+msgstr ""
+
+msgid "White Sides"
+msgstr ""
+
+msgid "Black Sides"
+msgstr ""
+
+msgid "Mirrored Sides"
+msgstr ""
+
+msgid "Standard"
+msgstr ""
+
+msgid "Extended"
+msgstr ""
+
+msgid "Small Free"
+msgstr ""
+
+msgid "Medium"
+msgstr ""
+
+msgid "Large"
+msgstr ""
+
+msgid "Other prints and products"
+msgstr ""
+
+msgid "Predict keywords by Clarifai"
+msgstr ""
+
+msgid "Small preview"
+msgstr ""
+
+msgid "Big preview"
+msgstr ""
+
+msgid "Google reCaptcha. I am not a robot"
+msgstr ""

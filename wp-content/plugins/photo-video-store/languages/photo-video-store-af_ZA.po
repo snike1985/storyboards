@@ -1,0 +1,2838 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Photo Video Store\n"
+"Report-Msgid-Bugs-To: https://www.cmsaccount.com\n"
+"POT-Creation-Date: 2017-03-05 10:13-0600\n"
+"PO-Revision-Date: 2017-03-05 15:34+0300\n"
+"Last-Translator: CMSaccount <sales@cmsaccount.com>\n"
+"Language-Team: CMSaccount <sales@cmsaccount.com>\n"
+"Language: af_ZA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: \n"
+"Plural-Forms: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "help"
+msgstr "Hulp"
+
+msgid "priority"
+msgstr "Prioriteit"
+
+msgid "date"
+msgstr "Datum"
+
+msgid "exit"
+msgstr "Afteken"
+
+msgid "wait"
+msgstr "Wag asseblief, die lêer is besig om op te laai..."
+
+msgid "search"
+msgstr "Soek"
+
+msgid "content"
+msgstr "Inhoud"
+
+msgid "back"
+msgstr "Terug"
+
+msgid "add"
+msgstr "Voeg by"
+
+msgid "change"
+msgstr "Verander"
+
+msgid "edit"
+msgstr "Redigeer"
+
+msgid "delete"
+msgstr "Verwyder"
+
+msgid "image"
+msgstr "Prent"
+
+msgid "file"
+msgstr "Lêer"
+
+msgid "allfiles"
+msgstr "Alle lêers"
+
+msgid "small"
+msgstr "Klein"
+
+msgid "big"
+msgstr "Groot"
+
+msgid "upload"
+msgstr "Laai op"
+
+msgid "preview"
+msgstr "Voorskou"
+
+msgid "size"
+msgstr "Grootte"
+
+msgid "title"
+msgstr "Titel"
+
+msgid "name"
+msgstr "Naam"
+
+msgid "to"
+msgstr "Aan"
+
+msgid "type"
+msgstr "Tipe"
+
+msgid "status"
+msgstr "Status"
+
+msgid "opened"
+msgstr "Oop"
+
+msgid "closed"
+msgstr "Gesluit"
+
+msgid "active"
+msgstr "Aktief"
+
+msgid "activate"
+msgstr "Aktiveer"
+
+msgid "close"
+msgstr "Gesluit"
+
+msgid "view"
+msgstr "Besigtig"
+
+msgid "update"
+msgstr "Opdateer"
+
+msgid "results"
+msgstr "Uitslae"
+
+msgid "color"
+msgstr "Kleur"
+
+msgid "stat"
+msgstr "Statistiek"
+
+msgid "settings"
+msgstr "Verstellings"
+
+msgid "Small thumb width"
+msgstr "Klein duimnael wydte"
+
+msgid "Big thumb width"
+msgstr "Groot duimnael wydte"
+
+msgid "Lightbox photo"
+msgstr "Foto sweef-voorskou"
+
+msgid "Lightbox video"
+msgstr "Video sweef-voorskou"
+
+msgid "enable"
+msgstr "Ontsper"
+
+msgid "currency"
+msgstr "Geldeenheid"
+
+msgid "languages"
+msgstr "Tale"
+
+msgid "language"
+msgstr "Taal"
+
+msgid "default"
+msgstr "Grondwaarde"
+
+msgid "display"
+msgstr "Uitbeelding"
+
+msgid "template"
+msgstr "Templaat"
+
+msgid "watermark"
+msgstr "Watermerk"
+
+msgid "watermark2"
+msgstr "Dit moet 'n *.png lêer wees met deursigtige prent of inskripsie."
+
+msgid "customers"
+msgstr "Klante"
+
+msgid "customer"
+msgstr "Klant"
+
+msgid "orders"
+msgstr "Bestellings"
+
+msgid "order"
+msgstr "Bestelling"
+
+msgid "catalog"
+msgstr "Katalogus"
+
+msgid "photographers"
+msgstr "Fotograwe"
+
+msgid "photographer"
+msgstr "Fotograaf"
+
+msgid "support"
+msgstr "Ondersteuning"
+
+msgid "total"
+msgstr "Totaal"
+
+msgid "payment"
+msgstr "Betaling"
+
+msgid "payments"
+msgstr "Betalings"
+
+msgid "pending"
+msgstr "Afwagtend"
+
+msgid "approved"
+msgstr "Goedgekeur"
+
+msgid "item"
+msgstr "Item"
+
+msgid "price"
+msgstr "Prys"
+
+msgid "january"
+msgstr "Januarie"
+
+msgid "february"
+msgstr "Februarie"
+
+msgid "march"
+msgstr "Maart"
+
+msgid "april"
+msgstr "April"
+
+msgid "may"
+msgstr "Mei"
+
+msgid "june"
+msgstr "Junie"
+
+msgid "july"
+msgstr "Julie"
+
+msgid "august"
+msgstr "Augustus"
+
+msgid "september"
+msgstr "September"
+
+msgid "october"
+msgstr "Oktober"
+
+msgid "november"
+msgstr "November"
+
+msgid "december"
+msgstr "Desember"
+
+msgid "full name"
+msgstr "Volle Naam"
+
+msgid "e-mail"
+msgstr "E-pos"
+
+msgid "telephone"
+msgstr "Telefoon"
+
+msgid "address"
+msgstr "Adres"
+
+msgid "country"
+msgstr "Land"
+
+msgid "ip"
+msgstr "IP"
+
+msgid "access denied"
+msgstr "Toegand Verbied"
+
+msgid "category"
+msgstr "Kategorie"
+
+msgid "categories"
+msgstr "Kategorieë"
+
+msgid "photo"
+msgstr "Foto"
+
+msgid "video"
+msgstr "Video"
+
+msgid "photos"
+msgstr "Foto"
+
+msgid "videos"
+msgstr "Video"
+
+msgid "folder"
+msgstr "Vouer"
+
+msgid "file manager"
+msgstr "Lêerbestuurder"
+
+msgid "author"
+msgstr "Outeur"
+
+msgid "description"
+msgstr "Beskrywing"
+
+msgid "keywords"
+msgstr "Sleutelwoorde"
+
+msgid "published date"
+msgstr "Publiseerdatum"
+
+msgid "viewed"
+msgstr "Besigtig"
+
+msgid "published"
+msgstr "Gepubliseer"
+
+msgid "featured"
+msgstr "Featured"
+
+msgid "question"
+msgstr "Vraag"
+
+msgid "stats"
+msgstr "Statistiek"
+
+msgid "page"
+msgstr "Bladsy"
+
+msgid "not found"
+msgstr "Nie gevind nie"
+
+msgid "transaction id"
+msgstr "Transaksie ID"
+
+msgid "date of payment"
+msgstr "Datum van betaling"
+
+msgid "number of accounts"
+msgstr "Aantal rekeninge"
+
+msgid "number of orders"
+msgstr "Aantal bestellings"
+
+msgid "from"
+msgstr "Vanaf"
+
+msgid "till"
+msgstr "tot"
+
+msgid "total payment"
+msgstr "Totale paaiement"
+
+msgid "number of new signups"
+msgstr "Aantal nuwe lede"
+
+msgid "file list"
+msgstr "Lêerlys"
+
+msgid "upload files"
+msgstr "Lêers Oplaai"
+
+msgid "shopping cart"
+msgstr "Winkelwaentjie"
+
+msgid "member area"
+msgstr "Lede-area"
+
+msgid "top rated"
+msgstr "Top Gegradeer"
+
+msgid "home"
+msgstr "Tuis"
+
+msgid "tell a friend"
+msgstr "Vertel 'n Vriend"
+
+msgid "checkout"
+msgstr "Uitklaar"
+
+msgid "my profile"
+msgstr "My Profiel"
+
+msgid "my favorite list"
+msgstr "Lightbox"
+
+msgid "empty shopping cart"
+msgstr "U Winkelwaentjie is leeg."
+
+msgid "logout"
+msgstr "Uitteken"
+
+msgid "view shopping cart"
+msgstr "Besigtig Winkelwaentjie"
+
+msgid "required fields"
+msgstr "Vereisde Velde"
+
+msgid "incorrect"
+msgstr "Verkeerd"
+
+msgid "please insert"
+msgstr "Voeg asb. velde in"
+
+msgid "send"
+msgstr "Stuur"
+
+msgid "captcha"
+msgstr "Captcha"
+
+msgid "all rights reserved"
+msgstr "Alle regte voorbehou"
+
+msgid "rating"
+msgstr "Gradering"
+
+msgid "password protected"
+msgstr "Hierdie kategorie is wagwoord-beskermd"
+
+msgid "dimensions"
+msgstr "Dimensies"
+
+msgid "add to favorite list"
+msgstr "Voeg by Lightbox"
+
+msgid "delete from favorite list"
+msgstr "Verwyder van Lightbox"
+
+msgid "add to cart"
+msgstr "Plaas in Waentjie"
+
+msgid "your name"
+msgstr "U Naam"
+
+msgid "your e-mail"
+msgstr "U E-pos"
+
+msgid "friend name"
+msgstr "Vriend se Naam"
+
+msgid "friend e-mail"
+msgstr "Vriend se E-pos"
+
+msgid "sent"
+msgstr "Dankie. U boodskap is gestuur."
+
+msgid "quantity"
+msgstr "Hoeveelheid"
+
+msgid "ferror"
+msgstr "Fout. Onbekende e-pos."
+
+msgid "customer information"
+msgstr "Klant-inligting"
+
+msgid "order now"
+msgstr "Bestel Nou!"
+
+msgid "continue checkout"
+msgstr "Om die uitklaarproses te voltooi moet u registreer en/of inteken."
+
+msgid "select payment method"
+msgstr "Selekteer Betaalmetode"
+
+msgid "error transaction"
+msgstr "Transaksie is onsuksesvol. Probeer asb. weer"
+
+msgid "more"
+msgstr "Meer"
+
+msgid "coupon"
+msgstr "Koepon"
+
+msgid "coupons"
+msgstr "Koepons"
+
+msgid "subtotal"
+msgstr "Subtotaal"
+
+msgid "discount"
+msgstr "Afslag"
+
+msgid "types of coupons"
+msgstr "Tipes Koepons"
+
+msgid "list of current coupons"
+msgstr "Lys van Huidige Koepons"
+
+msgid "type of coupons"
+msgstr "Tipe Koepons"
+
+msgid "setup date"
+msgstr "Skepdatum"
+
+msgid "expiration date"
+msgstr "Vervaldatum"
+
+msgid "total discount"
+msgstr "Totale Afslag"
+
+msgid "percentage discount"
+msgstr "Persentasie Afslag"
+
+msgid "free download link"
+msgstr "Gratis Aflaai"
+
+msgid "used"
+msgstr "Gebruik"
+
+msgid "days till expiration"
+msgstr "Dae tot vervalling"
+
+msgid "events"
+msgstr "Gebeure"
+
+msgid "new signup"
+msgstr "Nuwe Registrasie"
+
+msgid "new order"
+msgstr "Nuwe bestelling"
+
+msgid "payment gateways"
+msgstr "Betalingsportaal"
+
+msgid "admin password"
+msgstr "Admin Wagwoord"
+
+msgid "site settings"
+msgstr "Webblad Verstellings"
+
+msgid "skins"
+msgstr "Template"
+
+msgid "select skin"
+msgstr "Kies Templaat"
+
+msgid "limit of usage"
+msgstr "Gebruikslimiet"
+
+msgid "times usage"
+msgstr "Aantal Gebruike"
+
+msgid "free download"
+msgstr "Gratis Aflaai"
+
+msgid "yes"
+msgstr "Ja"
+
+msgid "no"
+msgstr "Nee"
+
+msgid "Items on the page"
+msgstr "Items op die bladsy"
+
+msgid "Items in the row"
+msgstr "Items in die ry"
+
+msgid "Lightbox video width"
+msgstr "Video sweef-voorskou wydte"
+
+msgid "Lightbox video height"
+msgstr "Video sweef-voorskou height"
+
+msgid "left side"
+msgstr "Linkerkant"
+
+msgid "right side"
+msgstr "Regterkant"
+
+msgid "messages"
+msgstr "Boodskappe"
+
+msgid "Items in news box"
+msgstr "Items in die nuusboks"
+
+msgid "Items in best seller box"
+msgstr "Items in die beste verkoper boks"
+
+msgid "account"
+msgstr "Rekening"
+
+msgid "price manager"
+msgstr "Prysbeheer"
+
+msgid "allow users upload"
+msgstr "Laat gebruikers-oplaai toe"
+
+msgid "allow photo types"
+msgstr "Laat toe foto tipes"
+
+msgid "allow video types"
+msgstr "Laat toe video tipes"
+
+msgid "allow to create category"
+msgstr "Laat skep van kategorie toe"
+
+msgid "allow to upload photo"
+msgstr "Laat foto-oplaai toe"
+
+msgid "allow to upload video"
+msgstr "Laat video-oplaai toe"
+
+msgid "percentage of sale to site owner"
+msgstr "Persentasie van verkope aan webblad-eienaar"
+
+msgid "customer categories"
+msgstr "Verkoper-kategorië"
+
+msgid "my upload"
+msgstr "My Oplaaiing"
+
+msgid "my commission"
+msgstr "My Kommissie"
+
+msgid "create category"
+msgstr "Skep kategorie"
+
+msgid "upload photo"
+msgstr "Laai foto op"
+
+msgid "upload video"
+msgstr "Laai video op"
+
+msgid "my publications"
+msgstr "My Publikasies"
+
+msgid "select directory"
+msgstr "Kies 'n gids"
+
+msgid "upload permitted"
+msgstr "Oplaai toegelaat"
+
+msgid "upload denied"
+msgstr "Oplaai verbied"
+
+msgid "not selected"
+msgstr "Nie gekies nie"
+
+msgid "example"
+msgstr "Voorbeeld"
+
+msgid "file for sale"
+msgstr "Lêer te koop"
+
+msgid "first name"
+msgstr "Voornaam"
+
+msgid "last name"
+msgstr "Van"
+
+msgid "city"
+msgstr "Stad"
+
+msgid "zipcode"
+msgstr "Poskode"
+
+msgid "user status as default"
+msgstr "Gebruikerstatus as grondwaarde"
+
+msgid "width"
+msgstr "Wydte"
+
+msgid "file types"
+msgstr "Lêertipes"
+
+msgid "photo sizes"
+msgstr "Foto groottes"
+
+msgid "sizes"
+msgstr "Groottes"
+
+msgid "upload manager"
+msgstr "Gebruikers-oplaaibestuurder"
+
+msgid "commission manager"
+msgstr "Kommissiebestuurder"
+
+msgid "commission"
+msgstr "Kommissie"
+
+msgid "refund"
+msgstr "Uitbetaling"
+
+msgid "users earnings"
+msgstr "Gebruikersverdienste"
+
+msgid "new refund"
+msgstr "Nuwe Uitbetaling"
+
+msgid "send to"
+msgstr "Stuur aan"
+
+msgid "balance"
+msgstr "Balans"
+
+msgid "earning"
+msgstr "Verdienste"
+
+msgid "prints"
+msgstr "Drukke"
+
+msgid "prints types"
+msgstr "Druktipes"
+
+msgid "shipping price"
+msgstr "Versendingskoste"
+
+msgid "each additional item"
+msgstr "Elke additionele item"
+
+msgid "downloads"
+msgstr "Aflaaiings"
+
+msgid "about"
+msgstr "Oor Ons"
+
+msgid "blog"
+msgstr "Blog"
+
+msgid "reviews"
+msgstr "Hersienings"
+
+msgid "testimonials"
+msgstr "Getuigskrifte"
+
+msgid "inbox"
+msgstr "Inboks"
+
+msgid "sentbox"
+msgstr "Gestuur"
+
+msgid "trash"
+msgstr "Weggooi"
+
+msgid "comments"
+msgstr "Kommentaar"
+
+msgid "mine"
+msgstr "Myne"
+
+msgid "for me"
+msgstr "Vir my"
+
+msgid "friends"
+msgstr "Vriende"
+
+msgid "new message"
+msgstr "Nuwe boodskap"
+
+msgid "cc"
+msgstr "CC"
+
+msgid "bcc"
+msgstr "BCC"
+
+msgid "subject"
+msgstr "Onderwerp"
+
+msgid "friend email"
+msgstr "U mag 'n boodskap slegs aan u vriende stuur."
+
+msgid "User photo width"
+msgstr "Gebruikers fotowydte"
+
+msgid "reply"
+msgstr "Antwoord"
+
+msgid "you wrote"
+msgstr "U het geskryf"
+
+msgid "file details"
+msgstr "Lêerbesonderhede"
+
+msgid "tools"
+msgstr "Instrumente"
+
+msgid "member portfolio"
+msgstr "Lidportfolio"
+
+msgid "sitemail to user"
+msgstr "Webbladpos aan Gebruiker"
+
+msgid "buy"
+msgstr "Koop"
+
+msgid "files"
+msgstr "Lêers"
+
+msgid "new review"
+msgstr "Nuwe Hersiening"
+
+msgid "add review"
+msgstr "Gee Hersiening"
+
+msgid "error happened"
+msgstr "Fout. Probeer asb. weer"
+
+msgid "item id"
+msgstr "Item ID"
+
+msgid "show in menu"
+msgstr "Wys in Kieslys"
+
+msgid "customers status"
+msgstr "Klantstatus"
+
+msgid "website"
+msgstr "Webblad"
+
+msgid "add to friends"
+msgstr "Voeg by Vriende"
+
+msgid "add a testimonial"
+msgstr "Gee 'n Getuigskrif"
+
+msgid "delete from friends"
+msgstr "Verwyder van Vriende"
+
+msgid "portfolio"
+msgstr "Portfolio"
+
+msgid "new testimonial"
+msgstr "Nuwe getuigskrif"
+
+msgid "archives"
+msgstr "Argiewe"
+
+msgid "posted in"
+msgstr "Geplaas in"
+
+msgid "add comment"
+msgstr "Gee kommentaar"
+
+msgid "new comment"
+msgstr "Nuwe kommentaar"
+
+msgid "use iptc info"
+msgstr "Gebruik IPTC inligting"
+
+msgid "id"
+msgstr "ID"
+
+msgid "qty"
+msgstr "Hoev."
+
+msgid "shipping"
+msgstr "Versending"
+
+msgid "bulk upload"
+msgstr "Grootmaat oplaai"
+
+msgid "audio"
+msgstr "Oudio"
+
+msgid "small thumb height"
+msgstr "Maksimum klein duimnaelhoogte"
+
+msgid "big thumb height"
+msgstr "Maksimum groot duimnaelhoogte"
+
+msgid "allow photo"
+msgstr "Laat foto toe"
+
+msgid "allow video"
+msgstr "Laat video toe"
+
+msgid "allow audio"
+msgstr "Laat oudio toe"
+
+msgid "menu"
+msgstr "Kieslys"
+
+msgid "video settings"
+msgstr "Video verstellings"
+
+msgid "audio settings"
+msgstr "Oudio verstellings"
+
+msgid "clip format"
+msgstr "Videoformaat"
+
+msgid "aspect ratio"
+msgstr "Aspekverhouding"
+
+msgid "field rendering"
+msgstr "Veldlewering"
+
+msgid "frames per second"
+msgstr "Rame per Sekonde"
+
+msgid "track source"
+msgstr "Baanoorsprong"
+
+msgid "track format"
+msgstr "Baanformaat"
+
+msgid "duration"
+msgstr "Duur (min.)"
+
+msgid "copyright holder"
+msgstr "Kopiereghouer"
+
+msgid "upload form"
+msgstr "Laai Vorm"
+
+msgid "required"
+msgstr "Vereis"
+
+msgid "terms and conditions"
+msgstr "Terme en Voorwaardes"
+
+msgid "seller"
+msgstr "Verkoper"
+
+msgid "buyer"
+msgstr "koper"
+
+msgid "company"
+msgstr "Maatskappy"
+
+msgid "allow audio types"
+msgstr "Laat toe oudio tipes"
+
+msgid "Upload video limit (Mb)"
+msgstr "Video oplaailimiet (Mb)"
+
+msgid "Upload preview video limit"
+msgstr "Video-voorskou oplaailimiet"
+
+msgid "Upload audio limit (Mb)"
+msgstr "Oudio oplaailimiet (Mb)"
+
+msgid "Upload preview audio limit"
+msgstr "Oudio-voorskou oplaailimiet"
+
+msgid "allow to upload audio"
+msgstr "Laat oudio oplaai toe"
+
+msgid "upload audio"
+msgstr "Oudio oplaai"
+
+msgid "i agree"
+msgstr "Ek stem saam"
+
+msgid "allow ipn"
+msgstr "Laat kennisgewing toe"
+
+msgid "allow video remote storage"
+msgstr "Laat afgeleë video-stoor toe"
+
+msgid "allow audio remote storage"
+msgstr "Laat afgeleë oudio-stoor toe"
+
+msgid "or remote link"
+msgstr "Of afgeleë skakel"
+
+msgid "remote link"
+msgstr "Afgeleë skakel"
+
+msgid "file is avaivable"
+msgstr "OK. Die lêer is beskikbaar"
+
+msgid "unable to open remote file"
+msgstr "Fout. Afgeleë lêer kan nie oopgemaak word nie"
+
+msgid "preview audio"
+msgstr "Oudio voorskou"
+
+msgid "position"
+msgstr "Posisie"
+
+msgid "sell prints only"
+msgstr "Verkoop slegs drukstukke"
+
+msgid "show watermark info"
+msgstr "Wys watermerk inligting"
+
+msgid "vector"
+msgstr "Vector"
+
+msgid "allow vector"
+msgstr "Laat vector toe"
+
+msgid "allow vector remote storage"
+msgstr "Laat vector afgeleë stoor toe"
+
+msgid "allow vector types"
+msgstr "Laat vector tipes toe"
+
+msgid "vector preupload folder"
+msgstr "Voor-oplaaivouer vir vectors"
+
+msgid "credits"
+msgstr "Krediete"
+
+msgid "credits types"
+msgstr "Krediet tipes"
+
+msgid "download limit"
+msgstr "Aflaailimiet"
+
+msgid "days till download expiration"
+msgstr "Dae tot verstryking van aflaai"
+
+msgid "download links"
+msgstr "Aflaaiskakels"
+
+msgid "allow to upload vector"
+msgstr "Laat oplaai van vectors toe"
+
+msgid "upload vector"
+msgstr "Vector oplaai"
+
+msgid "advanced search"
+msgstr "Gevorderde soek"
+
+msgid "upload vector limit (Mb)"
+msgstr "Vector oplaailimiet (Mb)"
+
+msgid "download sample"
+msgstr "Voorbeeld aflaai"
+
+msgid "check or money order"
+msgstr "Tjek or Geldorder"
+
+msgid "buy credits"
+msgstr "Koop Krediete"
+
+msgid "expired"
+msgstr "Verstryk"
+
+msgid "content type"
+msgstr "Inhoudtipes"
+
+msgid "subscription"
+msgstr "Subskripsie"
+
+msgid "subscription type"
+msgstr "Subskripsietipes"
+
+msgid "bandwidth"
+msgstr "Bandwydte"
+
+msgid "related items"
+msgstr "Verwante items"
+
+msgid "related items quantity"
+msgstr "Verwante items hoeveelheid"
+
+msgid "tag clouds"
+msgstr "Etiketwolke"
+
+msgid "download"
+msgstr "Aflaai"
+
+msgid "content type as default"
+msgstr "Inhoudtipe as basiswaarde"
+
+msgid "bonus"
+msgstr "Bonus"
+
+msgid "zoomer"
+msgstr "Vergroter"
+
+msgid "license"
+msgstr "Lisensie"
+
+msgid "user uploads premoderation"
+msgstr "Gebruikers-oplaai premoderasie"
+
+msgid "enabled"
+msgstr "Ontsper"
+
+msgid "disabled"
+msgstr "Versper"
+
+msgid "notifications"
+msgstr "Kennisgewings"
+
+msgid "print version"
+msgstr "Gedrukte weergawe"
+
+msgid "upgrade"
+msgstr "Opgradeer"
+
+msgid "The item has been added to the cart"
+msgstr "Die item is in die waentjie geplaas"
+
+msgid "ads"
+msgstr "Advertensies"
+
+msgid "components"
+msgstr "Komponente"
+
+msgid "home page"
+msgstr "Tuisblad"
+
+msgid "player"
+msgstr "Speler"
+
+msgid "most downloaded"
+msgstr "Meeste afgelaai"
+
+msgid "columns"
+msgstr "Kolomme"
+
+msgid "rows"
+msgstr "Rye"
+
+msgid "who are you"
+msgstr "Wie is u"
+
+msgid "continue"
+msgstr "Gaan voort"
+
+msgid "newsletter"
+msgstr "Nuusbrief"
+
+msgid "types"
+msgstr "tipes"
+
+msgid "landscape"
+msgstr "Landskap"
+
+msgid "portrait"
+msgstr "Portret"
+
+msgid "all"
+msgstr "Alle"
+
+msgid "prints for users"
+msgstr "Drukstukke vir gebruikers"
+
+msgid "test"
+msgstr "Toets"
+
+msgid "overview"
+msgstr "Oorsig"
+
+msgid "path"
+msgstr "Pad"
+
+msgid "generate video preview from"
+msgstr "Genereer video-voorskou van"
+
+msgid "day"
+msgstr "Dag"
+
+msgid "week"
+msgstr "Week"
+
+msgid "month"
+msgstr "Maand"
+
+msgid "year"
+msgstr "Jaar"
+
+msgid "rates depend on"
+msgstr "Tariewe hang af van"
+
+msgid "price includes tax"
+msgstr "Prys sluit belasting in"
+
+msgid "rates"
+msgstr "Tariewe"
+
+msgid "synchronize"
+msgstr "Sinkroniseer"
+
+msgid "shipped"
+msgstr "Verskeep"
+
+msgid "not shipped"
+msgstr "Nie Verskeep Nie"
+
+msgid "digital"
+msgstr "Digitale"
+
+msgid "separated home page"
+msgstr "Aparte tuisblad"
+
+msgid "add new template"
+msgstr "Voeg nuwe templaat by"
+
+msgid "billing address"
+msgstr "Rekeningadres"
+
+msgid "shipping address"
+msgstr "Versendingsadres"
+
+msgid "taxes"
+msgstr "Belastings"
+
+msgid "cancel"
+msgstr "Kanselleer"
+
+msgid "included"
+msgstr "Ingesluit"
+
+msgid "model property release"
+msgstr "Model eienaarskapvrystelling"
+
+msgid "search history"
+msgstr "Soekgeskiedenis"
+
+msgid "query"
+msgstr "Navraag"
+
+msgid "new publication"
+msgstr ""
+
+msgid "upload several photos"
+msgstr ""
+
+msgid "zip archive file of *.jpg photos"
+msgstr ""
+
+msgid "Error. The file has 0 bite size"
+msgstr ""
+
+msgid "Error. The file has incorrect extention"
+msgstr ""
+
+msgid "Error. You have no permission to upload to the directory"
+msgstr ""
+
+msgid "Error. You have no permission to upload the file"
+msgstr ""
+
+msgid "Error. The archive doesn't contain files"
+msgstr ""
+
+msgid "declined"
+msgstr ""
+
+msgid "models"
+msgstr ""
+
+msgid "seller examination"
+msgstr ""
+
+msgid "take an examination"
+msgstr ""
+
+msgid "examination"
+msgstr ""
+
+msgid "flash version"
+msgstr ""
+
+msgid "flash script version"
+msgstr ""
+
+msgid "become a buyer"
+msgstr ""
+
+msgid "become a seller"
+msgstr ""
+
+msgid "seller agreement"
+msgstr ""
+
+msgid "buyer agreement"
+msgstr ""
+
+msgid "passport"
+msgstr ""
+
+msgid "the seller may not buy items"
+msgstr ""
+
+msgid "caching"
+msgstr ""
+
+msgid "refresh"
+msgstr ""
+
+msgid "refresh now"
+msgstr ""
+
+msgid "refresh every x hours"
+msgstr ""
+
+msgid "refresh all files"
+msgstr ""
+
+msgid "next"
+msgstr ""
+
+msgid "previous"
+msgstr ""
+
+msgid "free"
+msgstr ""
+
+msgid "next step"
+msgstr ""
+
+msgid "file storage"
+msgstr ""
+
+msgid "prices"
+msgstr ""
+
+msgid "in your cart"
+msgstr ""
+
+msgid "height"
+msgstr ""
+
+msgid "original size"
+msgstr ""
+
+msgid "select all"
+msgstr ""
+
+msgid "deselect all"
+msgstr ""
+
+msgid "show model property release"
+msgstr ""
+
+msgid "share this"
+msgstr ""
+
+msgid "all files"
+msgstr ""
+
+msgid "or"
+msgstr ""
+
+msgid "select action"
+msgstr ""
+
+msgid "delete selected"
+msgstr ""
+
+msgid "regenerate thumbs"
+msgstr ""
+
+msgid "change content type"
+msgstr ""
+
+msgid "set prints"
+msgstr ""
+
+msgid "set prices"
+msgstr ""
+
+msgid "save"
+msgstr ""
+
+msgid "add category"
+msgstr ""
+
+msgid "affiliate"
+msgstr ""
+
+msgid "affiliates"
+msgstr ""
+
+msgid "back to results"
+msgstr ""
+
+msgid "Show on Google map"
+msgstr ""
+
+msgid "Google map"
+msgstr ""
+
+msgid "Show EXIF info"
+msgstr ""
+
+msgid "move to category"
+msgstr ""
+
+msgid "add new price"
+msgstr ""
+
+msgid "reupload"
+msgstr ""
+
+msgid "reason for rejection"
+msgstr ""
+
+msgid "authorization"
+msgstr ""
+
+msgid "social networks"
+msgstr ""
+
+msgid "login without signup"
+msgstr ""
+
+msgid "become an affiliate"
+msgstr ""
+
+msgid "affiliate agreement"
+msgstr ""
+
+msgid "visits"
+msgstr ""
+
+msgid "local server"
+msgstr ""
+
+msgid "pay now"
+msgstr ""
+
+msgid "credit card"
+msgstr ""
+
+msgid "subscription only"
+msgstr ""
+
+msgid "common"
+msgstr ""
+
+msgid "Common account for buyers,sellers and affiliates"
+msgstr ""
+
+msgid "restore link"
+msgstr ""
+
+msgid "never"
+msgstr ""
+
+msgid "code"
+msgstr ""
+
+msgid "promotion"
+msgstr ""
+
+msgid "java photo uploader"
+msgstr ""
+
+msgid "flash photo uploader"
+msgstr ""
+
+msgid "place order"
+msgstr ""
+
+msgid "buy subscription"
+msgstr ""
+
+msgid "purchase statement"
+msgstr ""
+
+msgid "billing information"
+msgstr ""
+
+msgid "shipping information"
+msgstr ""
+
+msgid "payment information"
+msgstr ""
+
+msgid "order information"
+msgstr ""
+
+msgid "ftp photo uploader"
+msgstr ""
+
+msgid "ftp video uploader"
+msgstr ""
+
+msgid "ftp audio uploader"
+msgstr ""
+
+msgid "ftp vector uploader"
+msgstr ""
+
+msgid "icons view"
+msgstr ""
+
+msgid "tree view"
+msgstr ""
+
+msgid "common information"
+msgstr ""
+
+msgid "contacts information"
+msgstr ""
+
+msgid "state"
+msgstr ""
+
+msgid "sales"
+msgstr ""
+
+msgid "my downloads"
+msgstr ""
+
+msgid "customer agreement"
+msgstr ""
+
+msgid "filter"
+msgstr ""
+
+msgid "regenerate urls"
+msgstr ""
+
+msgid "login on the frontend"
+msgstr ""
+
+msgid "export as xls file"
+msgstr ""
+
+msgid "export as csv file"
+msgstr ""
+
+msgid "mobile payment"
+msgstr ""
+
+msgid "editorial"
+msgstr ""
+
+msgid "files for editorial use only"
+msgstr ""
+
+msgid "photo filters"
+msgstr ""
+
+msgid "video filters"
+msgstr ""
+
+msgid "audio filters"
+msgstr ""
+
+msgid "vector filters"
+msgstr ""
+
+msgid "creative"
+msgstr ""
+
+msgid "orientation"
+msgstr ""
+
+msgid "login as guest"
+msgstr ""
+
+msgid "change files to free/paid"
+msgstr ""
+
+msgid "change files to featured"
+msgstr ""
+
+msgid "change photos to editorial"
+msgstr ""
+
+msgid "approve"
+msgstr ""
+
+msgid "decline"
+msgstr ""
+
+msgid "paid"
+msgstr ""
+
+msgid "symbol"
+msgstr ""
+
+msgid "meta keywords"
+msgstr ""
+
+msgid "meta description"
+msgstr ""
+
+msgid "access rights"
+msgstr ""
+
+msgid "last downloads"
+msgstr ""
+
+msgid "last sales"
+msgstr ""
+
+msgid "items in bulk upload"
+msgstr ""
+
+msgid "google coordinates"
+msgstr ""
+
+msgid "photo preupload folder"
+msgstr ""
+
+msgid "video preupload folder"
+msgstr ""
+
+msgid "audio preupload folder"
+msgstr ""
+
+msgid "flash"
+msgstr ""
+
+msgid "flash width"
+msgstr ""
+
+msgid "flash height"
+msgstr ""
+
+msgid "show users as"
+msgstr ""
+
+msgid "lightboxes"
+msgstr ""
+
+msgid "select a lightbox"
+msgstr ""
+
+msgid "the file was added to the lightbox"
+msgstr ""
+
+msgid "the file was removed from the lightbox"
+msgstr ""
+
+msgid "shopping carts"
+msgstr ""
+
+msgid "previews"
+msgstr ""
+
+msgid "you should login to use the option"
+msgstr ""
+
+msgid "add a new lightbox"
+msgstr ""
+
+msgid "incorrect field"
+msgstr ""
+
+msgid "sorting of catalog"
+msgstr ""
+
+msgid "simple photo uploader"
+msgstr ""
+
+msgid "seller may set prices"
+msgstr ""
+
+msgid "automatic language detection"
+msgstr ""
+
+msgid "select files"
+msgstr ""
+
+msgid "browse"
+msgstr ""
+
+msgid "Photo resolution in DPI"
+msgstr ""
+
+msgid "pixels"
+msgstr ""
+
+msgid "inches"
+msgstr ""
+
+msgid "add files"
+msgstr ""
+
+msgid "start upload"
+msgstr ""
+
+msgid "cancel upload"
+msgstr ""
+
+msgid "adult content"
+msgstr ""
+
+msgid "change files to adult"
+msgstr ""
+
+msgid "exclude adult content"
+msgstr ""
+
+msgid "category preview"
+msgstr ""
+
+msgid "payout method"
+msgstr ""
+
+msgid "other"
+msgstr ""
+
+msgid "loading"
+msgstr ""
+
+msgid "shipping time"
+msgstr ""
+
+msgid "weight"
+msgstr ""
+
+msgid "weight min/max"
+msgstr ""
+
+msgid "shipping method"
+msgstr ""
+
+msgid "regions"
+msgstr ""
+
+msgid "shipping charges"
+msgstr ""
+
+msgid "kg"
+msgstr ""
+
+msgid "lbs"
+msgstr ""
+
+msgid "everywhere"
+msgstr ""
+
+msgid "calculation method"
+msgstr ""
+
+msgid "flat rate"
+msgstr ""
+
+msgid "cost"
+msgstr ""
+
+msgid "ranges"
+msgstr ""
+
+msgid "prints and products"
+msgstr ""
+
+msgid "cd weight"
+msgstr ""
+
+msgid "products options"
+msgstr ""
+
+msgid "property"
+msgstr ""
+
+msgid "continue shopping"
+msgstr ""
+
+msgid "clear cart"
+msgstr ""
+
+msgid "order details"
+msgstr ""
+
+msgid "not finished"
+msgstr ""
+
+msgid "business"
+msgstr ""
+
+msgid "individual"
+msgstr ""
+
+msgid "billing and shipping address"
+msgstr ""
+
+msgid "items"
+msgstr ""
+
+msgid "order total"
+msgstr ""
+
+msgid "billing and shipping address are the same"
+msgstr ""
+
+msgid "taxable"
+msgstr ""
+
+msgid "pwinty prints service"
+msgstr ""
+
+msgid "flow"
+msgstr ""
+
+msgid "flow by default"
+msgstr ""
+
+msgid "auto"
+msgstr ""
+
+msgid "auto paging"
+msgstr ""
+
+msgid "auto paging by default"
+msgstr ""
+
+msgid "remove all"
+msgstr ""
+
+msgid "enter"
+msgstr ""
+
+msgid "new orders"
+msgstr ""
+
+msgid "new credits"
+msgstr ""
+
+msgid "new subscriptions"
+msgstr ""
+
+msgid "banks"
+msgstr ""
+
+msgid "method"
+msgstr ""
+
+msgid "recurring payments"
+msgstr ""
+
+msgid "plupload photo uploader"
+msgstr ""
+
+msgid "only registered users may download free files"
+msgstr ""
+
+msgid "only registered users may set rating"
+msgstr ""
+
+msgid "add language"
+msgstr ""
+
+msgid "multilingual option for categories"
+msgstr ""
+
+msgid "royalty free"
+msgstr ""
+
+msgid "rights managed"
+msgstr ""
+
+msgid "rights managed files"
+msgstr ""
+
+msgid "royalty free files"
+msgstr ""
+
+msgid "rights managed files for sellers"
+msgstr ""
+
+msgid "groups"
+msgstr ""
+
+msgid "options"
+msgstr ""
+
+msgid "price scheme"
+msgstr ""
+
+msgid "add step"
+msgstr ""
+
+msgid "add group"
+msgstr ""
+
+msgid "conditions"
+msgstr ""
+
+msgid "calculate price"
+msgstr ""
+
+msgid "image resize library"
+msgstr ""
+
+msgid "photo uploader"
+msgstr ""
+
+msgid "video uploader"
+msgstr ""
+
+msgid "audio uploader"
+msgstr ""
+
+msgid "vector uploader"
+msgstr ""
+
+msgid "usual uploader"
+msgstr ""
+
+msgid "jquery uploader"
+msgstr ""
+
+msgid "plupload uploader"
+msgstr ""
+
+msgid "all news"
+msgstr ""
+
+msgid "show content type in the search"
+msgstr ""
+
+msgid "limit"
+msgstr ""
+
+msgid "daily limit"
+msgstr ""
+
+msgid "open a support request"
+msgstr ""
+
+msgid "in progress"
+msgstr ""
+
+msgid "preview fixed width"
+msgstr ""
+
+msgid "preview fixed height"
+msgstr ""
+
+msgid "the same file"
+msgstr ""
+
+msgid "one color files are the same"
+msgstr ""
+
+msgid "how many free files a user may download per day"
+msgstr ""
+
+msgid "daily limit error"
+msgstr ""
+
+msgid "prints lab"
+msgstr ""
+
+msgid "upload your photos and order prints"
+msgstr ""
+
+msgid "add new gallery"
+msgstr ""
+
+msgid "edit gallery"
+msgstr ""
+
+msgid "order prints"
+msgstr ""
+
+msgid "Prints lab photo size (MB)"
+msgstr ""
+
+msgid "select gallery"
+msgstr ""
+
+msgid "Use the same prints options for the gallery"
+msgstr ""
+
+msgid "marketing emails"
+msgstr ""
+
+msgid "save as draft"
+msgstr ""
+
+msgid "show in catalog"
+msgstr ""
+
+msgid "visible in catalog"
+msgstr ""
+
+msgid "catalog view by default"
+msgstr ""
+
+msgid "grid"
+msgstr ""
+
+msgid "fixed width"
+msgstr ""
+
+msgid "fixed height"
+msgstr ""
+
+msgid "change rights-managed price"
+msgstr ""
+
+msgid "like"
+msgstr ""
+
+msgid "dislike"
+msgstr ""
+
+msgid "Require Billing Address for the Order Checkout"
+msgstr ""
+
+msgid "Require Shipping Address for the Order Checkout"
+msgstr ""
+
+msgid "Require Billing Address for the Credits Checkout"
+msgstr ""
+
+msgid "Require Billing Address for the Subscription Checkout"
+msgstr ""
+
+msgid "exclusive price"
+msgstr ""
+
+msgid "contact us to get the price"
+msgstr ""
+
+msgid "sold"
+msgstr ""
+
+msgid "Exclusive price. The file will be removed from the stock after the purchase"
+msgstr ""
+
+msgid "change files to exclusive"
+msgstr ""
+
+msgid "change files to 'contact us to get the price'"
+msgstr ""
+
+msgid "Oops! The file was removed."
+msgstr ""
+
+msgid "I would like to purchase the file"
+msgstr ""
+
+msgid "Bulk change titles, keywords, description"
+msgstr ""
+
+msgid "Bulk add/remove keywords"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "add new keywords"
+msgstr ""
+
+msgid "remove keywords"
+msgstr ""
+
+msgid "not to change"
+msgstr ""
+
+msgid "Your Commission on all sales"
+msgstr ""
+
+msgid "Add new price"
+msgstr ""
+
+msgid "If you want to upload additional formats (*.gif,*.png,*.raw,*.tiff,*.eps) the files must have the same names as *.jpg."
+msgstr ""
+
+msgid "Generate *.mp3 audio preview from"
+msgstr ""
+
+msgid "Queue"
+msgstr ""
+
+msgid "Previews are being created. Queue number is"
+msgstr ""
+
+msgid "Creation date"
+msgstr ""
+
+msgid "it is impossible to remove approved files."
+msgstr ""
+
+msgid "VAT number"
+msgstr ""
+
+msgid "Sign up fields"
+msgstr ""
+
+msgid "Model release"
+msgstr ""
+
+msgid "Property release"
+msgstr ""
+
+msgid "Show left search panel in catalog"
+msgstr ""
+
+msgid "Show left search panel in catalog by default"
+msgstr ""
+
+msgid "Use credits and currency"
+msgstr ""
+
+msgid "Show taxes in shopping cart"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Stock"
+msgstr ""
+
+msgid "See all categories"
+msgstr ""
+
+msgid "Browse categories"
+msgstr ""
+
+msgid "Cart"
+msgstr ""
+
+msgid "View Cart"
+msgstr ""
+
+msgid "New photos"
+msgstr ""
+
+msgid "Featured photos"
+msgstr ""
+
+msgid "Hover view photo - max width/height"
+msgstr ""
+
+msgid "Fotomoto prints service"
+msgstr ""
+
+msgid "Printful prints service"
+msgstr ""
+
+msgid "for download"
+msgstr ""
+
+msgid "Your earnings"
+msgstr ""
+
+msgid "Not to calculate search count to decrease database loading"
+msgstr ""
+
+msgid "Not to calculate search count and show more"
+msgstr ""
+
+msgid "Not to calculate search count and set total quantity equal"
+msgstr ""
+
+msgid "All Orders"
+msgstr ""
+
+msgid "All Credits"
+msgstr ""
+
+msgid "All Subscriptions"
+msgstr ""
+
+msgid "Latest Members"
+msgstr ""
+
+msgid "View All Users"
+msgstr ""
+
+msgid "Last downloads"
+msgstr ""
+
+msgid "All downloads"
+msgstr ""
+
+msgid "Last uploads"
+msgstr ""
+
+msgid "All uploads"
+msgstr ""
+
+msgid "Recent comments"
+msgstr ""
+
+msgid "All comments"
+msgstr ""
+
+msgid "View All"
+msgstr ""
+
+msgid "All support tickets"
+msgstr ""
+
+msgid "just now"
+msgstr ""
+
+msgid "one minute ago"
+msgstr ""
+
+msgid "minutes ago"
+msgstr ""
+
+msgid "an hour ago"
+msgstr ""
+
+msgid "hours ago"
+msgstr ""
+
+msgid "yesterday"
+msgstr ""
+
+msgid "days ago"
+msgstr ""
+
+msgid "a week ago"
+msgstr ""
+
+msgid "weeks ago"
+msgstr ""
+
+msgid "a month ago"
+msgstr ""
+
+msgid "months ago"
+msgstr ""
+
+msgid "one year ago"
+msgstr ""
+
+msgid "years ago"
+msgstr ""
+
+msgid "Documentation"
+msgstr ""
+
+msgid "Forum"
+msgstr ""
+
+msgid "Updates"
+msgstr ""
+
+msgid "Fixed layout"
+msgstr ""
+
+msgid "Boxed Layout"
+msgstr ""
+
+msgid "Toggle Left Sidebar"
+msgstr ""
+
+msgid "Left Sidebar Expand on Hover"
+msgstr ""
+
+msgid "Invoices"
+msgstr ""
+
+msgid "Documents"
+msgstr ""
+
+msgid "EU VAT tax law compliance"
+msgstr ""
+
+msgid "Documents types"
+msgstr ""
+
+msgid "Stock API"
+msgstr ""
+
+msgid "Invoice prefix"
+msgstr ""
+
+msgid "Next invoice number"
+msgstr ""
+
+msgid "Credit notes prefix"
+msgstr ""
+
+msgid "Next credit notes number"
+msgstr ""
+
+msgid "Logo"
+msgstr ""
+
+msgid "Company name"
+msgstr ""
+
+msgid "Company address"
+msgstr ""
+
+msgid "EU VAT Reg No"
+msgstr ""
+
+msgid "only for EU"
+msgstr ""
+
+msgid "Uploaded"
+msgstr ""
+
+msgid "Not Uploaded"
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Default media stock"
+msgstr ""
+
+msgid "Show site stock"
+msgstr ""
+
+msgid "Error. The script cannot connect to API."
+msgstr ""
+
+msgid "Create internal pages for files"
+msgstr ""
+
+msgid "newest"
+msgstr ""
+
+msgid "popular"
+msgstr ""
+
+msgid "relevance"
+msgstr ""
+
+msgid "Contributor"
+msgstr ""
+
+msgid "illustration"
+msgstr ""
+
+msgid "music"
+msgstr ""
+
+msgid "Age"
+msgstr ""
+
+msgid "Gender"
+msgstr ""
+
+msgid "Ethnicity"
+msgstr ""
+
+msgid "People"
+msgstr ""
+
+msgid "infants"
+msgstr ""
+
+msgid "children"
+msgstr ""
+
+msgid "teenagers"
+msgstr ""
+
+msgid "20s"
+msgstr ""
+
+msgid "30s"
+msgstr ""
+
+msgid "40s"
+msgstr ""
+
+msgid "50s"
+msgstr ""
+
+msgid "60s"
+msgstr ""
+
+msgid "older"
+msgstr ""
+
+msgid "african"
+msgstr ""
+
+msgid "african_american"
+msgstr ""
+
+msgid "black"
+msgstr ""
+
+msgid "brazilian"
+msgstr ""
+
+msgid "chinese"
+msgstr ""
+
+msgid "caucasian"
+msgstr ""
+
+msgid "east_asian"
+msgstr ""
+
+msgid "hispanic"
+msgstr ""
+
+msgid "japanese"
+msgstr ""
+
+msgid "middle_eastern"
+msgstr ""
+
+msgid "native_american"
+msgstr ""
+
+msgid "pacific_islander"
+msgstr ""
+
+msgid "south_asian"
+msgstr ""
+
+msgid "southeast_asian"
+msgstr ""
+
+msgid "male"
+msgstr ""
+
+msgid "female"
+msgstr ""
+
+msgid "both"
+msgstr ""
+
+msgid "commercial"
+msgstr ""
+
+msgid "enhanced"
+msgstr ""
+
+msgid "horizontal"
+msgstr ""
+
+msgid "vertical"
+msgstr ""
+
+msgid "resolution"
+msgstr ""
+
+msgid "Album title"
+msgstr ""
+
+msgid "Artists"
+msgstr ""
+
+msgid "Beats per minute"
+msgstr ""
+
+msgid "Genge"
+msgstr ""
+
+msgid "Instrumental"
+msgstr ""
+
+msgid "Instruments"
+msgstr ""
+
+msgid "Lyrics"
+msgstr ""
+
+msgid "Moods"
+msgstr ""
+
+msgid "Vocal description"
+msgstr ""
+
+msgid "Buy on"
+msgstr ""
+
+msgid "filesize"
+msgstr ""
+
+msgid "by default"
+msgstr ""
+
+msgid "collection"
+msgstr ""
+
+msgid "Square"
+msgstr ""
+
+msgid "PanoramicHorizontal"
+msgstr ""
+
+msgid "PanoramicVertical"
+msgstr ""
+
+msgid "Compositions"
+msgstr ""
+
+msgid "Graphical styles"
+msgstr ""
+
+msgid "photography"
+msgstr ""
+
+msgid "fine art"
+msgstr ""
+
+msgid "License models"
+msgstr ""
+
+msgid "Online check"
+msgstr ""
+
+msgid "Valid"
+msgstr ""
+
+msgid "Invalid"
+msgstr ""
+
+msgid "Not checked"
+msgstr ""
+
+msgid "Last check"
+msgstr ""
+
+msgid "Balance threshold for payout"
+msgstr ""
+
+msgid "User may set balance threshold for payout"
+msgstr ""
+
+msgid "Set your balance threshold for payout"
+msgstr ""
+
+msgid "Not to change current users's balance thresholds"
+msgstr ""
+
+msgid "Change current user's balance thresholds"
+msgstr ""
+
+msgid "Invoice"
+msgstr ""
+
+msgid "Regenerate invoices for old orders"
+msgstr ""
+
+msgid "Invoice Number"
+msgstr ""
+
+msgid "Invoice Date"
+msgstr ""
+
+msgid "Order Number"
+msgstr ""
+
+msgid "Invoice Amount"
+msgstr ""
+
+msgid "Amount"
+msgstr ""
+
+msgid "VAT"
+msgstr ""
+
+msgid "Payment received via"
+msgstr ""
+
+msgid "Payment method"
+msgstr ""
+
+msgid "Transaction number"
+msgstr ""
+
+msgid "Order print"
+msgstr ""
+
+msgid "Prints on Demand"
+msgstr ""
+
+msgid "multilingual option for publications"
+msgstr ""
+
+msgid "User's rating"
+msgstr ""
+
+msgid "Only registered users may rate other users"
+msgstr ""
+
+msgid "Publish an invoice automatically when a transaction is successful"
+msgstr ""
+
+msgid "Countries"
+msgstr ""
+
+msgid "Select EU Countries"
+msgstr ""
+
+msgid "Note on Invoice"
+msgstr ""
+
+msgid "Refund money"
+msgstr ""
+
+msgid "Credit notes"
+msgstr ""
+
+msgid "Max price in catalog"
+msgstr ""
+
+msgid "Download from Pixabay"
+msgstr ""
+
+msgid "Original size"
+msgstr ""
+
+msgid "Prints categories"
+msgstr ""
+
+msgid "Prints previews"
+msgstr ""
+
+msgid "Related products"
+msgstr ""
+
+msgid "Image size"
+msgstr ""
+
+msgid "Allow to resize and move a photo"
+msgstr ""
+
+msgid "Property ID"
+msgstr ""
+
+msgid "Color picker"
+msgstr ""
+
+msgid "List of colors"
+msgstr ""
+
+msgid "Scheme"
+msgstr ""
+
+msgid "Crop image for print"
+msgstr ""
+
+msgid "Resize min (px)"
+msgstr ""
+
+msgid "Resize max (px)"
+msgstr ""
+
+msgid "Resize default (px)"
+msgstr ""
+
+msgid "Canvas Prints"
+msgstr ""
+
+msgid "Framed Prints"
+msgstr ""
+
+msgid "Prints and Posters"
+msgstr ""
+
+msgid "Metal Prints"
+msgstr ""
+
+msgid "Acrylic Prints"
+msgstr ""
+
+msgid "iPhone Cases"
+msgstr ""
+
+msgid "Galaxy Cases"
+msgstr ""
+
+msgid "Pillows"
+msgstr ""
+
+msgid "Duvet Covers"
+msgstr ""
+
+msgid "Shower Curtain"
+msgstr ""
+
+msgid "T-Shirts"
+msgstr ""
+
+msgid "Greeting Cards"
+msgstr ""
+
+msgid "Tote Bags"
+msgstr ""
+
+msgid "Wall Art"
+msgstr ""
+
+msgid "Phone Cases"
+msgstr ""
+
+msgid "Home Decor"
+msgstr ""
+
+msgid "Clothes"
+msgstr ""
+
+msgid "Souvenirs"
+msgstr ""
+
+msgid "Bags"
+msgstr ""
+
+msgid "Bag Size"
+msgstr ""
+
+msgid "Bottom Mat Color"
+msgstr ""
+
+msgid "Bottom Mat Size"
+msgstr ""
+
+msgid "Canvas"
+msgstr ""
+
+msgid "Card Size"
+msgstr ""
+
+msgid "Case Orientation"
+msgstr ""
+
+msgid "Duvet Size"
+msgstr ""
+
+msgid "Frame"
+msgstr ""
+
+msgid "Galaxy Model"
+msgstr ""
+
+msgid "iPhone Model"
+msgstr ""
+
+msgid "Mounting"
+msgstr ""
+
+msgid "Paper"
+msgstr ""
+
+msgid "Pillow Insert"
+msgstr ""
+
+msgid "Pillow Size"
+msgstr ""
+
+msgid "Print Size"
+msgstr ""
+
+msgid "Size of T-shirt"
+msgstr ""
+
+msgid "T-shirt Color"
+msgstr ""
+
+msgid "Top Mat Color"
+msgstr ""
+
+msgid "Top Mat Size"
+msgstr ""
+
+msgid "Wrap"
+msgstr ""
+
+msgid "Glossy Finish Canvas"
+msgstr ""
+
+msgid "Matte Finish Canvas"
+msgstr ""
+
+msgid "Horizontal Right"
+msgstr ""
+
+msgid "Horizontal Left"
+msgstr ""
+
+msgid "King"
+msgstr ""
+
+msgid "Queen"
+msgstr ""
+
+msgid "Full"
+msgstr ""
+
+msgid "Twin"
+msgstr ""
+
+msgid "Hanging Wire"
+msgstr ""
+
+msgid "Aluminum Mounting Posts"
+msgstr ""
+
+msgid "Archival Matte Paper"
+msgstr ""
+
+msgid "Glossy Photo Paper"
+msgstr ""
+
+msgid "Luster Photo Paper"
+msgstr ""
+
+msgid "Semi-Matte Photo Paper"
+msgstr ""
+
+msgid "Picture Rag"
+msgstr ""
+
+msgid "Somerset Velvet"
+msgstr ""
+
+msgid "Watercolor Paper"
+msgstr ""
+
+msgid "Metallic Paper"
+msgstr ""
+
+msgid "Single card"
+msgstr ""
+
+msgid "Pack of 10"
+msgstr ""
+
+msgid "Pack of 25"
+msgstr ""
+
+msgid "No Wrap - Rolled In A Tube"
+msgstr ""
+
+msgid "White Sides"
+msgstr ""
+
+msgid "Black Sides"
+msgstr ""
+
+msgid "Mirrored Sides"
+msgstr ""
+
+msgid "Standard"
+msgstr ""
+
+msgid "Extended"
+msgstr ""
+
+msgid "Small Free"
+msgstr ""
+
+msgid "Medium"
+msgstr ""
+
+msgid "Large"
+msgstr ""
+
+msgid "Other prints and products"
+msgstr ""
+
+msgid "Predict keywords by Clarifai"
+msgstr ""
+
+msgid "Small preview"
+msgstr ""
+
+msgid "Big preview"
+msgstr ""
+
+msgid "Google reCaptcha. I am not a robot"
+msgstr ""

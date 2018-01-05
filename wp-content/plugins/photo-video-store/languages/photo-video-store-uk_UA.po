@@ -1,0 +1,2838 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Photo Video Store\n"
+"Report-Msgid-Bugs-To: https://www.cmsaccount.com\n"
+"POT-Creation-Date: 2017-03-05 10:13-0600\n"
+"PO-Revision-Date: 2017-03-05 15:50+0300\n"
+"Last-Translator: CMSaccount <sales@cmsaccount.com>\n"
+"Language-Team: CMSaccount <sales@cmsaccount.com>\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: \n"
+"Plural-Forms: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "help"
+msgstr "Допомога"
+
+msgid "priority"
+msgstr "Пріоритет"
+
+msgid "date"
+msgstr "Дата"
+
+msgid "exit"
+msgstr "Вихід"
+
+msgid "wait"
+msgstr "Будь ласка, почекайте. Файл завантажується ..."
+
+msgid "search"
+msgstr "Пошук"
+
+msgid "content"
+msgstr "Зміст"
+
+msgid "back"
+msgstr "На рівень вгору"
+
+msgid "add"
+msgstr "Додати"
+
+msgid "change"
+msgstr "Змінити"
+
+msgid "edit"
+msgstr "Редагувати"
+
+msgid "delete"
+msgstr "Видалити"
+
+msgid "image"
+msgstr "Зображення"
+
+msgid "file"
+msgstr "Файл"
+
+msgid "allfiles"
+msgstr "Всі файли"
+
+msgid "small"
+msgstr "Маленьке"
+
+msgid "big"
+msgstr "Велике"
+
+msgid "upload"
+msgstr "Завантажити"
+
+msgid "preview"
+msgstr "Перегляд"
+
+msgid "size"
+msgstr "Розмір"
+
+msgid "title"
+msgstr "Назва"
+
+msgid "name"
+msgstr "Ім'я"
+
+msgid "to"
+msgstr "Перехід"
+
+msgid "type"
+msgstr "Тип"
+
+msgid "status"
+msgstr "Статус"
+
+msgid "opened"
+msgstr "Відкрито"
+
+msgid "closed"
+msgstr "Закрито"
+
+msgid "active"
+msgstr "Активно"
+
+msgid "activate"
+msgstr "Активувати"
+
+msgid "close"
+msgstr "Закрити"
+
+msgid "view"
+msgstr "Зовнішній вигляд"
+
+msgid "update"
+msgstr "Оновити"
+
+msgid "results"
+msgstr "Результати"
+
+msgid "color"
+msgstr "Колір"
+
+msgid "stat"
+msgstr "Статистика"
+
+msgid "settings"
+msgstr "Установки"
+
+msgid "Small thumb width"
+msgstr "Розмір маленького прив'ю"
+
+msgid "Big thumb width"
+msgstr "Розмір великого прив'ю"
+
+msgid "Lightbox photo"
+msgstr "Lightbox фото"
+
+msgid "Lightbox video"
+msgstr "Lightbox відео"
+
+msgid "enable"
+msgstr "Включити"
+
+msgid "currency"
+msgstr "Валюта"
+
+msgid "languages"
+msgstr "Мови"
+
+msgid "language"
+msgstr "Мова"
+
+msgid "default"
+msgstr "За замовчуванням"
+
+msgid "display"
+msgstr "Показувати"
+
+msgid "template"
+msgstr "Дизайн"
+
+msgid "watermark"
+msgstr "Водяні знаки"
+
+msgid "watermark2"
+msgstr "Ви повинні закачати файл формату *. png з прозорою картинкою або написом."
+
+msgid "customers"
+msgstr "Клієнти"
+
+msgid "customer"
+msgstr "Клієнт"
+
+msgid "orders"
+msgstr "Замовлення"
+
+msgid "order"
+msgstr "Замовлення"
+
+msgid "catalog"
+msgstr "Каталог"
+
+msgid "photographers"
+msgstr "Фотографи"
+
+msgid "photographer"
+msgstr "Фотограф"
+
+msgid "support"
+msgstr "Підтримка"
+
+msgid "total"
+msgstr "Сума"
+
+msgid "payment"
+msgstr "Платіж"
+
+msgid "payments"
+msgstr "Платежі"
+
+msgid "pending"
+msgstr "В обробці"
+
+msgid "approved"
+msgstr "Схвалений"
+
+msgid "item"
+msgstr "Файл"
+
+msgid "price"
+msgstr "Ціна"
+
+msgid "january"
+msgstr "Січень"
+
+msgid "february"
+msgstr "Лютий"
+
+msgid "march"
+msgstr "Березень"
+
+msgid "april"
+msgstr "Квітень"
+
+msgid "may"
+msgstr "Травень"
+
+msgid "june"
+msgstr "Червень"
+
+msgid "july"
+msgstr "Липень"
+
+msgid "august"
+msgstr "Серпень"
+
+msgid "september"
+msgstr "Вересень"
+
+msgid "october"
+msgstr "Жовтень"
+
+msgid "november"
+msgstr "Листопад"
+
+msgid "december"
+msgstr "Грудень"
+
+msgid "full name"
+msgstr "Повне ім'я"
+
+msgid "e-mail"
+msgstr "Е-мейл"
+
+msgid "telephone"
+msgstr "Телефон"
+
+msgid "address"
+msgstr "Адреса"
+
+msgid "country"
+msgstr "Країна"
+
+msgid "ip"
+msgstr "IP"
+
+msgid "access denied"
+msgstr "Доступ заборонений"
+
+msgid "category"
+msgstr "Категорія"
+
+msgid "categories"
+msgstr "Категорії"
+
+msgid "photo"
+msgstr "Фото"
+
+msgid "video"
+msgstr "Відео"
+
+msgid "photos"
+msgstr "Фото"
+
+msgid "videos"
+msgstr "Відео"
+
+msgid "folder"
+msgstr "Директорія"
+
+msgid "file manager"
+msgstr "Файл менеджер"
+
+msgid "author"
+msgstr "Автор"
+
+msgid "description"
+msgstr "Опис"
+
+msgid "keywords"
+msgstr "Ключові слова"
+
+msgid "published date"
+msgstr "Дата публікації"
+
+msgid "viewed"
+msgstr "Переглянуто"
+
+msgid "published"
+msgstr "Опубліковано"
+
+msgid "featured"
+msgstr "Новинки"
+
+msgid "question"
+msgstr "Питання"
+
+msgid "stats"
+msgstr "Статистика"
+
+msgid "page"
+msgstr "Сторінка"
+
+msgid "not found"
+msgstr "Нічого не знайдено"
+
+msgid "transaction id"
+msgstr "Номер трансакції"
+
+msgid "date of payment"
+msgstr "Дата платежу"
+
+msgid "number of accounts"
+msgstr "Число акаунтів"
+
+msgid "number of orders"
+msgstr "Число замовлень"
+
+msgid "from"
+msgstr "від"
+
+msgid "till"
+msgstr "до"
+
+msgid "total payment"
+msgstr "Усього платежів"
+
+msgid "number of new signups"
+msgstr "Нових реєстрацій"
+
+msgid "file list"
+msgstr "Список файлів"
+
+msgid "upload files"
+msgstr "Список файлів"
+
+msgid "shopping cart"
+msgstr "Кошик"
+
+msgid "member area"
+msgstr "Мій офіс"
+
+msgid "top rated"
+msgstr "Рейтинг"
+
+msgid "home"
+msgstr "Головна"
+
+msgid "tell a friend"
+msgstr "Розповісти другу"
+
+msgid "checkout"
+msgstr "Оформлення замовлення"
+
+msgid "my profile"
+msgstr "Мої налаштування"
+
+msgid "my favorite list"
+msgstr "Улюблені публікації"
+
+msgid "empty shopping cart"
+msgstr "Ваш кошик порожній."
+
+msgid "logout"
+msgstr "Вихід"
+
+msgid "view shopping cart"
+msgstr "Переглянути кошик"
+
+msgid "required fields"
+msgstr "Обов'язкові поля"
+
+msgid "incorrect"
+msgstr "Невірний"
+
+msgid "please insert"
+msgstr "Будь ласка, заповніть поля"
+
+msgid "send"
+msgstr "Надіслати"
+
+msgid "captcha"
+msgstr "Перевірочний код"
+
+msgid "all rights reserved"
+msgstr "Всі права захищені"
+
+msgid "rating"
+msgstr "Рейтинг"
+
+msgid "password protected"
+msgstr "Ця категорія захищена паролем"
+
+msgid "dimensions"
+msgstr "Файли"
+
+msgid "add to favorite list"
+msgstr "Додати в улюблені публікації"
+
+msgid "delete from favorite list"
+msgstr ""
+
+msgid "add to cart"
+msgstr "У корзину"
+
+msgid "your name"
+msgstr "Ваше ім'я"
+
+msgid "your e-mail"
+msgstr "Ваш е-мейл"
+
+msgid "friend name"
+msgstr "Ім'я друга"
+
+msgid "friend e-mail"
+msgstr "Е-мейл друга"
+
+msgid "sent"
+msgstr "Спасибі. Повідомлення було відправлено."
+
+msgid "quantity"
+msgstr "Кількість"
+
+msgid "ferror"
+msgstr "Помилка. Невідома електронна адреса."
+
+msgid "customer information"
+msgstr "Інформація про покупця"
+
+msgid "order now"
+msgstr "Оформити замовлення!"
+
+msgid "continue checkout"
+msgstr "Щоб продовжити процес покупки, Вам необхідно зареєструватися."
+
+msgid "select payment method"
+msgstr "Виберіть метод платежу"
+
+msgid "error transaction"
+msgstr "Трансакція не відбулась. Будь ласка, спробуйте ще раз"
+
+msgid "more"
+msgstr "Продовжити"
+
+msgid "coupon"
+msgstr "Купон"
+
+msgid "coupons"
+msgstr "Купони"
+
+msgid "subtotal"
+msgstr "Сума"
+
+msgid "discount"
+msgstr "Знижка"
+
+msgid "types of coupons"
+msgstr "Види купонів"
+
+msgid "list of current coupons"
+msgstr "Список виданих купонів"
+
+msgid "type of coupons"
+msgstr "Тип купонів"
+
+msgid "setup date"
+msgstr "Виданий"
+
+msgid "expiration date"
+msgstr "Закінчується"
+
+msgid "total discount"
+msgstr "Знижка в одиницях валюти"
+
+msgid "percentage discount"
+msgstr "Знижка у відсотках"
+
+msgid "free download link"
+msgstr "Файли для скачування"
+
+msgid "used"
+msgstr "Використано"
+
+msgid "days till expiration"
+msgstr "Днів до закінчення терміну дії"
+
+msgid "events"
+msgstr "Події"
+
+msgid "new signup"
+msgstr "Нова реєстрація"
+
+msgid "new order"
+msgstr "Нове замовлення"
+
+msgid "payment gateways"
+msgstr "Платіжні системи"
+
+msgid "admin password"
+msgstr "Пароль адміністратора"
+
+msgid "site settings"
+msgstr "Настройки сайту"
+
+msgid "skins"
+msgstr "Темплейти"
+
+msgid "select skin"
+msgstr "Вибрати темплейт"
+
+msgid "limit of usage"
+msgstr "Може бути використаний"
+
+msgid "times usage"
+msgstr "Використано"
+
+msgid "free download"
+msgstr "Посилання для скачування"
+
+msgid "yes"
+msgstr "Так"
+
+msgid "no"
+msgstr "Ні"
+
+msgid "Items on the page"
+msgstr "Елементів на сторінці"
+
+msgid "Items in the row"
+msgstr "Елементів у рядку"
+
+msgid "Lightbox video width"
+msgstr "Ширина lightbox відео"
+
+msgid "Lightbox video height"
+msgstr "Висота lightbox відео"
+
+msgid "left side"
+msgstr "Ліва сторона"
+
+msgid "right side"
+msgstr "Права сторона"
+
+msgid "messages"
+msgstr "Повідомлення"
+
+msgid "Items in news box"
+msgstr "Елементів у блоці новин"
+
+msgid "Items in best seller box"
+msgstr "Елементів у блоці бестселери"
+
+msgid "account"
+msgstr "Акаунт"
+
+msgid "price manager"
+msgstr "Менеджер цін"
+
+msgid "allow users upload"
+msgstr "Дозволити користувачам завантажувати файли"
+
+msgid "allow photo types"
+msgstr "Дозволити наступні типи фото файлів"
+
+msgid "allow video types"
+msgstr "Дозволити наступні типи відео файлів"
+
+msgid "allow to create category"
+msgstr "Дозволити користувачам створювати категорії"
+
+msgid "allow to upload photo"
+msgstr "Дозволити користувачам завантажувати фото"
+
+msgid "allow to upload video"
+msgstr "Дозволити користувачам завантажувати відео"
+
+msgid "percentage of sale to site owner"
+msgstr "Відсоток з продажу, що йде власнику сайту"
+
+msgid "customer categories"
+msgstr "Категорії користувачів"
+
+msgid "my upload"
+msgstr "Мої публікації"
+
+msgid "my commission"
+msgstr "Моя комісія"
+
+msgid "create category"
+msgstr "Категорія"
+
+msgid "upload photo"
+msgstr "Завантажити фото"
+
+msgid "upload video"
+msgstr "Завантажити відео"
+
+msgid "my publications"
+msgstr "Мої публікації"
+
+msgid "select directory"
+msgstr "Вибрати категорію"
+
+msgid "upload permitted"
+msgstr "Завантаження дозволено"
+
+msgid "upload denied"
+msgstr "Завантаження заборонено"
+
+msgid "not selected"
+msgstr "Не обрана"
+
+msgid "example"
+msgstr "Приклад"
+
+msgid "file for sale"
+msgstr "Файл для продажу"
+
+msgid "first name"
+msgstr "Ім'я"
+
+msgid "last name"
+msgstr "Прізвище"
+
+msgid "city"
+msgstr "Місто"
+
+msgid "zipcode"
+msgstr "Індекс"
+
+msgid "user status as default"
+msgstr "Статус користувача за замовчуванням"
+
+msgid "width"
+msgstr "Ширина"
+
+msgid "file types"
+msgstr "Типи файлів"
+
+msgid "photo sizes"
+msgstr "Розміри фото"
+
+msgid "sizes"
+msgstr "Розміри"
+
+msgid "upload manager"
+msgstr "Менеджер завантажень"
+
+msgid "commission manager"
+msgstr "Менеджер комісії"
+
+msgid "commission"
+msgstr "Комісія"
+
+msgid "refund"
+msgstr "Повернення грошей"
+
+msgid "users earnings"
+msgstr "Заробітки користувачів"
+
+msgid "new refund"
+msgstr "Відправити гроші"
+
+msgid "send to"
+msgstr "Надіслати"
+
+msgid "balance"
+msgstr "Баланс"
+
+msgid "earning"
+msgstr "Заробіток"
+
+msgid "prints"
+msgstr "Прінтси"
+
+msgid "prints types"
+msgstr "Типи прінтсов"
+
+msgid "shipping price"
+msgstr "Ціна доставки"
+
+msgid "each additional item"
+msgstr "За кожну додаткову"
+
+msgid "downloads"
+msgstr "Завантаження"
+
+msgid "about"
+msgstr "Про мене"
+
+msgid "blog"
+msgstr "Блог"
+
+msgid "reviews"
+msgstr "Огляди"
+
+msgid "testimonials"
+msgstr "Відгуки"
+
+msgid "inbox"
+msgstr "Вхідні"
+
+msgid "sentbox"
+msgstr "Вихідні"
+
+msgid "trash"
+msgstr "Сміття"
+
+msgid "comments"
+msgstr "Коментарі"
+
+msgid "mine"
+msgstr "Мої"
+
+msgid "for me"
+msgstr "Для мене"
+
+msgid "friends"
+msgstr "Друзі"
+
+msgid "new message"
+msgstr "Нове"
+
+msgid "cc"
+msgstr "Копія"
+
+msgid "bcc"
+msgstr "Прихована копія"
+
+msgid "subject"
+msgstr "Тема"
+
+msgid "friend email"
+msgstr "Ви можете відправляти листи тільки вашим друзям."
+
+msgid "User photo width"
+msgstr "Ширина фото користувача"
+
+msgid "reply"
+msgstr "Відповідь"
+
+msgid "you wrote"
+msgstr "Ви написали"
+
+msgid "file details"
+msgstr "Параметри"
+
+msgid "tools"
+msgstr "Інструменти"
+
+msgid "member portfolio"
+msgstr "Портфоліо"
+
+msgid "sitemail to user"
+msgstr "Написати листа користувачу"
+
+msgid "buy"
+msgstr "Купити"
+
+msgid "files"
+msgstr "Файли"
+
+msgid "new review"
+msgstr "Новий огляд"
+
+msgid "add review"
+msgstr "Додати огляд"
+
+msgid "error happened"
+msgstr "Помилка. Спробуйте ще раз"
+
+msgid "item id"
+msgstr "ID товару"
+
+msgid "show in menu"
+msgstr "Показувати в меню"
+
+msgid "customers status"
+msgstr "Статус користувача"
+
+msgid "website"
+msgstr "Вебсайт"
+
+msgid "add to friends"
+msgstr "Додати в друзі"
+
+msgid "add a testimonial"
+msgstr "Додати відгук"
+
+msgid "delete from friends"
+msgstr "Видалити з друзів"
+
+msgid "portfolio"
+msgstr "Портфоліо"
+
+msgid "new testimonial"
+msgstr "Новий відгук"
+
+msgid "archives"
+msgstr "Архів"
+
+msgid "posted in"
+msgstr "Опубліковано в"
+
+msgid "add comment"
+msgstr "Додати коментар"
+
+msgid "new comment"
+msgstr "Новий коментар"
+
+msgid "use iptc info"
+msgstr "Використовувати IPTC info"
+
+msgid "id"
+msgstr "ID"
+
+msgid "qty"
+msgstr "К-сть"
+
+msgid "shipping"
+msgstr "Доставка"
+
+msgid "bulk upload"
+msgstr "Закачати разом"
+
+msgid "audio"
+msgstr "Аудіо"
+
+msgid "small thumb height"
+msgstr "Максимальна висота маленького прив'ю"
+
+msgid "big thumb height"
+msgstr "Максимальна висота великого прив'ю"
+
+msgid "allow photo"
+msgstr "Дозволити фото"
+
+msgid "allow video"
+msgstr "Дозволити відео"
+
+msgid "allow audio"
+msgstr "Дозволити аудіо"
+
+msgid "menu"
+msgstr "Меню"
+
+msgid "video settings"
+msgstr "Налаштування відео"
+
+msgid "audio settings"
+msgstr "Налаштування аудіо"
+
+msgid "clip format"
+msgstr "Clip Format"
+
+msgid "aspect ratio"
+msgstr "Aspect Ratio"
+
+msgid "field rendering"
+msgstr "Field Rendering"
+
+msgid "frames per second"
+msgstr "Frames per Second"
+
+msgid "track source"
+msgstr "Track Source"
+
+msgid "track format"
+msgstr "Track Format"
+
+msgid "duration"
+msgstr "Тривалість (sec)"
+
+msgid "copyright holder"
+msgstr "Власник прав"
+
+msgid "upload form"
+msgstr "Форма завантаження"
+
+msgid "required"
+msgstr "Обов'язкове"
+
+msgid "terms and conditions"
+msgstr "Терміни та умови"
+
+msgid "seller"
+msgstr "Продавець"
+
+msgid "buyer"
+msgstr "Покупець"
+
+msgid "company"
+msgstr "Компанія"
+
+msgid "allow audio types"
+msgstr "Типи аудіо файлів"
+
+msgid "Upload video limit (Mb)"
+msgstr "Ліміт завантаження відео (Mb)"
+
+msgid "Upload preview video limit"
+msgstr "Ліміт прив’ю відео"
+
+msgid "Upload audio limit (Mb)"
+msgstr "Ліміт завантаження аудіо (Mb)"
+
+msgid "Upload preview audio limit"
+msgstr "Ліміт прив'ю аудіо"
+
+msgid "allow to upload audio"
+msgstr "Дозволити завантажувати аудіо"
+
+msgid "upload audio"
+msgstr "Завантажити аудіо"
+
+msgid "i agree"
+msgstr "Я згідний"
+
+msgid "allow ipn"
+msgstr "Дозволити IPN"
+
+msgid "allow video remote storage"
+msgstr "Дозволити віддалене збереження відео"
+
+msgid "allow audio remote storage"
+msgstr "Дозволити віддалене збереження аудіо"
+
+msgid "or remote link"
+msgstr "або віддалене посилання"
+
+msgid "remote link"
+msgstr "Віддалене посилання"
+
+msgid "file is avaivable"
+msgstr "Ok. Файл доступний"
+
+msgid "unable to open remote file"
+msgstr "Помилка. Файл не доступний"
+
+msgid "preview audio"
+msgstr "Прив’ю аудіо"
+
+msgid "position"
+msgstr "Позиція"
+
+msgid "sell prints only"
+msgstr "Продавати тільки друковані копії"
+
+msgid "show watermark info"
+msgstr "Показувати інфо про водяні знаки"
+
+msgid "vector"
+msgstr "Вектор"
+
+msgid "allow vector"
+msgstr "Дозволити вектори"
+
+msgid "allow vector remote storage"
+msgstr "Дозволити віддалене збереження векторів"
+
+msgid "allow vector types"
+msgstr "Типи векторів"
+
+msgid "vector preupload folder"
+msgstr "Папка попереднього завантаження для векторів"
+
+msgid "credits"
+msgstr "Credits"
+
+msgid "credits types"
+msgstr "Типи Credits"
+
+msgid "download limit"
+msgstr "Ліміт завантаження"
+
+msgid "days till download expiration"
+msgstr "Днів до закінчення терміну"
+
+msgid "download links"
+msgstr "Посилання для завантаження"
+
+msgid "allow to upload vector"
+msgstr "Дозволити завантажувати вектори"
+
+msgid "upload vector"
+msgstr "Завантажити вектор"
+
+msgid "advanced search"
+msgstr "Розширений пошук"
+
+msgid "upload vector limit (Mb)"
+msgstr "Ліміт завантаження векторів(Mb)"
+
+msgid "download sample"
+msgstr "Завантажити зразок"
+
+msgid "check or money order"
+msgstr "Накладений платіж"
+
+msgid "buy credits"
+msgstr "Купити Credits"
+
+msgid "expired"
+msgstr "Термін дії закінчився"
+
+msgid "content type"
+msgstr "Типи контенту"
+
+msgid "subscription"
+msgstr "Підписка"
+
+msgid "subscription type"
+msgstr "Типи підписки"
+
+msgid "bandwidth"
+msgstr "Bandwidth"
+
+msgid "related items"
+msgstr "Пов'язані файли"
+
+msgid "related items quantity"
+msgstr "Кількість пов'язаних файлів"
+
+msgid "tag clouds"
+msgstr "Теги"
+
+msgid "download"
+msgstr "Завантажити"
+
+msgid "content type as default"
+msgstr "Тип контенту за замовчуванням"
+
+msgid "bonus"
+msgstr "Бонус"
+
+msgid "zoomer"
+msgstr "Лупа"
+
+msgid "license"
+msgstr "Ліцензія"
+
+msgid "user uploads premoderation"
+msgstr "Премодерації закачувань"
+
+msgid "enabled"
+msgstr "Увімкнено"
+
+msgid "disabled"
+msgstr "Вимкнено"
+
+msgid "notifications"
+msgstr "Повідомлення"
+
+msgid "print version"
+msgstr "Версія для друку"
+
+msgid "upgrade"
+msgstr "Апгрейд"
+
+msgid "The item has been added to the cart"
+msgstr "Товар доданий в кошик"
+
+msgid "ads"
+msgstr "Реклама"
+
+msgid "components"
+msgstr "Компоненти"
+
+msgid "home page"
+msgstr "Головна сторінка"
+
+msgid "player"
+msgstr "Плеєр"
+
+msgid "most downloaded"
+msgstr "Найбільш завантажувані"
+
+msgid "columns"
+msgstr "Стовпці"
+
+msgid "rows"
+msgstr "Рядки"
+
+msgid "who are you"
+msgstr "Хто ви"
+
+msgid "continue"
+msgstr "Продовжити"
+
+msgid "newsletter"
+msgstr "Підписка на новини"
+
+msgid "types"
+msgstr "Типи"
+
+msgid "landscape"
+msgstr "Пейзаж"
+
+msgid "portrait"
+msgstr "Портрет"
+
+msgid "all"
+msgstr "Всі"
+
+msgid "prints for users"
+msgstr "Прінтси для користувачів"
+
+msgid "test"
+msgstr "Тест"
+
+msgid "overview"
+msgstr "Введення"
+
+msgid "path"
+msgstr "Шлях"
+
+msgid "generate video preview from"
+msgstr "Згенерувати прив’ю з"
+
+msgid "day"
+msgstr "День"
+
+msgid "week"
+msgstr "Тиждень"
+
+msgid "month"
+msgstr "Місяць"
+
+msgid "year"
+msgstr "Рік"
+
+msgid "rates depend on"
+msgstr "Ставки залежать від"
+
+msgid "price includes tax"
+msgstr "Ціни включають податок"
+
+msgid "rates"
+msgstr "Ставки"
+
+msgid "synchronize"
+msgstr "Синхронізувати"
+
+msgid "shipped"
+msgstr "З доставкою"
+
+msgid "not shipped"
+msgstr "Без доставки"
+
+msgid "digital"
+msgstr "Цифровий"
+
+msgid "separated home page"
+msgstr "Окрема домашня сторінка"
+
+msgid "add new template"
+msgstr "Додати новий темплейт"
+
+msgid "billing address"
+msgstr "Адреса оплати"
+
+msgid "shipping address"
+msgstr "Адреса доставки"
+
+msgid "taxes"
+msgstr "Податки"
+
+msgid "cancel"
+msgstr "Скасувати"
+
+msgid "included"
+msgstr "Увімкнено"
+
+msgid "model property release"
+msgstr "Реліз моделі"
+
+msgid "search history"
+msgstr "Історія пошуку"
+
+msgid "query"
+msgstr "Запит"
+
+msgid "new publication"
+msgstr "Нова публікація"
+
+msgid "upload several photos"
+msgstr "Завантажити кілька фотографій"
+
+msgid "zip archive file of *.jpg photos"
+msgstr "Zip архів *. jpg фотографій"
+
+msgid "Error. The file has 0 bite size"
+msgstr "Помилка. Розмір файлу 0 байт"
+
+msgid "Error. The file has incorrect extention"
+msgstr "Помилка. Невірне розширення файлу"
+
+msgid "Error. You have no permission to upload to the directory"
+msgstr "Помилка. У вас немає прав, щоб завантажувати в цю категорію"
+
+msgid "Error. You have no permission to upload the file"
+msgstr "Помилка. У вас немає прав для завантаження файлу"
+
+msgid "Error. The archive doesn't contain files"
+msgstr "Помилка. Архів не містить файлів"
+
+msgid "declined"
+msgstr "Відхилено"
+
+msgid "models"
+msgstr "Моделі"
+
+msgid "seller examination"
+msgstr "Іспит для фотографів"
+
+msgid "take an examination"
+msgstr "Пройти іспит"
+
+msgid "examination"
+msgstr "Іспит"
+
+msgid "flash version"
+msgstr "Flash версія"
+
+msgid "flash script version"
+msgstr "Flash script версія"
+
+msgid "become a buyer"
+msgstr "Стати продавцем"
+
+msgid "become a seller"
+msgstr "Стати покупцем"
+
+msgid "seller agreement"
+msgstr "Угода продавця"
+
+msgid "buyer agreement"
+msgstr "Угода покупця"
+
+msgid "passport"
+msgstr "Паспорт"
+
+msgid "the seller may not buy items"
+msgstr "Помилка. Продавець не може купувати файли"
+
+msgid "caching"
+msgstr "Кешування"
+
+msgid "refresh"
+msgstr "Оновити"
+
+msgid "refresh now"
+msgstr "Оновити зараз"
+
+msgid "refresh every x hours"
+msgstr "Оновлять кожні X годин"
+
+msgid "refresh all files"
+msgstr "оновить всі файли"
+
+msgid "next"
+msgstr "Наступний"
+
+msgid "previous"
+msgstr "Попередній"
+
+msgid "free"
+msgstr "Попередній"
+
+msgid "next step"
+msgstr "Наступний крок"
+
+msgid "file storage"
+msgstr "Збереження файлів"
+
+msgid "prices"
+msgstr "Ціни"
+
+msgid "in your cart"
+msgstr "У вашому кошику"
+
+msgid "height"
+msgstr "Висота"
+
+msgid "original size"
+msgstr "Оригінальний розмір"
+
+msgid "select all"
+msgstr "Виділити всі"
+
+msgid "deselect all"
+msgstr "Зняти виділення"
+
+msgid "show model property release"
+msgstr "Показувати реліз моделі на сайті"
+
+msgid "share this"
+msgstr "Опублікувати"
+
+msgid "all files"
+msgstr "Всі файли"
+
+msgid "or"
+msgstr ""
+
+msgid "select action"
+msgstr ""
+
+msgid "delete selected"
+msgstr ""
+
+msgid "regenerate thumbs"
+msgstr ""
+
+msgid "change content type"
+msgstr ""
+
+msgid "set prints"
+msgstr ""
+
+msgid "set prices"
+msgstr ""
+
+msgid "save"
+msgstr ""
+
+msgid "add category"
+msgstr ""
+
+msgid "affiliate"
+msgstr ""
+
+msgid "affiliates"
+msgstr ""
+
+msgid "back to results"
+msgstr ""
+
+msgid "Show on Google map"
+msgstr ""
+
+msgid "Google map"
+msgstr ""
+
+msgid "Show EXIF info"
+msgstr ""
+
+msgid "move to category"
+msgstr ""
+
+msgid "add new price"
+msgstr ""
+
+msgid "reupload"
+msgstr ""
+
+msgid "reason for rejection"
+msgstr ""
+
+msgid "authorization"
+msgstr ""
+
+msgid "social networks"
+msgstr ""
+
+msgid "login without signup"
+msgstr ""
+
+msgid "become an affiliate"
+msgstr ""
+
+msgid "affiliate agreement"
+msgstr ""
+
+msgid "visits"
+msgstr ""
+
+msgid "local server"
+msgstr ""
+
+msgid "pay now"
+msgstr ""
+
+msgid "credit card"
+msgstr ""
+
+msgid "subscription only"
+msgstr ""
+
+msgid "common"
+msgstr ""
+
+msgid "Common account for buyers,sellers and affiliates"
+msgstr ""
+
+msgid "restore link"
+msgstr ""
+
+msgid "never"
+msgstr ""
+
+msgid "code"
+msgstr ""
+
+msgid "promotion"
+msgstr ""
+
+msgid "java photo uploader"
+msgstr ""
+
+msgid "flash photo uploader"
+msgstr ""
+
+msgid "place order"
+msgstr ""
+
+msgid "buy subscription"
+msgstr ""
+
+msgid "purchase statement"
+msgstr ""
+
+msgid "billing information"
+msgstr ""
+
+msgid "shipping information"
+msgstr ""
+
+msgid "payment information"
+msgstr ""
+
+msgid "order information"
+msgstr ""
+
+msgid "ftp photo uploader"
+msgstr ""
+
+msgid "ftp video uploader"
+msgstr ""
+
+msgid "ftp audio uploader"
+msgstr ""
+
+msgid "ftp vector uploader"
+msgstr ""
+
+msgid "icons view"
+msgstr ""
+
+msgid "tree view"
+msgstr ""
+
+msgid "common information"
+msgstr ""
+
+msgid "contacts information"
+msgstr ""
+
+msgid "state"
+msgstr ""
+
+msgid "sales"
+msgstr ""
+
+msgid "my downloads"
+msgstr ""
+
+msgid "customer agreement"
+msgstr ""
+
+msgid "filter"
+msgstr ""
+
+msgid "regenerate urls"
+msgstr ""
+
+msgid "login on the frontend"
+msgstr ""
+
+msgid "export as xls file"
+msgstr ""
+
+msgid "export as csv file"
+msgstr ""
+
+msgid "mobile payment"
+msgstr ""
+
+msgid "editorial"
+msgstr ""
+
+msgid "files for editorial use only"
+msgstr ""
+
+msgid "photo filters"
+msgstr ""
+
+msgid "video filters"
+msgstr ""
+
+msgid "audio filters"
+msgstr ""
+
+msgid "vector filters"
+msgstr ""
+
+msgid "creative"
+msgstr ""
+
+msgid "orientation"
+msgstr ""
+
+msgid "login as guest"
+msgstr ""
+
+msgid "change files to free/paid"
+msgstr ""
+
+msgid "change files to featured"
+msgstr ""
+
+msgid "change photos to editorial"
+msgstr ""
+
+msgid "approve"
+msgstr ""
+
+msgid "decline"
+msgstr ""
+
+msgid "paid"
+msgstr ""
+
+msgid "symbol"
+msgstr ""
+
+msgid "meta keywords"
+msgstr ""
+
+msgid "meta description"
+msgstr ""
+
+msgid "access rights"
+msgstr ""
+
+msgid "last downloads"
+msgstr ""
+
+msgid "last sales"
+msgstr ""
+
+msgid "items in bulk upload"
+msgstr ""
+
+msgid "google coordinates"
+msgstr ""
+
+msgid "photo preupload folder"
+msgstr ""
+
+msgid "video preupload folder"
+msgstr ""
+
+msgid "audio preupload folder"
+msgstr ""
+
+msgid "flash"
+msgstr ""
+
+msgid "flash width"
+msgstr ""
+
+msgid "flash height"
+msgstr ""
+
+msgid "show users as"
+msgstr ""
+
+msgid "lightboxes"
+msgstr ""
+
+msgid "select a lightbox"
+msgstr ""
+
+msgid "the file was added to the lightbox"
+msgstr ""
+
+msgid "the file was removed from the lightbox"
+msgstr ""
+
+msgid "shopping carts"
+msgstr ""
+
+msgid "previews"
+msgstr ""
+
+msgid "you should login to use the option"
+msgstr ""
+
+msgid "add a new lightbox"
+msgstr ""
+
+msgid "incorrect field"
+msgstr ""
+
+msgid "sorting of catalog"
+msgstr ""
+
+msgid "simple photo uploader"
+msgstr ""
+
+msgid "seller may set prices"
+msgstr ""
+
+msgid "automatic language detection"
+msgstr ""
+
+msgid "select files"
+msgstr ""
+
+msgid "browse"
+msgstr ""
+
+msgid "Photo resolution in DPI"
+msgstr ""
+
+msgid "pixels"
+msgstr ""
+
+msgid "inches"
+msgstr ""
+
+msgid "add files"
+msgstr ""
+
+msgid "start upload"
+msgstr ""
+
+msgid "cancel upload"
+msgstr ""
+
+msgid "adult content"
+msgstr ""
+
+msgid "change files to adult"
+msgstr ""
+
+msgid "exclude adult content"
+msgstr ""
+
+msgid "category preview"
+msgstr ""
+
+msgid "payout method"
+msgstr ""
+
+msgid "other"
+msgstr ""
+
+msgid "loading"
+msgstr ""
+
+msgid "shipping time"
+msgstr ""
+
+msgid "weight"
+msgstr ""
+
+msgid "weight min/max"
+msgstr ""
+
+msgid "shipping method"
+msgstr ""
+
+msgid "regions"
+msgstr ""
+
+msgid "shipping charges"
+msgstr ""
+
+msgid "kg"
+msgstr ""
+
+msgid "lbs"
+msgstr ""
+
+msgid "everywhere"
+msgstr ""
+
+msgid "calculation method"
+msgstr ""
+
+msgid "flat rate"
+msgstr ""
+
+msgid "cost"
+msgstr ""
+
+msgid "ranges"
+msgstr ""
+
+msgid "prints and products"
+msgstr ""
+
+msgid "cd weight"
+msgstr ""
+
+msgid "products options"
+msgstr ""
+
+msgid "property"
+msgstr ""
+
+msgid "continue shopping"
+msgstr ""
+
+msgid "clear cart"
+msgstr ""
+
+msgid "order details"
+msgstr ""
+
+msgid "not finished"
+msgstr ""
+
+msgid "business"
+msgstr ""
+
+msgid "individual"
+msgstr ""
+
+msgid "billing and shipping address"
+msgstr ""
+
+msgid "items"
+msgstr ""
+
+msgid "order total"
+msgstr ""
+
+msgid "billing and shipping address are the same"
+msgstr ""
+
+msgid "taxable"
+msgstr ""
+
+msgid "pwinty prints service"
+msgstr ""
+
+msgid "flow"
+msgstr ""
+
+msgid "flow by default"
+msgstr ""
+
+msgid "auto"
+msgstr ""
+
+msgid "auto paging"
+msgstr ""
+
+msgid "auto paging by default"
+msgstr ""
+
+msgid "remove all"
+msgstr ""
+
+msgid "enter"
+msgstr ""
+
+msgid "new orders"
+msgstr ""
+
+msgid "new credits"
+msgstr ""
+
+msgid "new subscriptions"
+msgstr ""
+
+msgid "banks"
+msgstr ""
+
+msgid "method"
+msgstr ""
+
+msgid "recurring payments"
+msgstr ""
+
+msgid "plupload photo uploader"
+msgstr ""
+
+msgid "only registered users may download free files"
+msgstr ""
+
+msgid "only registered users may set rating"
+msgstr ""
+
+msgid "add language"
+msgstr ""
+
+msgid "multilingual option for categories"
+msgstr ""
+
+msgid "royalty free"
+msgstr ""
+
+msgid "rights managed"
+msgstr ""
+
+msgid "rights managed files"
+msgstr ""
+
+msgid "royalty free files"
+msgstr ""
+
+msgid "rights managed files for sellers"
+msgstr ""
+
+msgid "groups"
+msgstr ""
+
+msgid "options"
+msgstr ""
+
+msgid "price scheme"
+msgstr ""
+
+msgid "add step"
+msgstr ""
+
+msgid "add group"
+msgstr ""
+
+msgid "conditions"
+msgstr ""
+
+msgid "calculate price"
+msgstr ""
+
+msgid "image resize library"
+msgstr ""
+
+msgid "photo uploader"
+msgstr ""
+
+msgid "video uploader"
+msgstr ""
+
+msgid "audio uploader"
+msgstr ""
+
+msgid "vector uploader"
+msgstr ""
+
+msgid "usual uploader"
+msgstr ""
+
+msgid "jquery uploader"
+msgstr ""
+
+msgid "plupload uploader"
+msgstr ""
+
+msgid "all news"
+msgstr ""
+
+msgid "show content type in the search"
+msgstr ""
+
+msgid "limit"
+msgstr ""
+
+msgid "daily limit"
+msgstr ""
+
+msgid "open a support request"
+msgstr ""
+
+msgid "in progress"
+msgstr ""
+
+msgid "preview fixed width"
+msgstr ""
+
+msgid "preview fixed height"
+msgstr ""
+
+msgid "the same file"
+msgstr ""
+
+msgid "one color files are the same"
+msgstr ""
+
+msgid "how many free files a user may download per day"
+msgstr ""
+
+msgid "daily limit error"
+msgstr ""
+
+msgid "prints lab"
+msgstr ""
+
+msgid "upload your photos and order prints"
+msgstr ""
+
+msgid "add new gallery"
+msgstr ""
+
+msgid "edit gallery"
+msgstr ""
+
+msgid "order prints"
+msgstr ""
+
+msgid "Prints lab photo size (MB)"
+msgstr ""
+
+msgid "select gallery"
+msgstr ""
+
+msgid "Use the same prints options for the gallery"
+msgstr ""
+
+msgid "marketing emails"
+msgstr ""
+
+msgid "save as draft"
+msgstr ""
+
+msgid "show in catalog"
+msgstr ""
+
+msgid "visible in catalog"
+msgstr ""
+
+msgid "catalog view by default"
+msgstr ""
+
+msgid "grid"
+msgstr ""
+
+msgid "fixed width"
+msgstr ""
+
+msgid "fixed height"
+msgstr ""
+
+msgid "change rights-managed price"
+msgstr ""
+
+msgid "like"
+msgstr ""
+
+msgid "dislike"
+msgstr ""
+
+msgid "Require Billing Address for the Order Checkout"
+msgstr ""
+
+msgid "Require Shipping Address for the Order Checkout"
+msgstr ""
+
+msgid "Require Billing Address for the Credits Checkout"
+msgstr ""
+
+msgid "Require Billing Address for the Subscription Checkout"
+msgstr ""
+
+msgid "exclusive price"
+msgstr ""
+
+msgid "contact us to get the price"
+msgstr ""
+
+msgid "sold"
+msgstr ""
+
+msgid "Exclusive price. The file will be removed from the stock after the purchase"
+msgstr ""
+
+msgid "change files to exclusive"
+msgstr ""
+
+msgid "change files to 'contact us to get the price'"
+msgstr ""
+
+msgid "Oops! The file was removed."
+msgstr ""
+
+msgid "I would like to purchase the file"
+msgstr ""
+
+msgid "Bulk change titles, keywords, description"
+msgstr ""
+
+msgid "Bulk add/remove keywords"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "add new keywords"
+msgstr ""
+
+msgid "remove keywords"
+msgstr ""
+
+msgid "not to change"
+msgstr ""
+
+msgid "Your Commission on all sales"
+msgstr ""
+
+msgid "Add new price"
+msgstr ""
+
+msgid "If you want to upload additional formats (*.gif,*.png,*.raw,*.tiff,*.eps) the files must have the same names as *.jpg."
+msgstr ""
+
+msgid "Generate *.mp3 audio preview from"
+msgstr ""
+
+msgid "Queue"
+msgstr ""
+
+msgid "Previews are being created. Queue number is"
+msgstr ""
+
+msgid "Creation date"
+msgstr ""
+
+msgid "it is impossible to remove approved files."
+msgstr ""
+
+msgid "VAT number"
+msgstr ""
+
+msgid "Sign up fields"
+msgstr ""
+
+msgid "Model release"
+msgstr ""
+
+msgid "Property release"
+msgstr ""
+
+msgid "Show left search panel in catalog"
+msgstr ""
+
+msgid "Show left search panel in catalog by default"
+msgstr ""
+
+msgid "Use credits and currency"
+msgstr ""
+
+msgid "Show taxes in shopping cart"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Stock"
+msgstr ""
+
+msgid "See all categories"
+msgstr ""
+
+msgid "Browse categories"
+msgstr ""
+
+msgid "Cart"
+msgstr ""
+
+msgid "View Cart"
+msgstr ""
+
+msgid "New photos"
+msgstr ""
+
+msgid "Featured photos"
+msgstr ""
+
+msgid "Hover view photo - max width/height"
+msgstr ""
+
+msgid "Fotomoto prints service"
+msgstr ""
+
+msgid "Printful prints service"
+msgstr ""
+
+msgid "for download"
+msgstr ""
+
+msgid "Your earnings"
+msgstr ""
+
+msgid "Not to calculate search count to decrease database loading"
+msgstr ""
+
+msgid "Not to calculate search count and show more"
+msgstr ""
+
+msgid "Not to calculate search count and set total quantity equal"
+msgstr ""
+
+msgid "All Orders"
+msgstr ""
+
+msgid "All Credits"
+msgstr ""
+
+msgid "All Subscriptions"
+msgstr ""
+
+msgid "Latest Members"
+msgstr ""
+
+msgid "View All Users"
+msgstr ""
+
+msgid "Last downloads"
+msgstr ""
+
+msgid "All downloads"
+msgstr ""
+
+msgid "Last uploads"
+msgstr ""
+
+msgid "All uploads"
+msgstr ""
+
+msgid "Recent comments"
+msgstr ""
+
+msgid "All comments"
+msgstr ""
+
+msgid "View All"
+msgstr ""
+
+msgid "All support tickets"
+msgstr ""
+
+msgid "just now"
+msgstr ""
+
+msgid "one minute ago"
+msgstr ""
+
+msgid "minutes ago"
+msgstr ""
+
+msgid "an hour ago"
+msgstr ""
+
+msgid "hours ago"
+msgstr ""
+
+msgid "yesterday"
+msgstr ""
+
+msgid "days ago"
+msgstr ""
+
+msgid "a week ago"
+msgstr ""
+
+msgid "weeks ago"
+msgstr ""
+
+msgid "a month ago"
+msgstr ""
+
+msgid "months ago"
+msgstr ""
+
+msgid "one year ago"
+msgstr ""
+
+msgid "years ago"
+msgstr ""
+
+msgid "Documentation"
+msgstr ""
+
+msgid "Forum"
+msgstr ""
+
+msgid "Updates"
+msgstr ""
+
+msgid "Fixed layout"
+msgstr ""
+
+msgid "Boxed Layout"
+msgstr ""
+
+msgid "Toggle Left Sidebar"
+msgstr ""
+
+msgid "Left Sidebar Expand on Hover"
+msgstr ""
+
+msgid "Invoices"
+msgstr ""
+
+msgid "Documents"
+msgstr ""
+
+msgid "EU VAT tax law compliance"
+msgstr ""
+
+msgid "Documents types"
+msgstr ""
+
+msgid "Stock API"
+msgstr ""
+
+msgid "Invoice prefix"
+msgstr ""
+
+msgid "Next invoice number"
+msgstr ""
+
+msgid "Credit notes prefix"
+msgstr ""
+
+msgid "Next credit notes number"
+msgstr ""
+
+msgid "Logo"
+msgstr ""
+
+msgid "Company name"
+msgstr ""
+
+msgid "Company address"
+msgstr ""
+
+msgid "EU VAT Reg No"
+msgstr ""
+
+msgid "only for EU"
+msgstr ""
+
+msgid "Uploaded"
+msgstr ""
+
+msgid "Not Uploaded"
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Default media stock"
+msgstr ""
+
+msgid "Show site stock"
+msgstr ""
+
+msgid "Error. The script cannot connect to API."
+msgstr ""
+
+msgid "Create internal pages for files"
+msgstr ""
+
+msgid "newest"
+msgstr ""
+
+msgid "popular"
+msgstr ""
+
+msgid "relevance"
+msgstr ""
+
+msgid "Contributor"
+msgstr ""
+
+msgid "illustration"
+msgstr ""
+
+msgid "music"
+msgstr ""
+
+msgid "Age"
+msgstr ""
+
+msgid "Gender"
+msgstr ""
+
+msgid "Ethnicity"
+msgstr ""
+
+msgid "People"
+msgstr ""
+
+msgid "infants"
+msgstr ""
+
+msgid "children"
+msgstr ""
+
+msgid "teenagers"
+msgstr ""
+
+msgid "20s"
+msgstr ""
+
+msgid "30s"
+msgstr ""
+
+msgid "40s"
+msgstr ""
+
+msgid "50s"
+msgstr ""
+
+msgid "60s"
+msgstr ""
+
+msgid "older"
+msgstr ""
+
+msgid "african"
+msgstr ""
+
+msgid "african_american"
+msgstr ""
+
+msgid "black"
+msgstr ""
+
+msgid "brazilian"
+msgstr ""
+
+msgid "chinese"
+msgstr ""
+
+msgid "caucasian"
+msgstr ""
+
+msgid "east_asian"
+msgstr ""
+
+msgid "hispanic"
+msgstr ""
+
+msgid "japanese"
+msgstr ""
+
+msgid "middle_eastern"
+msgstr ""
+
+msgid "native_american"
+msgstr ""
+
+msgid "pacific_islander"
+msgstr ""
+
+msgid "south_asian"
+msgstr ""
+
+msgid "southeast_asian"
+msgstr ""
+
+msgid "male"
+msgstr ""
+
+msgid "female"
+msgstr ""
+
+msgid "both"
+msgstr ""
+
+msgid "commercial"
+msgstr ""
+
+msgid "enhanced"
+msgstr ""
+
+msgid "horizontal"
+msgstr ""
+
+msgid "vertical"
+msgstr ""
+
+msgid "resolution"
+msgstr ""
+
+msgid "Album title"
+msgstr ""
+
+msgid "Artists"
+msgstr ""
+
+msgid "Beats per minute"
+msgstr ""
+
+msgid "Genge"
+msgstr ""
+
+msgid "Instrumental"
+msgstr ""
+
+msgid "Instruments"
+msgstr ""
+
+msgid "Lyrics"
+msgstr ""
+
+msgid "Moods"
+msgstr ""
+
+msgid "Vocal description"
+msgstr ""
+
+msgid "Buy on"
+msgstr ""
+
+msgid "filesize"
+msgstr ""
+
+msgid "by default"
+msgstr ""
+
+msgid "collection"
+msgstr ""
+
+msgid "Square"
+msgstr ""
+
+msgid "PanoramicHorizontal"
+msgstr ""
+
+msgid "PanoramicVertical"
+msgstr ""
+
+msgid "Compositions"
+msgstr ""
+
+msgid "Graphical styles"
+msgstr ""
+
+msgid "photography"
+msgstr ""
+
+msgid "fine art"
+msgstr ""
+
+msgid "License models"
+msgstr ""
+
+msgid "Online check"
+msgstr ""
+
+msgid "Valid"
+msgstr ""
+
+msgid "Invalid"
+msgstr ""
+
+msgid "Not checked"
+msgstr ""
+
+msgid "Last check"
+msgstr ""
+
+msgid "Balance threshold for payout"
+msgstr ""
+
+msgid "User may set balance threshold for payout"
+msgstr ""
+
+msgid "Set your balance threshold for payout"
+msgstr ""
+
+msgid "Not to change current users's balance thresholds"
+msgstr ""
+
+msgid "Change current user's balance thresholds"
+msgstr ""
+
+msgid "Invoice"
+msgstr ""
+
+msgid "Regenerate invoices for old orders"
+msgstr ""
+
+msgid "Invoice Number"
+msgstr ""
+
+msgid "Invoice Date"
+msgstr ""
+
+msgid "Order Number"
+msgstr ""
+
+msgid "Invoice Amount"
+msgstr ""
+
+msgid "Amount"
+msgstr ""
+
+msgid "VAT"
+msgstr ""
+
+msgid "Payment received via"
+msgstr ""
+
+msgid "Payment method"
+msgstr ""
+
+msgid "Transaction number"
+msgstr ""
+
+msgid "Order print"
+msgstr ""
+
+msgid "Prints on Demand"
+msgstr ""
+
+msgid "multilingual option for publications"
+msgstr ""
+
+msgid "User's rating"
+msgstr ""
+
+msgid "Only registered users may rate other users"
+msgstr ""
+
+msgid "Publish an invoice automatically when a transaction is successful"
+msgstr ""
+
+msgid "Countries"
+msgstr ""
+
+msgid "Select EU Countries"
+msgstr ""
+
+msgid "Note on Invoice"
+msgstr ""
+
+msgid "Refund money"
+msgstr ""
+
+msgid "Credit notes"
+msgstr ""
+
+msgid "Max price in catalog"
+msgstr ""
+
+msgid "Download from Pixabay"
+msgstr ""
+
+msgid "Original size"
+msgstr ""
+
+msgid "Prints categories"
+msgstr ""
+
+msgid "Prints previews"
+msgstr ""
+
+msgid "Related products"
+msgstr ""
+
+msgid "Image size"
+msgstr ""
+
+msgid "Allow to resize and move a photo"
+msgstr ""
+
+msgid "Property ID"
+msgstr ""
+
+msgid "Color picker"
+msgstr ""
+
+msgid "List of colors"
+msgstr ""
+
+msgid "Scheme"
+msgstr ""
+
+msgid "Crop image for print"
+msgstr ""
+
+msgid "Resize min (px)"
+msgstr ""
+
+msgid "Resize max (px)"
+msgstr ""
+
+msgid "Resize default (px)"
+msgstr ""
+
+msgid "Canvas Prints"
+msgstr ""
+
+msgid "Framed Prints"
+msgstr ""
+
+msgid "Prints and Posters"
+msgstr ""
+
+msgid "Metal Prints"
+msgstr ""
+
+msgid "Acrylic Prints"
+msgstr ""
+
+msgid "iPhone Cases"
+msgstr ""
+
+msgid "Galaxy Cases"
+msgstr ""
+
+msgid "Pillows"
+msgstr ""
+
+msgid "Duvet Covers"
+msgstr ""
+
+msgid "Shower Curtain"
+msgstr ""
+
+msgid "T-Shirts"
+msgstr ""
+
+msgid "Greeting Cards"
+msgstr ""
+
+msgid "Tote Bags"
+msgstr ""
+
+msgid "Wall Art"
+msgstr ""
+
+msgid "Phone Cases"
+msgstr ""
+
+msgid "Home Decor"
+msgstr ""
+
+msgid "Clothes"
+msgstr ""
+
+msgid "Souvenirs"
+msgstr ""
+
+msgid "Bags"
+msgstr ""
+
+msgid "Bag Size"
+msgstr ""
+
+msgid "Bottom Mat Color"
+msgstr ""
+
+msgid "Bottom Mat Size"
+msgstr ""
+
+msgid "Canvas"
+msgstr ""
+
+msgid "Card Size"
+msgstr ""
+
+msgid "Case Orientation"
+msgstr ""
+
+msgid "Duvet Size"
+msgstr ""
+
+msgid "Frame"
+msgstr ""
+
+msgid "Galaxy Model"
+msgstr ""
+
+msgid "iPhone Model"
+msgstr ""
+
+msgid "Mounting"
+msgstr ""
+
+msgid "Paper"
+msgstr ""
+
+msgid "Pillow Insert"
+msgstr ""
+
+msgid "Pillow Size"
+msgstr ""
+
+msgid "Print Size"
+msgstr ""
+
+msgid "Size of T-shirt"
+msgstr ""
+
+msgid "T-shirt Color"
+msgstr ""
+
+msgid "Top Mat Color"
+msgstr ""
+
+msgid "Top Mat Size"
+msgstr ""
+
+msgid "Wrap"
+msgstr ""
+
+msgid "Glossy Finish Canvas"
+msgstr ""
+
+msgid "Matte Finish Canvas"
+msgstr ""
+
+msgid "Horizontal Right"
+msgstr ""
+
+msgid "Horizontal Left"
+msgstr ""
+
+msgid "King"
+msgstr ""
+
+msgid "Queen"
+msgstr ""
+
+msgid "Full"
+msgstr ""
+
+msgid "Twin"
+msgstr ""
+
+msgid "Hanging Wire"
+msgstr ""
+
+msgid "Aluminum Mounting Posts"
+msgstr ""
+
+msgid "Archival Matte Paper"
+msgstr ""
+
+msgid "Glossy Photo Paper"
+msgstr ""
+
+msgid "Luster Photo Paper"
+msgstr ""
+
+msgid "Semi-Matte Photo Paper"
+msgstr ""
+
+msgid "Picture Rag"
+msgstr ""
+
+msgid "Somerset Velvet"
+msgstr ""
+
+msgid "Watercolor Paper"
+msgstr ""
+
+msgid "Metallic Paper"
+msgstr ""
+
+msgid "Single card"
+msgstr ""
+
+msgid "Pack of 10"
+msgstr ""
+
+msgid "Pack of 25"
+msgstr ""
+
+msgid "No Wrap - Rolled In A Tube"
+msgstr ""
+
+msgid "White Sides"
+msgstr ""
+
+msgid "Black Sides"
+msgstr ""
+
+msgid "Mirrored Sides"
+msgstr ""
+
+msgid "Standard"
+msgstr ""
+
+msgid "Extended"
+msgstr ""
+
+msgid "Small Free"
+msgstr ""
+
+msgid "Medium"
+msgstr ""
+
+msgid "Large"
+msgstr ""
+
+msgid "Other prints and products"
+msgstr ""
+
+msgid "Predict keywords by Clarifai"
+msgstr ""
+
+msgid "Small preview"
+msgstr ""
+
+msgid "Big preview"
+msgstr ""
+
+msgid "Google reCaptcha. I am not a robot"
+msgstr ""
