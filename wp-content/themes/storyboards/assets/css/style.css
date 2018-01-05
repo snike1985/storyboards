@@ -109,6 +109,7 @@ footer:before {
 
 .menu-element a {
     color: #FFF;
+    text-decoration: none;
 }
 
 .btn {
