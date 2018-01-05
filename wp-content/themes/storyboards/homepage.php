@@ -4,7 +4,7 @@ Template Name: Home
 */
 get_header();
 
-$post_id = get_the_ID();
+$post_id = 124;
 $about_id = 103;
 
 $hero_back = get_the_post_thumbnail_url( $post_id );
@@ -26,6 +26,7 @@ if( ! empty( $hero_images ) ) {
     }
 }
 $count_backs = count($hero_backs);
+
 ?>
     <section class="head-back" style="<?= $count_backs ? 'background-image: url(' . $hero_backs[random_int(0, $count_backs - 1)] . ')': ''; ?>">
 
@@ -36,9 +37,9 @@ $count_backs = count($hero_backs);
 				<?= $hero_title; ?>
 			</div>
 
-		<form class="search-element" id="data" action="">
-			<input type="search" placeholder="<?= __('Search storyboards', 'storyboards'); ?>" form="data" class="search-field">
-			<button type="submit" class="search-button" form="data"><img src="<?= get_template_directory_uri(); ?>/assets/images/svg/search.svg" alt="search"><span><?= __('SEARCH', 'storyboards'); ?></span></button>
+		<form class="search-element" role="search" method="get" action="/index.php">
+			<input name="search" class="search-field" type="text" placeholder="<?= __('Search storyboards', 'storyboards'); ?>">
+			<button type="submit" class="search-button"><img src="<?= get_template_directory_uri(); ?>/assets/images/svg/search.svg" alt="search"><span><?= __('SEARCH', 'storyboards'); ?></span></button>
 		</form>
 
 		<div class="contactUsBtn">
@@ -49,7 +50,6 @@ $count_backs = count($hero_backs);
 		</div>
 
 	</section>
-
 
 	<?php if( ! empty( $storyboards_template ) ) { ?>
 

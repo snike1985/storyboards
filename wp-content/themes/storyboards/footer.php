@@ -87,7 +87,7 @@ $locations = get_nav_menu_locations();
 
     </div>
 <?php } ?>
-
+<script>check_carts('');</script>
 <?php wp_footer(); ?>
 
 </body>

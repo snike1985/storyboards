@@ -1,11 +1,15 @@
 <?php
+$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+$temp = $wp_query; $wp_query= null;
+$wp_query = new WP_Query(); $wp_query->query('paged='.$paged.'&post_status=publish');
+
 $pagination = get_the_posts_pagination( array(
 	'mid_size' => 2,
-    'show_all'     => false,
+	'show_all'     => false,
 	'prev_next'    => false,
-    'screen_reader_text' => ' '
+	'screen_reader_text' => ' '
 ) );
-if(!empty($posts)){
+
 ?>
 
 <section class="main-section">
@@ -13,7 +17,7 @@ if(!empty($posts)){
         <div class="blog-main-page">
             <div class="page-blog">
 
-                <?php foreach ($posts as $post) { ?>
+                <?php while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
                 <div class="blog-element">
 
                     <?php the_post_thumbnail($post->ID); ?>
@@ -38,7 +42,8 @@ if(!empty($posts)){
                         <a href="<?= get_permalink($post->ID); ?>"><div class="button-text"><?= __('READ ARTICLE', 'storyboards'); ?></div></a>
                     </div>
                 </div>
-                <?php } ?>
+                <?php endwhile; ?>
+	            <?php wp_reset_postdata(); ?>
 
                 <?= $pagination; ?>
             </div>
@@ -48,4 +53,3 @@ if(!empty($posts)){
         </div>
     </div>
 </section>
-<?php } ?>
