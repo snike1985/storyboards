@@ -1,10 +1,25 @@
+#shopping_cart_lite {
+  display: none;
+}
+
 .dashboard-wrapper {
     font-family: 'Roboto Condensed', sans-serif;
     background: #FFF;
-    max-width: 1140px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 15px;
     margin: 0 auto;
+
+    a {
+        color: #c6353a;
+
+        &:focus, &:hover {
+            color: #c6353a;
+            text-decoration: underline;
+        }
+    }
+
+    b {
+        font-weight: 700;
+    }
 
     .main {
         position: relative;
@@ -82,7 +97,7 @@
     .price {
         color: #2c3e50;
         font: 14px 'Roboto Condensed', sans-serif;
-        font-weight: bold
+        font-weight: 700
     }
 
     .date {
@@ -361,7 +376,7 @@
     .seller_list span {
         font: 10pt 'Roboto Condensed', sans-serif;
         color: #b8babc;
-        font-weight: bold;
+        font-weight: 700;
     }
 
     .searchmenu {
@@ -394,7 +409,7 @@
 
     .hover_string p {
         font: 13pt 'Roboto Condensed', sans-serif;
-        font-weight: bold;
+        font-weight: 700;
         color: #FFFFFF;
         padding: 0;
         margin: 0;
@@ -402,7 +417,7 @@
 
     .hover_string span {
         font: 10pt 'Roboto Condensed', sans-serif;
-        font-weight: bold;
+        font-weight: 700;
         color: #FFFFFF;
         padding: 0;
         margin: 0;
@@ -426,7 +441,7 @@
         font: 10pt 'Roboto Condensed', sans-serif;
         padding: 8px;
         color: #34495e;
-        font-weight: bold;
+        font-weight: 700;
         background-color: #ebedef;
         text-transform: uppercase;
     }
@@ -459,7 +474,7 @@
     .table_cart2 th {
         padding: 12px;
         color: #34495e;
-        font-weight: bold;
+        font-weight: 700;
         background-color: #ebedef;
         text-transform: uppercase;
     }
@@ -583,11 +598,13 @@
         color: #464646;
         text-decoration: none;
         font: 12px 'Roboto Condensed', sans-serif;
-        font-weight: bold;
+        font-weight: 700;
     }
 
     #profile_photo {
         margin: 5px 15px 15px 15px;
+
+      > .btn { display: none }
     }
 
     #profile_photo img {
@@ -595,6 +612,7 @@
         float: left;
         margin-right: 10px;
         margin-left: 5px;
+        height: auto;
     }
 
     #profile_photo span {
@@ -641,7 +659,7 @@
         font: 10pt 'Roboto Condensed', sans-serif;
         padding: 15px;
         color: #34495e;
-        font-weight: bold;
+        font-weight: 700;
         background-color: #ebedef;
         text-transform: uppercase;
     }
@@ -700,7 +718,7 @@
         font: 10pt 'Roboto Condensed', sans-serif;
         padding: 15px;
         color: #34495e;
-        font-weight: bold;
+        font-weight: 700;
         background-color: #ebedef;
         text-transform: uppercase;
     }
@@ -757,7 +775,7 @@
     .search_title3 {
         padding: 2px 0 10px 15px;
         font: 12px 'Roboto Condensed', sans-serif;
-        font-weight: bold;
+        font-weight: 700;
         color: #404040;
         background: url('../images/search_arrow.gif');
         background-repeat: no-repeat;
@@ -769,7 +787,7 @@
     .search_title4 {
         padding: 2px 0 10px 15px;
         font: 12px 'Roboto Condensed', sans-serif;
-        font-weight: bold;
+        font-weight: 700;
         color: #404040;
         background: url('../images/search_arrow.gif');
         background-repeat: no-repeat;
@@ -930,13 +948,13 @@
 
     #search_header h1 {
         font: 16px 'Roboto Condensed', sans-serif;
-        font-weight: bold;
+        font-weight: 700;
         color: #404040;
     }
 
     #search_header h1 span {
         font: 13px 'Roboto Condensed', sans-serif;
-        font-weight: bold;
+        font-weight: 700;
         color: #636363;
     }
 
@@ -990,7 +1008,7 @@
         clear: both;
         color: #636363;
         font: 11px 'Roboto Condensed', sans-serif;
-        font-weight: bold;
+        font-weight: 700;
     }
 
     .search_current_delete {
@@ -1035,6 +1053,7 @@
     }
 
     .portfolio_left img {
+        height: auto;
         margin: 0 0 10px 15px;
         border: 1px #dfdede solid;
     }
@@ -1047,7 +1066,7 @@
     .portfolio_title {
         margin: 2px 15px 10px 15px;
         font: 12px 'Roboto Condensed', sans-serif;
-        font-weight: bold;
+        font-weight: 700;
         color: #404040;
         border-bottom: #c5c5c5 1px dotted;
         padding-bottom: 6px;
@@ -1064,12 +1083,19 @@
 
     table.profile_table_home {
         width: 100%;
+        background-color: #fafbfc;
+        border: 15px solid #fafbfc;
+        border-width: 5px 15px;
+
+        b {
+            font-size: 14px;
+        }
     }
 
     table.profile_table_home th {
         padding: 10px;
         font: 14px 'Roboto Condensed', sans-serif;
-        font-weight: bold;
+        font-weight: 700;
     }
 
     table.profile_table_home tr {
@@ -1471,7 +1497,7 @@
         background-color: #bebfc0;
         text-decoration: none;
         border-radius: 2px;
-        font-weight: bold;
+        font-weight: 700;
     }
 
     a.link_inches:link, a.link_inches:hover, a.link_inches:visited {
@@ -1481,7 +1507,7 @@
         background-color: #f6f7f8;
         text-decoration: none;
         border-radius: 2px;
-        font-weight: bold;
+        font-weight: 700;
     }
 
     /*Styles for jquery uploader*/
@@ -1805,14 +1831,14 @@
         margin-right: 5px;
         margin-bottom: 5px;
         color: #FFFFFF;
-        font-weight: bold;
+        font-weight: 700;
     }
 
     #tabs_menu li a:hover {
         text-decoration: none;
         opacity: 0.8;
         color: #FFFFFF;
-        font-weight: bold;
+        font-weight: 700;
     }
 
     #tabs_menu li.activno a, #tabs_menu li.activno a:visited {
@@ -1822,14 +1848,14 @@
         background-color: #d02e3d;
         margin-right: 5px;
         color: #FFFFFF;
-        font-weight: bold;
+        font-weight: 700;
     }
 
     #tabs_menu li.activno a:hover {
         text-decoration: none;
         opacity: 0.8;
         color: #FFFFFF;
-        font-weight: bold;
+        font-weight: 700;
     }
 
     .search-box {

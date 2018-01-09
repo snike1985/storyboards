@@ -1,12 +1,6 @@
 
-var selector = '.option-element';
 var show = '.show-more-option';
 var hidden = '.story-tag-hidden';
-
-$(selector).on('click', function(){
-    $(selector).removeClass('active');
-    $(this).addClass('active');
-});
 
 $(show).on('click', function(){
     $(hidden).removeClass('active');
@@ -16,11 +10,16 @@ $(show).on('click', function(){
 
 });
 
+var header = $('.header'),
+    wrap = $('html');
 
-const burger = document.querySelector(".c-hamburger");
-const wrap = document.querySelector('html');
+$('.menu-btn').on('click', function () {
+    if (!header.hasClass('menu-open')) {
+        header.addClass('menu-open');
+        wrap.css({'overflow': 'hidden'});
+    } else {
+        header.removeClass('menu-open');
+        wrap.attr('style', '');
+    }
 
-burger.addEventListener('click', () => {
-  burger.classList.toggle('active');
-   wrap.classList.toggle('fixed');
 });
