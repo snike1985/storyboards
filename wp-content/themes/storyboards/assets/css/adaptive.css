@@ -196,17 +196,15 @@
     }
 
     .top-search-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         padding: 20px 10px;
     }
 
     .search-option {
         margin: 0 10px;
-        display: block;
         text-align: center;
-    }
-
-    .option-element {
-        margin-right: 0;
     }
 
     .contact-message {
@@ -666,8 +664,7 @@
     }
 
     .search-option, .search-help {
-        margin: 10px;
-        display: block;
+        margin: 10px 0;
         text-align: center;
         padding: 0;
     }
