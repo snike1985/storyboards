@@ -381,7 +381,15 @@ Most-downloaded+ recent
     max-width: 100%;
     height: auto;
 }
-
+.content-element img.preview_listing {
+    width: 100%;
+}
+.item_list_page {
+    margin-left: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
 .board-name {
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
