@@ -79,3 +79,6 @@ input[type="search"]::-webkit-search-cancel-button {
     width: 0;
     height: 0;
 }
+*:focus {
+    outline: none;
+}
