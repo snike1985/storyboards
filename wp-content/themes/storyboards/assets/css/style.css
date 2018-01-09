@@ -635,7 +635,7 @@ SEARCHRESULT
 }
 
 .top-search-bar .search-field {
-    height: 40px;
+    /*height: 40px;*/
     color: #232323;
     padding: 9px 0 10px 19px;
     width: 100%;
