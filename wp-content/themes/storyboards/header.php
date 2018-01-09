@@ -11,30 +11,65 @@ $help_button = get_field('help_button', 'options');
     <title>Title</title>
 
     <?php wp_head(); ?>
-
+    <script>
+         cart_word='<?php echo(pvs_word_lang("Cart"));?>';
+         cart_word_checkout='<?php echo(pvs_word_lang("Checkout"));?>';
+         cart_word_view='<?php echo(pvs_word_lang("View Cart"));?>';
+         cart_word_subtotal='<?php echo(pvs_word_lang("Subtotal"));?>';
+         cart_word_total='<?php echo(pvs_word_lang("Total"));?>';
+         cart_word_qty='<?php echo(pvs_word_lang("Quantity"));?>';
+         cart_word_item='<?php echo(pvs_word_lang("Item"));?>';
+         cart_word_delete='<?php echo(pvs_word_lang("Delete"));?>';
+         cart_currency1='<?php echo(pvs_currency(1));?>';
+         cart_currency2='<?php echo(pvs_currency(2));?>';
+         cart_site_root='<?php echo (site_url( ) );?>/';
+    </script>
 </head>
 <body data-action="<?php echo admin_url( 'admin-ajax.php' );?>" <?php body_class( 'homepage' ); ?>>
 
-    <?php pvs_create_page_elements();?>
+    <?php pvs_create_page_elements(); //var_dump(! (is_author()),get_query_var('pvs_page'));?>
 
     <div class="wrapper">
 
-        <header class="<?= $post->ID === 38 && ! isset( $_GET['search'] ) && get_query_var('pvs_page') !== 'profile' ? 'main' : 'back'; ?>">
+        <header class="<?= $post->ID === 38 &&
+        ! isset( $_GET['search'] ) &&
+        (get_query_var('pvs_page') !== 'profile' &&
+        get_query_var('pvs_page') !== 'cart' &&
+        get_query_var('pvs_page') !== 'orders' &&
+        get_query_var('pvs_page') !== 'coupons' &&
+        get_query_var('pvs_page') !== 'contacts' &&
+        get_query_var('pvs_page') !== 'login' &&
+        get_query_var('pvs_page') !== 'checkout' &&
+        get_query_var('pvs_page') !== 'signup' &&
+        get_query_var('pvs_page') !== 'photo' &&
+        get_query_var('pvs_page') !== 'profile-about' &&
+        get_query_var('pvs_page') !== 'profile-downloads-table' &&
+        get_query_var('pvs_page') !== 'user' &&
+        ! is_author() &&
+        ! is_singular('post') &&
+        get_query_var('pvs_page') !== 'profile-downloads') ?
+        'main' : 'back'; ?>">
 
             <?php get_template_part('menu'); ?>
 
-            <?php if( ! $post->ID === 38 ) { ?>
+            <?php if( $post->ID !== 38 ) { ?>
             <div class="search-nav">
-                <div class="top-search-bar">
+                <form class="top-search-bar" role="search" method="get" action="<?= get_site_url(); ?>/index.php">
 
-                    <form class="search-element" role="search" method="get" action="/index.php">
+                    <div class="search-element">
                         <input name="search" type="text" class="search-field" placeholder="<?= __('Search storyboard', 'storyboards'); ?>">
                         <button type="submit" class="search-button"><img src="<?= get_template_directory_uri(); ?>/assets/images/svg/search.svg" alt=""><span><?= __('SEARCH', 'storyboards'); ?></span></button>
-                    </form>
+                    </div>
 
                     <div class="search-option">
-                        <div class="option-element active"><a href="#"><?= __('popular', 'storyboards'); ?></a></div>
-                        <div class="option-element"><a href="#"><?= __('newest', 'storyboards'); ?></a></div>
+                        <div class="option-element">
+                            <input type="radio" id="option1" name="vd" value="popular" checked>
+                            <label for="option1"><?= __('popular', 'storyboards'); ?></label>
+                        </div>
+                        <div class="option-element">
+                            <input type="radio" id="option2" name="vd" value="date">
+                            <label for="option2"><?= __('newest', 'storyboards'); ?></label>
+                        </div>
                     </div>
 
                     <div class="search-help">
@@ -49,13 +84,13 @@ $help_button = get_field('help_button', 'options');
 
                     </div>
 
-                </div>
+                </form>
             </div>
             <?php } ?>
 
         </header>
 
-        <?php if( is_front_page() || is_author() ) { ?>
+        <?php if( $post->ID === 38 || is_author() ) { ?>
         <div class="popup_overlay"></div>
         <div class="popup">
             <div class="closer">

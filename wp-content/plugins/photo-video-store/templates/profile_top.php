@@ -19,8 +19,10 @@ $user_info = get_userdata(get_current_user_id());
 ?></a><a href="<?php echo (site_url( ) );?>/profile/"><b><?php echo $user_info -> first_name;
 ?> <?php echo $user_info -> last_name;
 ?></b></a>
-	<span><a href="<?php echo (site_url( ) );?>/profile-about/"><?php echo pvs_word_lang( "edit" );?></a></span>
+	<span><a href="<?php echo (site_url( ) );?>/profile-about/"><?php echo pvs_word_lang( "edit" );?></a></span><br>
+	<a href="<?php echo (site_url( ) );?>/wp-admin/" class="btn btn-danger btn-xs" target="blank">WordPress Admin Panel</a>
 	</div>
+
 
 
 

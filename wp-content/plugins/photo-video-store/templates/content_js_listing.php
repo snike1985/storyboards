@@ -40,7 +40,7 @@ function add_cart(x) {
 	}
 	
 	if(typeof reload_cart == 'function') 
-	{console.log(cart_mass)
+	{
    		reload_cart();
 	}
         	}

@@ -30,29 +30,13 @@ $sign_up_url = get_field('sign_up_url', 'options');
 			</div>
 		<?php } ?>
 
-		<?php if( $sign_up_url ) { ?>
-			<div class="btn"><a href="<?= $sign_up_url; ?>"><div class="sign-up"><?= __('SIGN-UP', 'storyboards'); ?></div></a></div>
-		<?php } ?>
 
-		<?php if( $cart_url ) { ?>
-			<div class="cart"><a href="<?= $cart_url; ?>"><img src="<?= get_template_directory_uri(); ?>/assets/images/svg/Cart.svg" alt="cart"></a>
-                <div class="btn-group dropdown"  id="cart_desktop"></div>
-				<?php echo(pvs_get_theme_content ('shopping_cart'));?>
-                <script>
-                    cart_word='<?php echo(pvs_word_lang("Cart"));?>';
-                    cart_word_checkout='<?php echo(pvs_word_lang("Checkout"));?>';
-                    cart_word_view='<?php echo(pvs_word_lang("View Cart"));?>';
-                    cart_word_subtotal='<?php echo(pvs_word_lang("Subtotal"));?>';
-                    cart_word_total='<?php echo(pvs_word_lang("Total"));?>';
-                    cart_word_qty='<?php echo(pvs_word_lang("Quantity"));?>';
-                    cart_word_item='<?php echo(pvs_word_lang("Item"));?>';
-                    cart_word_delete='<?php echo(pvs_word_lang("Delete"));?>';
-                    cart_currency1='<?php echo(pvs_currency(1));?>';
-                    cart_currency2='<?php echo(pvs_currency(2));?>';
-                    cart_site_root='<?php echo (site_url( ) );?>/';
-                </script>
-            </div>
-		<?php } ?>
+			<div class="site-btn"><a href="<?= get_site_url() . '/signup/';?>"><div class="sign-up"><?= __('SIGN-UP', 'storyboards'); ?></div></a></div>
+
+
+			<div class="cart" id="cart_desktop"></div>
+
+			<?php echo( pvs_get_theme_content('shopping_cart_lite') );?>
 
 	</div>
 
@@ -82,11 +66,9 @@ $sign_up_url = get_field('sign_up_url', 'options');
 				</div>
 			<?php } ?>
 
-			<?php if( $cart_url ) { ?>
 				<div class="cart">
-					<a href="<?= $cart_url; ?>">
+					<a href="<?= get_site_url('', 'cart'); ?>">
 						<svg width="50px" height="50px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-
 							<g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
 								<g id="header" transform="translate(-1123.000000, -10.000000)" stroke="#FFFFFF" stroke-width="0.5" fill="#FFFFFF">
 									<g id="Cart" transform="translate(1124.000000, 11.000000)">
@@ -99,7 +81,6 @@ $sign_up_url = get_field('sign_up_url', 'options');
 						</svg>
 					</a>
                 </div>
-			<?php } ?>
 
 		</div>
 	<?php } ?>
