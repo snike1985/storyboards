@@ -23,7 +23,7 @@ if ( ! defined( 'ABSPATH' ) )
 //Constants
 define( 'PVS_NAME', 'PVS' );
 define( 'PVS_VERSION', '17.12' );
-define( 'PVS_LICENSE', 'Lite' );
+define( 'PVS_LICENSE', 'Full' );
 define( 'PVS_DOMAIN', 'photo-video-store' );
 define( 'PVS_DB_PREFIX', 'pvs_' );
 define( 'PVS_PATH', plugin_dir_path( __FILE__ ) );

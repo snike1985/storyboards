@@ -74,7 +74,6 @@ $count_backs = count($hero_backs);
 
 					<?php foreach ( $storyboards_template[0]['storyboards'] as $row ) {
 						$post_author_id = get_post_field( 'post_author', $row['storyboard'] );
-						$image = get_field('image', 'user_'.$post_author_id );
 						$count_download = get_field('count_download', $row['storyboard'] );
 						$gallery = get_field('gallery', $row['storyboard'] );
 						$gallery_string = array();
@@ -103,11 +102,9 @@ $count_backs = count($hero_backs);
 										<div class="board-downloads"><?= $count_download.' '._n( 'download' , 'downloads' , $count_download ); ?></div>
 									</div>
 
-									<?php if( ! empty( $image ) ) { ?>
-										<div class="board-author">
-											<img src="<?= $image['url']; ?>" width="30" height="30" alt="<?= $image['alt']; ?>" title="<?= $image['title']; ?>">
-										</div>
-									<?php } ?>
+									<div class="board-author">
+									    <?= get_avatar( $post_author_id, 30 ); ?>
+									</div>
 
 								</div>
 							</a>
@@ -142,7 +139,6 @@ $count_backs = count($hero_backs);
 
 					<?php foreach ( $storyboards_template[1]['storyboards'] as $row ) {
 						$post_author_id = get_post_field( 'post_author', $row['storyboard'] );
-						$image = get_field('image', 'user_'.$post_author_id );
 						$count_download = get_field('count_download', $row['storyboard'] );
                         $gallery = get_field('gallery', $row['storyboard'] );
                         $gallery_string = array();
@@ -170,11 +166,9 @@ $count_backs = count($hero_backs);
 										<div class="board-downloads"><?= $count_download.' '._n( 'download' , 'downloads' , $count_download ); ?></div>
 									</div>
 
-									<?php if( ! empty( $image ) ) { ?>
-										<div class="board-author">
-											<img src="<?= $image['url']; ?>" width="30" height="30" alt="<?= $image['alt']; ?>" title="<?= $image['title']; ?>">
-										</div>
-									<?php } ?>
+									<div class="board-author">
+									    <?= get_avatar($post_author_id, 30); ?>
+									</div>
 
 								</div>
 							</a>
@@ -201,13 +195,11 @@ $count_backs = count($hero_backs);
 
 			<div class="artistblock">
 			<?php foreach ($our_team as $row) {
-				$image = get_field('image', 'user_'.$row['ID']);
 				$count_storyboards = get_count_storyboards($row['ID']);
-				if(empty($image)) { continue; }
-				?>
+			?>
 				<div class="artistcard">
 					<a href="<?= get_author_posts_url($row['ID']); ?>">
-						<img src="<?= $image['url']; ?>" alt="<?= $image['alt']; ?>" title="<?= $image['title']; ?>">
+						<?= get_avatar($row['ID'], 150); ?>
 						<div class="artistname"><?= $row['user_firstname'].' '.$row['user_lastname']; ?></div>
 						<div class="artiststory"><?= $count_storyboards.' '._n( 'storyboard' , 'storyboards' , $count_storyboards ); ?></div>
 					</a>

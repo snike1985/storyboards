@@ -30,7 +30,7 @@ $posts = get_posts( $args );
 
 				<?php if(!empty($image)) { ?>
 				<div class="artist-photo">
-					<img src="<?= $image['url']; ?>" alt="<?= $image['alt']; ?>" title="<?= $image['title']; ?>">
+					<?= get_avatar( $author, 340 ); ?>
 				</div>
 				<?php } ?>
 
@@ -124,11 +124,11 @@ $posts = get_posts( $args );
 								<?php } ?>
 
 							</div>
-							<?php if(!empty($image)) { ?>
+
 							<div class="board-author">
-								<img src="<?= $image['url']; ?>" width="30" height="30" alt="<?= $image['alt']; ?>" title="<?= $image['title']; ?>">
+							    <?= get_avatar( $author, 30 ); ?>
 							</div>
-							<?php } ?>
+
 						</div>
 					</a>
 				</div>

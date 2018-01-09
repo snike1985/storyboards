@@ -8,7 +8,7 @@ if ( defined( 'PVS_PATH' ) ) {
 	if ( pvs_is_show_header_footer () ) {
 		include(PVS_PATH . 'includes/functions/header.php');	
 		get_header(); 
-		echo('<div class="container">');
+		echo('<div class="dashboard-wrapper">');
 	}
 	
 	require_once( PVS_PATH . 'templates/index.php' );
