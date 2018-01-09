@@ -33,6 +33,8 @@
     .dashboard-wrapper a:focus, .dashboard-wrapper a:hover {
       color: #c6353a;
       text-decoration: underline; }
+  .dashboard-wrapper a.btn {
+    color: #fff; }
   .dashboard-wrapper b {
     font-weight: 700; }
   .dashboard-wrapper .main {
