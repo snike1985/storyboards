@@ -195,13 +195,11 @@ $count_backs = count($hero_backs);
 
 			<div class="artistblock">
 			<?php foreach ($our_team as $row) {
-				$image = get_field('image', 'user_'.$row['ID']);
 				$count_storyboards = get_count_storyboards($row['ID']);
-				if(empty($image)) { continue; }
-				?>
+			?>
 				<div class="artistcard">
 					<a href="<?= get_author_posts_url($row['ID']); ?>">
-						<img src="<?= $image['url']; ?>" alt="<?= $image['alt']; ?>" title="<?= $image['title']; ?>">
+						<?= get_avatar($row['ID'], 150); ?>
 						<div class="artistname"><?= $row['user_firstname'].' '.$row['user_lastname']; ?></div>
 						<div class="artiststory"><?= $count_storyboards.' '._n( 'storyboard' , 'storyboards' , $count_storyboards ); ?></div>
 					</a>
