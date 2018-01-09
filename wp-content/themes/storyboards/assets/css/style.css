@@ -276,7 +276,6 @@ input:-ms-input-placeholder {
 
 .contactUsBtn {
     cursor: pointer;
-    width: 221px;
     border-radius: 8px 8px 0 0;
     background-color: #007A77;
     right: 28px;
@@ -444,7 +443,8 @@ artist block
     max-width: 100%;
     width: 150px;
     height: 150px;
-    margin-bottom: 24px;
+    margin: 0 auto 24px;
+    border-radius: 50%;
 }
 
 .artistname {
