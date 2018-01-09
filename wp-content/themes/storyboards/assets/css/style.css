@@ -381,7 +381,8 @@ Most-downloaded+ recent
     max-width: 100%;
     height: auto;
 }
-.content-element img.preview_listing {
+.content-element > a > img {
+    display: block;
     width: 100%;
 }
 .item_list_page {
