@@ -1,4 +1,4 @@
- <div class="clearfix">             
+<?php /* <div class="clearfix">
 	<h1><?php echo($pvs_theme_content[ 'title' ]);?></h1>
 	<ul class="path_corlate">
 		<?php echo(pvs_get_social_meta_tags('path'));?>
@@ -121,3 +121,223 @@
 	<br>
 	<br>
 <?php }?> 
+*/ ?>
+
+<?php
+global $wpdb;
+global $translate_results;
+$newtable = $wpdb->get_results( "SELECT author FROM " . PVS_DB_PREFIX . "media WHERE id=" . $pvs_theme_content['id'] );
+$user_data = get_user_by( 'slug', $newtable[0]->author );
+//var_dump($translate_results["keywords"]);
+$gallery_string[] = $pvs_theme_content[ 'downloadsample' ];
+$gallery_string = json_encode($gallery_string);
+?>
+<section class="profile">
+
+    <div class="container">
+
+        <div class="storyboard-container">
+
+            <div class="story-left">
+                <div class="newslider newsliderClick" data-slider="first" data-gallery='<?= $gallery_string; ?>'>
+                    <div class=""><img src="<?php echo($pvs_theme_content[ 'downloadsample' ]);?>" alt=""></div>
+                </div>
+
+                <div class="slider-nav" data-slider="second">
+                    <div class=""><img src="<?php echo($pvs_theme_content[ 'downloadsample' ]);?>" width="106" alt=""></div>
+                </div>
+                <div class="story-id"><?= __('ID', 'storyboards'); ?>: <?php echo($pvs_theme_content[ 'id' ]);?></div>
+                <div class="story-tag">
+	                <?php
+                    if ( $translate_results["keywords"] != "" ) {
+                      $keywords = explode( ",", str_replace( ";", ",", $translate_results["keywords"] ) );
+
+                      $keywords_count = count( $keywords );
+                      for ( $i = 0; $i < count( $keywords ); $i++ ) {
+
+                        if( $i === 10 && $keywords_count > 10 ) {
+                          echo '<div class="show-more-option active">... ' . __('show more', 'storyboards') . '</div>' .
+                               '<div class="story-tag-hidden">';
+                        }
+
+                        if( $i === $keywords_count && $keywords_count > 10 ) {
+                          echo "</div>";
+                        }
+
+                        $keywords[$i] = trim( $keywords[$i] );
+                        if ( $keywords[$i] != "" ) {
+                          echo "<a href='" . site_url() . "/?search=" . $keywords[$i] . "'><div class=\"story-tag-option\">" . $keywords[$i] . "</div></a>";
+                        }
+
+                      }
+                    }
+		            ?>
+                </div>
+            </div>
+
+            <div class="story-right">
+
+                <h2 class="story-title"><?php echo($pvs_theme_content[ 'title' ]);?></h2>
+
+                <div class="about-profile"><?php echo($pvs_theme_content[ 'description' ]);?></div>
+
+                <div class="story-author">
+
+                    <div class="author-img">
+                        <?= get_avatar($user_data->ID, 58); ?>
+                    </div>
+
+                    <div class="author-name">
+	                    <?php
+                        if( $user_data->first_name || $user_data->last_name ) {
+	                        echo $user_data->first_name . ' ' . $user_data->last_name;
+	                    } else {
+	                        echo $user_data->display_name;
+		                }
+		                ?>
+                    </div>
+
+                </div>
+
+                <form id="price">
+                    <div class="select">
+                        <input type="radio" id="radio1" form="price" checked="checked" class="radio-button" name="file">
+                        <label for="radio1">
+                                    <span class="selectOption">
+                                        <span class="file-type">
+                                                    jpg
+                                        </span>
+                                        <span class="file-option">
+                                                    monochrome
+                                        </span>
+                                        <span class="file-size">
+                                                    32 kb
+                                                       </span>
+                                        <span class="file-price">
+                                                    19$
+                                        </span>
+                                    </span>
+                        </label>
+                    </div>
+                    <div class="select">
+                        <input type="radio" id="radio2" form="price" name="file" class="radio-button">
+                        <label for="radio2">
+                                    <span class="selectOption">
+                                        <span class="file-type">
+                                                    jpg
+                                        </span>
+                                        <span class="file-option">
+                                                    colored
+                                        </span>
+                                        <span class="file-size" >
+                                                    50 kb
+                                                       </span>
+                                        <span class="file-price">
+                                                    30$
+                                        </span>
+                                    </span>
+                        </label>
+                    </div>
+                    <div class="select">
+                        <input type="radio" id="radio3" form="price" name="file" class="radio-button">
+                        <label for="radio3">
+                                    <span class="selectOption">
+                                        <span class="file-type">
+                                                    psd
+                                        </span>
+                                        <span class="file-option">
+                                                    multilayered
+                                        </span>
+                                        <span class="file-size">
+                                                    120 kb
+                                                        </span>
+                                        <span class="file-price">
+                                                    49$
+                                        </span>
+                                    </span>
+                        </label>
+                    </div>
+                    <div class="story-buttons">
+                        <button type="submit" class="send-button" value="" name="addtocart" form="price">ADD TO CART</button>
+											<?php if ( $pvs_global_settings[ 'lightboxes' ]) {?>
+                          <a class="send-button" href="<?php echo($pvs_theme_content[ 'add_to_favorite_link' ]);?>">ADD TO LIGHTBOX</a>
+											<?php } ?>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="main-section">
+            <div class="container">
+                <h2 class="content-header" style="margin:0 0 35px">
+                                                 Similar Storyboards
+                                                         </h2>
+                <div class="main-content">
+                    <div class="content-element">
+                        <a href="#">
+                            <img src="images/story/005.jpg" alt="">
+                            <div class="board">
+                                <div class="board-info">
+                                    <div class="board-name">Storyboard name</div>
+                                    <div class="board-downloads">54 downloads</div>
+                                </div>
+                                <div class="board-author">
+                                    <img src="images/artists/101.png" width="30" height="30" alt="">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="content-element">
+                        <a href="#">
+                            <img src="images/story/006.jpg" alt="">
+                            <div class="board">
+                                <div class="board-info">
+                                    <div class="board-name">Storyboard name</div>
+                                    <div class="board-downloads">54 downloads</div>
+                                </div>
+                                <div class="board-author">
+                                    <img src="images/artists/101.png" width="30" height="30" alt="">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="content-element">
+                        <a href="#">
+                            <img src="images/story/007.jpg" alt="">
+                            <div class="board">
+                                <div class="board-info">
+                                    <div class="board-name">Storyboard name</div>
+                                    <div class="board-downloads">54 downloads</div>
+                                </div>
+                                <div class="board-author">
+                                    <img src="images/artists/101.png" width="30" height="30" alt="">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="content-element">
+                        <a href="#">
+                            <img src="images/story/008.jpg" alt="">
+                            <div class="board">
+                                <div class="board-info">
+                                    <div class="board-name">Storyboard name</div>
+                                    <div class="board-downloads">54 downloads</div>
+                                </div>
+                                <div class="board-author">
+                                    <img src="images/artists/101.png" width="30" height="30" alt="">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="content-more" style="margin-top:40px">
+                    <a href="#">SEE MORE</a>
+                </div>
+            </div>
+        </section>

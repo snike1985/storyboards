@@ -27,11 +27,11 @@ $help_button = get_field('help_button', 'options');
 </head>
 <body data-action="<?php echo admin_url( 'admin-ajax.php' );?>" <?php body_class( 'homepage' ); ?>>
 
-    <?php pvs_create_page_elements(); //var_dump(! (is_author()),get_query_var('pvs_page'));?>
+    <?php pvs_create_page_elements(); //var_dump(get_query_var('pvs_page'));?>
 
     <div class="wrapper">
 
-        <header class="<?= $post->ID === 38 &&
+        <header class="header <?= $post->ID === 38 &&
         ! isset( $_GET['search'] ) &&
         (get_query_var('pvs_page') !== 'profile' &&
         get_query_var('pvs_page') !== 'cart' &&
@@ -42,17 +42,22 @@ $help_button = get_field('help_button', 'options');
         get_query_var('pvs_page') !== 'checkout' &&
         get_query_var('pvs_page') !== 'signup' &&
         get_query_var('pvs_page') !== 'photo' &&
+        get_query_var('pvs_page') !== 'stockapi' &&
+        get_query_var('pvs_page') !== 'orders-content' &&
+        get_query_var('pvs_page') !== 'my-favorite-list' &&
         get_query_var('pvs_page') !== 'profile-about' &&
         get_query_var('pvs_page') !== 'profile-downloads-table' &&
         get_query_var('pvs_page') !== 'user' &&
         ! is_author() &&
         ! is_singular('post') &&
         get_query_var('pvs_page') !== 'profile-downloads') ?
-        'main' : 'back'; ?>">
+        'header_main' : 'header_back'; ?>">
 
             <?php get_template_part('menu'); ?>
 
-            <?php if( $post->ID !== 38 ) { ?>
+        </header>
+
+        <?php if( $post->ID !== 38 ) { ?>
             <div class="search-nav">
                 <form class="top-search-bar" role="search" method="get" action="<?= get_site_url(); ?>/index.php">
 
@@ -88,16 +93,18 @@ $help_button = get_field('help_button', 'options');
             </div>
             <?php } ?>
 
-        </header>
-
         <?php if( $post->ID === 38 || is_author() ) { ?>
         <div class="popup_overlay"></div>
+
         <div class="popup">
+
             <div class="closer">
                 <img src="<?= get_template_directory_uri(); ?>/assets/images/svg/close.svg" alt="">
             </div>
+
             <div class="newslider" data-slider="first"></div>
 
             <div class="slider-nav"></div>
+
         </div>
         <?php } ?>

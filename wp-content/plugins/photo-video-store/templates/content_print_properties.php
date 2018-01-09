@@ -361,7 +361,7 @@ if ( isset( $dq->row["in_stock"] ) ) {
 	}
 }
 
-$prints_content .= "<h4 style='margin:20px 0px 3px 0px;padding:0px'>" .
+$prints_content .= "<h4 style='margin: 20px 0 3px 0; padding: 0'>" .
 	pvs_word_lang( "quantity" ) . ":</h4>";
 if ( $in_stock != 0 ) {
 	$prints_content .= '<div class="input-group" style="width:110px">

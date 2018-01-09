@@ -30,10 +30,10 @@ $locations = get_nav_menu_locations();
 	    $menu = wp_get_nav_menu_object( $locations[ $menu_name ] );
 	    $menu_items = wp_get_nav_menu_items( $menu ); ?>
         <div class="footer-menu">
-            <div class="navbar-menu">
+            <div class="footer-menu__wrap">
 
 	            <?php foreach ( (array) $menu_items as $key => $menu_item ){ ?>
-                <div class="menu-element"><a href="<?= $menu_item->url; ?>"><?= $menu_item->title; ?></a></div>
+                <a href="<?= $menu_item->url; ?>"><?= $menu_item->title; ?></a>
 		        <?php } ?>
 
             </div>
