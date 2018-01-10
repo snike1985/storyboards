@@ -344,13 +344,13 @@ if ( pvs_check_password_publication( get_query_var('pvs_id') ) ) {
 				pvs_word_lang( "add to cart" ) . "'></div>";
 		}
 		//End Prints
-	
+
 		$photo_dpi = ( int )$pvs_global_settings["resolution_dpi"];
 		if ( $photo_dpi <= 0 ) {
 			$photo_dpi = 72;
 		}
 		$size_photo = "px";
-	
+
 		if ( $rs->row["contacts"] == 0 ) {
 			//Show prices and prints
 			if ( $rs->row["rights_managed"] == 0 )
