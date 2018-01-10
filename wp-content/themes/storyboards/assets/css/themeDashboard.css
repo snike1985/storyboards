@@ -1,30 +1,316 @@
 #shopping_cart_lite {
   display: none; }
 
+#body_content {
+  padding-top: 120px;
+  margin-bottom: 30px; }
+
+#instant_search {
+  position: fixed;
+  top: 82px;
+  right: 38px;
+  background-color: #1a1a1a;
+  border: #212121 1px solid;
+  z-index: 2031;
+  width: 208px;
+  display: none;
+  color: #c0c0c0; }
+
+#lightbox_menu_error {
+  position: fixed;
+  display: none;
+  background-color: #fd0f03;
+  z-index: 10000;
+  padding: 10px;
+  text-align: center;
+  font: 13px 'Roboto Condensed', sans-serif;
+  color: #FFFFFF;
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+  -moz-opacity: 0.9;
+  opacity: 0.9; }
+
+#lightbox_menu_ok {
+  position: fixed;
+  display: none;
+  background-color: #41b535;
+  z-index: 10000;
+  padding: 10px;
+  text-align: center;
+  font: 13px 'Roboto Condensed', sans-serif;
+  color: #FFFFFF;
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+  -moz-opacity: 0.9;
+  opacity: 0.9; }
+
+#lightbox_content {
+  border-left: 1px #e3e3e3 solid;
+  border-right: 1px #e3e3e3 solid;
+  padding: 15px; }
+
+#lightbox_content input[type="text"], #lightbox_content input[type="password"], #lightbox_content select {
+  padding: 2px;
+  border: 1px #c7c9c7 solid;
+  color: #8f908f; }
+
+#lightbox_content h2 {
+  margin: 4px 0 10px 0;
+  font: 14px 'Roboto Condensed', sans-serif;
+  color: #727171; }
+
+#lightbox_content div.param {
+  margin: 0 0 10px 0; }
+
+#lightbox_header {
+  padding: 15px;
+  color: #FFFFFF;
+  font: 20px 'Roboto Condensed', sans-serif;
+  text-align: center;
+  text-transform: uppercase; }
+
+#lightbox_footer {
+  background-color: #f5f5f5;
+  border: 1px #e3e3e3 solid;
+  height: 65px; }
+
+#lightbox_footer input {
+  margin: 15px; }
+
+/*
+        ColorBox Core Style:
+        The following CSS is consistent between example themes and should not be altered.
+    */
+#colorbox, #cboxOverlay, #cboxWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  overflow: hidden; }
+
+#cboxOverlay {
+  position: fixed;
+  width: 100%;
+  height: 100%; }
+
+#cboxMiddleLeft, #cboxBottomLeft {
+  clear: left; }
+
+#cboxContent {
+  position: relative; }
+
+#cboxLoadedContent {
+  overflow: auto; }
+
+#cboxTitle {
+  margin: 0; }
+
+#cboxLoadingOverlay, #cboxLoadingGraphic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow {
+  cursor: pointer; }
+
+.cboxPhoto {
+  float: left;
+  margin: auto;
+  border: 0;
+  display: block;
+  max-width: none; }
+
+.cboxIframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 0; }
+
+#colorbox, #cboxContent, #cboxLoadedContent {
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box; }
+
+/*
+    User Style:
+    Change the following styles to modify the appearance of ColorBox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay {
+  background: url(../images/colorbox/overlay.png) repeat 0 0; }
+
+#cboxTopLeft {
+  width: 14px;
+  height: 14px;
+  background: url(../images/colorbox/controls.png) no-repeat -100px 0; }
+
+#cboxTopRight {
+  width: 14px;
+  height: 14px;
+  background: url(../images/colorbox/controls.png) no-repeat -136px 0; }
+
+#cboxBottomLeft {
+  width: 14px;
+  height: 14px;
+  background: url(../images/colorbox/controls.png) no-repeat -100px -36px; }
+
+#cboxBottomRight {
+  width: 14px;
+  height: 14px;
+  background: url(../images/colorbox/controls.png) no-repeat -136px -36px; }
+
+#cboxMiddleLeft {
+  width: 14px;
+  background: url(../images/colorbox/controls.png) left top repeat-y; }
+
+#cboxMiddleRight {
+  width: 14px;
+  background: url(../images/colorbox/controls.png) right top repeat-y; }
+
+#cboxTopCenter {
+  height: 14px;
+  background: url(../images/colorbox/border.png) 0 0 repeat-x; }
+
+#cboxBottomCenter {
+  height: 14px;
+  background: url(../images/colorbox/border.png) 0 -36px repeat-x; }
+
+#cboxContent {
+  background: #FFFFFF;
+  overflow: visible; }
+
+.cboxIframe {
+  background: #FFFFFF; }
+
+#cboxError {
+  padding: 50px;
+  border: 1px solid #ccc; }
+
+#cboxLoadedContent {
+  margin-bottom: 0; }
+
+#cboxTitle {
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  color: #949494; }
+
+#cboxCurrent {
+  position: absolute;
+  bottom: 4px;
+  left: 58px;
+  color: #949494; }
+
+#cboxSlideshow {
+  position: absolute;
+  bottom: 4px;
+  right: 30px;
+  color: #0092ef; }
+
+#cboxPrevious {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: url(../images/colorbox/controls.png) no-repeat -75px 0;
+  width: 25px;
+  height: 25px;
+  text-indent: -9999px; }
+
+#cboxPrevious:hover {
+  background-position: -75px -25px; }
+
+#cboxNext {
+  position: absolute;
+  bottom: 0;
+  left: 27px;
+  background: url(../images/colorbox/controls.png) no-repeat -50px 0;
+  width: 25px;
+  height: 25px;
+  text-indent: -9999px; }
+
+#cboxNext:hover {
+  background-position: -50px -25px; }
+
+#cboxLoadingOverlay {
+  background: url(../images/colorbox/loading_background.png) no-repeat center center; }
+
+#cboxLoadingGraphic {
+  background: url(../images/colorbox/loading.gif) no-repeat center center; }
+
+#cboxClose {
+  border: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(../images/colorbox/controls.png) no-repeat -25px 0;
+  width: 25px;
+  height: 25px;
+  text-indent: -9999px; }
+
+#cboxClose:hover {
+  background-position: -25px -25px; }
+
+/*
+  The following fixes a problem where IE7 and IE8 replace a PNG's alpha transparency with a black fill
+  when an alpha filter (opacity change) is set on the element or ancestor element.  This style is not applied to or needed in IE9.
+  See: http://jacklmoore.com/notes/ie-transparency-problems/
+*/
+.cboxIE #cboxTopLeft,
+.cboxIE #cboxTopCenter,
+.cboxIE #cboxTopRight,
+.cboxIE #cboxBottomLeft,
+.cboxIE #cboxBottomCenter,
+.cboxIE #cboxBottomRight,
+.cboxIE #cboxMiddleLeft,
+.cboxIE #cboxMiddleRight {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF); }
+
+/*
+  The following provides PNG transparency support for IE6
+  Feel free to remove this and the /ie6/ directory if you have dropped IE6 support.
+*/
+.cboxIE6 #cboxTopLeft {
+  background: url(../images/colorbox/ie6/borderTopLeft.png); }
+
+.cboxIE6 #cboxTopCenter {
+  background: url(../images/colorbox/ie6/borderTopCenter.png); }
+
+.cboxIE6 #cboxTopRight {
+  background: url(../images/colorbox/ie6/borderTopRight.png); }
+
+.cboxIE6 #cboxBottomLeft {
+  background: url(../images/colorbox/ie6/borderBottomLeft.png); }
+
+.cboxIE6 #cboxBottomCenter {
+  background: url(../images/colorbox/ie6/borderBottomCenter.png); }
+
+.cboxIE6 #cboxBottomRight {
+  background: url(../images/colorbox/ie6/borderBottomRight.png); }
+
+.cboxIE6 #cboxMiddleLeft {
+  background: url(../images/colorbox/ie6/borderMiddleLeft.png); }
+
+.cboxIE6 #cboxMiddleRight {
+  background: url(../images/colorbox/ie6/borderMiddleRight.png); }
+
+.cboxIE6 #cboxTopLeft,
+.cboxIE6 #cboxTopCenter,
+.cboxIE6 #cboxTopRight,
+.cboxIE6 #cboxBottomLeft,
+.cboxIE6 #cboxBottomCenter,
+.cboxIE6 #cboxBottomRight,
+.cboxIE6 #cboxMiddleLeft,
+.cboxIE6 #cboxMiddleRight {
+  _behavior: expression(this.src = this.src ? this.src : this.currentStyle.backgroundImage.split('"')[1], this.style.background = "none", this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=" + this.src + ", sizingMethod='scale')"); }
+
 .dashboard-wrapper {
   font-family: 'Roboto Condensed', sans-serif;
   background: #FFF;
   padding: 15px;
   margin: 0 auto;
   max-width: 1170px;
-  /*
-      ColorBox Core Style:
-      The following CSS is consistent between example themes and should not be altered.
-  */
-  /*
-      User Style:
-      Change the following styles to modify the appearance of ColorBox.  They are
-      ordered & tabbed in a way that represents the nesting of the generated HTML.
-  */
-  /*
-    The following fixes a problem where IE7 and IE8 replace a PNG's alpha transparency with a black fill
-    when an alpha filter (opacity change) is set on the element or ancestor element.  This style is not applied to or needed in IE9.
-    See: http://jacklmoore.com/notes/ie-transparency-problems/
-  */
-  /*
-    The following provides PNG transparency support for IE6
-    Feel free to remove this and the /ie6/ directory if you have dropped IE6 support.
-  */
   /*Styles for jquery uploader*/
   /*End. Styles for jquery uploader*/
   /* CSS Fotomoto to address conflicts found */ }
@@ -39,16 +325,6 @@
     font-weight: 700; }
   .dashboard-wrapper .main {
     position: relative; }
-  .dashboard-wrapper #instant_search {
-    position: fixed;
-    top: 82px;
-    right: 38px;
-    background-color: #1a1a1a;
-    border: #212121 1px solid;
-    z-index: 2031;
-    width: 208px;
-    display: none;
-    color: #c0c0c0; }
   .dashboard-wrapper .instant_search_result {
     padding: 5px 10px 5px 10px;
     cursor: pointer;
@@ -57,11 +333,6 @@
     text-transform: none; }
   .dashboard-wrapper .instant_search_result:hover {
     background-color: #212121; }
-  .dashboard-wrapper #shopping_cart_lite {
-    display: none; }
-  .dashboard-wrapper #body_content {
-    padding-top: 120px;
-    margin-bottom: 30px; }
   .dashboard-wrapper .visible-phone {
     display: none; }
   .dashboard-wrapper A.sortmenu:link, .dashboard-wrapper A.sortmenu:visited {
@@ -777,223 +1048,6 @@
     margin-bottom: 15px; }
   .dashboard-wrapper .login_header h2 {
     margin: 0 0 3px 0; }
-  .dashboard-wrapper #colorbox, .dashboard-wrapper #cboxOverlay, .dashboard-wrapper #cboxWrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    overflow: hidden; }
-  .dashboard-wrapper #cboxOverlay {
-    position: fixed;
-    width: 100%;
-    height: 100%; }
-  .dashboard-wrapper #cboxMiddleLeft, .dashboard-wrapper #cboxBottomLeft {
-    clear: left; }
-  .dashboard-wrapper #cboxContent {
-    position: relative; }
-  .dashboard-wrapper #cboxLoadedContent {
-    overflow: auto; }
-  .dashboard-wrapper #cboxTitle {
-    margin: 0; }
-  .dashboard-wrapper #cboxLoadingOverlay, .dashboard-wrapper #cboxLoadingGraphic {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
-  .dashboard-wrapper #cboxPrevious, .dashboard-wrapper #cboxNext, .dashboard-wrapper #cboxClose, .dashboard-wrapper #cboxSlideshow {
-    cursor: pointer; }
-  .dashboard-wrapper .cboxPhoto {
-    float: left;
-    margin: auto;
-    border: 0;
-    display: block;
-    max-width: none; }
-  .dashboard-wrapper .cboxIframe {
-    width: 100%;
-    height: 100%;
-    display: block;
-    border: 0; }
-  .dashboard-wrapper #colorbox, .dashboard-wrapper #cboxContent, .dashboard-wrapper #cboxLoadedContent {
-    box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box; }
-  .dashboard-wrapper #cboxOverlay {
-    background: url(../images/colorbox/overlay.png) repeat 0 0; }
-  .dashboard-wrapper #cboxTopLeft {
-    width: 14px;
-    height: 14px;
-    background: url(../images/colorbox/controls.png) no-repeat -100px 0; }
-  .dashboard-wrapper #cboxTopRight {
-    width: 14px;
-    height: 14px;
-    background: url(../images/colorbox/controls.png) no-repeat -136px 0; }
-  .dashboard-wrapper #cboxBottomLeft {
-    width: 14px;
-    height: 14px;
-    background: url(../images/colorbox/controls.png) no-repeat -100px -36px; }
-  .dashboard-wrapper #cboxBottomRight {
-    width: 14px;
-    height: 14px;
-    background: url(../images/colorbox/controls.png) no-repeat -136px -36px; }
-  .dashboard-wrapper #cboxMiddleLeft {
-    width: 14px;
-    background: url(../images/colorbox/controls.png) left top repeat-y; }
-  .dashboard-wrapper #cboxMiddleRight {
-    width: 14px;
-    background: url(../images/colorbox/controls.png) right top repeat-y; }
-  .dashboard-wrapper #cboxTopCenter {
-    height: 14px;
-    background: url(../images/colorbox/border.png) 0 0 repeat-x; }
-  .dashboard-wrapper #cboxBottomCenter {
-    height: 14px;
-    background: url(../images/colorbox/border.png) 0 -36px repeat-x; }
-  .dashboard-wrapper #cboxContent {
-    background: #FFFFFF;
-    overflow: visible; }
-  .dashboard-wrapper .cboxIframe {
-    background: #FFFFFF; }
-  .dashboard-wrapper #cboxError {
-    padding: 50px;
-    border: 1px solid #ccc; }
-  .dashboard-wrapper #cboxLoadedContent {
-    margin-bottom: 0; }
-  .dashboard-wrapper #cboxTitle {
-    position: absolute;
-    bottom: 4px;
-    left: 0;
-    text-align: center;
-    width: 100%;
-    color: #949494; }
-  .dashboard-wrapper #cboxCurrent {
-    position: absolute;
-    bottom: 4px;
-    left: 58px;
-    color: #949494; }
-  .dashboard-wrapper #cboxSlideshow {
-    position: absolute;
-    bottom: 4px;
-    right: 30px;
-    color: #0092ef; }
-  .dashboard-wrapper #cboxPrevious {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background: url(../images/colorbox/controls.png) no-repeat -75px 0;
-    width: 25px;
-    height: 25px;
-    text-indent: -9999px; }
-  .dashboard-wrapper #cboxPrevious:hover {
-    background-position: -75px -25px; }
-  .dashboard-wrapper #cboxNext {
-    position: absolute;
-    bottom: 0;
-    left: 27px;
-    background: url(../images/colorbox/controls.png) no-repeat -50px 0;
-    width: 25px;
-    height: 25px;
-    text-indent: -9999px; }
-  .dashboard-wrapper #cboxNext:hover {
-    background-position: -50px -25px; }
-  .dashboard-wrapper #cboxLoadingOverlay {
-    background: url(../images/colorbox/loading_background.png) no-repeat center center; }
-  .dashboard-wrapper #cboxLoadingGraphic {
-    background: url(../images/colorbox/loading.gif) no-repeat center center; }
-  .dashboard-wrapper #cboxClose {
-    border: 0;
-    position: absolute;
-    top: 0;
-    right: 0;
-    background: url(../images/colorbox/controls.png) no-repeat -25px 0;
-    width: 25px;
-    height: 25px;
-    text-indent: -9999px; }
-  .dashboard-wrapper #cboxClose:hover {
-    background-position: -25px -25px; }
-  .dashboard-wrapper .cboxIE #cboxTopLeft,
-  .dashboard-wrapper .cboxIE #cboxTopCenter,
-  .dashboard-wrapper .cboxIE #cboxTopRight,
-  .dashboard-wrapper .cboxIE #cboxBottomLeft,
-  .dashboard-wrapper .cboxIE #cboxBottomCenter,
-  .dashboard-wrapper .cboxIE #cboxBottomRight,
-  .dashboard-wrapper .cboxIE #cboxMiddleLeft,
-  .dashboard-wrapper .cboxIE #cboxMiddleRight {
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF); }
-  .dashboard-wrapper .cboxIE6 #cboxTopLeft {
-    background: url(../images/colorbox/ie6/borderTopLeft.png); }
-  .dashboard-wrapper .cboxIE6 #cboxTopCenter {
-    background: url(../images/colorbox/ie6/borderTopCenter.png); }
-  .dashboard-wrapper .cboxIE6 #cboxTopRight {
-    background: url(../images/colorbox/ie6/borderTopRight.png); }
-  .dashboard-wrapper .cboxIE6 #cboxBottomLeft {
-    background: url(../images/colorbox/ie6/borderBottomLeft.png); }
-  .dashboard-wrapper .cboxIE6 #cboxBottomCenter {
-    background: url(../images/colorbox/ie6/borderBottomCenter.png); }
-  .dashboard-wrapper .cboxIE6 #cboxBottomRight {
-    background: url(../images/colorbox/ie6/borderBottomRight.png); }
-  .dashboard-wrapper .cboxIE6 #cboxMiddleLeft {
-    background: url(../images/colorbox/ie6/borderMiddleLeft.png); }
-  .dashboard-wrapper .cboxIE6 #cboxMiddleRight {
-    background: url(../images/colorbox/ie6/borderMiddleRight.png); }
-  .dashboard-wrapper .cboxIE6 #cboxTopLeft,
-  .dashboard-wrapper .cboxIE6 #cboxTopCenter,
-  .dashboard-wrapper .cboxIE6 #cboxTopRight,
-  .dashboard-wrapper .cboxIE6 #cboxBottomLeft,
-  .dashboard-wrapper .cboxIE6 #cboxBottomCenter,
-  .dashboard-wrapper .cboxIE6 #cboxBottomRight,
-  .dashboard-wrapper .cboxIE6 #cboxMiddleLeft,
-  .dashboard-wrapper .cboxIE6 #cboxMiddleRight {
-    _behavior: expression(this.src = this.src ? this.src : this.currentStyle.backgroundImage.split('"')[1], this.style.background = "none", this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=" + this.src + ", sizingMethod='scale')"); }
-  .dashboard-wrapper #lightbox_menu_error {
-    position: fixed;
-    display: none;
-    background-color: #fd0f03;
-    z-index: 10000;
-    padding: 10px;
-    text-align: center;
-    font: 13px 'Roboto Condensed', sans-serif;
-    color: #FFFFFF;
-    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90);
-    -moz-opacity: 0.9;
-    opacity: 0.9; }
-  .dashboard-wrapper #lightbox_menu_ok {
-    position: fixed;
-    display: none;
-    background-color: #41b535;
-    z-index: 10000;
-    padding: 10px;
-    text-align: center;
-    font: 13px 'Roboto Condensed', sans-serif;
-    color: #FFFFFF;
-    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90);
-    -moz-opacity: 0.9;
-    opacity: 0.9; }
-  .dashboard-wrapper #lightbox_content {
-    border-left: 1px #e3e3e3 solid;
-    border-right: 1px #e3e3e3 solid;
-    padding: 15px; }
-  .dashboard-wrapper #lightbox_content input[type="text"], .dashboard-wrapper #lightbox_content input[type="password"], .dashboard-wrapper #lightbox_content select {
-    padding: 2px;
-    border: 1px #c7c9c7 solid;
-    color: #8f908f; }
-  .dashboard-wrapper #lightbox_content h2 {
-    margin: 4px 0 10px 0;
-    font: 14px 'Roboto Condensed', sans-serif;
-    color: #727171; }
-  .dashboard-wrapper #lightbox_content div.param {
-    margin: 0 0 10px 0; }
-  .dashboard-wrapper #lightbox_header {
-    padding: 15px;
-    color: #FFFFFF;
-    font: 20px 'Roboto Condensed', sans-serif;
-    text-align: center;
-    text-transform: uppercase; }
-  .dashboard-wrapper #lightbox_footer {
-    background-color: #f5f5f5;
-    border: 1px #e3e3e3 solid;
-    height: 65px; }
-  .dashboard-wrapper #lightbox_footer input {
-    margin: 15px; }
   .dashboard-wrapper .subheader {
     padding: 10px;
     font: 16px 'Roboto Condensed', sans-serif;
