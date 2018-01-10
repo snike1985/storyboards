@@ -821,6 +821,16 @@ contactus
     border-width: 0;
 }
 
+a.send-button {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a.send-button:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 .contact-info {
     color: #000;
     font-family: 'Roboto', sans-serif;
@@ -1206,8 +1216,8 @@ input[type=radio]:checked + label {
     position: absolute;
     top: 0;
     left: 3px;
-    width: 14px;
-    height: 14px;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
     background: #007A77;
     opacity: 0;
@@ -1268,6 +1278,7 @@ input[type=radio]:checked + label {
 }
 
 .story-buttons .send-button {
+    position: relative;
     padding: 15px 35px 15px 31px;
     margin-right: 30px;
 }
@@ -1275,6 +1286,17 @@ input[type=radio]:checked + label {
 .story-buttons .send-button:disabled {
     opacity: 0.8;
     cursor: default;
+    pointer-events: none;
+}
+.story-buttons a.send-button {
+    display: inline-block;
+}
+.story-buttons a.send-button:before {
+    z-index: 1;
+}
+.story-buttons a.send-button span {
+    position: relative;
+    z-index: 2;
 }
 
 #slider {
@@ -1497,7 +1519,7 @@ input[type=radio]:checked + label {
     -webkit-transition: 0.3s ease-in;
     -moz-transition: 0.3s ease-in;
     transition: 0.3s ease-in;
-
+    text-decoration: none !important;
 }
 
 .story-tag-option {
