@@ -1856,6 +1856,12 @@ a.entrance__link {
     display: block;
     font-family: 'Roboto', sans-serif;
 }
+
+.footer-menu__links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 /*---------- /footer-menu ---------*/
 
 @media (min-width: 1200px) {
