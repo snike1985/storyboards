@@ -33,10 +33,12 @@ $help_button = get_field('help_button', 'options');
 
         <header class="header <?= $post->ID === 38 &&
         ! isset( $_GET['search'] ) &&
+        ! isset( $_GET['user'] ) &&
         (get_query_var('pvs_page') !== 'profile' &&
         get_query_var('pvs_page') !== 'cart' &&
         get_query_var('pvs_page') !== 'orders' &&
         get_query_var('pvs_page') !== 'coupons' &&
+        get_query_var('pvs_page') !== 'category' &&
         get_query_var('pvs_page') !== 'contacts' &&
         get_query_var('pvs_page') !== 'login' &&
         get_query_var('pvs_page') !== 'checkout' &&
@@ -44,6 +46,8 @@ $help_button = get_field('help_button', 'options');
         get_query_var('pvs_page') !== 'photo' &&
         get_query_var('pvs_page') !== 'stockapi' &&
         get_query_var('pvs_page') !== 'orders-content' &&
+        get_query_var('pvs_page') !== 'lightbox' &&
+        get_query_var('pvs_page') !== 'lightbox-content' &&
         get_query_var('pvs_page') !== 'my-favorite-list' &&
         get_query_var('pvs_page') !== 'profile-about' &&
         get_query_var('pvs_page') !== 'profile-downloads-table' &&

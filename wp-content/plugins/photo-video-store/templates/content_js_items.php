@@ -214,6 +214,7 @@ while ( ! $rs->eof ) {
 
 //The function adds an item into the shopping cart
 function add_cart(x) {
+
 	if(x==0) {
 		value=document.getElementById("cart").value;
 	}
