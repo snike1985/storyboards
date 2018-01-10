@@ -11,15 +11,15 @@ $(show).on('click', function(){
 });
 
 var header = $('.header'),
-    wrap = $('html');
+    wrap = $('body');
 
 $('.menu-btn').on('click', function () {
     if (!header.hasClass('menu-open')) {
         header.addClass('menu-open');
-        wrap.css({'overflow': 'hidden'});
+        wrap.addClass('body-fixed');
     } else {
         header.removeClass('menu-open');
-        wrap.attr('style', '');
+        wrap.removeClass('body-fixed');
     }
 
 });
