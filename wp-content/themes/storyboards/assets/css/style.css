@@ -11,6 +11,13 @@ button.search-button {
     align-items: center;
 }
 
+.search-results .container {
+    padding: 15px 0;
+}
+
+.search-results .container > .clearfix > h1 {
+    margin-bottom: 15px;
+}
 .wrapper {
     position: relative;
     width: 100%;
@@ -393,9 +400,11 @@ Most-downloaded+ recent
     width: 100%;
 }
 .item_list_page {
-    margin-left: -10px;
+    margin-left: -17px;
     display: flex;
     flex-wrap: wrap;
+}
+.item_list_page .content-element {
     margin-bottom: 20px;
 }
 .board-name {
@@ -428,6 +437,10 @@ Most-downloaded+ recent
 
 .board-author {
     padding: 13px 15px 15px 0;
+}
+
+.board-author img {
+    border-radius: 50%;
 }
 
 /*############################################################################################################################################################################################################################
