@@ -29,11 +29,12 @@ $help_button = get_field('help_button', 'options');
 
     <?php pvs_create_page_elements(); //var_dump(get_query_var('pvs_page'));?>
 
-    <div class="wrapper">
+    <div class="wrapper<?= $post->ID === 38 && isset( $_GET['search'] ) ? ' search-results': ''; ?>">
 
         <header class="header <?= $post->ID === 38 &&
         ! isset( $_GET['search'] ) &&
         ! isset( $_GET['user'] ) &&
+        ! is_category() &&
         (get_query_var('pvs_page') !== 'profile' &&
         get_query_var('pvs_page') !== 'cart' &&
         get_query_var('pvs_page') !== 'orders' &&

@@ -28,7 +28,6 @@ $posts = get_posts( $args );
             <div class="main-content">
                 <?php foreach ($posts as $post) {
 	                $post_author_id = get_post_field( 'post_author', $post );
-	                $image = get_field('image', 'user_'.$post_author_id );
 	                $iframe = get_field('video');
 	                if( ! $iframe ) { continue; }
 	                preg_match('/src="(.+?)"/', $iframe, $matches);
@@ -42,7 +41,6 @@ $posts = get_posts( $args );
                       $image_url = 'http://i1.ytimg.com/vi/' . $results[6] . '/mqdefault.jpg';
                     }
 
-	                //var_dump($counter%4);
 	                if($counter%4 == 0 && $counter > 0 ) {
                         echo '</div><div class="main-content">';
                     }
@@ -56,7 +54,7 @@ $posts = get_posts( $args );
                                 <div class="board-downloads"></div>
                             </div>
                             <div class="board-author">
-                                <img src="<?= $image['url']; ?>" width="30" height="30" alt="<?= $image['alt']; ?>" title="<?= $image['title']; ?>">
+                                <?= get_avatar($post_author_id, 30); ?>
                             </div>
                         </div>
                     </a>
@@ -64,9 +62,10 @@ $posts = get_posts( $args );
                 <?php $counter++; } ?>
             </div>
 
-            <div class="content-more" style="margin-top:40px">
+            <!--<div class="content-more" style="margin-top:40px">
                 <a href="searchresult.html">SEE MORE</a>
-            </div>
+            </div>-->
+
             <?php } ?>
 
         </div>

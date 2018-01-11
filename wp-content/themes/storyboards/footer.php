@@ -31,11 +31,16 @@ $locations = get_nav_menu_locations();
 	    $menu_items = wp_get_nav_menu_items( $menu ); ?>
         <div class="footer-menu">
             <div class="footer-menu__wrap">
-
-	            <?php foreach ( (array) $menu_items as $key => $menu_item ){ ?>
-                <a href="<?= $menu_item->url; ?>"><?= $menu_item->title; ?></a>
+                <div class="footer-menu__links">
+                    <?php foreach ( (array) $menu_items as $key => $menu_item ){ ?>
+                        <a href="<?= $menu_item->url; ?>"><?= $menu_item->title; ?></a>
+                    <?php } ?>
+                </div>
+	            <?php if (is_user_logged_in()) { ?>
+                    <a href="<?= wp_logout_url(site_url()); ?>"><?= __('LOGOUT', 'storyboards'); ?></a>
+	            <?php } else { ?>
+                    <a href="<?= get_site_url('', 'login'); ?>"><?= __('LOGIN', 'storyboards'); ?></a>
 		        <?php } ?>
-
             </div>
             <div class="bottom-panel">
 

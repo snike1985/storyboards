@@ -37,7 +37,7 @@ $count_backs = count($hero_backs);
 				<?= $hero_title; ?>
 			</div>
 
-		<form class="search-element" role="search" method="get" action="/index.php">
+		<form class="search-element" role="search" method="get" action="<?= get_site_url(); ?>/index.php">
 			<input name="search" class="search-field" type="text" placeholder="<?= __('Search storyboards', 'storyboards'); ?>">
 			<button type="submit" class="search-button"><img src="<?= get_template_directory_uri(); ?>/assets/images/svg/search.svg" alt="search"><span><?= __('SEARCH', 'storyboards'); ?></span></button>
 		</form>
