@@ -300,6 +300,7 @@ input:-ms-input-placeholder {
 
 .contactUsBtn a {
     display: flex;
+    text-decoration: none;
 }
 
 .contactUsBtn img {
@@ -344,9 +345,6 @@ Most-downloaded+ recent
 
 .content-more a:hover {
     border-bottom: 1px solid transparent;
-    -webkit-transition: 0.4s ease-in;
-    -moz-transition: 0.4s ease-in;
-    transition: 0.4s ease-in;
 
 }
 
@@ -359,9 +357,10 @@ Most-downloaded+ recent
     line-height: 24px;
     margin-bottom: 40px;
     border-bottom: 1px solid #232323;
-    -webkit-transition: 0.4s ease-in;
-    -moz-transition: 0.4s ease-in;
-    transition: 0.4s ease-in;
+    -webkit-transition: border .3s ease-in;
+    -moz-transition:border  .3s ease-in;
+    transition: border .3s ease-in;
+    text-decoration: none;
 }
 
 .main-content {
@@ -373,21 +372,18 @@ Most-downloaded+ recent
 .content-element {
     width: 272px;
     margin: 0 0 0 17px;
-    -webkit-transition: 0.4s ease-in;
-    -moz-transition: 0.4s ease-in;
-    transition: 0.4s ease-in;
 }
 
 .content-element a {
     position: relative;
     display: block;
+    -webkit-transition: .3s ease-in;
+    -moz-transition: .3s ease-in;
+    transition: .3s ease-in;
 }
 
 .content-element a:hover {
     opacity: 0.6;
-    -webkit-transition: 0.4s ease-in;
-    -moz-transition: 0.4s ease-in;
-    transition: 0.4s ease-in;
 }
 
 .content-element img,
@@ -456,16 +452,15 @@ artist block
 .artistcard {
     margin: 0;
     text-align: center;
-    -webkit-transition: 0.4s ease-in;
-    -moz-transition: 0.4s ease-in;
-    transition: 0.4s ease-in;
 }
-
+.artistcard a {
+    -webkit-transition: opacity .3s ease-in;
+    -moz-transition: opacity .3s ease-in;
+    transition: opacity .3s ease-in;
+}
 .artistcard a:hover {
     opacity: 0.6;
-    -webkit-transition: 0.4s ease-in;
-    -moz-transition: 0.4s ease-in;
-    transition: 0.4s ease-in;
+    text-decoration: none;
 }
 
 .artistcard img {
@@ -547,7 +542,9 @@ footer {
     display: flex;
     justify-content: center;
 }
-
+.bottom-panel > a {
+    text-decoration: none;
+}
 .bottom-text {
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
@@ -603,9 +600,9 @@ footer {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     padding: 13px;
-    -webkit-transition: 0.4s ease-in;
-    -moz-transition: 0.4s ease-in;
-    transition: 0.4s ease-in;
+    -webkit-transition: .3s ease-in;
+    -moz-transition: .3s ease-in;
+    transition: .3s ease-in;
 }
 
 .navbar-mobile-menu li a {
@@ -617,9 +614,9 @@ footer {
 .navbar-mobile-menu li:hover {
     background: rgba(255, 255, 255, 0.5);
     cursor: pointer;
-    -webkit-transition: 0.4s ease-in;
-    -moz-transition: 0.4s ease-in;
-    transition: 0.4s ease-in;
+    -webkit-transition: .3s ease-in;
+    -moz-transition: .3s ease-in;
+    transition: .3s ease-in;
 }
 
 .mobile-contactus .contact-info {
@@ -723,9 +720,9 @@ SEARCHRESULT
     font-weight: bold;
     line-height: 25px;
     opacity: 0.5;
-    -webkit-transition: opacity 0.4s ease-in;
-    -moz-transition: opacity 0.4s ease-in;
-    transition: opacity 0.4s ease-in;
+    -webkit-transition: opacity .3s ease-in;
+    -moz-transition: opacity .3s ease-in;
+    transition: opacity .3s ease-in;
     cursor: pointer;
 }
 
@@ -773,6 +770,7 @@ contactus
 
 .contact-adress a {
     color: inherit;
+    text-decoration: none;
 }
 
 .contact-form-header {
@@ -948,7 +946,9 @@ BLOG
     width: auto;
     border: 2px solid #FFF;
 }
-
+.bottom-button > a {
+    text-decoration: none;
+}
 .contact-button .bottom-text {
     margin: 0;
     font-size: 18px;
@@ -1012,41 +1012,37 @@ BLOG
 }
 
 .recent-articles img {
-    max-width: 85px;
-    max-height: 53px;
+    width: 85px;
     margin-right: 26px;
 }
 
 .recent-articles a {
     display: flex;
+    width: 100%;
     margin-bottom: 30px;
+    text-decoration: none;
 }
 
 .recent-articles a:hover .greytext {
-    -moz-transition: all 0.4s ease-in;
-    -o-transition: all 0.4s ease-in;
-    -webkit-transition: all 0.4s ease-in;
     opacity: 1;
 }
 
 .recent-articles .greytext {
-    -moz-transition: all 0.4s ease-in;
-    -o-transition: all 0.4s ease-in;
-    -webkit-transition: all 0.4s ease-in;
+    width: calc(100% - 111px);
+    -moz-transition: opacity .3s ease-in;
+    -o-transition: opacity .3s ease-in;
+    -webkit-transition: opacity .3s ease-in;
 }
 
 .articlesUl li a {
-    -moz-transition: all 0.4s ease-in;
-    -o-transition: all 0.4s ease-in;
-    -webkit-transition: all 0.4s ease-in;
+    -moz-transition: opacity .3s ease-in;
+    -o-transition: opacity .3s ease-in;
+    -webkit-transition: opacity .3s ease-in;
+    text-decoration: none;
 }
 
 .articlesUl li a:hover {
-    -moz-transition: all 0.4s ease-in;
-    -o-transition: all 0.4s ease-in;
-    -webkit-transition: all 0.4s ease-in;
     opacity: 0.5;
-
 }
 
 /*====================================================================================
@@ -1083,6 +1079,9 @@ aboutartist
     line-height: 21px;
 }
 
+.social a {
+    text-decoration: none;
+}
 .social svg {
     margin-left: 20px;
     max-height: 20px;
@@ -1094,9 +1093,9 @@ aboutartist
 }
 
 .social svg {
-    -webkit-transition: 0.4s ease-in;
-    -moz-transition: 0.4s ease-in;
-    transition: 0.4s ease-in;
+    -webkit-transition: .3s ease-in;
+    -moz-transition: .3s ease-in;
+    transition: .3s ease-in;
 }
 
 .profile-name {
@@ -1366,9 +1365,9 @@ input[type=radio]:checked + label {
 
 #slider a:hover {
     color: #333333;
-    -webkit-transition: 0.4s ease-in;
-    -moz-transition: 0.4s ease-in;
-    transition: 0.4s ease-in;
+    -webkit-transition: .3s ease-in;
+    -moz-transition: .3s ease-in;
+    transition: .3s ease-in;
 }
 
 #pager {
@@ -1397,9 +1396,9 @@ input[type=radio]:checked + label {
 #pager a:hover, #pager a.active {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
     opacity: 0.5;
-    -webkit-transition: 0.4s ease-in;
-    -moz-transition: 0.4s ease-in;
-    transition: 0.4s ease-in;
+    -webkit-transition: .3s ease-in;
+    -moz-transition: .3s ease-in;
+    transition: .3s ease-in;
 }
 
 #pager a.active {
@@ -1550,9 +1549,9 @@ input[type=radio]:checked + label {
 .story-tag .show-more-option:hover {
     background: #FFF;
     border-bottom: 1px solid transparent;
-    -webkit-transition: 0.4s ease-in;
-    -moz-transition: 0.4s ease-in;
-    transition: 0.4s ease-in;
+    -webkit-transition: .3s ease-in;
+    -moz-transition: .3s ease-in;
+    transition: .3s ease-in;
 
 }
 
@@ -1571,9 +1570,9 @@ input[type=radio]:checked + label {
     font-size: 12px;
     font-weight: 500;
     line-height: 37px;
-    -webkit-transition: 0.4s ease-in;
-    -moz-transition: 0.4s ease-in;
-    transition: 0.4s ease-in;
+    -webkit-transition: .3s ease-in;
+    -moz-transition: .3s ease-in;
+    transition: .3s ease-in;
     border-bottom: 1px solid #232323;
     height: 26px;
     width: 74px;
