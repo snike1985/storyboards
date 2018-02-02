@@ -86,9 +86,9 @@ class Taghound_Media_Tagger {
 
 			wp_enqueue_script(
 				'tmt-tags-box',
-				plugin_dir_url( __FILE__ ) . '/assets/js/' . $tag_box_script_name . '.js',
+				plugin_dir_url( __FILE__ ) . 'assets/js/' . $tag_box_script_name . '.js',
 				$tag_box_dependencies,
-				filemtime( plugin_dir_path( __FILE__ ) . '/assets/js/' . $tag_box_script_name . '.js' )
+				filemtime( plugin_dir_path( __FILE__ ) . 'assets/js/' . $tag_box_script_name . '.js' )
 			);
 
 			wp_localize_script( 'tmt-tags-box', 'tagsBoxL10n', array(
@@ -97,12 +97,12 @@ class Taghound_Media_Tagger {
 
 			wp_enqueue_script(
 				'tmt-admin',
-				plugin_dir_url( __FILE__ ) . '/assets/js/tmt-admin.js',
+				plugin_dir_url( __FILE__ ) . 'assets/js/tmt-admin.js',
 				array( 'jquery', 'underscore' ),
-				filemtime( plugin_dir_path( __FILE__ ) . '/assets/js/tmt-admin.js' )
+				filemtime( plugin_dir_path( __FILE__ ) . 'assets/js/tmt-admin.js' )
 			);
 
-			wp_enqueue_style( 'tmt-admin', plugin_dir_url( __FILE__ ) . '/assets/css/tmt-admin.css' );
+			wp_enqueue_style( 'tmt-admin', plugin_dir_url( __FILE__ ) . 'assets/css/tmt-admin.css' );
 		});
 
 		if ( TMT_is_enabled() ) {

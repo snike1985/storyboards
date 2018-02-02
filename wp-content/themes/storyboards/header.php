@@ -42,6 +42,7 @@ $help_button = get_field('help_button', 'options');
         get_query_var('pvs_page') !== 'category' &&
         get_query_var('pvs_page') !== 'contacts' &&
         get_query_var('pvs_page') !== 'login' &&
+        get_query_var('pvs_page') !== 'users' &&
         get_query_var('pvs_page') !== 'checkout' &&
         get_query_var('pvs_page') !== 'signup' &&
         get_query_var('pvs_page') !== 'photo' &&
