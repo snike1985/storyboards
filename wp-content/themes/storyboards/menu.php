@@ -9,10 +9,13 @@ $sign_up_url = get_field('sign_up_url', 'options');
 <span class="menu-btn"><span></span></span>
 
 <?php if(!empty($logo)) { ?>
+
     <div class="storyboards-logo">
+
         <a href="<?= get_site_url(); ?>">
             <img src="<?= $logo['url']; ?>" alt="<?= $logo['alt']; ?>" title="<?= $logo['title']; ?>">
         </a>
+
     </div>
 <?php } ?>
 

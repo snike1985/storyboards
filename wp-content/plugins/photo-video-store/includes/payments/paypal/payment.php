@@ -9,7 +9,11 @@ pvs_show_payment_page( 'header' );
 
 if ( $pvs_global_settings["paypal_active"] ) {
 ?>
-		<form method="post" name="process" id="process" action="https://www.paypal.com/cgi-bin/webscr">
+		<?php /*
+        <form method="post" name="process" id="process" action="https://www.paypal.com/cgi-bin/webscr">
+        */ ?>
+        <form method="post" name="process" id="process" action="https://www.sandbox.paypal.com/cgi-bin/webscr">
+
 		<input type="hidden" name="rm" value="2"/>
 		<?php
 		if ( isset( $recurring ) and $recurring == 1 ) {

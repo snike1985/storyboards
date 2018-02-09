@@ -8,6 +8,7 @@ $help_button = get_field('help_button', 'options');
 $menu_name = 'menu-footer';
 $locations = get_nav_menu_locations();
 ?>
+
 </div>
 <footer style="bottom:inherit; margin-top:-173px">
     <div class="footer-bar">
@@ -95,5 +96,15 @@ $locations = get_nav_menu_locations();
 <script>check_carts('');</script>
 <?php wp_footer(); ?>
 
+<?php if ( get_query_var('pvs_page') === 'signup') { ?>
+    <script>
+        var context = '<div class="form_field">' +
+            '<input value="1" type="checkbox"> ' +
+            '<b>ext will be given later</b>' +
+            '<div></div>' +
+            '</div>';
+        $('.page_internal').find('form .row>div').eq(1).append(context);
+    </script>
+<?php } ?>
 </body>
 </html>

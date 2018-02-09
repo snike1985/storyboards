@@ -1,4 +1,251 @@
- <div class="clearfix">             
+<?php
+global $wpdb;
+global $translate_results;
+$newtable = $wpdb->get_results( "SELECT author FROM " . PVS_DB_PREFIX . "media WHERE id=" . $pvs_theme_content['id'] );
+$user_data = get_user_by( 'slug', $newtable[0]->author );
+$gallery_string = array();
+
+$preview_items_carousel = '';
+if ( ! $flag_storage ) {
+	$dir = opendir( pvs_upload_dir() . pvs_server_url( $rs->row["server1"] ) . "/" . $folder );
+
+	while ( $file = readdir( $dir ) ) {
+
+		if ( $file <> "." && $file <> ".." ) {
+
+			if ( preg_match( "/thumbs[0-9]+/", $file ) ) {
+
+				if ( preg_match( "/.jpg$|.jpeg$|.png$|.gif$/i", $file ) ) {
+
+					$kk = explode( "thumbs", $file );
+
+					if ( count( $kk ) > 1 ) {
+						$afiles[( int )$kk[1]] = $file;
+					}
+				}
+			}
+		}
+	}
+	closedir( $dir );
+	ksort( $afiles );
+	reset( $afiles );
+
+	for ( $k = 0; $k < count( $afiles ); $k++ ) {
+
+		if ( isset( $afiles[$k] ) ) {
+			$file = $afiles[$k];
+			$thumbz = str_replace( "thumbs", "thumbz", $file );
+			$preview_items_carousel .= '<div><img src="' . pvs_upload_dir('baseurl') . pvs_server_url( $rs->row["server1"] ) . "/" . $folder . "/" . $thumbz . '"></div>';
+			$gallery_string[] = pvs_upload_dir('baseurl') . pvs_server_url( $rs->row["server1"] ) . "/" . $folder . "/" . $thumbz;
+		}
+	}
+} else {
+
+	foreach ( $remote_previews as $key => $value ) {
+
+		if ( preg_match( "/thumbs[0-9]+/", $key ) ) {
+
+			if ( preg_match( "/.jpg$|.jpeg$|.png$|.gif$/i", $key ) ) {
+
+				$kk = explode( "thumbs", $key );
+
+				if ( count( $kk ) > 1 ) {
+					$afiles[( int )$kk[1]] = $key;
+				}
+
+			}
+
+		}
+
+	}
+
+	for ( $k = 1; $k < count( $afiles ); $k++ ) {
+		if ( isset( $afiles[$k] ) ) {
+			$file = $afiles[$k];
+			$thumbz = str_replace( "thumbs", "thumbz", $file );
+			$preview_items_carousel .= '<div><img src="' . $remote_previews[$thumbz] . '"></div>';
+			$gallery_string[] = $remote_previews[$thumbz];
+		}
+	}
+}
+require_once( 'vector_sizes.php' );
+$gallery_string = json_encode($gallery_string);
+?>
+<script>
+        function getRadioCheckedValue(ids) {
+            var oRadio = document.getElementById("p" + ids).elements['cart'];
+
+            for(var i = 0; i < oRadio.length; i++)
+            {
+                if(oRadio[i].checked)
+                {
+                    return oRadio[i].value;
+                }
+            }
+
+            return '';
+        }
+
+        function add_cart2(event,x,ids) {
+
+            if(x==0) {
+                value=getRadioCheckedValue(ids);
+            }
+
+            var req = new JsHttpRequest(),
+                IE='\v'=='v';
+
+            if(cartprices[value]==0 && x==0) {
+                location.href="<?php echo site_url(); ?>/count/?type=<?php echo @$atype; ?>&id="+document.getElementById("cart").value+"&id_parent=<?php echo ( int )@get_query_var('pvs_id'); ?>";
+            } else {
+                req.onreadystatechange = function() {
+                    if (req.readyState == 4) {
+
+                        if(document.getElementById('shopping_cart')) {
+                            document.getElementById('shopping_cart').innerHTML =req.responseJS.box_shopping_cart;
+                        }
+
+                        if(document.getElementById('shopping_cart_lite')) {
+                            document.getElementById('shopping_cart_lite').innerHTML =req.responseJS.box_shopping_cart_lite;
+                        }
+
+
+                        if(x==1) {
+													<?php if ( ! $pvs_global_settings["prints_previews"] ) { ?>
+                            if(!IE) {
+                                $.colorbox({html:req.responseJS.cart_content,width:'600px',scrolling:false});
+                            }
+													<?php } else { ?>
+                            location.href = req.responseJS.redirect_url;
+													<?php } ?>
+                        } else {
+                            if(!IE) {
+                                $.colorbox({html:req.responseJS.cart_content,width:'600px',scrolling:false});
+                            }
+                        }
+
+                        if(typeof set_styles == 'function') {
+                            set_styles();
+                        }
+
+                        if(typeof reload_cart == 'function') {
+                            reload_cart();
+                        }
+                    }
+                };
+                req.open(null, '<?php echo site_url()?>/shopping-cart-add/', true);
+                req.send( {id: value } );
+            }
+
+            event.preventDefault();
+        }
+    </script>
+<section class="profile">
+
+    <div class="container">
+
+        <div class="storyboard-container">
+
+            <div class="story-left">
+                <div class="newslider" data-slider="first" data-gallery='<?= $gallery_string; ?>'>
+                    <?= $preview_items_carousel; ?>
+                </div>
+
+                <div class="slider-nav" data-slider="second">
+	                <?= $preview_items_carousel; ?>
+                </div>
+                <div class="story-id"><?= __('ID', 'storyboards'); ?>: <?php echo($pvs_theme_content[ 'id' ]);?></div>
+                <div class="story-tag">
+				<?php
+                if ( $translate_results["keywords"] != "" ) {
+                  $keywords = explode( ",", str_replace( ";", ",", $translate_results["keywords"] ) );
+
+                  $keywords_count = count( $keywords );
+                  for ( $i = 0; $i < count( $keywords ); $i++ ) {
+
+                    if( $i === 10 && $keywords_count > 10 ) {
+                      echo '<div class="show-more-option active">... ' . __('show more', 'storyboards') . '</div>' .
+                           '<div class="story-tag-hidden">';
+                    }
+
+                    $keywords[$i] = trim( $keywords[$i] );
+                    if ( $keywords[$i] != "" ) {
+                      echo "<a href='" . site_url() . "/?search=" . $keywords[$i] . "'><div class=\"story-tag-option\">" . $keywords[$i] . "</div></a>";
+                    }
+
+                    if( $i === $keywords_count - 1 && $keywords_count > 10 ) {
+                      echo "</div>";
+                    }
+                  }
+                }
+                ?>
+                </div>
+            </div>
+
+            <div class="story-right">
+
+                <h2 class="story-title"><?php echo($pvs_theme_content[ 'title' ]);?></h2>
+
+                <div class="about-profile"><?php echo($pvs_theme_content[ 'description' ]);?></div>
+
+                <div class="story-author">
+
+                    <div class="author-img">
+					    <?= get_avatar($user_data->ID, 58); ?>
+                    </div>
+
+                    <div class="author-name">
+                      <?php
+                      if( $user_data->first_name || $user_data->last_name ) {
+                        echo $user_data->first_name . ' ' . $user_data->last_name;
+                      } else {
+                        echo $user_data->display_name;
+                      }
+                      ?>
+                    </div>
+
+                </div>
+
+				<?php echo($sizebox);?>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<?php if ($pvs_theme_content[ 'flag_related' ]) {?>
+    <section class="main-section">
+        <div class="container">
+            <h2 class="content-header" style="margin:0 0 35px"><?= __('Similar Storyboards', 'storyboards'); ?></h2>
+            <div class="main-content">
+			<?php pvs_show_related_items2( get_query_var('pvs_id'), "show" );?>
+            </div>
+            <div class="content-more" style="margin-top:40px">
+                <a href="<?= get_site_url() . '?user=' . $user_data->ID; ?>"><?= __('SEE MORE', 'storyboards'); ?></a>
+            </div>
+        </div>
+    </section>
+<?php }?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php /*
+
+<div class="clearfix">
 	<h1><?php echo($pvs_theme_content[ 'title' ]);?></h1>
 	<ul class="path_corlate">
 		<?php echo(pvs_get_social_meta_tags('path'));?>
@@ -6,7 +253,7 @@
 </div>
     <div class="row">
     <div class="col-lg-6 col-md-6" style="min-width:500px">
-        	<?php echo($pvs_theme_content[ 'image' ]);?> 
+        	<?php echo($pvs_theme_content[ 'image' ]);?>
         	<div class="file_links row">
         		<div class="col-lg-9 col-md-9">
         			<?php if ( $pvs_global_settings[ 'lightboxes' ]) {?>
@@ -30,32 +277,8 @@
 			<h5><?php echo(pvs_word_lang("Keywords"));?></h5>
 			<?php echo($pvs_theme_content[ 'keywords_lite' ]);?>
 			
-			<hr />
-			
-			<h5><?php echo(pvs_word_lang("File details"));?></h5>
-			<span><b><?php echo(pvs_word_lang("Published"));?>:</b> <?php echo($pvs_theme_content[ 'published' ]);?></span>
-			<span><b><?php echo(pvs_word_lang("Rating"));?>:</b> <?php echo($pvs_theme_content[ 'item_rating_new' ]);?></span>
-			<span><b><?php echo(pvs_word_lang("Category"));?>:</b> <?php echo($pvs_theme_content[ 'category' ]);?></span>
-			<span><b><?php echo(pvs_word_lang("Viewed"));?>:</b> <?php echo($pvs_theme_content[ 'viewed' ]);?></span>
-			<span><b><?php echo(pvs_word_lang("Downloads"));?>:</b> <?php echo($pvs_theme_content[ 'downloads' ]);?></span>	
-			<?php if ($pvs_theme_content[ 'flag_model' ] ) {?>
-				<?php echo($pvs_theme_content[ 'model' ]);?>
-			<?php }?>
-			<?php if ($pvs_theme_content[ 'flag_colors' ] ) {?>
-				<hr />
-				<h5><?php echo(pvs_word_lang("Color"));?></h5>
-				<?php echo($pvs_theme_content[ 'colors' ]);?>
-				<br><br>
-			<?php }?>
-			
-			<hr />
-			
-			           <h5><?php echo(pvs_word_lang("Share"));?></h5>
-        <a href="http://www.facebook.com/sharer/sharer.php?s=100&p[title]=<?php echo($pvs_theme_content[ 'share_title' ]);?>&p[summary]=<?php echo($pvs_theme_content[ 'share_title' ]);?>&p[url]=<?php echo($pvs_theme_content[ 'share_url' ]);?>&&p[images][0]=<?php echo($pvs_theme_content[ 'share_image' ]);?>" target="_blank" class="btn btn-md btn-default">&nbsp;<i  class="fa fa-facebook"></i></a>
-        <a href="http://twitter.com/home?status=<?php echo($pvs_theme_content[ 'share_url' ]);?>&title=<?php echo($pvs_theme_content[ 'share_title' ]);?>" target="_blank" class="btn btn-md btn-default">&nbsp;<i  class="fa fa-twitter"></i></a> 
-        <a href="http://www.google.com/bookmarks/mark?op=edit&bkmk=<?php echo($pvs_theme_content[ 'share_url' ]);?>&title=<?php echo($pvs_theme_content[ 'share_title' ]);?>" target="_blank" class="btn btn-md btn-default">&nbsp;<i  class="fa fa-google-plus"></i></a>
-        <a href="http://pinterest.com/pin/create/button/?url=<?php echo($pvs_theme_content[ 'share_url' ]);?>&media=<?php echo($pvs_theme_content[ 'share_image' ]);?>&description=<?php echo($pvs_theme_content[ 'share_title' ]);?>" target="_blank" class="btn btn-md btn-default">&nbsp;<i  class="fa fa-pinterest"></i></a>
-			
+
+
 		</div>
     </div>   
 
@@ -69,7 +292,7 @@
        	</div>
        </div>
        
-       <hr / style="margin-bottom:0px">
+       <hr  style="margin-bottom:0">
 
 		<?php if ($pvs_theme_content[ 'flag_exclusive' ] ) {?>
 			<div class="editorial"><?php echo(pvs_word_lang("Exclusive price. The file will be removed from the stock after the purchase"));?></div>
@@ -84,34 +307,8 @@
    
 
 
-      
-        <ul class="nav nav-tabs  style-2" role="tablist" style="margin:0px;">
-          <li class="active"><a href="#details" data-toggle="tab"><?php echo(pvs_word_lang("Description"));?></a></li>
-          <li><a href="#comments_content" data-toggle="tab" onclick="reviews_show(<?php echo($pvs_theme_content[ 'id' ]);?>);"><?php echo(pvs_word_lang("Comments"));?></a></li>
-          <li><a href="#tell_content" data-toggle="tab"  onclick="tell_show(<?php echo($pvs_theme_content[ 'id' ]);?>);"><?php echo(pvs_word_lang("Tell a friend"));?></a></li>
-          <li><a href="#reviewscontent" data-toggle="tab"  onclick="map_show(<?php echo($pvs_theme_content[ 'google_x' ]);?>,<?php echo($pvs_theme_content[ 'google_y' ]);?>);"><?php echo(pvs_word_lang("Google map"));?></a></li>
-        </ul>
-
-        <div class="tab-content">
-          <div class="tab-pane active" id="details"><?php echo($pvs_theme_content[ 'description' ]);?></div> 
-          <div class="tab-pane" id="comments_content"></div>
-          <div class="tab-pane" id="tell_content"></div>
-          <div class="tab-pane" id="reviewscontent"></div>
-          
-        </div>
-
     
     </div>
     
   </div>
-<?php if ($pvs_theme_content[ 'flag_related' ]) {?> 
-	<h2><?php echo(pvs_word_lang("Related items"));?></h2>
-	<hr />
-	<div class="container-fluid ">
-		<div class="row">
-		<?php pvs_show_related_items( get_query_var('pvs_id'), "show" );?>
-	</div> 
-	</div>
-	<br>
-	<br>
-<?php }?> 
+*/

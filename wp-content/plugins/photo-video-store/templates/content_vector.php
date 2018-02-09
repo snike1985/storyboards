@@ -57,7 +57,7 @@ if ( pvs_check_password_publication( get_query_var('pvs_id') ) ) {
 		$preview_items_carousel_active = "active";
 		$preview_items_carousel_count = 0;
 		$afiles = array();
-	
+
 		//Preview screenshots
 		if ( ! $flag_storage ) {
 			$dir = opendir( pvs_upload_dir() . pvs_server_url( $rs->row["server1"] ) . "/" . $folder );

@@ -1,6 +1,5 @@
 <?php
 show_admin_bar( false );
-define( 'TEMPLATEPATH', get_template_directory_uri() );
 define( 'TEMPLATEINC', TEMPLATEPATH . '/inc' );
 
 require_once( TEMPLATEINC . '/actions.php' );

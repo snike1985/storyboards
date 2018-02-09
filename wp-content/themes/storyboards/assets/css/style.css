@@ -94,9 +94,12 @@ footer:before {
 .storyboards-logo {
     width: 170px;
 }
-
+.storyboards-logo>a {
+    display: block;
+}
 .storyboards-logo img {
     max-width: 100%;
+    width: 100%;
 }
 
 .site-btn {

@@ -51,7 +51,6 @@ function add_js() {
 	wp_register_style('bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css',false, false);
 	wp_register_style('themes_css', get_template_directory_uri() . '/theme.css',false, false);
 
-	//wp_enqueue_script('jquery-latest');
 	wp_enqueue_script('jquery');
 	wp_enqueue_script('jquery-ui');
 	wp_enqueue_script('menu');
@@ -80,7 +79,7 @@ function add_js() {
 
 	if( is_author() || ( get_the_ID() === 38 && ! isset( $_GET['search'] ) ) ) {
 		wp_enqueue_script('slick');
-		if( get_query_var('pvs_page') === 'photo' ) {
+		if( get_query_var('pvs_page') === 'photo' || get_query_var('pvs_page') === 'vector' ) {
 			wp_enqueue_script('slider2');
 		} else {
 			wp_enqueue_script('slider');
@@ -120,3 +119,8 @@ function curl_get( $url ) {
 	curl_close($curl);
 	return $return;
 }
+function allow_svg_upload_mimes( $mimes ) {
+    $mimes['svg'] = 'image/svg+xml';
+    return $mimes;
+}
+add_filter( 'upload_mimes', 'allow_svg_upload_mimes' );
